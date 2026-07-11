@@ -581,18 +581,23 @@ function RasterImage({ imageUrl, name }) {
             green * 0.587 +
             blue * 0.114;
 
+          const normalized = gray / 255;
+
+          const gammaAdjusted = Math.pow(normalized, 0.92) * 255;
+          
           const contrasted = Math.max(
             0,
             Math.min(
               255,
-              ((gray - 128) * 1.65 + 128) * 0.9
+              (gammaAdjusted - 128) * 1.12 + 118
             )
           );
-          const grain = (Math.random() - 0.5) * 42;
+          
+          const grain = (Math.random() - 0.5) * 18;
           
           const pixelNumber = index / 4;
           const pixelY = Math.floor(pixelNumber / lowResolutionSize);
-          const scanlineDarkening = pixelY % 2 === 0 ? -10 : 0;
+          const scanlineDarkening = pixelY % 2 === 0 ? -4 : 0;
           
           const noisyValue = Math.max(
             0,
@@ -602,8 +607,8 @@ function RasterImage({ imageUrl, name }) {
             )
           );
           
-          pixels[index] = 0;
-          pixels[index + 1] = Math.min(255, noisyValue * 1.3);
+          pixels[index] = Math.min(255, noisyValue * 0.04);
+          pixels[index + 1] = Math.min(220, noisyValue * 0.92);
           pixels[index + 2] = Math.min(255, noisyValue * 0.28);
         }
 
