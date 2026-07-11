@@ -59398,5 +59398,35 @@
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:2216"
     }
+  },
+  {
+    "n": {
+      "identity": 2217,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "raw_text": "A large, sentient, resonance artifact. The artifact resembles an ancient bell of old Primus, covered in oxidized copper and inscribed with unknown glyphs written in an indecipherable alien language. The bell itself has proven impervious to all tested means of destruction; high yield explosives, ship-grade resonance canons, and even Voidborn exposure. Instead, when it is struck it emits a deep gonging noise that carries even in the vacuum of space. Any living thing that hears it is instantaneously and immediately transfomed into an archaic old Primus electrical kitchen appliance made for heating up individual slices of bread. Even listening to a recording of the sound is enough to transform the listener. Discussions have been had on utilizing this artifact as a weapon, however this has proven to be impractical if not impossible as the bell with occasionally ring unprompted or spontaneously teleport to a new terrestrial location seemingly at random.",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A large, sentient, resonance artifact. The artifact resembles an ancient bell of old Primus, covered in oxidized copper and inscribed with unknown glyphs written in an indecipherable alien language. The bell itself has proven impervious to all tested means of destruction; high yield explosives, ship-grade resonance canons, and even Voidborn exposure. Instead, when it is struck it emits a deep gonging noise that carries even in the vacuum of space. Any living thing that hears it is instantaneously and immediately transfomed into an archaic old Primus electrical kitchen appliance made for heating up individual slices of bread. Even listening to a recording of the sound is enough to transform the listener. Discussions have been had on utilizing this artifact as a weapon, however this has proven to be impractical if not impossible as the bell with occasionally ring unprompted or spontaneously teleport to a new terrestrial location seemingly at random.",
+        "manual_ingest": true,
+        "body": "A large, sentient, resonance artifact. The artifact resembles an ancient bell of old Primus, covered in oxidized copper and inscribed with unknown glyphs written in an indecipherable alien language. The bell itself has proven impervious to all tested means of destruction; high yield explosives, ship-grade resonance canons, and even Voidborn exposure. Instead, when it is struck it emits a deep gonging noise that carries even in the vacuum of space. Any living thing that hears it is instantaneously and immediately transfomed into an archaic old Primus electrical kitchen appliance made for heating up individual slices of bread. Even listening to a recording of the sound is enough to transform the listener. Discussions have been had on utilizing this artifact as a weapon, however this has proven to be impractical if not impossible as the bell with occasionally ring unprompted or spontaneously teleport to a new terrestrial location seemingly at random.",
+        "reports_json": "[]",
+        "record_type": "Threat",
+        "threat_category": "III",
+        "threat_category_name": "Cataclysmic",
+        "collection_title": "[MANUAL INGEST]",
+        "updated_at": "2026-07-11T18:37:36.641Z",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "",
+        "name": "The Bread Bell",
+        "dossier_type": "threat",
+        "id": "manual__threat__the_bread_bell",
+        "slug": "the_bread_bell"
+      },
+      "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:2217"
+    }
   }
 ]
