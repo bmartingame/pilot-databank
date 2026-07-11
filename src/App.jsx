@@ -521,7 +521,7 @@ function RasterImage({ imageUrl, name }) {
 
       try {
         const outputSize = 640;
-        const lowResolutionSize  = 128;
+        const lowResolutionSize  = 96;
 
         const lowCanvas = document.createElement("canvas");
         lowCanvas.width = lowResolutionSize;
@@ -588,10 +588,23 @@ function RasterImage({ imageUrl, name }) {
               ((gray - 128) * 1.65 + 128) * 0.9
             )
           );
-
+          const grain = (Math.random() - 0.5) * 42;
+          
+          const pixelNumber = index / 4;
+          const pixelY = Math.floor(pixelNumber / lowResolutionSize);
+          const scanlineDarkening = pixelY % 2 === 0 ? -10 : 0;
+          
+          const noisyValue = Math.max(
+            0,
+            Math.min(
+              255,
+              contrasted + grain + scanlineDarkening
+            )
+          );
+          
           pixels[index] = 0;
-          pixels[index + 1] = Math.min(255, contrasted * 1.25);
-          pixels[index + 2] = Math.min(255, contrasted * 0.34);
+          pixels[index + 1] = Math.min(255, noisyValue * 1.3);
+          pixels[index + 2] = Math.min(255, noisyValue * 0.28);
         }
 
         lowContext.putImageData(imageData, 0, 0);
