@@ -573,7 +573,5 @@ export async function getSearchOptions() {
 }
 
 export function getRasterImageUrl(imageUrl) {
-  // A static GitHub Pages site cannot use the former FastAPI raster endpoint.
-  // HTTPS image URLs are displayed directly.
   return imageUrl || "";
 }
