@@ -521,10 +521,10 @@ function RasterImage({ imageUrl, name }) {
 
       try {
         const outputSize = 640;
-        const lowResolutionSize = 128;
+        const lowResolutionSize  = 128;
 
         const lowCanvas = document.createElement("canvas");
-        lowCanvas.width = lowResolutionSize;
+        lowCanvas.width = lowSize;
         lowCanvas.height = lowResolutionSize;
 
         const lowContext = lowCanvas.getContext("2d", {
