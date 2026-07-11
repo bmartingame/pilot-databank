@@ -59429,5 +59429,36 @@
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:2217"
     }
+  },
+  {
+    "n": {
+      "identity": 2217,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "raw_text": "An antique red rotary telephone from old Primus that manifests in abandoned buildings, derelict ships, sealed bunkers, and other locations where no functioning communications infrastructure remains. The telephone will ring continuously until answered. A calm voice on the other end identifies itself only as “Assistance” and asks whether the listener requires help. Any request spoken into the receiver is fulfilled immediately, regardless of scale or physical possibility. Requests for food have buried colonies beneath billions of ration packs. Requests for rescue have teleported settlements into the interiors of inhabited stations. Requests to destroy an enemy have resulted in entire bloodlines being retroactively removed from history. Once the request has been fulfilled, Assistance asks the caller to return the favor, giving a request in return. Those that fail to complete said favor are reported missing within the hour and whatever previous request was made is undone. If this object is observed, it is to be reported to the nearest Guild authority immediately. Do not interact.",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/CourtesyPhone.JPG?raw=true",
+        "description": "An antique red rotary telephone from old Primus that manifests in abandoned buildings, derelict ships, sealed bunkers, and other locations where no functioning communications infrastructure remains. The telephone will ring continuously until answered. A calm voice on the other end identifies itself only as “Assistance” and asks whether the listener requires help. Any request spoken into the receiver is fulfilled immediately, regardless of scale or physical possibility. Requests for food have buried colonies beneath billions of ration packs. Requests for rescue have teleported settlements into the interiors of inhabited stations. Requests to destroy an enemy have resulted in entire bloodlines being retroactively removed from history. Once the request has been fulfilled, Assistance asks the caller to return the favor, giving a request in return. Those that fail to complete said favor are reported missing within the hour and whatever previous request was made is undone. If this object is observed, it is to be reported to the nearest Guild authority immediately. Do not interact.",
+        "manual_ingest": true,
+        "body": "An antique red rotary telephone from old Primus that manifests in abandoned buildings, derelict ships, sealed bunkers, and other locations where no functioning communications infrastructure remains. The telephone will ring continuously until answered. A calm voice on the other end identifies itself only as “Assistance” and asks whether the listener requires help. Any request spoken into the receiver is fulfilled immediately, regardless of scale or physical possibility. Requests for food have buried colonies beneath billions of ration packs. Requests for rescue have teleported settlements into the interiors of inhabited stations. Requests to destroy an enemy have resulted in entire bloodlines being retroactively removed from history. Once the request has been fulfilled, Assistance asks the caller to return the favor, giving a request in return. Those that fail to complete said favor are reported missing within the hour and whatever previous request was made is undone. If this object is observed, it is to be reported to the nearest Guild authority immediately. Do not interact.",
+        "reports_json": "[]",
+        "record_type": "Threat",
+        "threat_category": "V",
+        "threat_category_name": "Omnicidal",
+        "collection_title": "[MANUAL INGEST]",
+        "updated_at": "2026-07-11T18:37:36.641Z",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "",
+        "name": "Courtesy Phone",
+        "dossier_type": "threat",
+        "id": "manual__threat__",
+        "slug": ""
+      },
+      "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:2217"
+    }
   }
 ]
