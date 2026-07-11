@@ -527,8 +527,7 @@ function RasterImage({ imageUrl, name }) {
 
       const sourceX = Math.floor((sourceWidth - cropSize) / 2);
       const sourceY = Math.floor((sourceHeight - cropSize) / 2);
-
-      // Shrink the original image to a deliberately low resolution.
+      
       lowContext.imageSmoothingEnabled = true;
       lowContext.clearRect(
         0,
@@ -549,7 +548,6 @@ function RasterImage({ imageUrl, name }) {
         lowResolutionSize
       );
 
-      // Enlarge it again without smoothing.
       canvas.width = outputSize;
       canvas.height = outputSize;
 
