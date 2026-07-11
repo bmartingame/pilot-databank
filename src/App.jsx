@@ -589,7 +589,7 @@ function RasterImage({ imageUrl, name }) {
             0,
             Math.min(
               255,
-              (gammaAdjusted - 128) * 1.12 + 118
+              (gammaAdjusted - 128) * 1.05 + 118
             )
           );
           
