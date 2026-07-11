@@ -455,6 +455,37 @@ h2 {
     filter: drop-shadow(0 0 8px rgba(114, 255, 156, 0.18));
 }
 
+.raster-image-hidden {
+    display: none;
+}
+
+.raster-image-ready {
+    background: rgba(0, 8, 3, 0.92);
+}
+
+.raster-image-css-fallback {
+    filter:
+        grayscale(1)
+        contrast(1.7)
+        brightness(0.78)
+        sepia(1)
+        saturate(7)
+        hue-rotate(72deg)
+        drop-shadow(0 0 8px rgba(114, 255, 156, 0.24));
+    mix-blend-mode: screen;
+}
+
+.image-loading {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: calc(100% - 30px);
+    padding: 18px;
+    color: var(--muted);
+    text-align: center;
+    letter-spacing: 0.08em;
+    background: rgba(0, 8, 3, 0.92);
+}
 .image-failure {
     border: 1px dashed var(--danger);
     color: var(--danger);

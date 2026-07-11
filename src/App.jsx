@@ -499,28 +499,176 @@ function DataBlock({ label, value }) {
   );
 }
 function RasterImage({ imageUrl, name }) {
-    const [failed, setFailed] = useState(false);
+  const canvasRef = useRef(null);
+  const [mode, setMode] = useState("loading");
 
-    if (!imageUrl) return null;
+  useEffect(() => {
+    if (!imageUrl) return undefined;
 
-    if (failed) {
-        return (
-            <div className="image-failure">
-                IMAGE SIGNAL DEGRADED
-            </div>
+    let cancelled = false;
+    setMode("loading");
+
+    const sourceImage = new Image();
+
+    sourceImage.crossOrigin = "anonymous";
+    sourceImage.decoding = "async";
+
+    sourceImage.onload = () => {
+      if (cancelled) return;
+
+      const canvas = canvasRef.current;
+      if (!canvas) return;
+
+      try {
+        const outputSize = 640;
+        const lowResolutionSize = 128;
+
+        const lowCanvas = document.createElement("canvas");
+        lowCanvas.width = lowResolutionSize;
+        lowCanvas.height = lowResolutionSize;
+
+        const lowContext = lowCanvas.getContext("2d", {
+          willReadFrequently: true,
+        });
+
+        const outputContext = canvas.getContext("2d");
+
+        if (!lowContext || !outputContext) {
+          throw new Error("Canvas rendering is unavailable.");
+        }
+
+        const sourceWidth = sourceImage.naturalWidth;
+        const sourceHeight = sourceImage.naturalHeight;
+        const cropSize = Math.min(sourceWidth, sourceHeight);
+        const sourceX = Math.floor((sourceWidth - cropSize) / 2);
+        const sourceY = Math.floor((sourceHeight - cropSize) / 2);
+
+        lowContext.clearRect(
+          0,
+          0,
+          lowResolutionSize,
+          lowResolutionSize
         );
-    }
 
-    return (
-        <div className="raster-image-frame">
-            <img
-                className="raster-image"
-                src={getRasterImageUrl(imageUrl, 640)}
-                alt={name ? `${name} reference image` : "Reference image"}
-                onError={() => setFailed(true)}
-            />
-        </div>
-    );
+        lowContext.drawImage(
+          sourceImage,
+          sourceX,
+          sourceY,
+          cropSize,
+          cropSize,
+          0,
+          0,
+          lowResolutionSize,
+          lowResolutionSize
+        );
+
+        const imageData = lowContext.getImageData(
+          0,
+          0,
+          lowResolutionSize,
+          lowResolutionSize
+        );
+
+        const pixels = imageData.data;
+
+        for (let index = 0; index < pixels.length; index += 4) {
+          const red = pixels[index];
+          const green = pixels[index + 1];
+          const blue = pixels[index + 2];
+
+          const gray =
+            red * 0.299 +
+            green * 0.587 +
+            blue * 0.114;
+
+          const contrasted = Math.max(
+            0,
+            Math.min(
+              255,
+              ((gray - 128) * 1.65 + 128) * 0.9
+            )
+          );
+
+          pixels[index] = 0;
+          pixels[index + 1] = Math.min(255, contrasted * 1.25);
+          pixels[index + 2] = Math.min(255, contrasted * 0.34);
+        }
+
+        lowContext.putImageData(imageData, 0, 0);
+
+        canvas.width = outputSize;
+        canvas.height = outputSize;
+
+        outputContext.clearRect(0, 0, outputSize, outputSize);
+        outputContext.imageSmoothingEnabled = false;
+
+        outputContext.drawImage(
+          lowCanvas,
+          0,
+          0,
+          lowResolutionSize,
+          lowResolutionSize,
+          0,
+          0,
+          outputSize,
+          outputSize
+        );
+
+        setMode("canvas");
+      } catch (error) {
+        console.warn("IMAGE RASTER FALLBACK", error);
+        setMode("fallback");
+      }
+    };
+
+    sourceImage.onerror = () => {
+      if (!cancelled) setMode("fallback");
+    };
+
+    sourceImage.src = getRasterImageUrl(imageUrl, 640);
+
+    return () => {
+      cancelled = true;
+      sourceImage.onload = null;
+      sourceImage.onerror = null;
+    };
+  }, [imageUrl]);
+
+  if (!imageUrl) return null;
+
+  return (
+    <div className="raster-image-frame">
+      <canvas
+        ref={canvasRef}
+        className={`raster-image ${
+          mode === "canvas" ? "raster-image-ready" : "raster-image-hidden"
+        }`}
+        role="img"
+        aria-label={
+          name
+            ? `${name} rasterized reference image`
+            : "Rasterized reference image"
+        }
+      />
+
+      {mode === "fallback" ? (
+        <img
+          className="raster-image raster-image-css-fallback"
+          src={getRasterImageUrl(imageUrl, 640)}
+          alt={name ? `${name} reference image` : "Reference image"}
+          onError={() => setMode("failed")}
+        />
+      ) : null}
+
+      {mode === "loading" ? (
+        <div className="image-loading">RASTERIZING SIGNAL...</div>
+      ) : null}
+
+      {mode === "failed" ? (
+        <div className="image-failure">IMAGE SIGNAL DEGRADED</div>
+      ) : null}
+    </div>
+  );
 }
 
 function ConfiguredDetailBody({ entry, data }) {
@@ -765,8 +913,6 @@ export default function App() {
 
     const timer = window.setTimeout(speakWelcome, 450);
 
-    // Some browsers block page-load speech until the first user interaction.
-    // This keeps the line diegetic without adding a visible button.
     window.addEventListener("pointerdown", speakWelcome, { once: true });
     window.addEventListener("keydown", speakWelcome, { once: true });
 
