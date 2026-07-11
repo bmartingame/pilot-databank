@@ -59455,8 +59455,8 @@
         "tags_text": "",
         "name": "Courtesy Phone",
         "dossier_type": "threat",
-        "id": "manual__threat__",
-        "slug": ""
+        "id": "manual__threat__courtesy_phone",
+        "slug": "courtesy_phone"
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:2217"
     }
