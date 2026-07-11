@@ -1,12 +1,3 @@
-// Central display registry for Pilot Databank record types.
-//
-// To add a new record type:
-// 1. Add a new key to RECORD_DISPLAY_CONFIG.
-// 2. Choose which metadata lines and detail sections it displays.
-// 3. Optionally add aliases or subtype rules below.
-//
-// Most display changes should now happen in this file rather than App.jsx.
-
 export const RECORD_DISPLAY_CONFIG = {
   Unit: {
     cardClassName: "unit-card",
@@ -177,9 +168,6 @@ export const RECORD_TYPE_ALIASES = {
   "asteroid belt": "Celestial Body",
 };
 
-
-// Subtypes can override a broader record_type.
-// This keeps old Glossary/System records working while allowing true System records later.
 export const RECORD_SUBTYPE_ALIASES = {
   system: "System",
   "celestial body": "Celestial Body",
@@ -219,8 +207,6 @@ export function resolveRecordType(entry, data = null) {
     return RECORD_TYPE_ALIASES[rawType];
   }
 
-  // A newly added config key works even before an alias is added,
-  // provided the DB value matches it case-insensitively.
   if (rawType) {
     const configuredType = Object.keys(RECORD_DISPLAY_CONFIG).find(
       (key) => key.toLowerCase() === rawType
