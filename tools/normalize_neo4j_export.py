@@ -1,18 +1,4 @@
 #!/usr/bin/env python3
-"""
-Convert a Neo4j Browser JSON export from:
-
-    MATCH (n:Entry) RETURN n
-
-into a compact array of Entry property objects.
-
-Usage:
-
-    python tools/normalize_neo4j_export.py input.json public/data/entries.json
-
-The web app can read either the raw export or the normalized result.
-"""
-
 from __future__ import annotations
 
 import json
