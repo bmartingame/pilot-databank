@@ -2712,6 +2712,7 @@
         "tags_text": "Halix, Halix, Shade Frame, Frame, Shade",
         "faction": "HALIX",
         "name": "Shade Frame",
+        "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/ShadeFrame.jpg?raw=true",
         "visual": "Light recon mech studded with cloaking arrays.",
         "id": "settingdex__entry__halix__shade_frame",
         "source_id": "settingdex__source__datafile_halix",
