@@ -2151,7 +2151,7 @@
         "record_type": "Unit",
         "collection_id": "settingdex__collection__crown",
         "report_label": "Quartermaster’s Roll",
-        "classification_reference_group": "Crown Concordat",
+        "classification_reference_group": "Crown Concordant",
         "collection_title": "CROWN",
         "updated_at": "2026-06-04T21:40:28.438Z",
         "classification_reference_file": "Primus Units.docx",
@@ -2186,7 +2186,7 @@
         "record_type": "Unit",
         "collection_id": "settingdex__collection__crown",
         "report_label": "Maintenance Log",
-        "classification_reference_group": "Crown Concordat",
+        "classification_reference_group": "Crown Concordant",
         "collection_title": "CROWN",
         "updated_at": "2026-06-04T21:40:28.438Z",
         "classification_reference_file": "Primus Units.docx",
@@ -2307,17 +2307,17 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Crown Lancer\nVisual: Tournament-inspired warframe with heavy lance and tower shield.\nBehavior: Charges with devastating impact; symbol of Concordat honor.\nWar Chronicle: “The charge broke the enemy’s line like a tourney tilt writ large.”",
+        "raw_text": "Crown Lancer\nVisual: Tournament-inspired warframe with heavy lance and tower shield.\nBehavior: Charges with devastating impact; symbol of Concordant honor.\nWar Chronicle: “The charge broke the enemy’s line like a tourney tilt writ large.”",
         "document_kind": "datafile",
         "kind": "FactionUnit",
         "classification_reference_section": "Knight Frames (CR 5–10, mech-scale)",
-        "body": "Crown Lancer\nTournament-inspired warframe with heavy lance and tower shield.\nCharges with devastating impact; symbol of Concordat honor.\nWar Chronicle\n“The charge broke the enemy’s line like a tourney tilt writ large.”\nCrown Lancer\nVisual: Tournament-inspired warframe with heavy lance and tower shield.\nBehavior: Charges with devastating impact; symbol of Concordat honor.\nWar Chronicle: “The charge broke the enemy’s line like a tourney tilt writ large.”",
+        "body": "Crown Lancer\nTournament-inspired warframe with heavy lance and tower shield.\nCharges with devastating impact; symbol of Concordant honor.\nWar Chronicle\n“The charge broke the enemy’s line like a tourney tilt writ large.”\nCrown Lancer\nVisual: Tournament-inspired warframe with heavy lance and tower shield.\nBehavior: Charges with devastating impact; symbol of Concordant honor.\nWar Chronicle: “The charge broke the enemy’s line like a tourney tilt writ large.”",
         "classification": "FRAME",
         "reports_json": "[{\"label\": \"War Chronicle\", \"text\": \"“The charge broke the enemy’s line like a tourney tilt writ large.”\"}]",
         "record_type": "Unit",
         "collection_id": "settingdex__collection__crown",
         "report_label": "War Chronicle",
-        "classification_reference_group": "Crown Concordat",
+        "classification_reference_group": "Crown Concordant",
         "collection_title": "CROWN",
         "updated_at": "2026-06-04T21:40:28.438Z",
         "classification_reference_file": "Primus Units.docx",
@@ -2330,7 +2330,7 @@
         "visual": "Tournament-inspired warframe with heavy lance and tower shield.",
         "id": "settingdex__entry__crown__crown_lancer",
         "source_id": "settingdex__source__datafile_crown",
-        "behavior": "Charges with devastating impact, a symbol of Concordat honor. Crown Concordant MBF (main battle frame).",
+        "behavior": "Charges with devastating impact, a symbol of Concordant honor. Crown Concordant MBF (main battle frame).",
         "slug": "crown_lancer"
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:311"
@@ -2353,7 +2353,7 @@
         "record_type": "Unit",
         "collection_id": "settingdex__collection__crown",
         "report_label": "Siege Report",
-        "classification_reference_group": "Crown Concordat",
+        "classification_reference_group": "Crown Concordant",
         "collection_title": "CROWN",
         "updated_at": "2026-06-04T21:40:28.438Z",
         "classification_reference_file": "Primus Units.docx",
@@ -2388,7 +2388,7 @@
         "record_type": "Unit",
         "collection_id": "settingdex__collection__crown",
         "report_label": "Field Report",
-        "classification_reference_group": "Crown Concordat",
+        "classification_reference_group": "Crown Concordant",
         "collection_title": "CROWN",
         "updated_at": "2026-06-04T21:40:28.438Z",
         "classification_reference_file": "Primus Units.docx",
@@ -2413,17 +2413,17 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Crown Champion\nVisual: Veteran knight mech bearing personalized heraldry and weapons.\nBehavior: Duels enemy champions; sacred figures to the Concordat.\nCouncil Record: “When the Champion fell, half the host laid down arms without a word.”",
+        "raw_text": "Crown Champion\nVisual: Veteran knight mech bearing personalized heraldry and weapons.\nBehavior: Duels enemy champions; sacred figures to the Concordant.\nCouncil Record: “When the Champion fell, half the host laid down arms without a word.”",
         "document_kind": "datafile",
         "kind": "FactionUnit",
         "classification_reference_section": "Knight Frames (CR 5–10, mech-scale)",
-        "body": "Crown Champion\nVeteran knight mech bearing personalized heraldry and weapons.\nDuels enemy champions; sacred figures to the Concordat.\nCouncil Record\n“When the Champion fell, half the host laid down arms without a word.”\nCrown Champion\nVisual: Veteran knight mech bearing personalized heraldry and weapons.\nBehavior: Duels enemy champions; sacred figures to the Concordat.\nCouncil Record: “When the Champion fell, half the host laid down arms without a word.”",
+        "body": "Crown Champion\nVeteran knight mech bearing personalized heraldry and weapons.\nDuels enemy champions; sacred figures to the Concordant.\nCouncil Record\n“When the Champion fell, half the host laid down arms without a word.”\nCrown Champion\nVisual: Veteran knight mech bearing personalized heraldry and weapons.\nBehavior: Duels enemy champions; sacred figures to the Concordant.\nCouncil Record: “When the Champion fell, half the host laid down arms without a word.”",
         "classification": "FRAME",
         "reports_json": "[{\"label\": \"Council Record\", \"text\": \"“When the Champion fell, half the host laid down arms without a word.”\"}]",
         "record_type": "Unit",
         "collection_id": "settingdex__collection__crown",
         "report_label": "Council Record",
-        "classification_reference_group": "Crown Concordat",
+        "classification_reference_group": "Crown Concordant",
         "collection_title": "CROWN",
         "updated_at": "2026-06-04T21:40:28.438Z",
         "classification_reference_file": "Primus Units.docx",
@@ -2435,7 +2435,7 @@
         "visual": "Veteran knight mech bearing personalized heraldry and weapons.",
         "id": "settingdex__entry__crown__crown_champion",
         "source_id": "settingdex__source__datafile_crown",
-        "behavior": "Duels enemy champions; sacred figures to the Concordat.",
+        "behavior": "Duels enemy champions; sacred figures to the Concordant.",
         "slug": "crown_champion"
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:314"
@@ -2451,14 +2451,14 @@
         "raw_text": "Crown Paladin\nVisual: Tower-shielded juggernaut clad in gilded armor.\nBehavior: Wields lance batteries; suppression fields project divine right.\nBattlefield Extract: “Paladin presence correlated with a 60% rise in levy morale.”",
         "document_kind": "datafile",
         "kind": "FactionUnit",
-        "classification_reference_section": "Concordat Apexes (CR 11–15, command/fleet-scale)",
+        "classification_reference_section": "Concordant Apexes (CR 11–15, command/fleet-scale)",
         "body": "Crown Paladin\nTower-shielded juggernaut clad in gilded armor.\nWields lance batteries; suppression fields project divine right.\nBattlefield Extract\n“Paladin presence correlated with a 60% rise in levy morale.”\nCrown Paladin\nVisual: Tower-shielded juggernaut clad in gilded armor.\nBehavior: Wields lance batteries; suppression fields project divine right.\nBattlefield Extract: “Paladin presence correlated with a 60% rise in levy morale.”",
         "classification": "FRAME",
         "reports_json": "[{\"label\": \"Battlefield Extract\", \"text\": \"“Paladin presence correlated with a 60% rise in levy morale.”\"}]",
         "record_type": "Unit",
         "collection_id": "settingdex__collection__crown",
         "report_label": "Battlefield Extract",
-        "classification_reference_group": "Crown Concordat",
+        "classification_reference_group": "Crown Concordant",
         "collection_title": "CROWN",
         "updated_at": "2026-06-04T21:40:28.438Z",
         "classification_reference_file": "Primus Units.docx",
@@ -2486,14 +2486,14 @@
         "raw_text": "Crown Exemplar\nVisual: Colossal knight-mech draped in living energy banners.\nBehavior: Strikes with resonance halberd; anchors campaigns.\nWar Canticle: “The Exemplar stood at dawn. By dusk, the field belonged to the Crown.”",
         "document_kind": "datafile",
         "kind": "FactionUnit",
-        "classification_reference_section": "Concordat Apexes (CR 11–15, command/fleet-scale)",
+        "classification_reference_section": "Concordant Apexes (CR 11–15, command/fleet-scale)",
         "body": "Crown Exemplar\nColossal knight-mech draped in living energy banners.\nStrikes with resonance halberd; anchors campaigns.\nWar Canticle\n“The Exemplar stood at dawn. By dusk, the field belonged to the Crown.”\nCrown Exemplar\nVisual: Colossal knight-mech draped in living energy banners.\nBehavior: Strikes with resonance halberd; anchors campaigns.\nWar Canticle: “The Exemplar stood at dawn. By dusk, the field belonged to the Crown.”",
         "classification": "FRAME",
         "reports_json": "[{\"label\": \"War Canticle\", \"text\": \"“The Exemplar stood at dawn. By dusk, the field belonged to the Crown.”\"}]",
         "record_type": "Unit",
         "collection_id": "settingdex__collection__crown",
         "report_label": "War Canticle",
-        "classification_reference_group": "Crown Concordat",
+        "classification_reference_group": "Crown Concordant",
         "collection_title": "CROWN",
         "updated_at": "2026-06-04T21:40:28.438Z",
         "classification_reference_file": "Primus Units.docx",
@@ -2521,14 +2521,14 @@
         "raw_text": "Crown Throne-Frame\nVisual: Mobile throne of the high sovereigns, guarded by fleets.\nBehavior: Projects overwhelming command auras; rarely deployed.\nCouncil Decree: “The Throne moves only when the realm itself is imperiled.”",
         "document_kind": "datafile",
         "kind": "MechUnit",
-        "classification_reference_section": "Concordat Apexes (CR 11–15, command/fleet-scale)",
+        "classification_reference_section": "Concordant Apexes (CR 11–15, command/fleet-scale)",
         "body": "Crown Throne-Frame\nMobile throne of the high sovereigns, guarded by fleets.\nProjects overwhelming command auras; rarely deployed.\nCouncil Decree\n“The Throne moves only when the realm itself is imperiled.”\nCrown Throne-Frame\nVisual: Mobile throne of the high sovereigns, guarded by fleets.\nBehavior: Projects overwhelming command auras; rarely deployed.\nCouncil Decree: “The Throne moves only when the realm itself is imperiled.”",
         "classification": "FRAME",
         "reports_json": "[{\"label\": \"Council Decree\", \"text\": \"“The Throne moves only when the realm itself is imperiled.”\"}]",
         "record_type": "Unit",
         "collection_id": "settingdex__collection__crown",
         "report_label": "Council Decree",
-        "classification_reference_group": "Crown Concordat",
+        "classification_reference_group": "Crown Concordant",
         "collection_title": "CROWN",
         "updated_at": "2026-06-04T21:40:28.438Z",
         "classification_reference_file": "Primus Units.docx",
@@ -8966,18 +8966,18 @@
         "document_kind": "datafile",
         "friendly": "Luthan League, Cindral March",
         "hostile": "",
-        "description": "A federation of noble houses united under the Crown Council. Their fleets are resplendent, their mechs adorned with heraldry, and their authority framed as divine right. The Crown wages war as pageantry and duty. Battles unfold as ritualized contests of champions supported by levies, with knights and banners carrying both symbolic and practical weight. Expect layered formations - levymen to garrison, knights to duel, banners to rally, and paladins to embody royal will. The Concordat thrives on morale and spectacle; breaking their symbols is as vital as defeating their machines.",
+        "description": "A federation of noble houses united under the Crown Council. Their fleets are resplendent, their mechs adorned with heraldry, and their authority framed as divine right. The Crown wages war as pageantry and duty. Battles unfold as ritualized contests of champions supported by levies, with knights and banners carrying both symbolic and practical weight. Expect layered formations - levymen to garrison, knights to duel, banners to rally, and paladins to embody royal will. The Concordant thrives on morale and spectacle; breaking their symbols is as vital as defeating their machines.",
         "at_war": "Karnate, Orak Belt Syndicates",
-        "body": "A federation of noble houses united under the Crown Council. Their fleets are resplendent, their mechs adorned with heraldry, and their authority framed as divine right.\n\nThe Crown wages war as pageantry and duty. Battles unfold as ritualized contests of champions supported by levies, with knights and banners carrying both symbolic and practical weight.\n\nExpect layered formations - levymen to garrison, knights to duel, banners to rally, and paladins to embody royal will. The Concordat thrives on morale and spectacle; breaking their symbols is as vital as defeating their machines.\n\nCROWN\nA federation of noble houses united under the Crown Council. Their fleets are resplendent, their mechs adorned with heraldry, and their authority framed as divine right.\nThe Crown wages war as pageantry and duty. Battles unfold as ritualized contests of champions supported by levies, with knights and banners carrying both symbolic and practical weight.\nExpect layered formations - levymen to garrison, knights to duel, banners to rally, and paladins to embody royal will. The Concordat thrives on morale and spectacle; breaking their symbols is as vital as defeating their machines.",
+        "body": "A federation of noble houses united under the Crown Council. Their fleets are resplendent, their mechs adorned with heraldry, and their authority framed as divine right.\n\nThe Crown wages war as pageantry and duty. Battles unfold as ritualized contests of champions supported by levies, with knights and banners carrying both symbolic and practical weight.\n\nExpect layered formations - levymen to garrison, knights to duel, banners to rally, and paladins to embody royal will. The Concordant thrives on morale and spectacle; breaking their symbols is as vital as defeating their machines.\n\nCROWN\nA federation of noble houses united under the Crown Council. Their fleets are resplendent, their mechs adorned with heraldry, and their authority framed as divine right.\nThe Crown wages war as pageantry and duty. Battles unfold as ritualized contests of champions supported by levies, with knights and banners carrying both symbolic and practical weight.\nExpect layered formations - levymen to garrison, knights to duel, banners to rally, and paladins to embody royal will. The Concordant thrives on morale and spectacle; breaking their symbols is as vital as defeating their machines.",
         "reports_json": "[]",
         "collection_id": "settingdex__collection__crown",
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "[DATAFILE_ CROWN].docx",
         "id": "settingdex__entry__glossary__crown",
         "slug": "crown",
-        "raw_text": "A federation of noble houses united under the Crown Council. Their fleets are resplendent, their mechs adorned with heraldry, and their authority framed as divine right.\n\nThe Crown wages war as pageantry and duty. Battles unfold as ritualized contests of champions supported by levies, with knights and banners carrying both symbolic and practical weight.\n\nExpect layered formations - levymen to garrison, knights to duel, banners to rally, and paladins to embody royal will. The Concordat thrives on morale and spectacle; breaking their symbols is as vital as defeating their machines.\n\nCROWN\nA federation of noble houses united under the Crown Council. Their fleets are resplendent, their mechs adorned with heraldry, and their authority framed as divine right.\nThe Crown wages war as pageantry and duty. Battles unfold as ritualized contests of champions supported by levies, with knights and banners carrying both symbolic and practical weight.\nExpect layered formations - levymen to garrison, knights to duel, banners to rally, and paladins to embody royal will. The Concordat thrives on morale and spectacle; breaking their symbols is as vital as defeating their machines.",
+        "raw_text": "A federation of noble houses united under the Crown Council. Their fleets are resplendent, their mechs adorned with heraldry, and their authority framed as divine right.\n\nThe Crown wages war as pageantry and duty. Battles unfold as ritualized contests of champions supported by levies, with knights and banners carrying both symbolic and practical weight.\n\nExpect layered formations - levymen to garrison, knights to duel, banners to rally, and paladins to embody royal will. The Concordant thrives on morale and spectacle; breaking their symbols is as vital as defeating their machines.\n\nCROWN\nA federation of noble houses united under the Crown Council. Their fleets are resplendent, their mechs adorned with heraldry, and their authority framed as divine right.\nThe Crown wages war as pageantry and duty. Battles unfold as ritualized contests of champions supported by levies, with knights and banners carrying both symbolic and practical weight.\nExpect layered formations - levymen to garrison, knights to duel, banners to rally, and paladins to embody royal will. The Concordant thrives on morale and spectacle; breaking their symbols is as vital as defeating their machines.",
         "kind": "CollectionGlossaryEntry",
-        "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/CrownConcordat.jpg?raw=true",
+        "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/CrownConcordant.jpg?raw=true",
         "neutral": "",
         "allied": "",
         "record_type": "Faction",
@@ -10565,7 +10565,7 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Ardane System\nSector Name: Crown Sector\nFaction: Crown Concordat\nDescription: Ardane is the Crown council capital, a temperate world of palace-cities, embassy keeps, dueling grounds, and noble estates. Guild pilots should observe house protocol carefully, since a minor insult here can become a sector deployment.",
+        "raw_text": "Ardane System\nSector Name: Crown Sector\nFaction: Crown Concordant\nDescription: Ardane is the Crown council capital, a temperate world of palace-cities, embassy keeps, dueling grounds, and noble estates. Guild pilots should observe house protocol carefully, since a minor insult here can become a sector deployment.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "The Ardane system surrounds the Crown’s council world with the mines of Orren, the reservoir seas of Mereveil, the proving grounds of Valecourt, the reserve holdings of Thorne, and the patrol anchorages around Gannet. Palace-cities and embassy keeps dominate Ardane itself, but policy made there depends on an entire network of noble estates, fortified moons, industrial worlds, and ceremonial mustering grounds.",
@@ -10577,7 +10577,7 @@
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Ardane System Crown Sector Crown Concordat system sector glossary",
+        "tags_text": "Ardane System Crown Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "Ardane System",
         "dossier_type": "systems",
@@ -10595,7 +10595,7 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Velbrant System\nSector Name: Crown Sector\nFaction: Crown Concordat\nDescription: Velbrant is a fortress world and tourney system, used to train, test, and display Crown military prestige. Licensed observers are permitted during formal contests, but active interference in knightly rites is grounds for immediate sanction.",
+        "raw_text": "Velbrant System\nSector Name: Crown Sector\nFaction: Crown Concordant\nDescription: Velbrant is a fortress world and tourney system, used to train, test, and display Crown military prestige. Licensed observers are permitted during formal contests, but active interference in knightly rites is grounds for immediate sanction.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "Velbrant is a binary fortress system whose bright primary and red companion illuminate tourney grounds, metal worlds, gun moons, escort yards, and the Whitefire early-warning array. The Grand Lists and High Marshal’s Ring make the system a stage for Crown prestige, but its distributed defenses and outer fortress moon ensure that every ceremony can become a mobilization.",
@@ -10607,7 +10607,7 @@
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Velbrant System Crown Sector Crown Concordat system sector glossary",
+        "tags_text": "Velbrant System Crown Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "Velbrant System",
         "dossier_type": "systems",
@@ -10625,7 +10625,7 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Hallowmere System\nSector Name: Crown Sector\nFaction: Crown Concordat\nDescription: Hallowmere is the Crown’s agricultural heart, a breadbasket world of gene-crop plains, reservoir seas, orchard continents, and cathedral-granaries. Dream-Eater alerts are common enough that pilots should treat rural quiet as a potential warning sign.",
+        "raw_text": "Hallowmere System\nSector Name: Crown Sector\nFaction: Crown Concordant\nDescription: Hallowmere is the Crown’s agricultural heart, a breadbasket world of gene-crop plains, reservoir seas, orchard continents, and cathedral-granaries. Dream-Eater alerts are common enough that pilots should treat rural quiet as a potential warning sign.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "The Hallowmere system is the Crown’s agricultural heart, combining the inhabited breadbasket world with Orchard Crown, Ceresin’s managed seas, reservoir moons, seed vaults, grain reserves, and industrial support on Vellum. Dream-Eater alerts across its farms, moons, and storage routes are common enough that pilots should treat sudden silence anywhere in the system as a warning.",
@@ -10637,7 +10637,7 @@
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Hallowmere System Crown Sector Crown Concordat system sector glossary",
+        "tags_text": "Hallowmere System Crown Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "Hallowmere System",
         "dossier_type": "systems",
@@ -10655,19 +10655,19 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Kaelith System\nSector Name: Crown Sector\nFaction: Crown Concordat\nDescription: Kaelith is a border crown system of fortified moon-cities, pirate-burned settlements, and anxious noble keeps. It serves as the Concordat’s warning bell on the rough edge of civilized space.",
+        "raw_text": "Kaelith System\nSector Name: Crown Sector\nFaction: Crown Concordant\nDescription: Kaelith is a border crown system of fortified moon-cities, pirate-burned settlements, and anxious noble keeps. It serves as the Concordant’s warning bell on the rough edge of civilized space.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
-        "description": "Kaelith is a red-dwarf border system built around the gas giant Avarn, its inhabited moon, the mining world Skarn, and the paired Bracken and Hest redoubts. Burned settlements, fortified moon-cities, cold outer holdings, and overlapping warning stations make the system the Concordat’s alarm bell on the rough edge of civilized space.",
+        "description": "Kaelith is a red-dwarf border system built around the gas giant Avarn, its inhabited moon, the mining world Skarn, and the paired Bracken and Hest redoubts. Burned settlements, fortified moon-cities, cold outer holdings, and overlapping warning stations make the system the Concordant’s alarm bell on the rough edge of civilized space.",
         "manual_ingest": true,
-        "body": "Kaelith is a border crown system of fortified moon-cities, pirate-burned settlements, and anxious noble keeps. It serves as the Concordat’s warning bell on the rough edge of civilized space.",
+        "body": "Kaelith is a border crown system of fortified moon-cities, pirate-burned settlements, and anxious noble keeps. It serves as the Concordant’s warning bell on the rough edge of civilized space.",
         "record_type": "System",
         "glossary_subtype": "System",
         "collection_title": "Systems Glossary",
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Kaelith System Crown Sector Crown Concordat system sector glossary",
+        "tags_text": "Kaelith System Crown Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "Kaelith System",
         "dossier_type": "systems",
@@ -10685,7 +10685,7 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Braelyn Hold System\nSector Name: Althoren Sector\nFaction: Crown Concordat\nDescription: Braelyn Hold is a castle-fortress planet whose mountains, valleys, roads, and orbitals are all designed with defense in mind. Pilots assigned here should expect ceremonial hospitality overlaid with active invasion planning.",
+        "raw_text": "Braelyn Hold System\nSector Name: Althoren Sector\nFaction: Crown Concordant\nDescription: Braelyn Hold is a castle-fortress planet whose mountains, valleys, roads, and orbitals are all designed with defense in mind. Pilots assigned here should expect ceremonial hospitality overlaid with active invasion planning.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "The Braelyn Hold system is arranged as a layered fortress, from the industrial world Braelyn Hold and its gun moon to Shieldward, Vault Moon, the Iron Halo called the Herald Glass, and the outer anchor at Banner’s Rest. Ceremonial hospitality masks a defense plan written across planets, moons, roads, magazines, and orbital firing corridors.",
@@ -10697,7 +10697,7 @@
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Braelyn Hold System Althoren Sector Crown Concordat system sector glossary",
+        "tags_text": "Braelyn Hold System Althoren Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "Braelyn Hold System",
         "dossier_type": "systems",
@@ -10715,7 +10715,7 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Kether Vale System\nSector Name: Althoren Sector\nFaction: Crown Concordat\nDescription: Kether Vale is an agrarian borderland of river continents, grazing basins, scattered baronies, and thin defenses. It feeds frontier fleets and absorbs Crown expansion pressure, but response times from higher authority are unreliable.",
+        "raw_text": "Kether Vale System\nSector Name: Althoren Sector\nFaction: Crown Concordant\nDescription: Kether Vale is an agrarian borderland of river continents, grazing basins, scattered baronies, and thin defenses. It feeds frontier fleets and absorbs Crown expansion pressure, but response times from higher authority are unreliable.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "Kether Vale is an agrarian frontier system of river continents, grazing basins, water worlds, scattered baronies, cold outer planets, and lightly defended moons. Its farms and herds feed Crown fleets, but the distance between Kether Vale, Low Vale, Rill, and the outer holdings leaves local lords dependent on slow convoys and unreliable reinforcement.",
@@ -10727,7 +10727,7 @@
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Kether Vale System Althoren Sector Crown Concordat system sector glossary",
+        "tags_text": "Kether Vale System Althoren Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "Kether Vale System",
         "dossier_type": "systems",
@@ -10745,7 +10745,7 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "High Alder Span System\nSector Name: Althoren Sector\nFaction: Crown Concordat\nDescription: High Alder Span is a lane-bridge watch built around a Guild-compatible transit array stretched between gravitational anchor points. Its maintenance clans and customs knights keep the rear Crown loop connected and monitor unauthorized movement.",
+        "raw_text": "High Alder Span System\nSector Name: Althoren Sector\nFaction: Crown Concordant\nDescription: High Alder Span is a lane-bridge watch built around a Guild-compatible transit array stretched between gravitational anchor points. Its maintenance clans and customs knights keep the rear Crown loop connected and monitor unauthorized movement.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "High Alder Span is a binary lane-bridge system whose Guild-compatible transit array links Aldergate, Spanhold, Far Alder, and their watch moons across a difficult gravitational corridor. Maintenance clans and customs knights live throughout the system, keeping the rear Crown loop open while monitoring traffic that attempts to bypass the recognized span.",
@@ -10757,7 +10757,7 @@
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "High Alder Span System Althoren Sector Crown Concordat system sector glossary",
+        "tags_text": "High Alder Span System Althoren Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "High Alder Span System",
         "dossier_type": "systems",
@@ -10775,7 +10775,7 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Duris System\nSector Name: Seldran Sector\nFaction: Crown Concordat\nDescription: Duris is a ruined throne-world orbiting a white dwarf, preserved as both wound and warning. Exiled houses, salvage crews, and political archaeologists still search its broken palaces for proof of old claims.",
+        "raw_text": "Duris System\nSector Name: Seldran Sector\nFaction: Crown Concordant\nDescription: Duris is a ruined throne-world orbiting a white dwarf, preserved as both wound and warning. Exiled houses, salvage crews, and political archaeologists still search its broken palaces for proof of old claims.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "Duris is a ruined white-dwarf system where the broken throne-world, Mausoleum Moon, Ashen Testament, salvage cradles, and the Archive of Claims preserve the wreckage of a fallen royal order. Exiled houses, scavengers, and political archaeologists search across its palaces, docks, and debris fields for evidence capable of reviving old claims.",
@@ -10787,7 +10787,7 @@
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Duris System Seldran Sector Crown Concordat system sector glossary",
+        "tags_text": "Duris System Seldran Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "Duris System",
         "dossier_type": "systems",
@@ -10805,7 +10805,7 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Marnholt System\nSector Name: Seldran Sector\nFaction: Crown Concordat\nDescription: Marnholt is a contested claimant world where rival banners divide continents, orbital platforms, and noble fleets. Guild personnel should avoid endorsing local legitimacy claims unless operating under explicit Mandate instruction.",
+        "raw_text": "Marnholt System\nSector Name: Seldran Sector\nFaction: Crown Concordant\nDescription: Marnholt is a contested claimant world where rival banners divide continents, orbital platforms, and noble fleets. Guild personnel should avoid endorsing local legitimacy claims unless operating under explicit Mandate instruction.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "Marnholt is a contested claimant system in which rival banners divide the inhabited world, its moon, the Blue and Gold orbital walls, Palevine, Oathscar, and competing fleet anchorages around Herald. Guild personnel should avoid treating any single capital, platform, or noble fleet as the uncontested authority unless operating under explicit Mandate instruction.",
@@ -10817,7 +10817,7 @@
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Marnholt System Seldran Sector Crown Concordat system sector glossary",
+        "tags_text": "Marnholt System Seldran Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "Marnholt System",
         "dossier_type": "systems",
@@ -10835,7 +10835,7 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Sable Crown System\nSector Name: Seldran Sector\nFaction: Crown Concordat\nDescription: Sable Crown is an exile court and intelligence hub sheltered in the radiation shadow of a neutron star. It is formally a political refuge, but in practice it functions as a market for secrets, claimants, and revenge.",
+        "raw_text": "Sable Crown System\nSector Name: Seldran Sector\nFaction: Crown Concordant\nDescription: Sable Crown is an exile court and intelligence hub sheltered in the radiation shadow of a neutron star. It is formally a political refuge, but in practice it functions as a market for secrets, claimants, and revenge.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "Sable Crown is an exile network hidden within the radiation geometry of a neutron star, centered on Mourning and a cluster of silent stations, signal-locked depots, caches, and concealed arsenals. The system is formally a refuge for displaced claimants, but its distributed court and storage sites function as a market for secrets, leverage, and revenge.",
@@ -10847,7 +10847,7 @@
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Sable Crown System Seldran Sector Crown Concordat system sector glossary",
+        "tags_text": "Sable Crown System Seldran Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "Sable Crown System",
         "dossier_type": "systems",
@@ -10865,19 +10865,19 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Bastrel Gate System\nSector Name: Bastrel Sector\nFaction: Crown Concordat\nDescription: Bastrel Gate is the Concordat’s expansion-zone staging starport, packed with barracks orbitals, troop elevators, warehouse moons, and permanent temporary camps. Pilots should expect heavy traffic, shifting orders, and competing noble chains of command.",
+        "raw_text": "Bastrel Gate System\nSector Name: Bastrel Sector\nFaction: Crown Concordant\nDescription: Bastrel Gate is the Concordant’s expansion-zone staging starport, packed with barracks orbitals, troop elevators, warehouse moons, and permanent temporary camps. Pilots should expect heavy traffic, shifting orders, and competing noble chains of command.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "Bastrel Gate is an expansion-zone staging system spread across Muster, Pilgrim’s Rest, Garrison, the gas giant Quartermaster, its warehouse moons, and the central transit hub. Barracks orbitals, troop elevators, supply depots, and temporary camps keep the entire system in constant motion under several competing noble chains of command.",
         "manual_ingest": true,
-        "body": "Bastrel Gate is the Concordat’s expansion-zone staging starport, packed with barracks orbitals, troop elevators, warehouse moons, and permanent temporary camps. Pilots should expect heavy traffic, shifting orders, and competing noble chains of command.",
+        "body": "Bastrel Gate is the Concordant’s expansion-zone staging starport, packed with barracks orbitals, troop elevators, warehouse moons, and permanent temporary camps. Pilots should expect heavy traffic, shifting orders, and competing noble chains of command.",
         "record_type": "System",
         "glossary_subtype": "System",
         "collection_title": "Systems Glossary",
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Bastrel Gate System Bastrel Sector Crown Concordat system sector glossary",
+        "tags_text": "Bastrel Gate System Bastrel Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "Bastrel Gate System",
         "dossier_type": "systems",
@@ -10895,7 +10895,7 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Stonereach System\nSector Name: Bastrel Sector\nFaction: Crown Concordat\nDescription: Stonereach is a cold, iron-rich military foundry system run through noble-owned manufactories. It supplies Crown knight frames with armor, lances, and replacement parts, making labor unrest here a strategic risk.",
+        "raw_text": "Stonereach System\nSector Name: Bastrel Sector\nFaction: Crown Concordant\nDescription: Stonereach is a cold, iron-rich military foundry system run through noble-owned manufactories. It supplies Crown knight frames with armor, lances, and replacement parts, making labor unrest here a strategic risk.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "Stonereach is a cold military foundry system whose red dwarf supports the metal worlds Stonereach and Ferric, their mining moons, the reserve world Blackslag, and fuel operations around Cinderball. Noble manufactories across the system produce armor, lances, and replacement parts for Crown knight frames, making unrest on any major extraction route strategically dangerous.",
@@ -10907,7 +10907,7 @@
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Stonereach System Bastrel Sector Crown Concordat system sector glossary",
+        "tags_text": "Stonereach System Bastrel Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "Stonereach System",
         "dossier_type": "systems",
@@ -10925,7 +10925,7 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Veld Spire System\nSector Name: Bastrel Sector\nFaction: Crown Concordat\nDescription: Veld Spire is a pulsar-based early warning system of shielded towers, observation platforms, and high-sensitivity signal stations. Its crews watch for pirates, Warp Beasts, lane anomalies, and unauthorized fleet movement.",
+        "raw_text": "Veld Spire System\nSector Name: Bastrel Sector\nFaction: Crown Concordant\nDescription: Veld Spire is a pulsar-based early warning system of shielded towers, observation platforms, and high-sensitivity signal stations. Its crews watch for pirates, Warp Beasts, lane anomalies, and unauthorized fleet movement.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "Veld Spire is a pulsar-based warning system consisting of the shielded array over Veld, the outer world Pulseward, and the Zenith, Meridian, and Nadir observatories. Its separated platforms compare signals across the entire system to detect pirates, Warp Beasts, lane anomalies, and fleet movements that might fool a single station.",
@@ -10937,7 +10937,7 @@
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Veld Spire System Bastrel Sector Crown Concordat system sector glossary",
+        "tags_text": "Veld Spire System Bastrel Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "Veld Spire System",
         "dossier_type": "systems",
@@ -10955,7 +10955,7 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Deyros System\nSector Name: Deyros Sector\nFaction: Crown Concordat\nDescription: Deyros is a dry frontier prefecture where Crown law thins into practical violence. Walled settlements, armed convoys, and fortified civic compounds define normal life.",
+        "raw_text": "Deyros System\nSector Name: Deyros Sector\nFaction: Crown Concordant\nDescription: Deyros is a dry frontier prefecture where Crown law thins into practical violence. Walled settlements, armed convoys, and fortified civic compounds define normal life.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "The Deyros system is a dry frontier prefecture spread across inhabited Deyros, the industrial worlds Copper Writ and Prefect’s Reach, Dustwake, Magistrate, and its convoy moon. Crown law weakens with distance from the main world, leaving walled settlements, armed transports, fortified compounds, and local violence to hold the routes together.",
@@ -10967,7 +10967,7 @@
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Deyros System Deyros Sector Crown Concordat system sector glossary",
+        "tags_text": "Deyros System Deyros Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "Deyros System",
         "dossier_type": "systems",
@@ -10985,7 +10985,7 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Harrier Field System\nSector Name: Deyros Sector\nFaction: Crown Concordat\nDescription: Harrier Field is a corsair interdiction base hidden among dense asteroid fields. Patrol craft, pre-mined ambush lanes, and displayed pirate hulks make it the Crown’s forward answer to Orak raiding.",
+        "raw_text": "Harrier Field System\nSector Name: Deyros Sector\nFaction: Crown Concordant\nDescription: Harrier Field is a corsair interdiction base hidden among dense asteroid fields. Patrol craft, pre-mined ambush lanes, and displayed pirate hulks make it the Crown’s forward answer to Orak raiding.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "Harrier Field is a corsair-interdiction system built around a dense asteroid belt, the hidden Harrier Field Base, three supporting planets, and pre-mined approach lanes. Patrol craft use the field’s rocks, sensor shadows, and displayed pirate hulks to turn the entire system into an ambush ground against Orak raiders.",
@@ -10997,7 +10997,7 @@
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Harrier Field System Deyros Sector Crown Concordat system sector glossary",
+        "tags_text": "Harrier Field System Deyros Sector Crown Concordant system sector glossary",
         "faction": "CROWN",
         "name": "Harrier Field System",
         "dossier_type": "systems",
@@ -11015,7 +11015,7 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Black Runnel System\nSector Name: Deyros Sector\nFaction: Crown Concordat, contested illicit corridor\nDescription: Black Runnel is a black hole smuggler thoroughfare used to move goods through lensing shadows and unstable micro-lanes. The Guild advises licensed pilots that legal navigation standards do not apply inside criminal geometry.",
+        "raw_text": "Black Runnel System\nSector Name: Deyros Sector\nFaction: Crown Concordant, contested illicit corridor\nDescription: Black Runnel is a black hole smuggler thoroughfare used to move goods through lensing shadows and unstable micro-lanes. The Guild advises licensed pilots that legal navigation standards do not apply inside criminal geometry.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "Black Runnel is a black-hole corridor of unstable micro-lanes, lensing shadows, hidden habitats, and the distributed anchor network used by smugglers to cross between Crown, Orak, and Karnate space. Legal navigation standards do not apply inside its shifting geometry, and no single station controls every route through it.",
@@ -11027,7 +11027,7 @@
         "updated_at": "2026-06-04T21:40:28.438Z",
         "source_filename": "Systems Glossary",
         "import_mode": "automated_system_glossary",
-        "tags_text": "Black Runnel System Deyros Sector Crown Concordat, contested illicit corridor system sector glossary",
+        "tags_text": "Black Runnel System Deyros Sector Crown Concordant, contested illicit corridor system sector glossary",
         "faction": "CROWN",
         "name": "Black Runnel System",
         "dossier_type": "systems",
@@ -13228,13 +13228,13 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Crown Council - The ruling assembly of the Crown Concordat, composed of hereditary sovereigns, major noble houses, and knightly power blocs. The Council frames its authority as lawful inheritance, sacred duty, and aristocratic stewardship, but much of its real work is negotiation, rivalry, marriage politics, and disputes over legitimacy. Council decisions carry the weight of royal command, though every decree is filtered through house pride, old feuds, and battlefield honor.",
+        "raw_text": "Crown Council - The ruling assembly of the Crown Concordant, composed of hereditary sovereigns, major noble houses, and knightly power blocs. The Council frames its authority as lawful inheritance, sacred duty, and aristocratic stewardship, but much of its real work is negotiation, rivalry, marriage politics, and disputes over legitimacy. Council decisions carry the weight of royal command, though every decree is filtered through house pride, old feuds, and battlefield honor.",
         "document_kind": "manual",
         "kind": "ManualGlossaryEntry",
-        "description": "The ruling assembly of the Crown Concordat, composed of hereditary sovereigns, major noble houses, and knightly power blocs. The Council frames its authority as lawful inheritance, sacred duty, and aristocratic stewardship, but much of its real work is negotiation, rivalry, marriage politics, and disputes over legitimacy. Council decisions carry the weight of royal command, though every decree is filtered through house pride, old feuds, and battlefield honor.",
+        "description": "The ruling assembly of the Crown Concordant, composed of hereditary sovereigns, major noble houses, and knightly power blocs. The Council frames its authority as lawful inheritance, sacred duty, and aristocratic stewardship, but much of its real work is negotiation, rivalry, marriage politics, and disputes over legitimacy. Council decisions carry the weight of royal command, though every decree is filtered through house pride, old feuds, and battlefield honor.",
         "created_at": "2026-06-04T21:37:54.318Z",
         "manual_ingest": true,
-        "body": "The ruling assembly of the Crown Concordat, composed of hereditary sovereigns, major noble houses, and knightly power blocs. The Council frames its authority as lawful inheritance, sacred duty, and aristocratic stewardship, but much of its real work is negotiation, rivalry, marriage politics, and disputes over legitimacy. Council decisions carry the weight of royal command, though every decree is filtered through house pride, old feuds, and battlefield honor.",
+        "body": "The ruling assembly of the Crown Concordant, composed of hereditary sovereigns, major noble houses, and knightly power blocs. The Council frames its authority as lawful inheritance, sacred duty, and aristocratic stewardship, but much of its real work is negotiation, rivalry, marriage politics, and disputes over legitimacy. Council decisions carry the weight of royal command, though every decree is filtered through house pride, old feuds, and battlefield honor.",
         "reports_json": "[]",
         "record_type": "Glossary",
         "glossary_subtype": "GlossaryTerm",
@@ -16959,7 +16959,7 @@
         "system_slug": "ardane",
         "document_kind": "Celestial Body",
         "orbit_depth": 0,
-        "description": "Stable yellow star whose light and predictable cycles support the Concordat’s council heartland.",
+        "description": "Stable yellow star whose light and predictable cycles support the Concordant’s council heartland.",
         "created_at": {
           "year": 2026,
           "month": 7,
@@ -16971,8 +16971,8 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body": "Stable yellow star whose light and predictable cycles support the Concordat’s council heartland.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "body": "Stable yellow star whose light and predictable cycles support the Concordant’s council heartland.",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -17037,7 +17037,7 @@
           "timeZoneId": null
         },
         "body": "Hot inner world quarried for pale ceremonial stone and crossed by noble owned solar collectors.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Ardane Primary"
         ],
@@ -17102,7 +17102,7 @@
           "timeZoneId": null
         },
         "body": "Mineral heavy industrial world whose chartered mines provide armor alloys for court fleets and household guards.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Ardane Primary"
         ],
@@ -17167,7 +17167,7 @@
           "timeZoneId": null
         },
         "body": "Moon of Orren covered in quarry citadels and fortified ore elevators.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Orren"
         ],
@@ -17232,7 +17232,7 @@
           "timeZoneId": null
         },
         "body": "Temperate Primus-like council world of palace cities, embassy keeps, dueling fields, noble estates, and ancient weather engines.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Ardane Primary"
         ],
@@ -17297,7 +17297,7 @@
           "timeZoneId": null
         },
         "body": "Major moon of Ardane containing ancestral tomb keeps, herald archives, and the oldest recognized dueling courts.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Ardane"
         ],
@@ -17362,7 +17362,7 @@
           "timeZoneId": null
         },
         "body": "Reservoir world of deep managed seas; orbital pumps and tanker fleets feed Ardane’s climate and palace districts.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Ardane Primary"
         ],
@@ -17427,7 +17427,7 @@
           "timeZoneId": null
         },
         "body": "Dry world of enclosed estates, military academies, and immense proving grounds used for formalized mech exercises.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Ardane Primary"
         ],
@@ -17492,7 +17492,7 @@
           "timeZoneId": null
         },
         "body": "Cold outer planet containing shielded magazines, reserve fleets, and hereditary naval holdings.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Ardane Primary"
         ],
@@ -17557,7 +17557,7 @@
           "timeZoneId": null
         },
         "body": "Large gas giant used for fuel skimming and as the outer system anchor for patrol routes.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Ardane Primary"
         ],
@@ -17622,7 +17622,7 @@
           "timeZoneId": null
         },
         "body": "Bright ice moon of Gannet used as a neutral mustering ground during succession crises.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Gannet"
         ],
@@ -17687,7 +17687,7 @@
           "timeZoneId": null
         },
         "body": "Outer moon whose watch monasteries track arrivals and announce noble delegations before they reach Ardane.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Gannet"
         ],
@@ -17752,7 +17752,7 @@
           "timeZoneId": null
         },
         "body": "Brilliant white primary that floods the fortress system in hard, colorless light.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -17817,7 +17817,7 @@
           "timeZoneId": null
         },
         "body": "Dim red companion star that stains Velbrant’s nights and serves as a traditional omen of war.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -17882,7 +17882,7 @@
           "timeZoneId": null
         },
         "body": "Airless inner world used for live fire cavalry trials and long range lance calibration.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Velbrant Primary"
         ],
@@ -17947,7 +17947,7 @@
           "timeZoneId": null
         },
         "body": "Fortress and tourney world carved into bastions, parade fields, underground magazines, tournament valleys, and shielded command vaults.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Velbrant Primary"
         ],
@@ -18012,7 +18012,7 @@
           "timeZoneId": null
         },
         "body": "Fortress moon of Velbrant ringed with layered guns and barracks cut beneath the crust.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Velbrant"
         ],
@@ -18077,7 +18077,7 @@
           "timeZoneId": null
         },
         "body": "Ceremonial orbital forge and tournament dock where knight frames are repaired, judged, and publicly displayed.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Velbrant"
         ],
@@ -18142,7 +18142,7 @@
           "timeZoneId": null
         },
         "body": "Command station coordinating war games, visiting houses, and the system’s permanent garrison.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Velbrant"
         ],
@@ -18207,7 +18207,7 @@
           "timeZoneId": null
         },
         "body": "Military orbital where escort squadrons refuel and noble retinues assemble before deployment.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Velbrant"
         ],
@@ -18272,7 +18272,7 @@
           "timeZoneId": null
         },
         "body": "Heavily mined world supplying dense armor metals and replacement plating for the system’s knight frames.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Velbrant Primary"
         ],
@@ -18337,7 +18337,7 @@
           "timeZoneId": null
         },
         "body": "Armored moon of Karsen containing hardened command bunkers and protected core vaults.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Karsen"
         ],
@@ -18402,7 +18402,7 @@
           "timeZoneId": null
         },
         "body": "Reflective ice world housing buried coolant reservoirs, reserve hospitals, and emergency fleet stores.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Velbrant Primary"
         ],
@@ -18467,7 +18467,7 @@
           "timeZoneId": null
         },
         "body": "Gas giant whose broad gravity well hosts high speed fleet maneuvers and mock orbital invasions.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Velbrant Primary"
         ],
@@ -18532,7 +18532,7 @@
           "timeZoneId": null
         },
         "body": "Cold fortress moon guarding the system’s outer approach with missile silos and concealed hangars.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Tourney"
         ],
@@ -18597,7 +18597,7 @@
           "timeZoneId": null
         },
         "body": "Dense sensor and fire control lattice designed to detect hostile fleets against the glare of the primary.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Velbrant Primary"
         ],
@@ -18662,7 +18662,7 @@
           "timeZoneId": null
         },
         "body": "Long lived orange star providing steady growing seasons across the Crown’s principal agricultural system.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -18727,7 +18727,7 @@
           "timeZoneId": null
         },
         "body": "Industrial support world producing farm machinery, storage silos, and armored harvest vehicles.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Hallowmere Primary"
         ],
@@ -18792,7 +18792,7 @@
           "timeZoneId": null
         },
         "body": "Dry grazing world covered in pressure valleys, ranch domes, and convoy roads linking scattered baronies.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Hallowmere Primary"
         ],
@@ -18857,7 +18857,7 @@
           "timeZoneId": null
         },
         "body": "Primus-like breadbasket of gene crop plains, reservoir seas, orchard continents, cathedral granaries, and villages hardened against Dream Eater outbreaks.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Hallowmere Primary"
         ],
@@ -18922,7 +18922,7 @@
           "timeZoneId": null
         },
         "body": "Moon of Hallowmere whose militia chapels and sleep monitor stations serve as the system’s first Dream Eater warning line.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Hallowmere"
         ],
@@ -18987,7 +18987,7 @@
           "timeZoneId": null
         },
         "body": "Jungle type agricultural moon covered in managed fruit forests and medicinal gene crops.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Hallowmere"
         ],
@@ -19052,7 +19052,7 @@
           "timeZoneId": null
         },
         "body": "Ocean world harvested for protein cultures, irrigation stock, and weather engine reserves.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Hallowmere Primary"
         ],
@@ -19117,7 +19117,7 @@
           "timeZoneId": null
         },
         "body": "Small oceanic moon managed as a strategic freshwater reserve.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Ceresin"
         ],
@@ -19182,7 +19182,7 @@
           "timeZoneId": null
         },
         "body": "Outer ice world used for water extraction and long term seed vaults.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Hallowmere Primary"
         ],
@@ -19247,7 +19247,7 @@
           "timeZoneId": null
         },
         "body": "Gas giant that anchors the outer system and supplies light gases for fertilizer and transport industries.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Hallowmere Primary"
         ],
@@ -19312,7 +19312,7 @@
           "timeZoneId": null
         },
         "body": "Moon of Tithe containing refrigerated grain reserves sized to feed Crown fleets through a failed harvest.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Tithe"
         ],
@@ -19377,7 +19377,7 @@
           "timeZoneId": null
         },
         "body": "Remote watch moon where exhausted crews monitor the dark beyond the Crown’s protected lanes.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Tithe"
         ],
@@ -19442,7 +19442,7 @@
           "timeZoneId": null
         },
         "body": "Dim red dwarf casting the border system in permanent dusk and complicating long range visual surveillance.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -19507,7 +19507,7 @@
           "timeZoneId": null
         },
         "body": "Scarred inner planet of abandoned mines, pirate burned settlements, and improvised defense batteries.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kaelith Primary"
         ],
@@ -19572,7 +19572,7 @@
           "timeZoneId": null
         },
         "body": "Mineral rich world whose disputed claims finance the border nobles’ private forces.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kaelith Primary"
         ],
@@ -19637,7 +19637,7 @@
           "timeZoneId": null
         },
         "body": "Asteroid fortress covering the primary Guild approach and housing fast response knight squadrons.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kaelith Primary"
         ],
@@ -19702,7 +19702,7 @@
           "timeZoneId": null
         },
         "body": "Hidden asteroid redoubt overlooking pirate micro routes and suspected transponder laundering sites.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kaelith Primary"
         ],
@@ -19767,7 +19767,7 @@
           "timeZoneId": null
         },
         "body": "Gas giant whose magnetosphere shelters Kaelith, the system’s principal inhabited moon.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kaelith Primary"
         ],
@@ -19832,7 +19832,7 @@
           "timeZoneId": null
         },
         "body": "Habitable Primus-like moon of Avarn, fortified with armored keeps, moon cities, harvest ports, and hostage proof noble compounds.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Avarn"
         ],
@@ -19897,7 +19897,7 @@
           "timeZoneId": null
         },
         "body": "Outer ice world used as a concealed resupply point by patrol fleets and raiders alike.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kaelith Primary"
         ],
@@ -19962,7 +19962,7 @@
           "timeZoneId": null
         },
         "body": "Stable orange dwarf around which the Althoren buffer’s largest planetary fortress was built.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -20027,7 +20027,7 @@
           "timeZoneId": null
         },
         "body": "Barren training world where Crown formations rehearse retreats, counterattacks, and fortress relief operations.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Braelyn Primary"
         ],
@@ -20092,7 +20092,7 @@
           "timeZoneId": null
         },
         "body": "Castle fortress planet with gun keeps on mountain ranges, shield walls across valleys, fortified roads, and villages integrated into defensive depth.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Braelyn Primary"
         ],
@@ -20157,7 +20157,7 @@
           "timeZoneId": null
         },
         "body": "Braelyn moon whose crater walls have been converted into overlapping artillery bastions.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Braelyn Hold"
         ],
@@ -20222,7 +20222,7 @@
           "timeZoneId": null
         },
         "body": "Orbital mirror and defense ring whose colored panels divide the planet into visible noble territories.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Braelyn Hold"
         ],
@@ -20287,7 +20287,7 @@
           "timeZoneId": null
         },
         "body": "Dense mining and armament world reserved for emergency production during a sector scale siege.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Braelyn Primary"
         ],
@@ -20352,7 +20352,7 @@
           "timeZoneId": null
         },
         "body": "Shieldward moon holding deep magazines, replacement cores, and noble family evacuation chambers.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Shieldward"
         ],
@@ -20417,7 +20417,7 @@
           "timeZoneId": null
         },
         "body": "Cold outer world containing buried fuel bunkers and redundant command archives.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Braelyn Primary"
         ],
@@ -20482,7 +20482,7 @@
           "timeZoneId": null
         },
         "body": "Gas giant used as a gravitational screen for concealed fleet reserves and system defense ambushes.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Braelyn Primary"
         ],
@@ -20547,7 +20547,7 @@
           "timeZoneId": null
         },
         "body": "Sun like primary supporting broad habitable zones and the Vale’s heavily settled agricultural frontier.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -20612,7 +20612,7 @@
           "timeZoneId": null
         },
         "body": "Dry frontier world dotted with quarry towns and isolated resonance prospecting camps.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kether Primary"
         ],
@@ -20677,7 +20677,7 @@
           "timeZoneId": null
         },
         "body": "Industrial support world whose mines and machine halls equip frontier fleets and colonial militias.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kether Primary"
         ],
@@ -20742,7 +20742,7 @@
           "timeZoneId": null
         },
         "body": "Primus-like agrarian borderland of river continents, grazing basins, low density settlements, and proud but under defended baronies.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kether Primary"
         ],
@@ -20807,7 +20807,7 @@
           "timeZoneId": null
         },
         "body": "Temperate moon used as a reserve colony and demographic release point for overcrowded baronies.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kether Vale"
         ],
@@ -20872,7 +20872,7 @@
           "timeZoneId": null
         },
         "body": "River fed ocean world exporting fish protein, algae products, and irrigation stock.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kether Primary"
         ],
@@ -20937,7 +20937,7 @@
           "timeZoneId": null
         },
         "body": "Fortified customs moon where nobles levy transit fees on agricultural shipping.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Rill"
         ],
@@ -21002,7 +21002,7 @@
           "timeZoneId": null
         },
         "body": "Toxic world studied for unusual chemical feedstocks and rumored pre Guild ruins.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kether Primary"
         ],
@@ -21067,7 +21067,7 @@
           "timeZoneId": null
         },
         "body": "Cold planet crossed by mobile mining settlements and half abandoned Crown survey lines.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kether Primary"
         ],
@@ -21132,7 +21132,7 @@
           "timeZoneId": null
         },
         "body": "Outer system ice world serving as a refueling and search and rescue waypoint.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kether Primary"
         ],
@@ -21197,7 +21197,7 @@
           "timeZoneId": null
         },
         "body": "Gas giant whose moons and orbital lanes form the main route for livestock and grain convoys.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Kether Primary"
         ],
@@ -21262,7 +21262,7 @@
           "timeZoneId": null
         },
         "body": "Remote moon housing patrol crews, veterinary gene banks, and emergency shelter for convoy workers.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Drover"
         ],
@@ -21327,7 +21327,7 @@
           "timeZoneId": null
         },
         "body": "White primary illuminating the gravitational anchor points used by the lane bridge array.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -21392,7 +21392,7 @@
           "timeZoneId": null
         },
         "body": "Substellar companion whose mass provides the second major anchor for the Span’s transit geometry.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -21457,7 +21457,7 @@
           "timeZoneId": null
         },
         "body": "Immense Guild compatible lane bridge array stretched between gravitational anchors; home to watch officers, maintenance clans, inspectors, and generations of station families.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Alder Primary",
           "Alder Companion"
@@ -21524,7 +21524,7 @@
           "timeZoneId": null
         },
         "body": "Inner administrative world containing customs courts, naval inspection compounds, and officer estates.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Alder Primary"
         ],
@@ -21589,7 +21589,7 @@
           "timeZoneId": null
         },
         "body": "Moon of Aldergate containing redundant traffic control and interdiction batteries.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Aldergate"
         ],
@@ -21654,7 +21654,7 @@
           "timeZoneId": null
         },
         "body": "Industrial world supplying structural alloys and replacement anchor components for the bridge array.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Alder Primary"
         ],
@@ -21719,7 +21719,7 @@
           "timeZoneId": null
         },
         "body": "Outer ice world supporting backup reactors, coolant extraction, and isolated monitoring posts.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Alder Primary"
         ],
@@ -21784,7 +21784,7 @@
           "timeZoneId": null
         },
         "body": "Moon of Far Alder lined with navigation beacons and emergency shelters for disabled ships.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Far Alder"
         ],
@@ -21849,7 +21849,7 @@
           "timeZoneId": null
         },
         "body": "Faint stellar remnant surrounded by debris from the destruction of the old throne system.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -21914,7 +21914,7 @@
           "timeZoneId": null
         },
         "body": "Shattered throne world of cracked arcologies, glassed royal districts, ruined palace shields, salvage enclaves, and competing claims buried under bombardment scars.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Duris Remnant"
         ],
@@ -21979,7 +21979,7 @@
           "timeZoneId": null
         },
         "body": "Funerary moon containing sealed dynastic crypts, memorial engines, and disputed genetic archives.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Duris"
         ],
@@ -22044,7 +22044,7 @@
           "timeZoneId": null
         },
         "body": "Fortified salvage station coordinating licensed recovery crews over the broken throne world.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Duris"
         ],
@@ -22109,7 +22109,7 @@
           "timeZoneId": null
         },
         "body": "Rough orbital market where palace armor, wrecked mechs, and politically dangerous relics change hands.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Duris"
         ],
@@ -22174,7 +22174,7 @@
           "timeZoneId": null
         },
         "body": "Neutral looking archive station where exiled houses search records for proof of succession rights.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Duris"
         ],
@@ -22239,7 +22239,7 @@
           "timeZoneId": null
         },
         "body": "Cold companion world covered in refugee vaults and abandoned estates from houses destroyed with the throne.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Duris Remnant"
         ],
@@ -22304,7 +22304,7 @@
           "timeZoneId": null
         },
         "body": "Orange dwarf whose stable light contrasts with the system’s perpetual political instability.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -22369,7 +22369,7 @@
           "timeZoneId": null
         },
         "body": "Dry military colony held by the western claimant and covered in hardened supply depots.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Marnholt Primary"
         ],
@@ -22434,7 +22434,7 @@
           "timeZoneId": null
         },
         "body": "Primus-like garden world divided between competing claimants, fortified cities, rival orbital platforms, and countryside taxed by both crowns.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Marnholt Primary"
         ],
@@ -22499,7 +22499,7 @@
           "timeZoneId": null
         },
         "body": "Marnholt moon occupied by surveillance arrays and dueling command posts from both factions.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Marnholt"
         ],
@@ -22564,7 +22564,7 @@
           "timeZoneId": null
         },
         "body": "Claimant controlled orbital fortress guarding one hemisphere and broadcasting the legitimacy of the Blue Court.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Marnholt"
         ],
@@ -22629,7 +22629,7 @@
           "timeZoneId": null
         },
         "body": "Opposing orbital fortress controlling the main highport and asserting the Gold Court’s succession claim.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Marnholt"
         ],
@@ -22694,7 +22694,7 @@
           "timeZoneId": null
         },
         "body": "Productive ocean world whose fisheries and floating cities are contested through tariffs and naval blockades.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Marnholt Primary"
         ],
@@ -22759,7 +22759,7 @@
           "timeZoneId": null
         },
         "body": "Palevine moon where rival customs offices assess the same cargo under incompatible laws.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Palevine"
         ],
@@ -22824,7 +22824,7 @@
           "timeZoneId": null
         },
         "body": "Industrial planet split between rival foundry charters and repeatedly sabotaged rail networks.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Marnholt Primary"
         ],
@@ -22889,7 +22889,7 @@
           "timeZoneId": null
         },
         "body": "Cold frontier world serving as a refuge for displaced nobles, deserters, and neutral negotiators.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Marnholt Primary"
         ],
@@ -22954,7 +22954,7 @@
           "timeZoneId": null
         },
         "body": "Gas giant whose orbital routes are divided by an unstable patchwork of claimant patrol zones.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Marnholt Primary"
         ],
@@ -23019,7 +23019,7 @@
           "timeZoneId": null
         },
         "body": "Rapidly rotating neutron star whose radiation defines the narrow shielded windows in which the system can operate.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -23084,7 +23084,7 @@
           "timeZoneId": null
         },
         "body": "Black ice world with no open air habitation; its deep shadowed crust conceals sealed depots and exile estates.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Sable Crown Pulsar"
         ],
@@ -23149,7 +23149,7 @@
           "timeZoneId": null
         },
         "body": "Deep shielded spy court, exile palace, and whisper market where defeated houses trade secrets under elaborate mourning etiquette.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Mourning"
         ],
@@ -23214,7 +23214,7 @@
           "timeZoneId": null
         },
         "body": "Stealth depot hidden in the pulsar’s interference and used for covert message transfer.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Mourning"
         ],
@@ -23279,7 +23279,7 @@
           "timeZoneId": null
         },
         "body": "Remote supply and intelligence vault serving agents who cannot be seen approaching the court.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Mourning"
         ],
@@ -23344,7 +23344,7 @@
           "timeZoneId": null
         },
         "body": "Concealed weapons depot maintained by exiled houses planning returns, coups, or private wars.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Mourning"
         ],
@@ -23409,7 +23409,7 @@
           "timeZoneId": null
         },
         "body": "White star illuminating the Crown’s largest expansion zone muster and transit complex.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -23474,7 +23474,7 @@
           "timeZoneId": null
         },
         "body": "Barracks world covered in training districts, temporary camps, and regiment sized embarkation grounds.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Bastrel Primary"
         ],
@@ -23539,7 +23539,7 @@
           "timeZoneId": null
         },
         "body": "Desert type settlement world crowded with contractors, refugees, camp cities, and services for passing armies.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Bastrel Primary"
         ],
@@ -23604,7 +23604,7 @@
           "timeZoneId": null
         },
         "body": "Industrial planet producing standardized field defenses, troop transports, and replacement armor.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Bastrel Primary"
         ],
@@ -23669,7 +23669,7 @@
           "timeZoneId": null
         },
         "body": "Gas giant used for fuel harvesting and as the gravitational anchor for the system’s heavy traffic pattern.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Bastrel Primary"
         ],
@@ -23734,7 +23734,7 @@
           "timeZoneId": null
         },
         "body": "Massive staging starport of troop elevators, barracks orbitals, customs yards, warehouses, and launch berths where Crown expeditions become campaigns.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Quartermaster"
         ],
@@ -23799,7 +23799,7 @@
           "timeZoneId": null
         },
         "body": "Warehouse moon of Quartermaster lined with bonded depots and customs yards.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Quartermaster"
         ],
@@ -23864,7 +23864,7 @@
           "timeZoneId": null
         },
         "body": "Cold storage and troop housing moon capable of holding entire expeditionary armies.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Quartermaster"
         ],
@@ -23929,7 +23929,7 @@
           "timeZoneId": null
         },
         "body": "Dim red dwarf over a cold industrial system built around iron and military production.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -23994,7 +23994,7 @@
           "timeZoneId": null
         },
         "body": "Barren proving world where armor, lances, and heavy vehicle designs are tested to destruction.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Stonereach Primary"
         ],
@@ -24059,7 +24059,7 @@
           "timeZoneId": null
         },
         "body": "Cold foundry world of noble owned manufactories, iron rich ranges, house banners over assembly lines, and tightly controlled worker settlements.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Stonereach Primary"
         ],
@@ -24124,7 +24124,7 @@
           "timeZoneId": null
         },
         "body": "Mining moon whose entire output is assessed as a military levy to Bastrel expansion fleets.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Stonereach"
         ],
@@ -24189,7 +24189,7 @@
           "timeZoneId": null
         },
         "body": "Dense ore world stripped by hereditary mining combines and penal labor fleets.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Stonereach Primary"
         ],
@@ -24254,7 +24254,7 @@
           "timeZoneId": null
         },
         "body": "Ferric moon carved into vertically integrated mines, worker habs, and fortified ore elevators.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Ferric"
         ],
@@ -24319,7 +24319,7 @@
           "timeZoneId": null
         },
         "body": "Frozen industrial waste world containing slag seas, coolant plants, and hazardous reclamation camps.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Stonereach Primary"
         ],
@@ -24384,7 +24384,7 @@
           "timeZoneId": null
         },
         "body": "Compact gas giant supplying industrial gases and serving as an outer patrol anchor.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Stonereach Primary"
         ],
@@ -24449,7 +24449,7 @@
           "timeZoneId": null
         },
         "body": "Pulsar whose regular radiation cycle governs every shift, sensor sweep, and shield window in the system.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -24514,7 +24514,7 @@
           "timeZoneId": null
         },
         "body": "Frozen world supporting buried power plants and emergency shelters beneath heavy radiation shielding.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Veld Pulsar"
         ],
@@ -24579,7 +24579,7 @@
           "timeZoneId": null
         },
         "body": "Shielded sensor tower synchronized to the pulsar and tasked with detecting pirates, Warp Beasts, lane anomalies, and unauthorized fleets.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Veld"
         ],
@@ -24644,7 +24644,7 @@
           "timeZoneId": null
         },
         "body": "Dense outer planet used as a stable baseline for long range tracking and gravitational measurements.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Veld Pulsar"
         ],
@@ -24709,7 +24709,7 @@
           "timeZoneId": null
         },
         "body": "Observation platform optimized for scans above the system’s orbital plane.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Veld Pulsar"
         ],
@@ -24774,7 +24774,7 @@
           "timeZoneId": null
         },
         "body": "Primary deep lane telescope and signal analysis platform.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Veld Pulsar"
         ],
@@ -24839,7 +24839,7 @@
           "timeZoneId": null
         },
         "body": "Hardened observation platform covering approaches masked by the pulsar’s glare and debris.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Veld Pulsar"
         ],
@@ -24904,7 +24904,7 @@
           "timeZoneId": null
         },
         "body": "Orange dwarf supporting the Crown’s dry, thinly governed frontier prefecture.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -24969,7 +24969,7 @@
           "timeZoneId": null
         },
         "body": "Dry colony of scattered ranch domes, militia towns, and abandoned settlement schemes.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Deyros Primary"
         ],
@@ -25034,7 +25034,7 @@
           "timeZoneId": null
         },
         "body": "Desert type prefecture world of fortified civic compounds, walled settlements, armed convoys, and Crown law enforced through practical violence.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Deyros Primary"
         ],
@@ -25099,7 +25099,7 @@
           "timeZoneId": null
         },
         "body": "Ore world whose extraction licenses are the prefecture’s principal source of patronage and corruption.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Deyros Primary"
         ],
@@ -25164,7 +25164,7 @@
           "timeZoneId": null
         },
         "body": "Administrative mining world controlled by appointed officials and their private security forces.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Deyros Primary"
         ],
@@ -25229,7 +25229,7 @@
           "timeZoneId": null
         },
         "body": "Cold outer frontier planet frequented by smugglers, prospectors, and Warp Beast hunters.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Deyros Primary"
         ],
@@ -25294,7 +25294,7 @@
           "timeZoneId": null
         },
         "body": "Gas giant used as a navigation marker and refueling stop for patrols on the dangerous border.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Deyros Primary"
         ],
@@ -25359,7 +25359,7 @@
           "timeZoneId": null
         },
         "body": "Moon of Magistrate containing escort yards, fortified caravanserais, and emergency courts for disputes in transit.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Magistrate"
         ],
@@ -25424,7 +25424,7 @@
           "timeZoneId": null
         },
         "body": "Brilliant white star whose glare helps conceal patrol craft within the system’s broken asteroid terrain.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -25489,7 +25489,7 @@
           "timeZoneId": null
         },
         "body": "Airless inner world used for gunnery calibration and remote targeting stations.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Harrier Primary"
         ],
@@ -25554,7 +25554,7 @@
           "timeZoneId": null
         },
         "body": "Cold planet storing fuel, mines, and reserve interceptors beneath its crust.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Harrier Primary"
         ],
@@ -25619,7 +25619,7 @@
           "timeZoneId": null
         },
         "body": "Dense broken belt filled with pre mined ambush lanes, concealed patrol nests, and displayed pirate hulks.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Harrier Primary"
         ],
@@ -25684,7 +25684,7 @@
           "timeZoneId": null
         },
         "body": "Corsair interdiction fortress embedded in the asteroid field, designed to launch sudden attacks before raiders reach richer Crown systems.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Harrier Primary"
         ],
@@ -25749,7 +25749,7 @@
           "timeZoneId": null
         },
         "body": "Resource world supporting the interdiction base with armor metals and hardened construction material.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Harrier Primary"
         ],
@@ -25814,7 +25814,7 @@
           "timeZoneId": null
         },
         "body": "Black hole surrounded by debris lanes, gravitational lensing shadows, and unstable navigation geometry.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
 
         ],
@@ -25879,7 +25879,7 @@
           "timeZoneId": null
         },
         "body": "Hidden rock habitat used for illicit repairs, cargo transfer, and temporary refuge between criminal runs.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Black Runnel"
         ],
@@ -25944,7 +25944,7 @@
           "timeZoneId": null
         },
         "body": "Distributed shadow station and beacon network used to calculate the unstable smuggler route between Crown, Orak, and Karnate space.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Black Runnel"
         ],
@@ -26009,7 +26009,7 @@
           "timeZoneId": null
         },
         "body": "Second concealed habitat built to be abandoned quickly if patrols or gravitational shifts expose it.",
-        "source_file": "Crown_Concordat_System_Bodies.xlsx",
+        "source_file": "Crown_Concordant_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Black Runnel"
         ],
