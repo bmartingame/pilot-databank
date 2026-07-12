@@ -6,6 +6,7 @@ export const RECORD_DISPLAY_CONFIG = {
       { label: "CLASS", value: ["classification", "body_class", "body_type"] },
     ],
     sections: [
+      { title: "VISUAL REFERENCE", type: "image", value: "image_url", readout: false },
       { title: "VISUAL", type: "text", value: "visual" },
       { title: "BEHAVIOR", type: "text", value: "behavior" },
       //{ title: "REPORTS", type: "reports", value: "reports" },
