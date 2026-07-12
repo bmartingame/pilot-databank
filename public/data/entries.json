@@ -2750,7 +2750,7 @@
         "faction": "HALIX",
         "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/SaboteurFrame.webp?raw=true",
         "name": "Saboteur Frame",
-        "visual": "Large warframe lined with demolition charges and precision cutters.",
+        "visual": "Large warframe carrying precision high explosive ordanance and cutters.",
         "id": "settingdex__entry__halix__saboteur_frame",
         "source_id": "settingdex__source__datafile_halix",
         "behavior": "Breaches fortifications, overloads reactors, dismantles heavy assets.",
