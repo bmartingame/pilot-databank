@@ -2927,6 +2927,7 @@
         "source_filename": "[DATAFILE_ HALIX].docx",
         "tags_text": "Halix, Compact, Crown, Halix, Compact Shadow-Crown, Compact, Shadow-Crown",
         "faction": "HALIX",
+        "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/CompactShadowCrown.jpg?raw=true",
         "name": "Compact Shadow-Crown",
         "visual": "Massive command fortress wrapped in layered shadow fields.",
         "id": "settingdex__entry__halix__compact_shadow_crown",
