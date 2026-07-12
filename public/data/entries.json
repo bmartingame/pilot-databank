@@ -962,7 +962,7 @@
         "visual": "Large frontline mech, shielded and durable.",
         "id": "settingdex__entry__cindral__march_vanguard",
         "source_id": "settingdex__source__datafile_cindral",
-        "behavior": "Anchor lines; endure prolonged firefights.",
+        "behavior": "Anchor battlelines, endure prolonged firefights. Cindral March MBF (main battle frame).",
         "slug": "march_vanguard"
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:108"
@@ -2330,7 +2330,7 @@
         "visual": "Tournament-inspired warframe with heavy lance and tower shield.",
         "id": "settingdex__entry__crown__crown_lancer",
         "source_id": "settingdex__source__datafile_crown",
-        "behavior": "Charges with devastating impact; symbol of Concordat honor.",
+        "behavior": "Charges with devastating impact, a symbol of Concordat honor. Crown Concordant MBF (main battle frame).",
         "slug": "crown_lancer"
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:311"
@@ -2788,7 +2788,7 @@
         "visual": "Agile, humanoid mech with resonance blades integrated into its forearms.",
         "id": "settingdex__entry__halix__specter_frame",
         "source_id": "settingdex__source__datafile_halix",
-        "behavior": "Ambush and close combat specialist; evades sensors until striking.",
+        "behavior": "Ambush and close combat specialist; evades sensors until striking. Halix Compact MBF (main battle frame).",
         "slug": "specter_frame"
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:362"
@@ -3691,7 +3691,7 @@
         "visual": "Biped sheathed in molten plating, wielding a cleaver-hammer.",
         "id": "settingdex__entry__karnate__slagreaver_frame",
         "source_id": "settingdex__source__datafile_karnate",
-        "behavior": "Melts armor on contact; obscures battlefields with vented smoke.",
+        "behavior": "Melts armor on contact, obscures battlefields with vented smoke. Karnate MBF (main battle frame).",
         "slug": "slagreaver_frame"
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:490"
@@ -4147,7 +4147,7 @@
         "visual": "Industrial chassis refitted as war machine with modular racks.",
         "id": "settingdex__entry__luthan__ledger_frame",
         "source_id": "settingdex__source__datafile_luthan",
-        "behavior": "Acts as frontline brute or battlefield support, depending on loadout.",
+        "behavior": "Acts as frontline brute or battlefield support, depending on loadout. Luthan League MBF (main battle frame).",
         "slug": "ledger_frame"
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:555"
@@ -5664,7 +5664,7 @@
         "visual": "Bulky mech plastered with jury-rigged cannons and scavenged armor.",
         "id": "settingdex__entry__orak__marauder_walker",
         "source_id": "settingdex__source__datafile_orak",
-        "behavior": "Trades resilience for raw firepower; weapons prone to overheating.",
+        "behavior": "Trades resilience for raw firepower. Its weapons are prone to overheating. Orak Belt Syndicates MBF (main battle frame).",
         "slug": "marauder_walker"
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:758"
@@ -7090,7 +7090,7 @@
         "visual": "Large warframe with resonance cannons mounted on broad shoulders.",
         "id": "settingdex__entry__veyran__cantor_frame",
         "source_id": "settingdex__source__datafile_veyran",
-        "behavior": "Linebreaker; harmonic blasts fracture armor seams at range.",
+        "behavior": "Linebreaker. Its harmonic blasts fracture armor seams at range. Veyran Choir MBF (main battle frame).",
         "slug": "cantor_frame"
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:944"
