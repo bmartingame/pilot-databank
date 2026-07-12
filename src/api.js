@@ -505,7 +505,7 @@ function rowMatches(row, parsed) {
   return true;
 }
 
-export async function searchEntries(query, limit = 100) {
+export async function searchEntries(query, limit = 10000) {
   const database = await loadDatabase();
   const parsed = parseCliQuery(query);
 
