@@ -2748,6 +2748,7 @@
         "source_filename": "[DATAFILE_ HALIX].docx",
         "tags_text": "Halix, Halix, Saboteur Frame, Frame, Saboteur",
         "faction": "HALIX",
+        "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/SaboteurFrame.webp?raw=true",
         "name": "Saboteur Frame",
         "visual": "Large warframe lined with demolition charges and precision cutters.",
         "id": "settingdex__entry__halix__saboteur_frame",
