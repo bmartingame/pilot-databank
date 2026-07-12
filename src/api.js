@@ -523,7 +523,7 @@ export async function searchEntries(query, limit = 10000) {
         { sensitivity: "base" }
       );
     })
-    .slice(0, Math.max(1, Math.min(Number(limit) || 100, 100)))
+    .slice(0, Math.max(1, Math.min(Number(limit) || 10000, 10000)))
     .map(({ entry, score }) => ({
       ...entry,
       score,
