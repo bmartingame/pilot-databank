@@ -73,6 +73,33 @@ export const RECORD_DISPLAY_CONFIG = {
         ],
     },
 
+  "Sub-Faction": {
+    cardClassName: "sub-faction-card",
+    meta: [
+        { label: "FACTION", value: "faction" },
+        { label: "PARENT", value: "liege_house" },
+        { label: "DOMAIN", value: "domain" },
+    ],
+    sections: [
+        {
+            title: "HOUSE INFORMATION",
+            type: "facts",
+            fields: [
+                { label: "RANK", value: "rank" },
+                { label: "SEAT", value: "seat" },
+                { label: "CURRENT HEAD", value: "current_head" },
+                { label: "HONORIFIC", value: "style" },
+                { label: "HERALDRY", value: "heraldry" },
+            ],
+        },
+        {
+            title: "DESCRIPTION",
+            type: "text",
+            value: "description",
+        },
+    ],
+},
+
   System: {
     cardClassName: "system-card",
     meta: [
