@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { getEntry, searchEntries, getRasterImageUrl, getSearchOptions } from "./api";
 import { getRecordDisplayConfig, resolveRecordType } from "./recordDisplayConfig";
 import SearchAutocompleteInput from "./SearchAutocomplete";
+import GalaxyMap from "./GalaxyMap";
 import "./styles.css";
 
 const TTS_SETTINGS = {
@@ -876,6 +877,7 @@ function DetailPanel({ entryId, onClose }) {
 }
 
 export default function App() {
+  const [activeTab, setActiveTab] = useState("databank");
   const [inputValue, setInputValue] = useState("");
   const [submittedQuery, setSubmittedQuery] = useState("");
   const [selectedEntryId, setSelectedEntryId] = useState(null);
@@ -998,7 +1000,35 @@ export default function App() {
         <h1>PILOT DATABANK</h1>
       </header>
 
-      <main className="main-layout">
+      <nav className="app-tabs terminal-frame" aria-label="Databank sections">
+        <button
+          type="button"
+          className={`app-tab ${activeTab === "databank" ? "app-tab-active" : ""}`}
+          onClick={() => {
+            stopDatabankSpeech();
+            setActiveTab("databank");
+          }}
+          aria-pressed={activeTab === "databank"}
+        >
+          [DATABANK]
+        </button>
+
+        <button
+          type="button"
+          className={`app-tab ${activeTab === "galaxy" ? "app-tab-active" : ""}`}
+          onClick={() => {
+            stopDatabankSpeech();
+            setSelectedEntryId(null);
+            setActiveTab("galaxy");
+          }}
+          aria-pressed={activeTab === "galaxy"}
+        >
+          [SECTOR MAP]
+        </button>
+      </nav>
+
+      {activeTab === "databank" ? (
+        <main className="main-layout">
         <section className="search-column">
           <form className="search-box terminal-frame" onSubmit={handleSubmit}>
             <span className="search-prefix">&gt;</span>
@@ -1039,6 +1069,9 @@ export default function App() {
           </aside>
         )}
       </main>
+      ) : (
+        <GalaxyMap />
+      )}
     </div>
   );
 }
