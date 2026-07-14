@@ -59480,5 +59480,255 @@
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:2217"
     }
+  },
+  {
+  "n": {
+    "labels": [
+      "Entry"
+    ],
+    "properties": {
+      "raw_text": "House de Aurelong\nRank: Ducal House\nDomain: Crown Sector\nSeat: Ardane System\nCurrent Head: Duchess Aurelia de Aurelong\nHeraldry: A radiant golden dragon coiled around a star on a field of white.\nStyle: House of the Golden Dragons\nHouse de Aurelong rules the Crown Sector and traditionally presides over the Crown Council. Its holdings include several of the oldest surviving noble archives in the Concordant. The house presents itself as the custodian of Crown unity rather than the ruler of the other dukes, though few believe it would refuse greater authority if offered.\n\nThe Aurelongs built their influence through diplomacy rather than outright conquest. They are closely associated with the formal codes of chivalry that govern noble disputes, inheritance claims, and the recognition of legitimate lineages. The house supports cooperation with the Luthan League and Cindral March, while regarding Karnate as the greatest direct threat to the Concordant.\n\nAurelong forces are disciplined and highly visible. Their commanders prefer decisive public victories that reinforce confidence in the Crown, sometimes at the expense of less prestigious but more practical operations.",
+      "document_kind": "manual",
+      "kind": "SubFactionGlossaryEntry",
+      "description": "House de Aurelong rules the Crown Sector and traditionally presides over the Crown Council. Its holdings include several of the oldest surviving noble archives in the Concordant. The house presents itself as the custodian of Crown unity rather than the ruler of the other dukes, though few believe it would refuse greater authority if offered.\n\nThe Aurelongs built their influence through diplomacy rather than outright conquest. They are closely associated with the formal codes of chivalry that govern noble disputes, inheritance claims, and the recognition of legitimate lineages. The house supports cooperation with the Luthan League and Cindral March, while regarding Karnate as the greatest direct threat to the Concordant.\n\nAurelong forces are disciplined and highly visible. Their commanders prefer decisive public victories that reinforce confidence in the Crown, sometimes at the expense of less prestigious but more practical operations.",
+      "manual_ingest": true,
+      "body": "House de Aurelong rules the Crown Sector and traditionally presides over the Crown Council. Its holdings include several of the oldest surviving noble archives in the Concordant. The house presents itself as the custodian of Crown unity rather than the ruler of the other dukes, though few believe it would refuse greater authority if offered.\n\nThe Aurelongs built their influence through diplomacy rather than outright conquest. They are closely associated with the formal codes of chivalry that govern noble disputes, inheritance claims, and the recognition of legitimate lineages. The house supports cooperation with the Luthan League and Cindral March, while regarding Karnate as the greatest direct threat to the Concordant.\n\nAurelong forces are disciplined and highly visible. Their commanders prefer decisive public victories that reinforce confidence in the Crown, sometimes at the expense of less prestigious but more practical operations.",
+      "record_type": "Sub-Faction",
+      "glossary_subtype": "Sub-Faction",
+      "collection_title": "Sub-Factions Glossary",
+      "source_filename": "Crown Noble Houses",
+      "import_mode": "manual_sub_faction_glossary",
+      "tags_text": "House de Aurelong Ducal House Crown Sector CROWN noble house sub-faction",
+      "faction": "CROWN",
+      "name": "House de Aurelong",
+      "dossier_type": "sub-factions",
+      "id": "sub_faction__house_de_aurelong",
+      "slug": "house_de_aurelong",
+      "rank": "Ducal House",
+      "domain": "Crown Sector",
+      "seat": "Ardane System",
+      "current_head": "Duchess Aurelia de Aurelong",
+      "heraldry": "A radiant golden dragon coiled around a star on a field of white.",
+      "style": "House of the Golden Dragons"
+    }
   }
+},
+{
+  "n": {
+    "labels": [
+      "Entry"
+    ],
+    "properties": {
+      "raw_text": "House di Solming\nRank: Principal Vassal House\nDomain: Crown Sector\nSeat: Velbrant\nLiege House: House de Aurelong\nThe military lords of Velbrant, descended from fortress commanders and tournament marshals. They maintain the Grand Lists, Whitefire Array, and several of the Crown’s most prestigious knight academies.",
+      "document_kind": "manual",
+      "kind": "SubFactionGlossaryEntry",
+      "description": "The military lords of Velbrant, descended from fortress commanders and tournament marshals. They maintain the Grand Lists, Whitefire Array, and several of the Crown’s most prestigious knight academies.",
+      "manual_ingest": true,
+      "body": "The military lords of Velbrant, descended from fortress commanders and tournament marshals. They maintain the Grand Lists, Whitefire Array, and several of the Crown’s most prestigious knight academies.",
+      "record_type": "Sub-Faction",
+      "glossary_subtype": "Sub-Faction",
+      "collection_title": "Sub-Factions Glossary",
+      "source_filename": "Crown Noble Houses",
+      "import_mode": "manual_sub_faction_glossary",
+      "tags_text": "House di Solming Principal Vassal House Crown Sector CROWN noble house sub-faction",
+      "faction": "CROWN",
+      "name": "House di Solming",
+      "dossier_type": "sub-factions",
+      "id": "sub_faction__house_di_solming",
+      "slug": "house_di_solming",
+      "rank": "Principal Vassal House",
+      "domain": "Crown Sector",
+      "seat": "Velbrant",
+      "liege_house": "House de Aurelong"
+    }
+  }
+},
+{
+  "n": {
+    "labels": [
+      "Entry"
+    ],
+    "properties": {
+      "raw_text": "House de Cereslin\nRank: Principal Vassal House\nDomain: Crown Sector\nSeat: Hallowmere\nLiege House: House de Aurelong\nThe agricultural dynasty of Hallowmere. Its wealth comes from grain reserves, seed vaults, managed oceans, and the power to decide which sectors receive food during shortages.",
+      "document_kind": "manual",
+      "kind": "SubFactionGlossaryEntry",
+      "description": "The agricultural dynasty of Hallowmere. Its wealth comes from grain reserves, seed vaults, managed oceans, and the power to decide which sectors receive food during shortages.",
+      "manual_ingest": true,
+      "body": "The agricultural dynasty of Hallowmere. Its wealth comes from grain reserves, seed vaults, managed oceans, and the power to decide which sectors receive food during shortages.",
+      "record_type": "Sub-Faction",
+      "glossary_subtype": "Sub-Faction",
+      "collection_title": "Sub-Factions Glossary",
+      "source_filename": "Crown Noble Houses",
+      "import_mode": "manual_sub_faction_glossary",
+      "tags_text": "House de Cereslin Principal Vassal House Crown Sector CROWN noble house sub-faction",
+      "faction": "CROWN",
+      "name": "House de Cereslin",
+      "dossier_type": "sub-factions",
+      "id": "sub_faction__house_de_cereslin",
+      "slug": "house_de_cereslin",
+      "rank": "Principal Vassal House",
+      "domain": "Crown Sector",
+      "seat": "Hallowmere",
+      "liege_house": "House de Aurelong"
+    }
+  }
+},
+{
+  "n": {
+    "labels": [
+      "Entry"
+    ],
+    "properties": {
+      "raw_text": "House da Ruberwei\nRank: Principal Vassal House\nDomain: Crown Sector\nSeat: Kaelith\nLiege House: House de Aurelong\nA hardened border family based in Kaelith. Known for their patrol fleets and a deep resentment of nobles who speak confidently about frontiers they have never visited.",
+      "document_kind": "manual",
+      "kind": "SubFactionGlossaryEntry",
+      "description": "A hardened border family based in Kaelith. Known for their patrol fleets and a deep resentment of nobles who speak confidently about frontiers they have never visited.",
+      "manual_ingest": true,
+      "body": "A hardened border family based in Kaelith. Known for their patrol fleets and a deep resentment of nobles who speak confidently about frontiers they have never visited.",
+      "record_type": "Sub-Faction",
+      "glossary_subtype": "Sub-Faction",
+      "collection_title": "Sub-Factions Glossary",
+      "source_filename": "Crown Noble Houses",
+      "import_mode": "manual_sub_faction_glossary",
+      "tags_text": "House da Ruberwei Principal Vassal House Crown Sector CROWN noble house sub-faction",
+      "faction": "CROWN",
+      "name": "House da Ruberwei",
+      "dossier_type": "sub-factions",
+      "id": "sub_faction__house_da_ruberwei",
+      "slug": "house_da_ruberwei",
+      "rank": "Principal Vassal House",
+      "domain": "Crown Sector",
+      "seat": "Kaelith",
+      "liege_house": "House de Aurelong"
+    }
+  }
+},
+{
+  "n": {
+    "labels": [
+      "Entry"
+    ],
+    "properties": {
+      "raw_text": "House di Valeming\nRank: Ducal House\nDomain: Althoren Sector\nSeat: Braelyn Hold System\nCurrent Head: Duke Lucan di Valeming\nHeraldry: A silver shield on a deep green field, displaying a rising sun.\nStyle: House of the Rising Sun\nHouse di Valeming rules the Althoren Sector and is considered the most conventionally feudal of the ducal families, with hundreds of minor baronies owing military service, grain quotas, civil duties, or maintenance labor.\n\nThe house traditionally supports the de Aurelongs but opposes attempts to centralize taxation or place ducal forces under permanent council command. Valeming officers fought beside Cindral forces during the Greyspan campaigns and retain strong professional respect for the March.\n\nTheir greatest concern is isolation. Althoren’s farms and scattered holdings depend on narrow transit routes, and the house fears that a serious lane disruption could leave its baronies to face piracy, famine, and invasion without reinforcement.",
+      "document_kind": "manual",
+      "kind": "SubFactionGlossaryEntry",
+      "description": "House di Valeming rules the Althoren Sector and is considered the most conventionally feudal of the ducal families, with hundreds of minor baronies owing military service, grain quotas, civil duties, or maintenance labor.\n\nThe house traditionally supports the de Aurelongs but opposes attempts to centralize taxation or place ducal forces under permanent council command. Valeming officers fought beside Cindral forces during the Greyspan campaigns and retain strong professional respect for the March.\n\nTheir greatest concern is isolation. Althoren’s farms and scattered holdings depend on narrow transit routes, and the house fears that a serious lane disruption could leave its baronies to face piracy, famine, and invasion without reinforcement.",
+      "manual_ingest": true,
+      "body": "House di Valeming rules the Althoren Sector and is considered the most conventionally feudal of the ducal families, with hundreds of minor baronies owing military service, grain quotas, civil duties, or maintenance labor.\n\nThe house traditionally supports the de Aurelongs but opposes attempts to centralize taxation or place ducal forces under permanent council command. Valeming officers fought beside Cindral forces during the Greyspan campaigns and retain strong professional respect for the March.\n\nTheir greatest concern is isolation. Althoren’s farms and scattered holdings depend on narrow transit routes, and the house fears that a serious lane disruption could leave its baronies to face piracy, famine, and invasion without reinforcement.",
+      "record_type": "Sub-Faction",
+      "glossary_subtype": "Sub-Faction",
+      "collection_title": "Sub-Factions Glossary",
+      "source_filename": "Crown Noble Houses",
+      "import_mode": "manual_sub_faction_glossary",
+      "tags_text": "House di Valeming Ducal House Althoren Sector CROWN noble house sub-faction",
+      "faction": "CROWN",
+      "name": "House di Valeming",
+      "dossier_type": "sub-factions",
+      "id": "sub_faction__house_di_valeming",
+      "slug": "house_di_valeming",
+      "rank": "Ducal House",
+      "domain": "Althoren Sector",
+      "seat": "Braelyn Hold System",
+      "current_head": "Duke Lucan di Valeming",
+      "heraldry": "A silver shield on a deep green field, displaying a rising sun.",
+      "style": "House of the Rising Sun"
+    }
+  }
+},
+{
+  "n": {
+    "labels": [
+      "Entry"
+    ],
+    "properties": {
+      "raw_text": "House de Noctixuan\nRank: Ducal House\nDomain: Seldran Sector\nSeat: Duris System\nCurrent Head: Duchess Sabina de Noctixuan\nHeraldry: A black field with a pale crescent moon, with faint silver stars scattered across the background.\nStyle: House of the Veiled Moon\nHouse de Noctixuan rules the Seldran Sector in theory. However, much of Seldran remains divided between rival claimants and families that acknowledge the duke only when convenient.\n\nThe Noctixuans rose after the collapse of Seldran’s previous royal order. Rather than claim the ruined throne directly, they positioned themselves as arbiters responsible for preserving legitimate succession records. Over generations, control of those records became more valuable than the throne itself.\n\nDuring the Seldran War, Crown-backed claimants attempted to impose a friendly government on the Sevran border worlds. The failure damaged the credibility of several Seldran houses and strengthened the Noctixuan argument that unmanaged claimant politics could drag the entire Concordant into ruinous wars.\n\nThe house is feared for its intelligence networks and its habit of treating genealogy as a weapon. A marriage certificate, or authenticated lineage can destroy a rival more efficiently than a fleet.",
+      "document_kind": "manual",
+      "kind": "SubFactionGlossaryEntry",
+      "description": "House de Noctixuan rules the Seldran Sector in theory. However, much of Seldran remains divided between rival claimants and families that acknowledge the duke only when convenient.\n\nThe Noctixuans rose after the collapse of Seldran’s previous royal order. Rather than claim the ruined throne directly, they positioned themselves as arbiters responsible for preserving legitimate succession records. Over generations, control of those records became more valuable than the throne itself.\n\nDuring the Seldran War, Crown-backed claimants attempted to impose a friendly government on the Sevran border worlds. The failure damaged the credibility of several Seldran houses and strengthened the Noctixuan argument that unmanaged claimant politics could drag the entire Concordant into ruinous wars.\n\nThe house is feared for its intelligence networks and its habit of treating genealogy as a weapon. A marriage certificate, or authenticated lineage can destroy a rival more efficiently than a fleet.",
+      "manual_ingest": true,
+      "body": "House de Noctixuan rules the Seldran Sector in theory. However, much of Seldran remains divided between rival claimants and families that acknowledge the duke only when convenient.\n\nThe Noctixuans rose after the collapse of Seldran’s previous royal order. Rather than claim the ruined throne directly, they positioned themselves as arbiters responsible for preserving legitimate succession records. Over generations, control of those records became more valuable than the throne itself.\n\nDuring the Seldran War, Crown-backed claimants attempted to impose a friendly government on the Sevran border worlds. The failure damaged the credibility of several Seldran houses and strengthened the Noctixuan argument that unmanaged claimant politics could drag the entire Concordant into ruinous wars.\n\nThe house is feared for its intelligence networks and its habit of treating genealogy as a weapon. A marriage certificate, or authenticated lineage can destroy a rival more efficiently than a fleet.",
+      "record_type": "Sub-Faction",
+      "glossary_subtype": "Sub-Faction",
+      "collection_title": "Sub-Factions Glossary",
+      "source_filename": "Crown Noble Houses",
+      "import_mode": "manual_sub_faction_glossary",
+      "tags_text": "House de Noctixuan Ducal House Seldran Sector CROWN noble house sub-faction",
+      "faction": "CROWN",
+      "name": "House de Noctixuan",
+      "dossier_type": "sub-factions",
+      "id": "sub_faction__house_de_noctixuan",
+      "slug": "house_de_noctixuan",
+      "rank": "Ducal House",
+      "domain": "Seldran Sector",
+      "seat": "Duris System",
+      "current_head": "Duchess Sabina de Noctixuan",
+      "heraldry": "A black field with a pale crescent moon, with faint silver stars scattered across the background.",
+      "style": "House of the Veiled Moon"
+    }
+  }
+},
+{
+  "n": {
+    "labels": [
+      "Entry"
+    ],
+    "properties": {
+      "raw_text": "House da Ferruwei\nRank: Ducal House\nDomain: Bastrel Sector\nSeat: Bastrel Gate System\nCurrent Head: Duke Cassian da Ferruwei\nHeraldry: A crimson field displaying a flaming hammer, with golden sparks scattering outward like small stars.\nStyle: House of the Iron Forge\nHouse da Ferruwei governs the Bastrel Sector as a permanent military enterprise. Other nobles sometimes dismiss the Ferruwei as recently elevated industrial lords, though few are willing to do so within range of their artillery.\n\nThe house rose through the Crown’s expansion campaigns, supplying weapons and soldiers to noble armies that often failed to pay their debts. Instead of demanding currency, the Ferruwei accepted land, mining rights, marriage contracts, military appointments, and decommissioned frames. By the time the older houses recognized the scale of this accumulation, the family already controlled the systems required to mobilize the Crown’s frontier armies.\n\nFerruwei forces bore heavy losses during the Second Crown-Karnate War. Their foundries replaced armor and frames faster than most Crown systems, but Karnate strikes against supply routes exposed the danger of concentrating so much military production within one ducal domain. Thus it has various trade and military agreements with other ducal families to allow Ferruwei forges to be built on their worlds.\n\nThe house favors rearmament, fortified borders, and aggressive retaliation. It has little patience for court ritual unless that ritual ends with troops receiving orders.",
+      "document_kind": "manual",
+      "kind": "SubFactionGlossaryEntry",
+      "description": "House da Ferruwei governs the Bastrel Sector as a permanent military enterprise. Other nobles sometimes dismiss the Ferruwei as recently elevated industrial lords, though few are willing to do so within range of their artillery.\n\nThe house rose through the Crown’s expansion campaigns, supplying weapons and soldiers to noble armies that often failed to pay their debts. Instead of demanding currency, the Ferruwei accepted land, mining rights, marriage contracts, military appointments, and decommissioned frames. By the time the older houses recognized the scale of this accumulation, the family already controlled the systems required to mobilize the Crown’s frontier armies.\n\nFerruwei forces bore heavy losses during the Second Crown-Karnate War. Their foundries replaced armor and frames faster than most Crown systems, but Karnate strikes against supply routes exposed the danger of concentrating so much military production within one ducal domain. Thus it has various trade and military agreements with other ducal families to allow Ferruwei forges to be built on their worlds.\n\nThe house favors rearmament, fortified borders, and aggressive retaliation. It has little patience for court ritual unless that ritual ends with troops receiving orders.",
+      "manual_ingest": true,
+      "body": "House da Ferruwei governs the Bastrel Sector as a permanent military enterprise. Other nobles sometimes dismiss the Ferruwei as recently elevated industrial lords, though few are willing to do so within range of their artillery.\n\nThe house rose through the Crown’s expansion campaigns, supplying weapons and soldiers to noble armies that often failed to pay their debts. Instead of demanding currency, the Ferruwei accepted land, mining rights, marriage contracts, military appointments, and decommissioned frames. By the time the older houses recognized the scale of this accumulation, the family already controlled the systems required to mobilize the Crown’s frontier armies.\n\nFerruwei forces bore heavy losses during the Second Crown-Karnate War. Their foundries replaced armor and frames faster than most Crown systems, but Karnate strikes against supply routes exposed the danger of concentrating so much military production within one ducal domain. Thus it has various trade and military agreements with other ducal families to allow Ferruwei forges to be built on their worlds.\n\nThe house favors rearmament, fortified borders, and aggressive retaliation. It has little patience for court ritual unless that ritual ends with troops receiving orders.",
+      "record_type": "Sub-Faction",
+      "glossary_subtype": "Sub-Faction",
+      "collection_title": "Sub-Factions Glossary",
+      "source_filename": "Crown Noble Houses",
+      "import_mode": "manual_sub_faction_glossary",
+      "tags_text": "House da Ferruwei Ducal House Bastrel Sector CROWN noble house sub-faction",
+      "faction": "CROWN",
+      "name": "House da Ferruwei",
+      "dossier_type": "sub-factions",
+      "id": "sub_faction__house_da_ferruwei",
+      "slug": "house_da_ferruwei",
+      "rank": "Ducal House",
+      "domain": "Bastrel Sector",
+      "seat": "Bastrel Gate System",
+      "current_head": "Duke Cassian da Ferruwei",
+      "heraldry": "A crimson field displaying a flaming hammer, with golden sparks scattering outward like small stars.",
+      "style": "House of the Iron Forge"
+    }
+  }
+},
+{
+  "n": {
+    "labels": [
+      "Entry"
+    ],
+    "properties": {
+      "raw_text": "House de Limeshan\nRank: Ducal House\nDomain: Deyros Sector\nSeat: Deyros System\nCurrent Head: Duchess Livia de Limeshan\nHeraldry: A divided field of ash gray and dark blue, crossed by a jagged white lightning bolt.\nStyle: House of the Storm\nHouse de Limeshan rules the poorest, most violent, and least secure of the Crown’s sectors. Deyros lies against Orak raiding territory, Karnate smuggling routes, Warp Beast migration zones, and the unstable approaches around the Black Runnel. The family’s authority weakens rapidly beyond the fortified settlements of the main system.\n\nThe Limeshans began as military prefects appointed to impose law on frontier colonies. Repeated raids, delayed reinforcements, and unreliable Guild access gradually turned them into the sector authority. The family’s nobility was recognized only after it had already governed the region for generations.\n\nThe Deyros War established the house’s modern identity. Orak fleets were driven from several anchorages but never eliminated, forcing the Limeshans to build around patrols, fortified convoys, intelligence networks, and rapid retaliation. The ongoing Black Runnel Raids have ensured that the war never truly ended.\n\nOther ducal families often consider House de Limeshan crude, overly suspicious, and too willing to employ mercenaries. The Limeshans respond that the interior houses enjoy manners because someone else is killing the people who ignore them.",
+      "document_kind": "manual",
+      "kind": "SubFactionGlossaryEntry",
+      "description": "House de Limeshan rules the poorest, most violent, and least secure of the Crown’s sectors. Deyros lies against Orak raiding territory, Karnate smuggling routes, Warp Beast migration zones, and the unstable approaches around the Black Runnel. The family’s authority weakens rapidly beyond the fortified settlements of the main system.\n\nThe Limeshans began as military prefects appointed to impose law on frontier colonies. Repeated raids, delayed reinforcements, and unreliable Guild access gradually turned them into the sector authority. The family’s nobility was recognized only after it had already governed the region for generations.\n\nThe Deyros War established the house’s modern identity. Orak fleets were driven from several anchorages but never eliminated, forcing the Limeshans to build around patrols, fortified convoys, intelligence networks, and rapid retaliation. The ongoing Black Runnel Raids have ensured that the war never truly ended.\n\nOther ducal families often consider House de Limeshan crude, overly suspicious, and too willing to employ mercenaries. The Limeshans respond that the interior houses enjoy manners because someone else is killing the people who ignore them.",
+      "manual_ingest": true,
+      "body": "House de Limeshan rules the poorest, most violent, and least secure of the Crown’s sectors. Deyros lies against Orak raiding territory, Karnate smuggling routes, Warp Beast migration zones, and the unstable approaches around the Black Runnel. The family’s authority weakens rapidly beyond the fortified settlements of the main system.\n\nThe Limeshans began as military prefects appointed to impose law on frontier colonies. Repeated raids, delayed reinforcements, and unreliable Guild access gradually turned them into the sector authority. The family’s nobility was recognized only after it had already governed the region for generations.\n\nThe Deyros War established the house’s modern identity. Orak fleets were driven from several anchorages but never eliminated, forcing the Limeshans to build around patrols, fortified convoys, intelligence networks, and rapid retaliation. The ongoing Black Runnel Raids have ensured that the war never truly ended.\n\nOther ducal families often consider House de Limeshan crude, overly suspicious, and too willing to employ mercenaries. The Limeshans respond that the interior houses enjoy manners because someone else is killing the people who ignore them.",
+      "record_type": "Sub-Faction",
+      "glossary_subtype": "Sub-Faction",
+      "collection_title": "Sub-Factions Glossary",
+      "source_filename": "Crown Noble Houses",
+      "import_mode": "manual_sub_faction_glossary",
+      "tags_text": "House de Limeshan Ducal House Deyros Sector CROWN noble house sub-faction",
+      "faction": "CROWN",
+      "name": "House de Limeshan",
+      "dossier_type": "sub-factions",
+      "id": "sub_faction__house_de_limeshan",
+      "slug": "house_de_limeshan",
+      "rank": "Ducal House",
+      "domain": "Deyros Sector",
+      "seat": "Deyros System",
+      "current_head": "Duchess Livia de Limeshan",
+      "heraldry": "A divided field of ash gray and dark blue, crossed by a jagged white lightning bolt.",
+      "style": "House of the Storm"
+    }
+  }
+}
 ]
