@@ -5,8 +5,20 @@ const GALAXY_DATA_URL = `${import.meta.env.BASE_URL}data/galaxycivs.json`;
 
 const VIEW_WIDTH = 1600;
 const VIEW_HEIGHT = 980;
-const MIN_ZOOM = 0.65;
+const MIN_ZOOM = 0.45;
 const MAX_ZOOM = 3.2;
+
+/*
+ * The source coordinates are still normalized so differently-sized datasets
+ * fit the same map. SECTOR_SPREAD then expands those normalized positions
+ * around the center of the map without expanding the SVG viewBox.
+ *
+ * This is what makes sectors genuinely farther apart relative to label size.
+ */
+const SECTOR_SPREAD = 2.25;
+const DEFAULT_ZOOM = 0.64;
+const SYSTEM_RING_BASE = 92;
+const SYSTEM_RING_STEP = 58;
 
 const FORBIDDEN_TERMS = ["primus", "guild"];
 
@@ -316,12 +328,23 @@ function buildLayout(graph) {
     );
 
     group.forEach((item, groupIndex) => {
-      const baseX =
+      const normalizedX =
         marginX + ((item.rawX - minX) / xRange) * usableWidth;
-      const baseY =
+      const normalizedY =
         VIEW_HEIGHT -
         marginY -
         ((item.rawY - minY) / yRange) * usableHeight;
+
+      /*
+       * Expand normalized positions away from the map center. Unlike changing
+       * the JSON values, this is not cancelled by the min/max normalization.
+       */
+      const baseX =
+        VIEW_WIDTH / 2 +
+        (normalizedX - VIEW_WIDTH / 2) * SECTOR_SPREAD;
+      const baseY =
+        VIEW_HEIGHT / 2 +
+        (normalizedY - VIEW_HEIGHT / 2) * SECTOR_SPREAD;
 
       const duplicateOffset =
         group.length > 1
@@ -362,7 +385,7 @@ function buildLayout(graph) {
     const ringIndex = Math.floor(siblingIndex / 10);
     const indexInRing = siblingIndex % 10;
     const itemsInRing = Math.min(10, siblings.length - ringIndex * 10);
-    const radius = 58 + ringIndex * 40;
+    const radius = SYSTEM_RING_BASE + ringIndex * SYSTEM_RING_STEP;
     const startAngle = stableAngle(sectorId);
     const angle =
       startAngle +
@@ -527,8 +550,11 @@ export default function GalaxyMap() {
     error: null,
     rows: [],
   });
-  const [zoom, setZoom] = useState(1);
-  const [pan, setPan] = useState({ x: 0, y: 0 });
+  const [zoom, setZoom] = useState(DEFAULT_ZOOM);
+  const [pan, setPan] = useState({
+    x: (VIEW_WIDTH * (1 - DEFAULT_ZOOM)) / 2,
+    y: (VIEW_HEIGHT * (1 - DEFAULT_ZOOM)) / 2,
+  });
   const [showSystemLabels, setShowSystemLabels] = useState(false);
   const [showLaneLabels, setShowLaneLabels] = useState(true);
   const [selectedNode, setSelectedNode] = useState(null);
@@ -603,8 +629,11 @@ export default function GalaxyMap() {
   }, [graph.laneRelations, positions]);
 
   function resetView() {
-    setZoom(1);
-    setPan({ x: 0, y: 0 });
+    setZoom(DEFAULT_ZOOM);
+    setPan({
+      x: (VIEW_WIDTH * (1 - DEFAULT_ZOOM)) / 2,
+      y: (VIEW_HEIGHT * (1 - DEFAULT_ZOOM)) / 2,
+    });
   }
 
   function applyZoom(nextZoom, anchor = null) {
