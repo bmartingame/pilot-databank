@@ -542,7 +542,7 @@ function GraphNodeDetails({ selection, graph }) {
   );
 }
 
-export default function GalaxyMap() {
+export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
   const svgRef = useRef(null);
   const dragRef = useRef(null);
   const [state, setState] = useState({
@@ -558,6 +558,8 @@ export default function GalaxyMap() {
   const [showSystemLabels, setShowSystemLabels] = useState(false);
   const [showLaneLabels, setShowLaneLabels] = useState(true);
   const [selectedNode, setSelectedNode] = useState(null);
+  const [openingNodeName, setOpeningNodeName] = useState("");
+  const [nodeOpenError, setNodeOpenError] = useState("");
 
   useEffect(() => {
     let alive = true;
@@ -713,11 +715,37 @@ export default function GalaxyMap() {
     }
   }
 
-  function selectNode(node) {
+  async function selectNode(node) {
+    const kind = nodeHasLabel(node, "Sector") ? "Sector" : "System";
+    const name = node?.properties?.name || "";
+
     setSelectedNode({
-      kind: nodeHasLabel(node, "Sector") ? "Sector" : "System",
+      kind,
       id: node.id,
     });
+    setNodeOpenError("");
+    setOpeningNodeName(name);
+
+    try {
+      if (typeof onOpenEntry !== "function") {
+        throw new Error("Databank entry handler is unavailable.");
+      }
+
+      await onOpenEntry({
+        name,
+        kind,
+        mapNodeId: node.id,
+      });
+    } catch (error) {
+      console.warn("MAP DATABANK LOOKUP FAILURE", error);
+      setNodeOpenError(
+        error instanceof Error
+          ? error.message
+          : "Unable to open the selected databank file."
+      );
+    } finally {
+      setOpeningNodeName("");
+    }
   }
 
   if (state.loading) {
@@ -942,13 +970,13 @@ export default function GalaxyMap() {
                         "--sector-accent": sectorAccent(primaryCiv),
                       }}
                       onPointerDown={(event) => event.stopPropagation()}
-                      onClick={() => selectNode(sector)}
+                      onClick={() => void selectNode(sector)}
                       role="button"
                       tabIndex={0}
                       onKeyDown={(event) => {
                         if (event.key === "Enter" || event.key === " ") {
                           event.preventDefault();
-                          selectNode(sector);
+                          void selectNode(sector);
                         }
                       }}
                     >
@@ -1002,13 +1030,13 @@ export default function GalaxyMap() {
                       }`}
                       transform={`translate(${position.x} ${position.y})`}
                       onPointerDown={(event) => event.stopPropagation()}
-                      onClick={() => selectNode(system)}
+                      onClick={() => void selectNode(system)}
                       role="button"
                       tabIndex={0}
                       onKeyDown={(event) => {
                         if (event.key === "Enter" || event.key === " ") {
                           event.preventDefault();
-                          selectNode(system);
+                          void selectNode(system);
                         }
                       }}
                     >
@@ -1034,19 +1062,46 @@ export default function GalaxyMap() {
           </svg>
         </div>
 
-        <aside className="galaxy-map-inspector terminal-frame">
-          <GraphNodeDetails
-            selection={
-              selectedNode
-                ? {
-                    ...selectedNode,
-                    setSelection: setSelectedNode,
-                  }
-                : null
-            }
-            graph={graph}
-          />
-        </aside>
+        <div className="galaxy-map-detail-slot">
+          {detailPanel || (
+            <aside className="galaxy-map-inspector terminal-frame">
+              <div className="galaxy-inspector-title">
+                {openingNodeName
+                  ? `RETRIEVING // ${openingNodeName}`
+                  : "DATABANK LINK STANDBY"}
+              </div>
+
+              {nodeOpenError ? (
+                <p className="galaxy-map-error-text">
+                  LINK FAILURE // {nodeOpenError}
+                </p>
+              ) : (
+                <p className="galaxy-muted">
+                  Select a system or sector node to open its matching entry
+                  from entries.json.
+                </p>
+              )}
+
+              <div className="galaxy-legend">
+                <div>
+                  <span className="legend-sector" /> SECTOR NODE
+                </div>
+                <div>
+                  <span className="legend-system" /> SYSTEM NODE
+                </div>
+                <div>
+                  <span className="legend-lane legend-lane-low" /> LOW RISK
+                </div>
+                <div>
+                  <span className="legend-lane legend-lane-med" /> MED RISK
+                </div>
+                <div>
+                  <span className="legend-lane legend-lane-high" /> HIGH RISK
+                </div>
+              </div>
+            </aside>
+          )}
+        </div>
       </div>
     </section>
   );
