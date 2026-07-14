@@ -120,8 +120,17 @@ export const RECORD_DISPLAY_CONFIG = {
         ],
       },*/
       { title: "DESCRIPTION", type: "text", value: "description" },
-      { title: "WHY MAJOR", type: "text", value: "why_major" },
-      { title: "DM USE", type: "text", value: "dm_use" },
+      { title: "VISUAL REFERENCE", type: "image", value: "image_url", readout: false },
+    ],
+  },
+
+   Sector: {
+    cardClassName: "sector-card",
+    meta: [
+      { label: "FACTION", value: "faction" },
+    ],
+    sections: [
+      { title: "DESCRIPTION", type: "text", value: "description" },
       { title: "VISUAL REFERENCE", type: "image", value: "image_url", readout: false },
     ],
   },
