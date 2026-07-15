@@ -1,0 +1,3026 @@
+[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 1152921504606846976,
+      "start": 0,
+      "end": 3,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846976",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:3"
+    },
+    "m": {
+      "identity": 3,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Temporal Layer",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:3"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Temporal Layer",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:3"
+    },
+    "c": {
+      "identity": 1152921504606846976,
+      "start": 0,
+      "end": 3,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846976",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:3"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 1161928703861587968,
+      "start": 0,
+      "end": 7,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1161928703861587968",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    },
+    "m": {
+      "identity": 7,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Pressure",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Pressure",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    },
+    "c": {
+      "identity": 1161928703861587968,
+      "start": 0,
+      "end": 7,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1161928703861587968",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 1168684103302643712,
+      "start": 0,
+      "end": 10,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1168684103302643712",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:10"
+    },
+    "m": {
+      "identity": 10,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Radiation",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:10"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Radiation",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:10"
+    },
+    "c": {
+      "identity": 1168684103302643712,
+      "start": 0,
+      "end": 10,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1168684103302643712",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:10"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 1173187702930014208,
+      "start": 0,
+      "end": 12,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1173187702930014208",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:12"
+    },
+    "m": {
+      "identity": 12,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Sound",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:12"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Sound",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:12"
+    },
+    "c": {
+      "identity": 1173187702930014208,
+      "start": 0,
+      "end": 12,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1173187702930014208",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:12"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 1175439502743699456,
+      "start": 0,
+      "end": 13,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1175439502743699456",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:13"
+    },
+    "m": {
+      "identity": 13,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Sight",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:13"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Sight",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:13"
+    },
+    "c": {
+      "identity": 1175439502743699456,
+      "start": 0,
+      "end": 13,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1175439502743699456",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:13"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 1177691302557384704,
+      "start": 0,
+      "end": 14,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1177691302557384704",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:14"
+    },
+    "m": {
+      "identity": 14,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Smell",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:14"
+    }
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Smell",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:14"
+    },
+    "c": {
+      "identity": 1177691302557384704,
+      "start": 0,
+      "end": 14,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1177691302557384704",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:14"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 1179943102371069952,
+      "start": 0,
+      "end": 15,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1179943102371069952",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:15"
+    },
+    "m": {
+      "identity": 15,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Taste",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:15"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Taste",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:15"
+    },
+    "c": {
+      "identity": 1179943102371069952,
+      "start": 0,
+      "end": 15,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1179943102371069952",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:15"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 1182194902184755200,
+      "start": 0,
+      "end": 16,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1182194902184755200",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:16"
+    },
+    "m": {
+      "identity": 16,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Touch",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:16"
+    }
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Touch",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:16"
+    },
+    "c": {
+      "identity": 1182194902184755200,
+      "start": 0,
+      "end": 16,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1182194902184755200",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:16"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 1184446701998440448,
+      "start": 0,
+      "end": 17,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1184446701998440448",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:17"
+    },
+    "m": {
+      "identity": 17,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Memory",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Memory",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:17"
+    },
+    "c": {
+      "identity": 1184446701998440448,
+      "start": 0,
+      "end": 17,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1184446701998440448",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:17"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 1188950301625810944,
+      "start": 0,
+      "end": 19,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1188950301625810944",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:19"
+    },
+    "m": {
+      "identity": 19,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Presence",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:19"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Presence",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:19"
+    },
+    "c": {
+      "identity": 1188950301625810944,
+      "start": 0,
+      "end": 19,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1188950301625810944",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:19"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    },
+    "c": {
+      "identity": 1152921504606846977,
+      "start": 1,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846977",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 1152921504606846977,
+      "start": 1,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846977",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    },
+    "c": {
+      "identity": 1173187702930014209,
+      "start": 1,
+      "end": 3,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1173187702930014209",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:3"
+    },
+    "m": {
+      "identity": 3,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Temporal Layer",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:3"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Temporal Layer",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:3"
+    },
+    "c": {
+      "identity": 1173187702930014209,
+      "start": 1,
+      "end": 3,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1173187702930014209",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:3"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    },
+    "c": {
+      "identity": 1175439502743699457,
+      "start": 1,
+      "end": 11,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1175439502743699457",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11"
+    },
+    "m": {
+      "identity": 11,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Entropy",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Entropy",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11"
+    },
+    "c": {
+      "identity": 1175439502743699457,
+      "start": 1,
+      "end": 11,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1175439502743699457",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    },
+    "c": {
+      "identity": 1155173304420532225,
+      "start": 1,
+      "end": 12,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1155173304420532225",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:12"
+    },
+    "m": {
+      "identity": 12,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Sound",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:12"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Sound",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:12"
+    },
+    "c": {
+      "identity": 1155173304420532225,
+      "start": 1,
+      "end": 12,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1155173304420532225",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:12"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    },
+    "c": {
+      "identity": 1157425104234217473,
+      "start": 1,
+      "end": 13,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1157425104234217473",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:13"
+    },
+    "m": {
+      "identity": 13,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Sight",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:13"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Sight",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:13"
+    },
+    "c": {
+      "identity": 1157425104234217473,
+      "start": 1,
+      "end": 13,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1157425104234217473",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:13"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    },
+    "c": {
+      "identity": 1159676904047902721,
+      "start": 1,
+      "end": 14,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1159676904047902721",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:14"
+    },
+    "m": {
+      "identity": 14,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Smell",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:14"
+    }
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Smell",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:14"
+    },
+    "c": {
+      "identity": 1159676904047902721,
+      "start": 1,
+      "end": 14,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1159676904047902721",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:14"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    },
+    "c": {
+      "identity": 1161928703861587969,
+      "start": 1,
+      "end": 15,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1161928703861587969",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:15"
+    },
+    "m": {
+      "identity": 15,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Taste",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:15"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Taste",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:15"
+    },
+    "c": {
+      "identity": 1161928703861587969,
+      "start": 1,
+      "end": 15,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1161928703861587969",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:15"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    },
+    "c": {
+      "identity": 1164180503675273217,
+      "start": 1,
+      "end": 16,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1164180503675273217",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:16"
+    },
+    "m": {
+      "identity": 16,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Touch",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:16"
+    }
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Touch",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:16"
+    },
+    "c": {
+      "identity": 1164180503675273217,
+      "start": 1,
+      "end": 16,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1164180503675273217",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:16"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    },
+    "c": {
+      "identity": 1166432303488958465,
+      "start": 1,
+      "end": 17,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1166432303488958465",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:17"
+    },
+    "m": {
+      "identity": 17,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Memory",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Memory",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:17"
+    },
+    "c": {
+      "identity": 1166432303488958465,
+      "start": 1,
+      "end": 17,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1166432303488958465",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:17"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    },
+    "c": {
+      "identity": 1168684103302643713,
+      "start": 1,
+      "end": 18,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1168684103302643713",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:18"
+    },
+    "m": {
+      "identity": 18,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Intuition",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:18"
+    }
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Intuition",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:18"
+    },
+    "c": {
+      "identity": 1168684103302643713,
+      "start": 1,
+      "end": 18,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1168684103302643713",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:18"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    },
+    "c": {
+      "identity": 1170935903116328961,
+      "start": 1,
+      "end": 19,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1170935903116328961",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:19"
+    },
+    "m": {
+      "identity": 19,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Presence",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:19"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Presence",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:19"
+    },
+    "c": {
+      "identity": 1170935903116328961,
+      "start": 1,
+      "end": 19,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1170935903116328961",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:19"
+    },
+    "m": {
+      "identity": 1,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Astral",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Manifold",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4"
+    },
+    "c": {
+      "identity": 6919780827454767104,
+      "start": 4,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:6919780827454767104",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 6919780827454767104,
+      "start": 4,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:6919780827454767104",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 4,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Manifold",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Crucible",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    },
+    "c": {
+      "identity": 6922032627268452352,
+      "start": 5,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:6922032627268452352",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 6922032627268452352,
+      "start": 5,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:6922032627268452352",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Crucible",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Crucible",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    },
+    "c": {
+      "identity": 1152921504606846981,
+      "start": 5,
+      "end": 7,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846981",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    },
+    "m": {
+      "identity": 7,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Pressure",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Pressure",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    },
+    "c": {
+      "identity": 1152921504606846981,
+      "start": 5,
+      "end": 7,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846981",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Crucible",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Crucible",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    },
+    "c": {
+      "identity": 1155173304420532229,
+      "start": 5,
+      "end": 8,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1155173304420532229",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8"
+    },
+    "m": {
+      "identity": 8,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Currents",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Currents",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8"
+    },
+    "c": {
+      "identity": 1155173304420532229,
+      "start": 5,
+      "end": 8,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1155173304420532229",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Crucible",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Crucible",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    },
+    "c": {
+      "identity": 1157425104234217477,
+      "start": 5,
+      "end": 9,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1157425104234217477",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9"
+    },
+    "m": {
+      "identity": 9,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Geometry",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Geometry",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9"
+    },
+    "c": {
+      "identity": 1157425104234217477,
+      "start": 5,
+      "end": 9,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1157425104234217477",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Crucible",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Crucible",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    },
+    "c": {
+      "identity": 1159676904047902725,
+      "start": 5,
+      "end": 10,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1159676904047902725",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:10"
+    },
+    "m": {
+      "identity": 10,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Radiation",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:10"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Radiation",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:10"
+    },
+    "c": {
+      "identity": 1159676904047902725,
+      "start": 5,
+      "end": 10,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1159676904047902725",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:10"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Crucible",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Crucible",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    },
+    "c": {
+      "identity": 1161928703861587973,
+      "start": 5,
+      "end": 11,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1161928703861587973",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11"
+    },
+    "m": {
+      "identity": 11,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Entropy",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Entropy",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11"
+    },
+    "c": {
+      "identity": 1161928703861587973,
+      "start": 5,
+      "end": 11,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1161928703861587973",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Crucible",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Combustion",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6"
+    },
+    "c": {
+      "identity": 6924284427082137600,
+      "start": 6,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:6924284427082137600",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 6924284427082137600,
+      "start": 6,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:6924284427082137600",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 6,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Combustion",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Combustion",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6"
+    },
+    "c": {
+      "identity": 1152921504606846982,
+      "start": 6,
+      "end": 5,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846982",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    },
+    "m": {
+      "identity": 5,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Crucible",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Crucible",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    },
+    "c": {
+      "identity": 1152921504606846982,
+      "start": 6,
+      "end": 5,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846982",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:5"
+    },
+    "m": {
+      "identity": 6,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Combustion",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Combustion",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6"
+    },
+    "c": {
+      "identity": 1155173304420532230,
+      "start": 6,
+      "end": 9,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1155173304420532230",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9"
+    },
+    "m": {
+      "identity": 9,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Geometry",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Geometry",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9"
+    },
+    "c": {
+      "identity": 1155173304420532230,
+      "start": 6,
+      "end": 9,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1155173304420532230",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9"
+    },
+    "m": {
+      "identity": 6,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Combustion",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Combustion",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6"
+    },
+    "c": {
+      "identity": 1157425104234217478,
+      "start": 6,
+      "end": 10,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1157425104234217478",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:10"
+    },
+    "m": {
+      "identity": 10,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Radiation",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:10"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Radiation",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:10"
+    },
+    "c": {
+      "identity": 1157425104234217478,
+      "start": 6,
+      "end": 10,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1157425104234217478",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:10"
+    },
+    "m": {
+      "identity": 6,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Combustion",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:6"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Currents",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8"
+    },
+    "c": {
+      "identity": 6928788026709508096,
+      "start": 8,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:6928788026709508096",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 6928788026709508096,
+      "start": 8,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:6928788026709508096",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 8,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Currents",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Currents",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8"
+    },
+    "c": {
+      "identity": 1152921504606846984,
+      "start": 8,
+      "end": 4,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846984",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4"
+    },
+    "m": {
+      "identity": 4,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Manifold",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Manifold",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4"
+    },
+    "c": {
+      "identity": 1152921504606846984,
+      "start": 8,
+      "end": 4,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846984",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4"
+    },
+    "m": {
+      "identity": 8,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Currents",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Currents",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8"
+    },
+    "c": {
+      "identity": 1155173304420532232,
+      "start": 8,
+      "end": 7,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1155173304420532232",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    },
+    "m": {
+      "identity": 7,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Pressure",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Pressure",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    },
+    "c": {
+      "identity": 1155173304420532232,
+      "start": 8,
+      "end": 7,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1155173304420532232",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    },
+    "m": {
+      "identity": 8,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Currents",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:8"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Geometry",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9"
+    },
+    "c": {
+      "identity": 6931039826523193344,
+      "start": 9,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:6931039826523193344",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 6931039826523193344,
+      "start": 9,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:6931039826523193344",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 9,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Geometry",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Geometry",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9"
+    },
+    "c": {
+      "identity": 1159676904047902729,
+      "start": 9,
+      "end": 4,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1159676904047902729",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4"
+    },
+    "m": {
+      "identity": 4,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Manifold",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Manifold",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4"
+    },
+    "c": {
+      "identity": 1159676904047902729,
+      "start": 9,
+      "end": 4,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1159676904047902729",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4"
+    },
+    "m": {
+      "identity": 9,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Geometry",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Geometry",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9"
+    },
+    "c": {
+      "identity": 1152921504606846985,
+      "start": 9,
+      "end": 7,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846985",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    },
+    "m": {
+      "identity": 7,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Pressure",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Pressure",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    },
+    "c": {
+      "identity": 1152921504606846985,
+      "start": 9,
+      "end": 7,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846985",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:7"
+    },
+    "m": {
+      "identity": 9,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Geometry",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:9"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Entropy",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11"
+    },
+    "c": {
+      "identity": 6935543426150563840,
+      "start": 11,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:6935543426150563840",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 6935543426150563840,
+      "start": 11,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:6935543426150563840",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 11,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Entropy",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Entropy",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11"
+    },
+    "c": {
+      "identity": 1152921504606846987,
+      "start": 11,
+      "end": 4,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846987",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4"
+    },
+    "m": {
+      "identity": 4,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Manifold",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Manifold",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4"
+    },
+    "c": {
+      "identity": 1152921504606846987,
+      "start": 11,
+      "end": 4,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846987",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:4"
+    },
+    "m": {
+      "identity": 11,
+      "labels": [
+        "Plane",
+        "Elemental"
+      ],
+      "properties": {
+        "name": "Entropy",
+        "category": "elemental"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:11"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Memory",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:17"
+    },
+    "c": {
+      "identity": 1152921504606846993,
+      "start": 17,
+      "end": 3,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846993",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:17",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:3"
+    },
+    "m": {
+      "identity": 3,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Temporal Layer",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:3"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "Plane",
+        "Core"
+      ],
+      "properties": {
+        "name": "Temporal Layer",
+        "category": "core"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:3"
+    },
+    "c": {
+      "identity": 1152921504606846993,
+      "start": 17,
+      "end": 3,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:1152921504606846993",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:17",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:3"
+    },
+    "m": {
+      "identity": 17,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Memory",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Intuition",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:18"
+    },
+    "c": {
+      "identity": 6951306024846360576,
+      "start": 18,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:6951306024846360576",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:18",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Plane",
+        "Material"
+      ],
+      "properties": {
+        "name": "Material",
+        "category": "material"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "c": {
+      "identity": 6951306024846360576,
+      "start": 18,
+      "end": 0,
+      "type": "LINK",
+      "properties": {},
+      "elementId": "5:e9677473-a158-434f-8778-ca0815a4fff8:6951306024846360576",
+      "startNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:18",
+      "endNodeElementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:0"
+    },
+    "m": {
+      "identity": 18,
+      "labels": [
+        "Plane",
+        "Sensory"
+      ],
+      "properties": {
+        "name": "Intuition",
+        "category": "sensory"
+      },
+      "elementId": "4:e9677473-a158-434f-8778-ca0815a4fff8:18"
+    }
+  }
+]
