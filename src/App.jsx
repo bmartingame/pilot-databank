@@ -4,6 +4,7 @@ import { getEntry, searchEntries, getRasterImageUrl, getSearchOptions } from "./
 import { getRecordDisplayConfig, resolveRecordType } from "./recordDisplayConfig";
 import SearchAutocompleteInput from "./SearchAutocomplete";
 import GalaxyMap from "./GalaxyMap";
+import CosmologyMap from "./CosmologyMap";
 import "./styles.css";
 
 const TTS_SETTINGS = {
@@ -877,6 +878,47 @@ function DetailPanel({ entryId, onClose }) {
 }
 
 
+
+function normalizeCosmosEntryName(value) {
+  return String(value || "")
+    .normalize("NFKD")
+    .replace(/[’‘]/g, "'")
+    .toLowerCase()
+    .replace(/^the\s+/, "")
+    .replace(/^plane\s+of\s+/, "")
+    .replace(/\s+plane$/, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function getCosmosEntryQueryCandidates(name) {
+  const cleanName = String(name || "").trim();
+
+  if (!cleanName) return [];
+
+  const normalized = normalizeCosmosEntryName(cleanName);
+  const titleName = cleanName.replace(/\s+/g, " ");
+
+  const candidates = [
+    titleName,
+    `The ${titleName}`,
+    `${titleName} Plane`,
+    `The ${titleName} Plane`,
+    `Plane of ${titleName}`,
+    `The Plane of ${titleName}`,
+  ];
+
+  if (normalized === "material") {
+    candidates.unshift("The Material Plane");
+  }
+
+  if (["astral", "crucible", "manifold", "void"].includes(normalized)) {
+    candidates.unshift(`The ${titleName}`);
+  }
+
+  return [...new Set(candidates.filter(Boolean))];
+}
+
 function normalizeMapEntryName(value) {
   return String(value || "")
     .normalize("NFKD")
@@ -1004,6 +1046,61 @@ export default function App() {
     setSearchState({ loading: false, error: null, results: [], count: 0 });
   }
 
+
+  async function handleCosmosNodeOpen({ name }) {
+    const requestedName = String(name || "").trim();
+
+    if (!requestedName) {
+      throw new Error("The selected cosmology node has no name.");
+    }
+
+    const queries = getCosmosEntryQueryCandidates(requestedName);
+    const resultMap = new Map();
+
+    for (const query of queries) {
+      const data = await searchEntries(query);
+
+      for (const entry of data?.results || []) {
+        if (entry?.id) {
+          resultMap.set(entry.id, entry);
+        }
+      }
+    }
+
+    const results = [...resultMap.values()];
+    const targetName = normalizeCosmosEntryName(requestedName);
+
+    const exactNameMatches = results.filter(
+      (entry) => normalizeCosmosEntryName(entry?.name) === targetName
+    );
+
+    const glossaryMatches = exactNameMatches.filter(
+      (entry) => resolveRecordType(entry).toLowerCase() === "glossary"
+    );
+
+    const match =
+      glossaryMatches[0] ||
+      exactNameMatches[0] ||
+      results.find((entry) =>
+        normalizeCosmosEntryName(entry?.name) === targetName
+      ) ||
+      results.find((entry) =>
+        normalizeCosmosEntryName(entry?.name).includes(targetName)
+      ) ||
+      results.find((entry) =>
+        targetName.includes(normalizeCosmosEntryName(entry?.name))
+      );
+
+    if (!match) {
+      throw new Error(
+        `No cosmology databank entry matches "${requestedName}".`
+      );
+    }
+
+    stopDatabankSpeech();
+    setSelectedEntryId(match.id);
+  }
+
   async function handleMapNodeOpen({ name, kind }) {
     const requestedName = String(name || "").trim();
 
@@ -1101,6 +1198,19 @@ export default function App() {
         >
           [SECTOR MAP]
         </button>
+
+        <button
+          type="button"
+          className={`app-tab ${activeTab === "cosmology" ? "app-tab-active" : ""}`}
+          onClick={() => {
+            stopDatabankSpeech();
+            setSelectedEntryId(null);
+            setActiveTab("cosmology");
+          }}
+          aria-pressed={activeTab === "cosmology"}
+        >
+          [COSMOLOGY]
+        </button>
       </nav>
 
       {activeTab === "databank" ? (
@@ -1145,9 +1255,24 @@ export default function App() {
           </aside>
         )}
       </main>
-      ) : (
+      ) : activeTab === "galaxy" ? (
         <GalaxyMap
           onOpenEntry={handleMapNodeOpen}
+          detailPanel={
+            selectedEntryId ? (
+              <DetailPanel
+                entryId={selectedEntryId}
+                onClose={() => {
+                  stopDatabankSpeech();
+                  setSelectedEntryId(null);
+                }}
+              />
+            ) : null
+          }
+        />
+      ) : (
+        <CosmologyMap
+          onOpenEntry={handleCosmosNodeOpen}
           detailPanel={
             selectedEntryId ? (
               <DetailPanel
