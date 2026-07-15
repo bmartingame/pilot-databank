@@ -555,7 +555,10 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
     y: (VIEW_HEIGHT * (1 - DEFAULT_ZOOM)) / 2,
   });
   const [showSystemLabels, setShowSystemLabels] = useState(false);
+  const [showSectorLabels, setShowSectorLabels] = useState(true);
+  const [showFactionLabels, setShowFactionLabels] = useState(true);
   const [showLaneLabels, setShowLaneLabels] = useState(true);
+  const [showSystems, setShowSystems] = useState(true);
   const [selectedNode, setSelectedNode] = useState(null);
   const [openingNodeName, setOpeningNodeName] = useState("");
   const [nodeOpenError, setNodeOpenError] = useState("");
@@ -853,9 +856,41 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
         <button
           type="button"
           className={`terminal-button ${
+            showSystems ? "map-control-active" : ""
+          }`}
+          onClick={() => setShowSystems((current) => !current)}
+          aria-pressed={showSystems}
+        >
+          {showSystems ? "[COLLAPSE SECTORS]" : "[EXPAND SECTORS]"}
+        </button>
+        <button
+          type="button"
+          className={`terminal-button ${
+            showSectorLabels ? "map-control-active" : ""
+          }`}
+          onClick={() => setShowSectorLabels((current) => !current)}
+          aria-pressed={showSectorLabels}
+        >
+          [SECTOR LABELS]
+        </button>
+        <button
+          type="button"
+          className={`terminal-button ${
+            showFactionLabels ? "map-control-active" : ""
+          }`}
+          onClick={() => setShowFactionLabels((current) => !current)}
+          aria-pressed={showFactionLabels}
+        >
+          [FACTIONS]
+        </button>
+        <button
+          type="button"
+          className={`terminal-button ${
             showSystemLabels ? "map-control-active" : ""
           }`}
           onClick={() => setShowSystemLabels((current) => !current)}
+          aria-pressed={showSystemLabels}
+          disabled={!showSystems}
         >
           [SYSTEM LABELS]
         </button>
@@ -865,6 +900,7 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
             showLaneLabels ? "map-control-active" : ""
           }`}
           onClick={() => setShowLaneLabels((current) => !current)}
+          aria-pressed={showLaneLabels}
         >
           [LANE LABELS]
         </button>
@@ -940,28 +976,40 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
             <g
               transform={`translate(${pan.x} ${pan.y}) scale(${zoom})`}
             >
-              <g className="galaxy-membership-links">
-                {graph.inSectorRelations.map((relation) => {
-                  const start = positions.get(relation.startId);
-                  const end = positions.get(relation.endId);
+              {showSystems ? (
+                <g className="galaxy-membership-links">
+                  {graph.inSectorRelations.map((relation) => {
+                    const start = positions.get(relation.startId);
+                    const end = positions.get(relation.endId);
 
-                  if (!start || !end) return null;
+                    if (!start || !end) return null;
 
-                  return (
-                    <line
-                      key={relation.semanticKey}
-                      x1={start.x}
-                      y1={start.y}
-                      x2={end.x}
-                      y2={end.y}
-                      vectorEffect="non-scaling-stroke"
-                    />
-                  );
-                })}
-              </g>
+                    return (
+                      <line
+                        key={relation.semanticKey}
+                        x1={start.x}
+                        y1={start.y}
+                        x2={end.x}
+                        y2={end.y}
+                        vectorEffect="non-scaling-stroke"
+                      />
+                    );
+                  })}
+                </g>
+              ) : null}
 
               <g className="galaxy-lanes">
                 {laneRenderData.map(({ lane, d, labelX, labelY }) => {
+                  const startNode = graph.nodeMap.get(lane.startId);
+                  const endNode = graph.nodeMap.get(lane.endId);
+                  const laneTouchesSystem =
+                    nodeHasLabel(startNode, "System") ||
+                    nodeHasLabel(endNode, "System");
+
+                  if (!showSystems && laneTouchesSystem) {
+                    return null;
+                  }
+
                   const risk = String(
                     lane?.properties?.risk || "unknown"
                   )
@@ -1032,20 +1080,25 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
                         d="M -9 0 H 9 M 0 -9 V 9"
                         className="galaxy-sector-crosshair"
                       />
-                      <text
-                        y="-39"
-                        textAnchor="middle"
-                        className="galaxy-sector-label"
-                      >
-                        {name}
-                      </text>
-                      <text
-                        y="46"
-                        textAnchor="middle"
-                        className="galaxy-sector-civ"
-                      >
-                        {primaryCiv}
-                      </text>
+                      {showSectorLabels || isSelected ? (
+                        <text
+                          y="-39"
+                          textAnchor="middle"
+                          className="galaxy-sector-label"
+                        >
+                          {name}
+                        </text>
+                      ) : null}
+
+                      {showFactionLabels ? (
+                        <text
+                          y="46"
+                          textAnchor="middle"
+                          className="galaxy-sector-civ"
+                        >
+                          {primaryCiv}
+                        </text>
+                      ) : null}
                       <title>
                         {name} // {primaryCiv}
                       </title>
@@ -1054,8 +1107,9 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
                 })}
               </g>
 
-              <g className="galaxy-system-nodes">
-                {graph.systems.map((system) => {
+              {showSystems ? (
+                <g className="galaxy-system-nodes">
+                  {graph.systems.map((system) => {
                   const position = positions.get(system.id);
                   if (!position) return null;
 
@@ -1098,8 +1152,9 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
                       <title>{name}</title>
                     </g>
                   );
-                })}
-              </g>
+                  })}
+                </g>
+              ) : null}
             </g>
           </svg>
         </div>
