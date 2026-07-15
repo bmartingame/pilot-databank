@@ -539,6 +539,11 @@ function GraphNodeDetails({ selection, graph }) {
 export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
   const svgRef = useRef(null);
   const dragRef = useRef(null);
+  const zoomRef = useRef(DEFAULT_ZOOM);
+  const panRef = useRef({
+    x: (VIEW_WIDTH * (1 - DEFAULT_ZOOM)) / 2,
+    y: (VIEW_HEIGHT * (1 - DEFAULT_ZOOM)) / 2,
+  });
   const [state, setState] = useState({
     loading: true,
     error: null,
@@ -554,6 +559,14 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
   const [selectedNode, setSelectedNode] = useState(null);
   const [openingNodeName, setOpeningNodeName] = useState("");
   const [nodeOpenError, setNodeOpenError] = useState("");
+
+  useEffect(() => {
+    zoomRef.current = zoom;
+  }, [zoom]);
+
+  useEffect(() => {
+    panRef.current = pan;
+  }, [pan]);
 
   useEffect(() => {
     let alive = true;
@@ -633,11 +646,15 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
   }, [graph.laneRelations, positions]);
 
   function resetView() {
-    setZoom(DEFAULT_ZOOM);
-    setPan({
+    const resetPan = {
       x: (VIEW_WIDTH * (1 - DEFAULT_ZOOM)) / 2,
       y: (VIEW_HEIGHT * (1 - DEFAULT_ZOOM)) / 2,
-    });
+    };
+
+    zoomRef.current = DEFAULT_ZOOM;
+    panRef.current = resetPan;
+    setZoom(DEFAULT_ZOOM);
+    setPan(resetPan);
   }
 
   function applyZoom(nextZoom, anchor = null) {
@@ -648,38 +665,62 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
 
     if (!anchor) {
       setZoom(clampedZoom);
+      zoomRef.current = clampedZoom;
       return;
     }
 
-    const worldX = (anchor.x - pan.x) / zoom;
-    const worldY = (anchor.y - pan.y) / zoom;
-
-    setPan({
+    const currentZoom = zoomRef.current;
+    const currentPan = panRef.current;
+    const worldX = (anchor.x - currentPan.x) / currentZoom;
+    const worldY = (anchor.y - currentPan.y) / currentZoom;
+    const nextPan = {
       x: anchor.x - worldX * clampedZoom,
       y: anchor.y - worldY * clampedZoom,
-    });
+    };
+
+    panRef.current = nextPan;
+    zoomRef.current = clampedZoom;
+    setPan(nextPan);
     setZoom(clampedZoom);
   }
 
-  function handleWheel(event) {
-    event.preventDefault();
+  useEffect(() => {
+    if (state.loading || state.error) return undefined;
 
     const svg = svgRef.current;
-    if (!svg) return;
+    if (!svg) return undefined;
 
-    const rect = svg.getBoundingClientRect();
-    const anchor = {
-      x:
-        ((event.clientX - rect.left) / Math.max(1, rect.width)) *
-        VIEW_WIDTH,
-      y:
-        ((event.clientY - rect.top) / Math.max(1, rect.height)) *
-        VIEW_HEIGHT,
+    const handleNativeWheel = (event) => {
+      /*
+       * React/browser wheel listeners may be passive. A native listener with
+       * passive:false guarantees that the map captures the wheel gesture
+       * instead of scrolling the document.
+       */
+      event.preventDefault();
+      event.stopPropagation();
+
+      const rect = svg.getBoundingClientRect();
+      const anchor = {
+        x:
+          ((event.clientX - rect.left) / Math.max(1, rect.width)) *
+          VIEW_WIDTH,
+        y:
+          ((event.clientY - rect.top) / Math.max(1, rect.height)) *
+          VIEW_HEIGHT,
+      };
+
+      const factor = event.deltaY > 0 ? 0.9 : 1.1;
+      applyZoom(zoomRef.current * factor, anchor);
     };
 
-    const factor = event.deltaY > 0 ? 0.9 : 1.1;
-    applyZoom(zoom * factor, anchor);
-  }
+    svg.addEventListener("wheel", handleNativeWheel, {
+      passive: false,
+    });
+
+    return () => {
+      svg.removeEventListener("wheel", handleNativeWheel);
+    };
+  }, [state.loading, state.error]);
 
   function handlePointerDown(event) {
     const svg = svgRef.current;
@@ -840,7 +881,6 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
             viewBox={`0 0 ${VIEW_WIDTH} ${VIEW_HEIGHT}`}
             role="img"
             aria-label="Interactive graph of sectors, systems, and hyperspace lanes"
-            onWheel={handleWheel}
             onPointerMove={handlePointerMove}
             onPointerUp={handlePointerUp}
             onPointerCancel={handlePointerUp}
@@ -1022,7 +1062,7 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
                   const isSelected = selectedNode?.id === system.id;
                   const name = system?.properties?.name || "UNNAMED SYSTEM";
                   const displayLabel =
-                    showSystemLabels || zoom >= 1.35 || isSelected;
+                    showSystemLabels || isSelected;
 
                   return (
                     <g
