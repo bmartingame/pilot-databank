@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import SolarSystemDiagram from "./SolarSystemDiagram";
 import "./galaxyMap.css";
 
 const GALAXY_DATA_URL = `${import.meta.env.BASE_URL}data/galaxycivs.json`;
@@ -8,13 +9,6 @@ const VIEW_HEIGHT = 980;
 const MIN_ZOOM = 0.45;
 const MAX_ZOOM = 3.2;
 
-/*
- * The source coordinates are still normalized so differently-sized datasets
- * fit the same map. SECTOR_SPREAD then expands those normalized positions
- * around the center of the map without expanding the SVG viewBox.
- *
- * This is what makes sectors genuinely farther apart relative to label size.
- */
 const SECTOR_SPREAD = 2.25;
 const DEFAULT_ZOOM = 0.64;
 const SYSTEM_RING_BASE = 92;
@@ -608,6 +602,14 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
     [graph]
   );
 
+  const selectedGraphNode = selectedNode
+    ? graph.nodeMap.get(selectedNode.id)
+    : null;
+  const selectedSystemName =
+    selectedNode?.kind === "System"
+      ? selectedGraphNode?.properties?.name || ""
+      : "";
+
   const laneRenderData = useMemo(() => {
     const pairCounts = new Map();
 
@@ -1063,44 +1065,59 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
         </div>
 
         <div className="galaxy-map-detail-slot">
-          {detailPanel || (
-            <aside className="galaxy-map-inspector terminal-frame">
-              <div className="galaxy-inspector-title">
-                {openingNodeName
-                  ? `RETRIEVING // ${openingNodeName}`
-                  : "DATABANK LINK STANDBY"}
-              </div>
+          <div className="galaxy-map-detail-stack">
+            {detailPanel || (
+              <aside className="galaxy-map-inspector terminal-frame">
+                <div className="galaxy-inspector-title">
+                  {openingNodeName
+                    ? `RETRIEVING // ${openingNodeName}`
+                    : "DATABANK LINK STANDBY"}
+                </div>
 
-              {nodeOpenError ? (
-                <p className="galaxy-map-error-text">
-                  LINK FAILURE // {nodeOpenError}
-                </p>
-              ) : (
-                <p className="galaxy-muted">
-                  Select a system or sector node to open its matching entry
-                  from entries.json.
-                </p>
-              )}
+                {nodeOpenError ? (
+                  <p className="galaxy-map-error-text">
+                    LINK FAILURE // {nodeOpenError}
+                  </p>
+                ) : (
+                  <p className="galaxy-muted">
+                    Select a system or sector node to open its matching entry
+                    from entries.json.
+                  </p>
+                )}
 
-              <div className="galaxy-legend">
-                <div>
-                  <span className="legend-sector" /> SECTOR NODE
+                <div className="galaxy-legend">
+                  <div>
+                    <span className="legend-sector" /> SECTOR NODE
+                  </div>
+                  <div>
+                    <span className="legend-system" /> SYSTEM NODE
+                  </div>
+                  <div>
+                    <span className="legend-lane legend-lane-low" /> LOW RISK
+                  </div>
+                  <div>
+                    <span className="legend-lane legend-lane-med" /> MED RISK
+                  </div>
+                  <div>
+                    <span className="legend-lane legend-lane-high" /> HIGH RISK
+                  </div>
                 </div>
-                <div>
-                  <span className="legend-system" /> SYSTEM NODE
-                </div>
-                <div>
-                  <span className="legend-lane legend-lane-low" /> LOW RISK
-                </div>
-                <div>
-                  <span className="legend-lane legend-lane-med" /> MED RISK
-                </div>
-                <div>
-                  <span className="legend-lane legend-lane-high" /> HIGH RISK
-                </div>
-              </div>
-            </aside>
-          )}
+              </aside>
+            )}
+
+            {selectedSystemName ? (
+              <SolarSystemDiagram
+                systemName={selectedSystemName}
+                onOpenBody={(body) =>
+                  onOpenEntry?.({
+                    name: body?.name || "",
+                    kind: "Celestial Body",
+                    mapNodeId: body?.id || body?.diagramId || "",
+                  })
+                }
+              />
+            ) : null}
+          </div>
         </div>
       </div>
     </section>

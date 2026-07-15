@@ -285,14 +285,24 @@
     min-width: 0;
 }
 
-.galaxy-map-detail-slot > .detail-panel,
-.galaxy-map-detail-slot > .galaxy-map-inspector {
+.galaxy-map-detail-stack {
     position: sticky;
     top: 14px;
-    width: auto;
+    display: grid;
+    gap: 14px;
     min-width: 0;
     max-height: min(76vh, 860px);
     overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.galaxy-map-detail-stack > .detail-panel,
+.galaxy-map-detail-stack > .galaxy-map-inspector {
+    position: static;
+    width: auto;
+    min-width: 0;
+    max-height: none;
+    overflow: visible;
 }
 
 .galaxy-map-detail-slot .detail-body {
@@ -455,10 +465,10 @@
     }
 
     .galaxy-map-inspector,
-    .galaxy-map-detail-slot > .detail-panel,
-    .galaxy-map-detail-slot > .galaxy-map-inspector {
+    .galaxy-map-detail-stack {
         position: static;
         max-height: none;
+        overflow: visible;
     }
 }
 
