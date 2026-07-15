@@ -150,7 +150,7 @@ function buildCosmosLayout(graph) {
 
   const coreAngles = new Map([
     ["Astral", -142],
-    ["Temporal Layer", -76],
+    ["Temporal", -76],
     ["Manifold", 8],
     ["Crucible", 92],
   ]);
