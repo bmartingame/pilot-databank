@@ -544,11 +544,6 @@ function LaneDetailsPanel({ selectedLane, graph }) {
         <span>RISK</span>
         <strong>{risk}</strong>
       </div>
-
-      <p className="galaxy-muted galaxy-lane-note">
-        Transit time is calculated from the current navigation endpoints.
-        Long-distance lanes are allowed to exceed 168 hours.
-      </p>
     </aside>
   );
 }
