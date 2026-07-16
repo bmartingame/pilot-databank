@@ -939,9 +939,35 @@ function entryMatchesMapKind(entry, kind) {
 }
 
 
-function CRTStartupSplash({ audioBlocked, onRetry }) {
+
+function isReloadNavigation() {
+  try {
+    const navigationEntry = performance
+      .getEntriesByType?.("navigation")
+      ?.find((entry) => entry?.type);
+
+    if (navigationEntry?.type === "reload") {
+      return true;
+    }
+
+    if (performance?.navigation?.type === 1) {
+      return true;
+    }
+  } catch {
+    return false;
+  }
+
+  return false;
+}
+
+function CRTStartupSplash({ audioBlocked, isRunning, onRetry }) {
   return (
-    <div className="crt-startup-overlay" role="presentation">
+    <div
+      className={`crt-startup-overlay ${
+        isRunning ? "crt-startup-running" : "crt-startup-waiting"
+      } ${audioBlocked ? "crt-startup-blocked" : ""}`}
+      role="presentation"
+    >
       <div className="crt-startup-screen">
         <div className="crt-startup-beam" />
         <div className="crt-startup-grid" />
@@ -971,8 +997,10 @@ function CRTStartupSplash({ audioBlocked, onRetry }) {
             >
               [INITIALIZE DISPLAY]
             </button>
-          ) : (
+          ) : isRunning ? (
             <div className="crt-startup-status">SYNCING AUDIO // PLEASE STAND BY</div>
+          ) : (
+            <div className="crt-startup-status">AWAITING AUDIO HANDSHAKE</div>
           )}
         </div>
       </div>
@@ -998,9 +1026,16 @@ export default function App() {
     results: [],
     count: 0,
   });
-  const [startupVisible, setStartupVisible] = useState(true);
+
+  const skipStartupRef = useRef(isReloadNavigation());
+  const [startupVisible, setStartupVisible] = useState(
+    () => !skipStartupRef.current
+  );
   const [startupAudioBlocked, setStartupAudioBlocked] = useState(false);
-  const [startupComplete, setStartupComplete] = useState(false);
+  const [startupRunning, setStartupRunning] = useState(false);
+  const [startupComplete, setStartupComplete] = useState(
+    () => skipStartupRef.current
+  );
 
   const welcomeSpokenRef = useRef(false);
   const startupAudioRef = useRef(null);
@@ -1019,40 +1054,54 @@ export default function App() {
 
   function finishStartupSequence() {
     clearStartupTimer();
+
+    const audio = startupAudioRef.current;
+    if (audio) {
+      audio.pause();
+      audio.currentTime = 0;
+    }
+
+    setStartupRunning(false);
     setStartupVisible(false);
     setStartupAudioBlocked(false);
     setStartupComplete(true);
   }
 
+  function beginSyncedStartupAnimation() {
+    setStartupRunning(true);
+    startupTimerRef.current = window.setTimeout(
+      finishStartupSequence,
+      CRT_STARTUP_DURATION_MS + 260
+    );
+  }
+
   function startStartupSequence(audio) {
-    if (!audio) return;
+    if (!audio || skipStartupRef.current) return;
 
     clearStartupTimer();
     setStartupVisible(true);
     setStartupAudioBlocked(false);
+    setStartupRunning(false);
 
+    audio.pause();
     audio.currentTime = 0;
     audio.volume = 0.82;
 
     const playPromise = audio.play();
 
-    if (playPromise?.catch) {
+    if (playPromise?.then) {
       playPromise
         .then(() => {
-          startupTimerRef.current = window.setTimeout(
-            finishStartupSequence,
-            CRT_STARTUP_DURATION_MS + 260
-          );
+          beginSyncedStartupAnimation();
         })
         .catch(() => {
           clearStartupTimer();
+          setStartupVisible(true);
+          setStartupRunning(false);
           setStartupAudioBlocked(true);
         });
     } else {
-      startupTimerRef.current = window.setTimeout(
-        finishStartupSequence,
-        CRT_STARTUP_DURATION_MS + 260
-      );
+      beginSyncedStartupAnimation();
     }
   }
 
@@ -1069,6 +1118,14 @@ export default function App() {
   }
 
   useEffect(() => {
+    if (skipStartupRef.current) {
+      setStartupVisible(false);
+      setStartupRunning(false);
+      setStartupAudioBlocked(false);
+      setStartupComplete(true);
+      return undefined;
+    }
+
     const audio = new Audio(CRT_STARTUP_AUDIO_URL);
     audio.preload = "auto";
     startupAudioRef.current = audio;
@@ -1305,6 +1362,7 @@ export default function App() {
       {startupVisible ? (
         <CRTStartupSplash
           audioBlocked={startupAudioBlocked}
+          isRunning={startupRunning}
           onRetry={retryStartupAudio}
         />
       ) : null}
