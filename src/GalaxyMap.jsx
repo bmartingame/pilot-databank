@@ -416,14 +416,80 @@ function lanePath(start, end, lane, laneIndex = 0) {
   const middleX = (start.x + end.x) / 2 + perpendicularX * curveOffset;
   const middleY = (start.y + end.y) / 2 + perpendicularY * curveOffset;
 
+  const labelText = String(lane?.properties?.lane || "UNNAMED LANE");
+  const labelT = length < 180 ? 0.66 : 0.56;
+
+  const oneMinusT = 1 - labelT;
+  const curveX =
+    oneMinusT * oneMinusT * start.x +
+    2 * oneMinusT * labelT * middleX +
+    labelT * labelT * end.x;
+  const curveY =
+    oneMinusT * oneMinusT * start.y +
+    2 * oneMinusT * labelT * middleY +
+    labelT * labelT * end.y;
+
+  const labelLift = 18 + Math.min(18, Math.abs(curveOffset) * 0.55);
+  const labelDirection = laneIndex % 2 === 0 ? 1 : -1;
+  const labelX = curveX + perpendicularX * labelLift * labelDirection;
+  const labelY = curveY + perpendicularY * labelLift * labelDirection;
+
+  const labelWidth = Math.min(
+    172,
+    Math.max(58, labelText.length * 6.35 + 16)
+  );
+
   return {
     d: `M ${start.x} ${start.y} Q ${middleX} ${middleY} ${end.x} ${end.y}`,
-    labelX:
-      0.25 * start.x + 0.5 * middleX + 0.25 * end.x,
-    labelY:
-      0.25 * start.y + 0.5 * middleY + 0.25 * end.y,
+    labelText,
+    labelX,
+    labelY,
+    labelWidth,
   };
 }
+
+function laneTouchesSystem(lane, graph) {
+  const startNode = graph.nodeMap.get(lane.startId);
+  const endNode = graph.nodeMap.get(lane.endId);
+
+  return nodeHasLabel(startNode, "System") || nodeHasLabel(endNode, "System");
+}
+
+function getSystemLabelPlacement(system, position, graph, positions) {
+  const sectorId = graph.systemSectorMap.get(system.id);
+  const sectorPosition = positions.get(sectorId);
+
+  if (!sectorPosition) {
+    return {
+      x: 0,
+      y: -22,
+      textAnchor: "middle",
+    };
+  }
+
+  const dx = position.x - sectorPosition.x;
+  const dy = position.y - sectorPosition.y;
+  const length = Math.max(1, Math.sqrt(dx * dx + dy * dy));
+  const unitX = dx / length;
+  const unitY = dy / length;
+  const labelDistance = 26;
+
+  let textAnchor = "middle";
+
+  if (unitX > 0.34) {
+    textAnchor = "start";
+  } else if (unitX < -0.34) {
+    textAnchor = "end";
+  }
+
+  return {
+    x: unitX * labelDistance,
+    y: unitY * labelDistance + 1,
+    textAnchor,
+  };
+}
+
+
 
 function GraphNodeDetails({ selection, graph }) {
   if (!selection) {
@@ -482,7 +548,7 @@ function GraphNodeDetails({ selection, graph }) {
         <>
           <div className="galaxy-detail-row">
             <span>PRIMARY CIV</span>
-            <strong>{properties.primaryCiv || "INDEPENDENT"}</strong>
+            <strong>{properties.primaryCiv || "UNALIGNED"}</strong>
           </div>
           <div className="galaxy-detail-row">
             <span>TIER</span>
@@ -528,7 +594,7 @@ function GraphNodeDetails({ selection, graph }) {
           </div>
           <div className="galaxy-detail-row">
             <span>PRIMARY CIV</span>
-            <strong>{sector?.properties?.primaryCiv || "INDEPENDENT"}</strong>
+            <strong>{sector?.properties?.primaryCiv || "UNALIGNED"}</strong>
           </div>
         </>
       )}
@@ -1032,13 +1098,7 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
 
               <g className="galaxy-lanes">
                 {laneRenderData.map(({ lane, d, labelX, labelY }) => {
-                  const startNode = graph.nodeMap.get(lane.startId);
-                  const endNode = graph.nodeMap.get(lane.endId);
-                  const laneTouchesSystem =
-                    nodeHasLabel(startNode, "System") ||
-                    nodeHasLabel(endNode, "System");
-
-                  if (!showSystems && laneTouchesSystem) {
+                  if (!showSystems && laneTouchesSystem(lane, graph)) {
                     return null;
                   }
 
@@ -1056,16 +1116,6 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
                         vectorEffect="non-scaling-stroke"
                       />
 
-                      {showLaneLabels ? (
-                        <text
-                          x={labelX}
-                          y={labelY - 7}
-                          className="galaxy-lane-label"
-                          textAnchor="middle"
-                        >
-                          {lane?.properties?.lane || "UNNAMED LANE"}
-                        </text>
-                      ) : null}
                     </g>
                   );
                 })}
@@ -1079,7 +1129,7 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
                   const isSelected = selectedNode?.id === sector.id;
                   const name = sector?.properties?.name || "UNNAMED SECTOR";
                   const primaryCiv =
-                    sector?.properties?.primaryCiv || "INDEPENDENT";
+                    sector?.properties?.primaryCiv || "UNALIGNED";
 
                   return (
                     <g
@@ -1114,7 +1164,7 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
                       />
                       {showSectorLabels || isSelected ? (
                         <text
-                          y="-39"
+                          y="-58"
                           textAnchor="middle"
                           className="galaxy-sector-label"
                         >
@@ -1124,7 +1174,7 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
 
                       {showFactionLabels ? (
                         <text
-                          y="46"
+                          y="72"
                           textAnchor="middle"
                           className="galaxy-sector-civ"
                         >
@@ -1149,6 +1199,12 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
                   const name = system?.properties?.name || "UNNAMED SYSTEM";
                   const displayLabel =
                     showSystemLabels || isSelected;
+                  const labelPlacement = getSystemLabelPlacement(
+                    system,
+                    position,
+                    graph,
+                    positions
+                  );
 
                   return (
                     <g
@@ -1172,18 +1228,65 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
                       <circle r="13" className="galaxy-system-ring" />
 
                       {displayLabel ? (
-                        <text
-                          y="-15"
-                          textAnchor="middle"
-                          className="galaxy-system-label"
-                        >
-                          {name}
-                        </text>
+                        <>
+                          <line
+                            x1={labelPlacement.x * 0.42}
+                            y1={labelPlacement.y * 0.42}
+                            x2={labelPlacement.x * 0.78}
+                            y2={labelPlacement.y * 0.78}
+                            className="galaxy-system-label-leader"
+                            vectorEffect="non-scaling-stroke"
+                          />
+                          <text
+                            x={labelPlacement.x}
+                            y={labelPlacement.y}
+                            textAnchor={labelPlacement.textAnchor}
+                            dominantBaseline="middle"
+                            className="galaxy-system-label"
+                          >
+                            {name}
+                          </text>
+                        </>
                       ) : null}
 
                       <title>{name}</title>
                     </g>
                   );
+                  })}
+                </g>
+              ) : null}
+
+              {showLaneLabels ? (
+                <g className="galaxy-lane-labels">
+                  {laneRenderData.map(({ lane, labelText, labelX, labelY, labelWidth }) => {
+                    if (!showSystems && laneTouchesSystem(lane, graph)) {
+                      return null;
+                    }
+
+                    return (
+                      <g
+                        key={`label-${lane.semanticKey}`}
+                        transform={`translate(${labelX} ${labelY})`}
+                        className="galaxy-lane-label-block"
+                      >
+                        <rect
+                          x={-labelWidth / 2}
+                          y="-8.5"
+                          width={labelWidth}
+                          height="17"
+                          rx="2"
+                          className="galaxy-lane-label-plate"
+                          vectorEffect="non-scaling-stroke"
+                        />
+                        <text
+                          className="galaxy-lane-label"
+                          textAnchor="middle"
+                          dominantBaseline="middle"
+                        >
+                          {labelText}
+                        </text>
+                      </g>
+                    );
                   })}
                 </g>
               ) : null}

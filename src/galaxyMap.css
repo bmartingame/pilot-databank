@@ -200,14 +200,25 @@
 }
 
 .galaxy-lane-label {
-    fill: rgba(155, 255, 178, 0.62);
+    fill: rgba(198, 255, 210, 0.88);
     font-family: "Courier New", Courier, monospace;
-    font-size: 11px;
-    letter-spacing: 0.04em;
+    font-size: 9.5px;
+    letter-spacing: 0.045em;
     paint-order: stroke;
-    stroke: rgba(0, 8, 3, 0.96);
-    stroke-width: 4px;
+    stroke: rgba(0, 8, 3, 0.98);
+    stroke-width: 3px;
     stroke-linejoin: round;
+    pointer-events: none;
+}
+
+.galaxy-lane-label-block {
+    pointer-events: none;
+}
+
+.galaxy-lane-label-plate {
+    fill: rgba(0, 10, 4, 0.76);
+    stroke: rgba(114, 255, 156, 0.16);
+    stroke-width: 1;
 }
 
 .galaxy-sector-node,
@@ -248,8 +259,8 @@
 
 .galaxy-sector-label {
     fill: var(--sector-accent);
-    stroke-width: 5px;
-    font-size: 16px;
+    stroke-width: 6px;
+    font-size: 15px;
     font-weight: 700;
     letter-spacing: 0.04em;
 }
@@ -257,7 +268,7 @@
 .galaxy-sector-civ {
     fill: rgba(160, 220, 175, 0.78);
     stroke-width: 4px;
-    font-size: 10px;
+    font-size: 9px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -278,9 +289,17 @@
 
 .galaxy-system-label {
     fill: rgba(177, 255, 196, 0.8);
-    stroke-width: 4px;
-    font-size: 9px;
-    letter-spacing: 0.025em;
+    stroke-width: 3px;
+    font-size: 8.25px;
+    letter-spacing: 0.02em;
+    pointer-events: none;
+}
+
+.galaxy-system-label-leader {
+    stroke: rgba(114, 255, 156, 0.24);
+    stroke-width: 1;
+    stroke-dasharray: 2 3;
+    pointer-events: none;
 }
 
 .galaxy-node-selected .galaxy-sector-halo,
