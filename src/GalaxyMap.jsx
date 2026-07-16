@@ -482,7 +482,7 @@ function GraphNodeDetails({ selection, graph }) {
         <>
           <div className="galaxy-detail-row">
             <span>PRIMARY CIV</span>
-            <strong>{properties.primaryCiv || "UNALIGNED"}</strong>
+            <strong>{properties.primaryCiv || "INDEPENDENT"}</strong>
           </div>
           <div className="galaxy-detail-row">
             <span>TIER</span>
@@ -528,7 +528,7 @@ function GraphNodeDetails({ selection, graph }) {
           </div>
           <div className="galaxy-detail-row">
             <span>PRIMARY CIV</span>
-            <strong>{sector?.properties?.primaryCiv || "UNALIGNED"}</strong>
+            <strong>{sector?.properties?.primaryCiv || "INDEPENDENT"}</strong>
           </div>
         </>
       )}
@@ -1079,7 +1079,7 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
                   const isSelected = selectedNode?.id === sector.id;
                   const name = sector?.properties?.name || "UNNAMED SECTOR";
                   const primaryCiv =
-                    sector?.properties?.primaryCiv || "UNALIGNED";
+                    sector?.properties?.primaryCiv || "INDEPENDENT";
 
                   return (
                     <g
