@@ -12015,7 +12015,7 @@
         "raw_text": "Ash Rack System\nSector Name: Greyspan Sector\nFaction: Orak Belt Syndicates, disputed salvage control\nDescription: Ash Rack is a burned outpost system valuable because of what happened there, not what remains. Scavengers strip it by day and avoid certain decks by night.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
-        "description": "Ash Rack is a burned system of ruined worlds, orbital shells, salvage camps, and debris whose value lies in evidence of the disaster that destroyed it. Charhouse, Crooked Halo, Deadlight, Burnscar, Sootball, and the Peel are stripped independently by scavengers who agree only that certain decks and signals should be avoided.",
+        "description": "Ash Rack is a burned system of ruined worlds, orbital shells, salvage camps, and debris. Charhouse, Crooked Halo, Deadlight, Burnscar, Sootball, and the Peel are stripped by scavengers that only agree that certain decks and signals should be avoided.",
         "manual_ingest": true,
         "body": "Ash Rack is a burned outpost system valuable because of what happened there, not what remains. Scavengers strip it by day and avoid certain decks by night.",
         "record_type": "System",
