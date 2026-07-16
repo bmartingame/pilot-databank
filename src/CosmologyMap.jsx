@@ -150,7 +150,7 @@ function buildCosmosLayout(graph) {
 
   const coreAngles = new Map([
     ["Astral", -142],
-    ["Temporal", -76],
+    ["Temporal Layer", -76],
     ["Manifold", 8],
     ["Crucible", 92],
   ]);
@@ -265,7 +265,7 @@ function CosmologyLegend() {
   );
 }
 
-export default function CosmologyMap({ onOpenEntry, detailPanel = null }) {
+export default function CosmologyMap({ onOpenEntry, detailPanel = null, onInterfaceSfx = null }) {
   const svgRef = useRef(null);
   const dragRef = useRef(null);
   const zoomRef = useRef(DEFAULT_ZOOM);
@@ -289,6 +289,12 @@ export default function CosmologyMap({ onOpenEntry, detailPanel = null }) {
   const [selectedPlane, setSelectedPlane] = useState(null);
   const [openingPlaneName, setOpeningPlaneName] = useState("");
   const [nodeOpenError, setNodeOpenError] = useState("");
+
+  function triggerInterfaceSfx() {
+    if (typeof onInterfaceSfx === "function") {
+      onInterfaceSfx();
+    }
+  }
 
   useEffect(() => {
     zoomRef.current = zoom;
@@ -454,6 +460,8 @@ export default function CosmologyMap({ onOpenEntry, detailPanel = null }) {
   }
 
   async function selectPlane(plane) {
+    triggerInterfaceSfx();
+
     const name = planeName(plane);
     const category = planeCategory(plane);
 
@@ -531,28 +539,40 @@ export default function CosmologyMap({ onOpenEntry, detailPanel = null }) {
         <button
           type="button"
           className="terminal-button"
-          onClick={() => applyZoom(zoom * 1.18)}
+          onClick={() => {
+            triggerInterfaceSfx();
+            applyZoom(zoom * 1.18);
+          }}
         >
           [+]
         </button>
         <button
           type="button"
           className="terminal-button"
-          onClick={() => applyZoom(zoom / 1.18)}
+          onClick={() => {
+            triggerInterfaceSfx();
+            applyZoom(zoom / 1.18);
+          }}
         >
           [-]
         </button>
         <button
           type="button"
           className="terminal-button"
-          onClick={resetView}
+          onClick={() => {
+            triggerInterfaceSfx();
+            resetView();
+          }}
         >
           [RESET]
         </button>
         <button
           type="button"
           className={`terminal-button ${showLabels ? "cosmos-control-active" : ""}`}
-          onClick={() => setShowLabels((current) => !current)}
+          onClick={() => {
+            triggerInterfaceSfx();
+            setShowLabels((current) => !current);
+          }}
           aria-pressed={showLabels}
         >
           [LABELS]
@@ -560,7 +580,10 @@ export default function CosmologyMap({ onOpenEntry, detailPanel = null }) {
         <button
           type="button"
           className={`terminal-button ${showLinks ? "cosmos-control-active" : ""}`}
-          onClick={() => setShowLinks((current) => !current)}
+          onClick={() => {
+            triggerInterfaceSfx();
+            setShowLinks((current) => !current);
+          }}
           aria-pressed={showLinks}
         >
           [LINKS]
