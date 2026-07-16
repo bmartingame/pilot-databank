@@ -504,6 +504,70 @@ function formatLaneTravelTime(hours) {
   return `${roundedHours} HOURS // ${days}D ${remainderHours}H`;
 }
 
+function formatLaneTravelTimeForSpeech(hours) {
+  if (!Number.isFinite(hours)) return "unknown";
+
+  const roundedHours = Math.max(1, Math.round(hours));
+  const days = Math.floor(roundedHours / 24);
+  const remainderHours = roundedHours % 24;
+
+  if (days <= 0) {
+    return `${roundedHours} ${roundedHours === 1 ? "hour" : "hours"}`;
+  }
+
+  if (remainderHours === 0) {
+    return `${roundedHours} hours, or ${days} ${days === 1 ? "day" : "days"}`;
+  }
+
+  return `${roundedHours} hours, or ${days} days and ${remainderHours} hours`;
+}
+
+function getLaneName(lane) {
+  return String(
+    lane?.properties?.lane ||
+      lane?.properties?.name ||
+      "Unnamed lane"
+  );
+}
+
+function buildLaneSpeechLine(lane, graph, travel) {
+  const startNode = graph.nodeMap.get(lane.startId);
+  const endNode = graph.nodeMap.get(lane.endId);
+  const laneName = getLaneName(lane);
+  const origin = laneEndpointName(startNode);
+  const destination = laneEndpointName(endNode);
+  const transitTime = formatLaneTravelTimeForSpeech(travel?.hours);
+  const risk = String(lane?.properties?.risk || "unspecified").toLowerCase();
+
+  return `Hyperspace lane. ${laneName}. Origin, ${origin}. Destination, ${destination}. Transit time, ${transitTime}. Risk, ${risk}.`;
+}
+
+function speakLaneSpeechLine(text) {
+  if (!text || !("speechSynthesis" in window)) return;
+
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.resume();
+
+  const utterance = new SpeechSynthesisUtterance(text);
+  const voices = window.speechSynthesis.getVoices();
+  const selectedVoice =
+    voices.find((voice) =>
+      /google us english|microsoft david|microsoft mark|english/i.test(
+        `${voice.name} ${voice.lang}`
+      )
+    ) || voices[0];
+
+  if (selectedVoice) {
+    utterance.voice = selectedVoice;
+  }
+
+  utterance.rate = 0.82;
+  utterance.pitch = 0.55;
+  utterance.volume = 0.82;
+
+  window.speechSynthesis.speak(utterance);
+}
+
 function laneEndpointName(node) {
   return String(node?.properties?.name || "UNKNOWN ENDPOINT");
 }
@@ -695,7 +759,7 @@ function GraphNodeDetails({ selection, graph }) {
   );
 }
 
-export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterfaceSfx = null }) {
+export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterfaceSfx = null, onNarrate = null }) {
   const svgRef = useRef(null);
   const dragRef = useRef(null);
   const zoomRef = useRef(DEFAULT_ZOOM);
@@ -928,10 +992,18 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
 
     const start = positions.get(lane.startId);
     const end = positions.get(lane.endId);
+    const travel = calculateLaneTravelHours(start, end);
+    const spokenLine = buildLaneSpeechLine(lane, graph, travel);
+
+    if (typeof onNarrate === "function") {
+      onNarrate(spokenLine);
+    } else {
+      speakLaneSpeechLine(spokenLine);
+    }
 
     setSelectedLane({
       ...lane,
-      travel: calculateLaneTravelHours(start, end),
+      travel,
     });
     setSelectedNode(null);
     setSelectedSystemName("");
