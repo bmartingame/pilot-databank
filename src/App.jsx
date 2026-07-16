@@ -954,6 +954,10 @@ export default function App() {
 
   const welcomeSpokenRef = useRef(false);
 
+  function playInterfaceSelectSfx() {
+    void playEntrySelectSfx();
+  }
+
   useEffect(() => {
     let alive = true;
 
@@ -1178,6 +1182,7 @@ export default function App() {
           type="button"
           className={`app-tab ${activeTab === "databank" ? "app-tab-active" : ""}`}
           onClick={() => {
+            playInterfaceSelectSfx();
             stopDatabankSpeech();
             setActiveTab("databank");
           }}
@@ -1190,6 +1195,7 @@ export default function App() {
           type="button"
           className={`app-tab ${activeTab === "galaxy" ? "app-tab-active" : ""}`}
           onClick={() => {
+            playInterfaceSelectSfx();
             stopDatabankSpeech();
             setSelectedEntryId(null);
             setActiveTab("galaxy");
@@ -1203,6 +1209,7 @@ export default function App() {
           type="button"
           className={`app-tab ${activeTab === "cosmology" ? "app-tab-active" : ""}`}
           onClick={() => {
+            playInterfaceSelectSfx();
             stopDatabankSpeech();
             setSelectedEntryId(null);
             setActiveTab("cosmology");
@@ -1258,6 +1265,7 @@ export default function App() {
       ) : activeTab === "galaxy" ? (
         <GalaxyMap
           onOpenEntry={handleMapNodeOpen}
+          onInterfaceSfx={playInterfaceSelectSfx}
           detailPanel={
             selectedEntryId ? (
               <DetailPanel
@@ -1273,6 +1281,7 @@ export default function App() {
       ) : (
         <CosmologyMap
           onOpenEntry={handleCosmosNodeOpen}
+          onInterfaceSfx={playInterfaceSelectSfx}
           detailPanel={
             selectedEntryId ? (
               <DetailPanel
