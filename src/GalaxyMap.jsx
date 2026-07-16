@@ -480,6 +480,92 @@ function laneTouchesSystem(lane, graph) {
   return nodeHasLabel(startNode, "System") || nodeHasLabel(endNode, "System");
 }
 
+function calculateLaneTravelHours(start, end) {
+  if (!start || !end) return null;
+
+  const dx = end.x - start.x;
+  const dy = end.y - start.y;
+  const distance = Math.sqrt(dx * dx + dy * dy);
+
+  /*
+   * Short routes bottom out at 1 hour. Long sector-spanning lanes can exceed
+   * 168 hours because the curve is intentionally superlinear.
+   */
+  const hours = Math.max(1, Math.round((distance / 4.8) ** 1.28));
+
+  return {
+    distance,
+    hours,
+  };
+}
+
+function formatLaneTravelTime(hours) {
+  if (!Number.isFinite(hours)) return "UNKNOWN";
+
+  const roundedHours = Math.max(1, Math.round(hours));
+  const days = Math.floor(roundedHours / 24);
+  const remainderHours = roundedHours % 24;
+
+  if (days <= 0) {
+    return `${roundedHours} ${roundedHours === 1 ? "HOUR" : "HOURS"}`;
+  }
+
+  if (remainderHours === 0) {
+    return `${roundedHours} HOURS // ${days} ${days === 1 ? "DAY" : "DAYS"}`;
+  }
+
+  return `${roundedHours} HOURS // ${days}D ${remainderHours}H`;
+}
+
+function laneEndpointName(node) {
+  return String(node?.properties?.name || "UNKNOWN ENDPOINT");
+}
+
+function LaneDetailsPanel({ selectedLane, graph }) {
+  if (!selectedLane) return null;
+
+  const startNode = graph.nodeMap.get(selectedLane.startId);
+  const endNode = graph.nodeMap.get(selectedLane.endId);
+  const laneName =
+    selectedLane?.properties?.lane ||
+    selectedLane?.properties?.name ||
+    "UNNAMED LANE";
+  const risk = String(selectedLane?.properties?.risk || "UNSPECIFIED").toUpperCase();
+  const travel = selectedLane.travel || null;
+
+  return (
+    <aside className="galaxy-map-inspector galaxy-lane-inspector terminal-frame">
+      <div className="galaxy-inspector-kicker">HYPERSPACE LANE</div>
+      <div className="galaxy-inspector-title">{laneName}</div>
+
+      <div className="galaxy-detail-row">
+        <span>ORIGIN</span>
+        <strong>{laneEndpointName(startNode)}</strong>
+      </div>
+
+      <div className="galaxy-detail-row">
+        <span>DESTINATION</span>
+        <strong>{laneEndpointName(endNode)}</strong>
+      </div>
+
+      <div className="galaxy-detail-row">
+        <span>TRANSIT TIME</span>
+        <strong>{formatLaneTravelTime(travel?.hours)}</strong>
+      </div>
+
+      <div className="galaxy-detail-row">
+        <span>RISK</span>
+        <strong>{risk}</strong>
+      </div>
+
+      <p className="galaxy-muted galaxy-lane-note">
+        Transit time is calculated from the current navigation endpoints.
+        Long-distance lanes are allowed to exceed 168 hours.
+      </p>
+    </aside>
+  );
+}
+
 function getSystemLabelPlacement(system, position, graph, positions) {
   const sectorId = graph.systemSectorMap.get(system.id);
   const sectorPosition = positions.get(sectorId);
@@ -651,6 +737,7 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
   const [showLaneLabels, setShowLaneLabels] = useState(true);
   const [showSystems, setShowSystems] = useState(true);
   const [selectedNode, setSelectedNode] = useState(null);
+  const [selectedLane, setSelectedLane] = useState(null);
   const [openingNodeName, setOpeningNodeName] = useState("");
   const [nodeOpenError, setNodeOpenError] = useState("");
 
@@ -858,8 +945,26 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
     }
   }
 
+  function selectLane(lane) {
+    triggerInterfaceSfx();
+
+    const start = positions.get(lane.startId);
+    const end = positions.get(lane.endId);
+
+    setSelectedLane({
+      ...lane,
+      travel: calculateLaneTravelHours(start, end),
+    });
+    setSelectedNode(null);
+    setSelectedSystemName("");
+    setNodeOpenError("");
+    setOpeningNodeName("");
+  }
+
   async function selectNode(node) {
     triggerInterfaceSfx();
+
+    setSelectedLane(null);
 
     const kind = nodeHasLabel(node, "Sector") ? "Sector" : "System";
     const name = node?.properties?.name || "";
@@ -1137,8 +1242,22 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
                     <g key={lane.semanticKey}>
                       <path
                         d={d}
-                        className={`galaxy-lane galaxy-lane-${risk}`}
+                        className={`galaxy-lane galaxy-lane-${risk} ${
+                          selectedLane?.semanticKey === lane.semanticKey
+                            ? "galaxy-lane-selected"
+                            : ""
+                        }`}
                         vectorEffect="non-scaling-stroke"
+                        onPointerDown={(event) => event.stopPropagation()}
+                        onClick={() => selectLane(lane)}
+                        role="button"
+                        tabIndex={0}
+                        onKeyDown={(event) => {
+                          if (event.key === "Enter" || event.key === " ") {
+                            event.preventDefault();
+                            selectLane(lane);
+                          }
+                        }}
                       />
 
                     </g>
@@ -1300,7 +1419,21 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
                     return (
                       <g
                         key={`label-${lane.semanticKey}`}
-                        className="galaxy-lane-label-callout"
+                        className={`galaxy-lane-label-callout ${
+                          selectedLane?.semanticKey === lane.semanticKey
+                            ? "galaxy-lane-label-selected"
+                            : ""
+                        }`}
+                        onPointerDown={(event) => event.stopPropagation()}
+                        onClick={() => selectLane(lane)}
+                        role="button"
+                        tabIndex={0}
+                        onKeyDown={(event) => {
+                          if (event.key === "Enter" || event.key === " ") {
+                            event.preventDefault();
+                            selectLane(lane);
+                          }
+                        }}
                       >
                         <path
                           d={leaderD}
@@ -1346,7 +1479,9 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
 
         <div className="galaxy-map-detail-slot">
           <div className="galaxy-map-detail-stack">
-            {detailPanel || (
+            {selectedLane ? (
+              <LaneDetailsPanel selectedLane={selectedLane} graph={graph} />
+            ) : detailPanel || (
               <aside className="galaxy-map-inspector terminal-frame">
                 <div className="galaxy-inspector-title">
                   {openingNodeName
@@ -1361,7 +1496,8 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
                 ) : (
                   <p className="galaxy-muted">
                     Select a system or sector node to open its matching entry
-                    from entries.json.
+                    from entries.json, or select a hyperspace lane to inspect
+                    its route and travel time.
                   </p>
                 )}
 
@@ -1385,7 +1521,7 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
               </aside>
             )}
 
-            {selectedSystemName ? (
+            {!selectedLane && selectedSystemName ? (
               <SolarSystemDiagram
                 systemName={selectedSystemName}
                 onOpenBody={(body) =>
