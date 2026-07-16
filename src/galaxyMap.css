@@ -552,3 +552,47 @@
     stroke-width: 1.8;
     filter: drop-shadow(0 0 5px rgba(114, 255, 156, 0.42));
 }
+
+
+.galaxy-lane {
+    cursor: pointer;
+    pointer-events: stroke;
+}
+
+.galaxy-lane:hover,
+.galaxy-lane-selected {
+    stroke-width: 3.2;
+    filter: drop-shadow(0 0 9px rgba(218, 255, 222, 0.58));
+}
+
+.galaxy-lane-label-callout {
+    cursor: pointer;
+    pointer-events: auto;
+    outline: none;
+}
+
+.galaxy-lane-label-callout:hover .galaxy-lane-label-plate,
+.galaxy-lane-label-selected .galaxy-lane-label-plate {
+    stroke: rgba(218, 255, 222, 0.72);
+    fill: rgba(3, 22, 9, 0.96);
+}
+
+.galaxy-lane-label-callout:hover .galaxy-lane-label-leader,
+.galaxy-lane-label-selected .galaxy-lane-label-leader {
+    stroke: rgba(218, 255, 222, 0.95);
+    stroke-width: 1.7;
+}
+
+.galaxy-lane-label-callout:hover .galaxy-lane-label-anchor,
+.galaxy-lane-label-selected .galaxy-lane-label-anchor {
+    r: 4.2;
+}
+
+.galaxy-lane-inspector {
+    border-color: rgba(218, 255, 222, 0.32);
+}
+
+.galaxy-lane-note {
+    margin-top: 16px;
+    font-size: 0.78rem;
+}
