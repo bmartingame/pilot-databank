@@ -536,7 +536,7 @@ function GraphNodeDetails({ selection, graph }) {
   );
 }
 
-export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
+export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterfaceSfx = null }) {
   const svgRef = useRef(null);
   const dragRef = useRef(null);
   const zoomRef = useRef(DEFAULT_ZOOM);
@@ -562,6 +562,12 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
   const [selectedNode, setSelectedNode] = useState(null);
   const [openingNodeName, setOpeningNodeName] = useState("");
   const [nodeOpenError, setNodeOpenError] = useState("");
+
+  function triggerInterfaceSfx() {
+    if (typeof onInterfaceSfx === "function") {
+      onInterfaceSfx();
+    }
+  }
 
   useEffect(() => {
     zoomRef.current = zoom;
@@ -762,6 +768,8 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
   }
 
   async function selectNode(node) {
+    triggerInterfaceSfx();
+
     const kind = nodeHasLabel(node, "Sector") ? "Sector" : "System";
     const name = node?.properties?.name || "";
 
@@ -835,21 +843,30 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
         <button
           type="button"
           className="terminal-button"
-          onClick={() => applyZoom(zoom * 1.18)}
+          onClick={() => {
+            triggerInterfaceSfx();
+            applyZoom(zoom * 1.18);
+          }}
         >
           [+]
         </button>
         <button
           type="button"
           className="terminal-button"
-          onClick={() => applyZoom(zoom / 1.18)}
+          onClick={() => {
+            triggerInterfaceSfx();
+            applyZoom(zoom / 1.18);
+          }}
         >
           [-]
         </button>
         <button
           type="button"
           className="terminal-button"
-          onClick={resetView}
+          onClick={() => {
+            triggerInterfaceSfx();
+            resetView();
+          }}
         >
           [RESET]
         </button>
@@ -858,7 +875,10 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
           className={`terminal-button ${
             showSystems ? "map-control-active" : ""
           }`}
-          onClick={() => setShowSystems((current) => !current)}
+          onClick={() => {
+            triggerInterfaceSfx();
+            setShowSystems((current) => !current);
+          }}
           aria-pressed={showSystems}
         >
           {showSystems ? "[COLLAPSE SECTORS]" : "[EXPAND SECTORS]"}
@@ -868,7 +888,10 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
           className={`terminal-button ${
             showSectorLabels ? "map-control-active" : ""
           }`}
-          onClick={() => setShowSectorLabels((current) => !current)}
+          onClick={() => {
+            triggerInterfaceSfx();
+            setShowSectorLabels((current) => !current);
+          }}
           aria-pressed={showSectorLabels}
         >
           [SECTOR LABELS]
@@ -878,7 +901,10 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
           className={`terminal-button ${
             showFactionLabels ? "map-control-active" : ""
           }`}
-          onClick={() => setShowFactionLabels((current) => !current)}
+          onClick={() => {
+            triggerInterfaceSfx();
+            setShowFactionLabels((current) => !current);
+          }}
           aria-pressed={showFactionLabels}
         >
           [FACTIONS]
@@ -888,7 +914,10 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
           className={`terminal-button ${
             showSystemLabels ? "map-control-active" : ""
           }`}
-          onClick={() => setShowSystemLabels((current) => !current)}
+          onClick={() => {
+            triggerInterfaceSfx();
+            setShowSystemLabels((current) => !current);
+          }}
           aria-pressed={showSystemLabels}
           disabled={!showSystems}
         >
@@ -899,7 +928,10 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null }) {
           className={`terminal-button ${
             showLaneLabels ? "map-control-active" : ""
           }`}
-          onClick={() => setShowLaneLabels((current) => !current)}
+          onClick={() => {
+            triggerInterfaceSfx();
+            setShowLaneLabels((current) => !current);
+          }}
           aria-pressed={showLaneLabels}
         >
           [LANE LABELS]
