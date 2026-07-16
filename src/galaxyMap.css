@@ -200,9 +200,9 @@
 }
 
 .galaxy-lane-label {
-    fill: rgba(198, 255, 210, 0.88);
+    fill: rgba(218, 255, 222, 0.92);
     font-family: "Courier New", Courier, monospace;
-    font-size: 9.5px;
+    font-size: 8.8px;
     letter-spacing: 0.045em;
     paint-order: stroke;
     stroke: rgba(0, 8, 3, 0.98);
@@ -216,8 +216,8 @@
 }
 
 .galaxy-lane-label-plate {
-    fill: rgba(0, 10, 4, 0.76);
-    stroke: rgba(114, 255, 156, 0.16);
+    fill: rgba(0, 10, 4, 0.9);
+    stroke: rgba(218, 255, 222, 0.28);
     stroke-width: 1;
 }
 
@@ -258,9 +258,10 @@
 }
 
 .galaxy-sector-label {
+    dominant-baseline: middle;
     fill: var(--sector-accent);
     stroke-width: 6px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.04em;
 }
@@ -268,7 +269,7 @@
 .galaxy-sector-civ {
     fill: rgba(160, 220, 175, 0.78);
     stroke-width: 4px;
-    font-size: 9px;
+    font-size: 8.5px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -288,9 +289,9 @@
 }
 
 .galaxy-system-label {
-    fill: rgba(177, 255, 196, 0.8);
+    fill: rgba(177, 255, 196, 0.68);
     stroke-width: 3px;
-    font-size: 8.25px;
+    font-size: 7.7px;
     letter-spacing: 0.02em;
     pointer-events: none;
 }
@@ -529,4 +530,25 @@
         width: 100%;
         margin-left: 0;
     }
+}
+
+
+/* Lane labels are now explicit callouts: dot on lane + leader line + label plate. */
+.galaxy-lane-label-callout {
+    pointer-events: none;
+}
+
+.galaxy-lane-label-leader {
+    fill: none;
+    stroke: rgba(218, 255, 222, 0.72);
+    stroke-width: 1.15;
+    stroke-dasharray: 3 3;
+    filter: drop-shadow(0 0 4px rgba(114, 255, 156, 0.26));
+}
+
+.galaxy-lane-label-anchor {
+    fill: rgba(218, 255, 222, 0.95);
+    stroke: rgba(0, 8, 3, 0.98);
+    stroke-width: 1.8;
+    filter: drop-shadow(0 0 5px rgba(114, 255, 156, 0.42));
 }
