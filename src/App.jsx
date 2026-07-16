@@ -1004,7 +1004,7 @@ function CRTStartupSplash({ audioBlocked, isRunning, onRetry }) {
         <div className="crt-startup-vignette" />
 
         <div className="crt-startup-readout">
-          <div className="crt-startup-kicker">PILOT DATABANK // CRT WAKE SIGNAL</div>
+          <div className="crt-startup-kicker">PILOT DATABANK // WAKE SIGNAL</div>
           <div className="crt-startup-title">DISPLAY INITIALIZING</div>
 
           <div className="crt-startup-progress" aria-hidden="true">
