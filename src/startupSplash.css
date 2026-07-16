@@ -1,0 +1,393 @@
+.crt-startup-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at center, rgba(17, 84, 34, 0.18), transparent 46%),
+        #000702;
+    animation: crtStartupOverlayExit 7.62s linear forwards;
+}
+
+.crt-startup-screen {
+    position: relative;
+    width: min(100vw, 1200px);
+    height: min(100vh, 780px);
+    overflow: hidden;
+    border: 1px solid rgba(114, 255, 156, 0.26);
+    background:
+        radial-gradient(circle at center, rgba(98, 255, 139, 0.16), rgba(0, 7, 2, 0.96) 54%, #000 100%);
+    box-shadow:
+        inset 0 0 80px rgba(114, 255, 156, 0.08),
+        0 0 46px rgba(114, 255, 156, 0.16);
+    animation:
+        crtStartupScreenBulge 7.62s cubic-bezier(0.2, 0.95, 0.2, 1) forwards,
+        crtStartupScreenFlicker 7.62s steps(1, end) forwards;
+}
+
+.crt-startup-beam {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 2px;
+    transform: translate(-50%, -50%);
+    background: rgba(210, 255, 220, 0.95);
+    box-shadow:
+        0 0 12px rgba(210, 255, 220, 0.9),
+        0 0 42px rgba(114, 255, 156, 0.72);
+    animation: crtStartupBeam 7.62s cubic-bezier(0.16, 0.9, 0.18, 1) forwards;
+}
+
+.crt-startup-grid {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    background:
+        linear-gradient(rgba(114, 255, 156, 0.055) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(114, 255, 156, 0.055) 1px, transparent 1px);
+    background-size: 42px 42px;
+    animation: crtStartupGrid 7.62s linear forwards;
+}
+
+.crt-startup-scan {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    background:
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 3px,
+            rgba(0, 0, 0, 0.24) 4px
+        ),
+        linear-gradient(
+            to bottom,
+            transparent 0,
+            rgba(114, 255, 156, 0.18) 50%,
+            transparent 100%
+        );
+    background-size: auto, 100% 210px;
+    animation:
+        crtStartupScan 7.62s linear forwards,
+        crtStartupScanRoll 1.8s linear infinite;
+}
+
+.crt-startup-vignette {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+        radial-gradient(circle at center, transparent 48%, rgba(0, 0, 0, 0.58) 100%);
+}
+
+.crt-startup-readout {
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    width: min(640px, calc(100vw - 44px));
+    transform: translate(-50%, -50%);
+    padding: 22px;
+    border: 1px dashed rgba(114, 255, 156, 0.34);
+    background: rgba(0, 12, 4, 0.74);
+    color: var(--text, #b8ffc8);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0.07em;
+    box-shadow:
+        inset 0 0 0 1px rgba(114, 255, 156, 0.08),
+        0 0 24px rgba(114, 255, 156, 0.12);
+    opacity: 0;
+    animation: crtStartupReadout 7.62s steps(1, end) forwards;
+}
+
+.crt-startup-kicker {
+    margin-bottom: 8px;
+    color: var(--muted, rgba(184, 255, 200, 0.68));
+    font-size: 0.74rem;
+}
+
+.crt-startup-title {
+    color: var(--line-bright, #72ff9c);
+    font-size: clamp(1.45rem, 4vw, 2.55rem);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-shadow: 0 0 14px rgba(114, 255, 156, 0.28);
+}
+
+.crt-startup-progress {
+    position: relative;
+    height: 10px;
+    margin: 20px 0 18px;
+    overflow: hidden;
+    border: 1px solid rgba(114, 255, 156, 0.34);
+    background: rgba(0, 4, 2, 0.8);
+}
+
+.crt-startup-progress span {
+    display: block;
+    height: 100%;
+    width: 0;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(114, 255, 156, 0.35),
+            rgba(210, 255, 220, 0.95)
+        );
+    box-shadow: 0 0 18px rgba(114, 255, 156, 0.38);
+    animation: crtStartupProgress 7.1s cubic-bezier(0.1, 0.8, 0.15, 1) forwards;
+}
+
+.crt-startup-lines {
+    display: grid;
+    gap: 6px;
+    margin-top: 4px;
+    color: rgba(190, 255, 205, 0.82);
+    font-size: 0.82rem;
+}
+
+.crt-startup-lines > div {
+    opacity: 0;
+}
+
+.crt-startup-lines > div:nth-child(1) {
+    animation: crtStartupLine 0.1s steps(1, end) 1.1s forwards;
+}
+
+.crt-startup-lines > div:nth-child(2) {
+    animation: crtStartupLine 0.1s steps(1, end) 2.05s forwards;
+}
+
+.crt-startup-lines > div:nth-child(3) {
+    animation: crtStartupLine 0.1s steps(1, end) 3.4s forwards;
+}
+
+.crt-startup-lines > div:nth-child(4) {
+    animation: crtStartupLine 0.1s steps(1, end) 4.95s forwards;
+}
+
+.crt-startup-status {
+    margin-top: 18px;
+    color: var(--muted, rgba(184, 255, 200, 0.68));
+    font-size: 0.72rem;
+}
+
+.crt-startup-unmute {
+    margin-top: 20px;
+    padding: 10px 14px;
+    border: 1px dashed var(--line-bright, #72ff9c);
+    color: var(--line-bright, #72ff9c);
+    background: rgba(0, 10, 4, 0.9);
+    font: inherit;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    box-shadow: 0 0 18px rgba(114, 255, 156, 0.12);
+}
+
+.crt-startup-unmute:hover {
+    background: rgba(12, 40, 18, 0.88);
+}
+
+@keyframes crtStartupBeam {
+    0% {
+        width: 0;
+        height: 2px;
+        opacity: 0;
+    }
+
+    4% {
+        width: 100vw;
+        height: 2px;
+        opacity: 1;
+    }
+
+    10% {
+        width: 100vw;
+        height: 100vh;
+        opacity: 0.72;
+    }
+
+    16%,
+    100% {
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+    }
+}
+
+@keyframes crtStartupGrid {
+    0%,
+    12% {
+        opacity: 0;
+        transform: scale(1.08);
+    }
+
+    22% {
+        opacity: 0.55;
+        transform: scale(1);
+    }
+
+    88% {
+        opacity: 0.38;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes crtStartupScan {
+    0%,
+    10% {
+        opacity: 0;
+    }
+
+    18%,
+    94% {
+        opacity: 0.86;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes crtStartupScanRoll {
+    from {
+        background-position: 0 0, 0 -210px;
+    }
+
+    to {
+        background-position: 0 0, 0 210px;
+    }
+}
+
+@keyframes crtStartupReadout {
+    0%,
+    18% {
+        opacity: 0;
+    }
+
+    19%,
+    86% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 0.65;
+    }
+
+    94%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes crtStartupProgress {
+    0% {
+        width: 0;
+    }
+
+    18% {
+        width: 9%;
+    }
+
+    38% {
+        width: 38%;
+    }
+
+    62% {
+        width: 72%;
+    }
+
+    86%,
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes crtStartupLine {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes crtStartupScreenBulge {
+    0% {
+        transform: scaleX(0.02) scaleY(0.003);
+        border-radius: 48%;
+    }
+
+    5% {
+        transform: scaleX(1) scaleY(0.005);
+        border-radius: 44%;
+    }
+
+    11% {
+        transform: scaleX(1.04) scaleY(1);
+        border-radius: 18px;
+    }
+
+    16%,
+    96% {
+        transform: scale(1);
+        border-radius: 0;
+    }
+
+    100% {
+        transform: scale(1.025);
+        border-radius: 0;
+    }
+}
+
+@keyframes crtStartupScreenFlicker {
+    0%,
+    3%,
+    6%,
+    8%,
+    14% {
+        filter: brightness(0.4) contrast(1.8);
+    }
+
+    4%,
+    7%,
+    10%,
+    18%,
+    92% {
+        filter: brightness(1.04) contrast(1.16);
+    }
+
+    94% {
+        filter: brightness(1.45) contrast(1.6);
+    }
+
+    100% {
+        filter: brightness(0.2) contrast(1.4);
+    }
+}
+
+@keyframes crtStartupOverlayExit {
+    0%,
+    94% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .crt-startup-overlay,
+    .crt-startup-screen,
+    .crt-startup-beam,
+    .crt-startup-grid,
+    .crt-startup-scan,
+    .crt-startup-readout,
+    .crt-startup-progress span,
+    .crt-startup-lines > div {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}
