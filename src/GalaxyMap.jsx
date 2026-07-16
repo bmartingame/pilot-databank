@@ -417,27 +417,49 @@ function lanePath(start, end, lane, laneIndex = 0) {
   const middleY = (start.y + end.y) / 2 + perpendicularY * curveOffset;
 
   const labelText = String(lane?.properties?.lane || "UNNAMED LANE");
-  const labelT = length < 180 ? 0.66 : 0.56;
-
+  const labelT = length < 180 ? 0.62 : 0.54;
   const oneMinusT = 1 - labelT;
-  const curveX =
+
+  const anchorX =
     oneMinusT * oneMinusT * start.x +
     2 * oneMinusT * labelT * middleX +
     labelT * labelT * end.x;
-  const curveY =
+  const anchorY =
     oneMinusT * oneMinusT * start.y +
     2 * oneMinusT * labelT * middleY +
     labelT * labelT * end.y;
 
-  const labelLift = 18 + Math.min(18, Math.abs(curveOffset) * 0.55);
-  const labelDirection = laneIndex % 2 === 0 ? 1 : -1;
-  const labelX = curveX + perpendicularX * labelLift * labelDirection;
-  const labelY = curveY + perpendicularY * labelLift * labelDirection;
+  /*
+   * Lane labels are callouts, not free-floating tags. The anchor point stays
+   * on the lane and the leader line points from the label back to that lane.
+   */
+  const sideSeed = Math.round(stableAngle(lane?.properties?.lane || lane.id) * 1000);
+  const labelDirection = (sideSeed + laneIndex) % 2 === 0 ? 1 : -1;
+  const labelLift = 44 + Math.min(30, Math.abs(curveOffset) * 0.9);
+  const alongOffset =
+    length < 150
+      ? 0
+      : ((sideSeed % 3) - 1) * Math.min(30, length * 0.08);
+
+  const unitX = dx / length;
+  const unitY = dy / length;
+  const labelX =
+    anchorX +
+    perpendicularX * labelLift * labelDirection +
+    unitX * alongOffset;
+  const labelY =
+    anchorY +
+    perpendicularY * labelLift * labelDirection +
+    unitY * alongOffset;
 
   const labelWidth = Math.min(
-    172,
-    Math.max(58, labelText.length * 6.35 + 16)
+    184,
+    Math.max(62, labelText.length * 6.7 + 18)
   );
+
+  const leaderStartX =
+    labelX - Math.sign(perpendicularX * labelDirection || 1) * labelWidth * 0.44;
+  const leaderStartY = labelY;
 
   return {
     d: `M ${start.x} ${start.y} Q ${middleX} ${middleY} ${end.x} ${end.y}`,
@@ -445,6 +467,9 @@ function lanePath(start, end, lane, laneIndex = 0) {
     labelX,
     labelY,
     labelWidth,
+    anchorX,
+    anchorY,
+    leaderD: `M ${anchorX} ${anchorY} L ${leaderStartX} ${leaderStartY}`,
   };
 }
 
@@ -1164,7 +1189,7 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
                       />
                       {showSectorLabels || isSelected ? (
                         <text
-                          y="-58"
+                          y="-42"
                           textAnchor="middle"
                           className="galaxy-sector-label"
                         >
@@ -1174,7 +1199,7 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
 
                       {showFactionLabels ? (
                         <text
-                          y="72"
+                          y="88"
                           textAnchor="middle"
                           className="galaxy-sector-civ"
                         >
@@ -1258,7 +1283,16 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
 
               {showLaneLabels ? (
                 <g className="galaxy-lane-labels">
-                  {laneRenderData.map(({ lane, labelText, labelX, labelY, labelWidth }) => {
+                  {laneRenderData.map(({
+                    lane,
+                    labelText,
+                    labelX,
+                    labelY,
+                    labelWidth,
+                    anchorX,
+                    anchorY,
+                    leaderD,
+                  }) => {
                     if (!showSystems && laneTouchesSystem(lane, graph)) {
                       return null;
                     }
@@ -1266,25 +1300,41 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
                     return (
                       <g
                         key={`label-${lane.semanticKey}`}
-                        transform={`translate(${labelX} ${labelY})`}
-                        className="galaxy-lane-label-block"
+                        className="galaxy-lane-label-callout"
                       >
-                        <rect
-                          x={-labelWidth / 2}
-                          y="-8.5"
-                          width={labelWidth}
-                          height="17"
-                          rx="2"
-                          className="galaxy-lane-label-plate"
+                        <path
+                          d={leaderD}
+                          className="galaxy-lane-label-leader"
                           vectorEffect="non-scaling-stroke"
                         />
-                        <text
-                          className="galaxy-lane-label"
-                          textAnchor="middle"
-                          dominantBaseline="middle"
+                        <circle
+                          cx={anchorX}
+                          cy={anchorY}
+                          r="3.2"
+                          className="galaxy-lane-label-anchor"
+                          vectorEffect="non-scaling-stroke"
+                        />
+                        <g
+                          transform={`translate(${labelX} ${labelY})`}
+                          className="galaxy-lane-label-block"
                         >
-                          {labelText}
-                        </text>
+                          <rect
+                            x={-labelWidth / 2}
+                            y="-8.5"
+                            width={labelWidth}
+                            height="17"
+                            rx="2"
+                            className="galaxy-lane-label-plate"
+                            vectorEffect="non-scaling-stroke"
+                          />
+                          <text
+                            className="galaxy-lane-label"
+                            textAnchor="middle"
+                            dominantBaseline="middle"
+                          >
+                            {labelText}
+                          </text>
+                        </g>
                       </g>
                     );
                   })}
