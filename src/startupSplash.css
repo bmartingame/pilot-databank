@@ -391,3 +391,51 @@
         animation-iteration-count: 1 !important;
     }
 }
+
+.crt-startup-overlay:not(.crt-startup-running),
+.crt-startup-overlay:not(.crt-startup-running) * {
+    animation-name: none !important;
+}
+
+.crt-startup-overlay:not(.crt-startup-running) {
+    opacity: 1;
+}
+
+.crt-startup-overlay:not(.crt-startup-running) .crt-startup-screen {
+    transform: scale(1);
+    border-radius: 0;
+    filter: brightness(1.04) contrast(1.16);
+}
+
+.crt-startup-overlay:not(.crt-startup-running) .crt-startup-beam {
+    opacity: 0;
+}
+
+.crt-startup-overlay:not(.crt-startup-running) .crt-startup-grid {
+    opacity: 0.38;
+    transform: scale(1);
+}
+
+.crt-startup-overlay:not(.crt-startup-running) .crt-startup-scan {
+    opacity: 0.86;
+}
+
+.crt-startup-overlay:not(.crt-startup-running) .crt-startup-readout {
+    opacity: 1;
+}
+
+.crt-startup-overlay:not(.crt-startup-running) .crt-startup-progress span {
+    width: 0;
+}
+
+.crt-startup-overlay:not(.crt-startup-running) .crt-startup-lines > div {
+    opacity: 1;
+}
+
+.crt-startup-overlay.crt-startup-blocked .crt-startup-title {
+    color: var(--danger, #ff9964);
+}
+
+.crt-startup-overlay.crt-startup-blocked .crt-startup-progress {
+    opacity: 0.45;
+}
