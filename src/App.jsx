@@ -6,6 +6,11 @@ import SearchAutocompleteInput from "./SearchAutocomplete";
 import GalaxyMap from "./GalaxyMap";
 import CosmologyMap from "./CosmologyMap";
 import "./styles.css";
+import "./startupSplash.css";
+
+const CRT_STARTUP_AUDIO_URL = `${import.meta.env.BASE_URL}audio/crt-computer-monitor-startup.wav`;
+const CRT_STARTUP_DURATION_MS = 7367;
+
 
 const TTS_SETTINGS = {
   enabled: true,
@@ -933,6 +938,48 @@ function entryMatchesMapKind(entry, kind) {
   return resolveRecordType(entry).toLowerCase() === String(kind || "").toLowerCase();
 }
 
+
+function CRTStartupSplash({ audioBlocked, onRetry }) {
+  return (
+    <div className="crt-startup-overlay" role="presentation">
+      <div className="crt-startup-screen">
+        <div className="crt-startup-beam" />
+        <div className="crt-startup-grid" />
+        <div className="crt-startup-scan" />
+        <div className="crt-startup-vignette" />
+
+        <div className="crt-startup-readout">
+          <div className="crt-startup-kicker">PILOT DATABANK // CRT WAKE SIGNAL</div>
+          <div className="crt-startup-title">DISPLAY INITIALIZING</div>
+
+          <div className="crt-startup-progress" aria-hidden="true">
+            <span />
+          </div>
+
+          <div className="crt-startup-lines">
+            <div>&gt; POWER BUS ................ ONLINE</div>
+            <div>&gt; PHOSPHOR GRID ............ CHARGING</div>
+            <div>&gt; SIGNAL LOCK .............. ACQUIRED</div>
+            <div>&gt; DATAFILE INDEX ........... READY</div>
+          </div>
+
+          {audioBlocked ? (
+            <button
+              type="button"
+              className="crt-startup-unmute"
+              onClick={onRetry}
+            >
+              [INITIALIZE DISPLAY]
+            </button>
+          ) : (
+            <div className="crt-startup-status">SYNCING AUDIO // PLEASE STAND BY</div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function App() {
   const [activeTab, setActiveTab] = useState("databank");
   const [inputValue, setInputValue] = useState("");
@@ -951,12 +998,94 @@ export default function App() {
     results: [],
     count: 0,
   });
+  const [startupVisible, setStartupVisible] = useState(true);
+  const [startupAudioBlocked, setStartupAudioBlocked] = useState(false);
+  const [startupComplete, setStartupComplete] = useState(false);
 
   const welcomeSpokenRef = useRef(false);
+  const startupAudioRef = useRef(null);
+  const startupTimerRef = useRef(null);
 
   function playInterfaceSelectSfx() {
     void playEntrySelectSfx();
   }
+
+  function clearStartupTimer() {
+    if (startupTimerRef.current) {
+      window.clearTimeout(startupTimerRef.current);
+      startupTimerRef.current = null;
+    }
+  }
+
+  function finishStartupSequence() {
+    clearStartupTimer();
+    setStartupVisible(false);
+    setStartupAudioBlocked(false);
+    setStartupComplete(true);
+  }
+
+  function startStartupSequence(audio) {
+    if (!audio) return;
+
+    clearStartupTimer();
+    setStartupVisible(true);
+    setStartupAudioBlocked(false);
+
+    audio.currentTime = 0;
+    audio.volume = 0.82;
+
+    const playPromise = audio.play();
+
+    if (playPromise?.catch) {
+      playPromise
+        .then(() => {
+          startupTimerRef.current = window.setTimeout(
+            finishStartupSequence,
+            CRT_STARTUP_DURATION_MS + 260
+          );
+        })
+        .catch(() => {
+          clearStartupTimer();
+          setStartupAudioBlocked(true);
+        });
+    } else {
+      startupTimerRef.current = window.setTimeout(
+        finishStartupSequence,
+        CRT_STARTUP_DURATION_MS + 260
+      );
+    }
+  }
+
+  function retryStartupAudio() {
+    let audio = startupAudioRef.current;
+
+    if (!audio) {
+      audio = new Audio(CRT_STARTUP_AUDIO_URL);
+      audio.preload = "auto";
+      startupAudioRef.current = audio;
+    }
+
+    startStartupSequence(audio);
+  }
+
+  useEffect(() => {
+    const audio = new Audio(CRT_STARTUP_AUDIO_URL);
+    audio.preload = "auto";
+    startupAudioRef.current = audio;
+
+    const startupDelay = window.setTimeout(() => {
+      startStartupSequence(audio);
+    }, 80);
+
+    return () => {
+      window.clearTimeout(startupDelay);
+      clearStartupTimer();
+
+      audio.pause();
+      audio.src = "";
+      startupAudioRef.current = null;
+    };
+  }, []);
 
   useEffect(() => {
     let alive = true;
@@ -979,7 +1108,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    if (!("speechSynthesis" in window)) return;
+    if (!startupComplete || !("speechSynthesis" in window)) return;
 
     const speakWelcome = () => {
       if (welcomeSpokenRef.current) return;
@@ -992,7 +1121,7 @@ export default function App() {
 
     window.speechSynthesis.onvoiceschanged = loadVoices;
 
-    const timer = window.setTimeout(speakWelcome, 450);
+    const timer = window.setTimeout(speakWelcome, 250);
 
     window.addEventListener("pointerdown", speakWelcome, { once: true });
     window.addEventListener("keydown", speakWelcome, { once: true });
@@ -1003,7 +1132,7 @@ export default function App() {
       window.removeEventListener("keydown", speakWelcome);
       window.speechSynthesis.onvoiceschanged = null;
     };
-  }, []);
+  }, [startupComplete]);
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -1173,6 +1302,13 @@ export default function App() {
 
   return (
     <div className="app-shell terminal-theme">
+      {startupVisible ? (
+        <CRTStartupSplash
+          audioBlocked={startupAudioBlocked}
+          onRetry={retryStartupAudio}
+        />
+      ) : null}
+
       <header className="hero terminal-frame">
         <h1>PILOT DATABANK</h1>
       </header>
