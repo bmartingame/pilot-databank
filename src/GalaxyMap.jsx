@@ -121,8 +121,6 @@ function normalizeGalaxyRows(rows) {
     }
   }
 
-  // Some sectors may be controlled by the Guild even when their own
-  // primaryCiv field is incomplete. Catch those through CONTROLS links.
   for (const relation of allRelations) {
     if (relation.type !== "CONTROLS") continue;
 
@@ -138,7 +136,6 @@ function normalizeGalaxyRows(rows) {
     }
   }
 
-  // Exclude systems that belong to an excluded Primus/Guild sector.
   for (const relation of allRelations) {
     if (relation.type !== "IN_SECTOR") continue;
 
@@ -329,10 +326,7 @@ function buildLayout(graph) {
         marginY -
         ((item.rawY - minY) / yRange) * usableHeight;
 
-      /*
-       * Expand normalized positions away from the map center. Unlike changing
-       * the JSON values, this is not cancelled by the min/max normalization.
-       */
+
       const baseX =
         VIEW_WIDTH / 2 +
         (normalizedX - VIEW_WIDTH / 2) * SECTOR_SPREAD;
@@ -429,10 +423,6 @@ function lanePath(start, end, lane, laneIndex = 0) {
     2 * oneMinusT * labelT * middleY +
     labelT * labelT * end.y;
 
-  /*
-   * Lane labels are callouts, not free-floating tags. The anchor point stays
-   * on the lane and the leader line points from the label back to that lane.
-   */
   const sideSeed = Math.round(stableAngle(lane?.properties?.lane || lane.id) * 1000);
   const labelDirection = (sideSeed + laneIndex) % 2 === 0 ? 1 : -1;
   const labelLift = 44 + Math.min(30, Math.abs(curveOffset) * 0.9);
@@ -487,10 +477,7 @@ function calculateLaneTravelHours(start, end) {
   const dy = end.y - start.y;
   const distance = Math.sqrt(dx * dx + dy * dy);
 
-  /*
-   * Short routes bottom out at 1 hour. Long sector-spanning lanes can exceed
-   * 168 hours because the curve is intentionally superlinear.
-   */
+
   const hours = Math.max(1, Math.round((distance / 4.8) ** 1.28));
 
   return {
@@ -878,11 +865,7 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
     if (!svg) return undefined;
 
     const handleNativeWheel = (event) => {
-      /*
-       * React/browser wheel listeners may be passive. A native listener with
-       * passive:false guarantees that the map captures the wheel gesture
-       * instead of scrolling the document.
-       */
+
       event.preventDefault();
       event.stopPropagation();
 
