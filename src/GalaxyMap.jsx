@@ -530,16 +530,8 @@ function getLaneName(lane) {
   );
 }
 
-function buildLaneSpeechLine(lane, graph, travel) {
-  const startNode = graph.nodeMap.get(lane.startId);
-  const endNode = graph.nodeMap.get(lane.endId);
-  const laneName = getLaneName(lane);
-  const origin = laneEndpointName(startNode);
-  const destination = laneEndpointName(endNode);
-  const transitTime = formatLaneTravelTimeForSpeech(travel?.hours);
-  const risk = String(lane?.properties?.risk || "unspecified").toLowerCase();
-
-  return `Hyperspace lane. ${laneName}. Origin, ${origin}. Destination, ${destination}. Transit time, ${transitTime}. Risk, ${risk}.`;
+function buildLaneSpeechLine(lane) {
+  return getLaneName(lane);
 }
 
 function speakLaneSpeechLine(text) {
@@ -993,7 +985,7 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
     const start = positions.get(lane.startId);
     const end = positions.get(lane.endId);
     const travel = calculateLaneTravelHours(start, end);
-    const spokenLine = buildLaneSpeechLine(lane, graph, travel);
+    const spokenLine = buildLaneSpeechLine(lane);
 
     if (typeof onNarrate === "function") {
       onNarrate(spokenLine);
