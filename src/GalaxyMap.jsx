@@ -478,7 +478,7 @@ function calculateLaneTravelHours(start, end) {
   const distance = Math.sqrt(dx * dx + dy * dy);
 
 
-  const hours = Math.max(1, Math.round((distance / 4.8) ** 1.28));
+  const hours = Math.max(1, Math.round((distance / 7) ** 1.28));
 
   return {
     distance,
