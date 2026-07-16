@@ -961,11 +961,40 @@ function isReloadNavigation() {
 }
 
 function CRTStartupSplash({ audioBlocked, isRunning, onRetry }) {
+  if (!isRunning) {
+    return (
+      <div
+        className={`crt-startup-overlay crt-startup-awaiting ${
+          audioBlocked ? "crt-startup-blocked" : ""
+        }`}
+        role="presentation"
+      >
+        <div className="crt-startup-idle-screen">
+          <button
+            type="button"
+            className="crt-startup-center-button"
+            onClick={onRetry}
+          >
+            [INITIALIZE DISPLAY]
+          </button>
+
+          {audioBlocked ? (
+            <div className="crt-startup-idle-warning">
+              AUDIO HANDSHAKE FAILED // RETRY REQUIRED
+            </div>
+          ) : (
+            <div className="crt-startup-idle-status">
+              AWAITING PILOT INPUT
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div
-      className={`crt-startup-overlay ${
-        isRunning ? "crt-startup-running" : "crt-startup-waiting"
-      } ${audioBlocked ? "crt-startup-blocked" : ""}`}
+      className="crt-startup-overlay crt-startup-running"
       role="presentation"
     >
       <div className="crt-startup-screen">
@@ -975,7 +1004,7 @@ function CRTStartupSplash({ audioBlocked, isRunning, onRetry }) {
         <div className="crt-startup-vignette" />
 
         <div className="crt-startup-readout">
-          <div className="crt-startup-kicker">PILOT DATABANK // WAKE SIGNAL</div>
+          <div className="crt-startup-kicker">PILOT DATABANK // CRT WAKE SIGNAL</div>
           <div className="crt-startup-title">DISPLAY INITIALIZING</div>
 
           <div className="crt-startup-progress" aria-hidden="true">
@@ -989,19 +1018,9 @@ function CRTStartupSplash({ audioBlocked, isRunning, onRetry }) {
             <div>&gt; DATAFILE INDEX ........... READY</div>
           </div>
 
-          {audioBlocked ? (
-            <button
-              type="button"
-              className="crt-startup-unmute"
-              onClick={onRetry}
-            >
-              [INITIALIZE DISPLAY]
-            </button>
-          ) : isRunning ? (
-            <div className="crt-startup-status">SYNCING AUDIO // PLEASE STAND BY</div>
-          ) : (
-            <div className="crt-startup-status">AWAITING AUDIO HANDSHAKE</div>
-          )}
+          <div className="crt-startup-status">
+            SYNCING AUDIO // PLEASE STAND BY
+          </div>
         </div>
       </div>
     </div>
@@ -1130,12 +1149,7 @@ export default function App() {
     audio.preload = "auto";
     startupAudioRef.current = audio;
 
-    const startupDelay = window.setTimeout(() => {
-      startStartupSequence(audio);
-    }, 80);
-
     return () => {
-      window.clearTimeout(startupDelay);
       clearStartupTimer();
 
       audio.pause();
