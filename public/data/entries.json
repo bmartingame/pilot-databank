@@ -76410,6 +76410,4868 @@
       },
       "elementId": "4:frontier-system-bodies:5228"
     }
+  },
+   {
+    "n": {
+      "identity": 9000,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "raw_text": "Shale Hollow System\nSector Name: Orak Sector\nFaction: Orak Belt Syndicates\nDescription: Shale Hollow is a low-traffic Orak system centered on a K-class star and a dense asteroid belt. It functions as a minor refuge and salvage stop for crews operating away from Orak Station’s main routes. Local administration is inconsistent, and navigation outside marked approach corridors should be treated as unreliable.",
+        "document_kind": "manual",
+        "kind": "SystemGlossaryEntry",
+        "description": "Shale Hollow is a low-traffic Orak system centered on a K-class star and a dense asteroid belt. It functions as a minor refuge and salvage stop for crews operating away from Orak Station’s main routes. Local administration is inconsistent, and navigation outside marked approach corridors should be treated as unreliable.",
+        "manual_ingest": true,
+        "body": "Shale Hollow is a low-traffic Orak system centered on a K-class star and a dense asteroid belt. It functions as a minor refuge and salvage stop for crews operating away from Orak Station’s main routes. Local administration is inconsistent, and navigation outside marked approach corridors should be treated as unreliable.",
+        "record_type": "System",
+        "glossary_subtype": "System",
+        "collection_title": "Systems Glossary",
+        "updated_at": "2026-07-16T00:00:00.000Z",
+        "source_filename": "Systems Glossary",
+        "import_mode": "automated_system_glossary",
+        "tags_text": "Shale Hollow System Orak Sector Orak Belt Syndicates system sector glossary",
+        "faction": "ORAK",
+        "name": "Shale Hollow System",
+        "dossier_type": "systems",
+        "id": "system__shale_hollow_system",
+        "sector_name": "ORAK SECTOR",
+        "slug": "shale_hollow_system"
+      },
+      "elementId": "4:manual-system-import:9000"
+    }
+  },
+  {
+    "n": {
+      "identity": 9001,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "raw_text": "Zyros System\nSector Name: Halix Sector\nFaction: Halix Compact\nDescription: Zyros is the Compact’s principal counter-incursion system outside the Silent Way. The original colonial grid was abandoned after repeated Mim contact and later rebuilt as a controlled battlespace intended to absorb incursions before they reach populated Halix systems. Navigation inside the inner system is deliberately constrained, and large sections remain under permanent live-fire authorization.",
+        "document_kind": "manual",
+        "kind": "SystemGlossaryEntry",
+        "description": "Zyros is the Compact’s principal counter-incursion system outside the Silent Way. The original colonial grid was abandoned after repeated Mim contact and later rebuilt as a controlled battlespace intended to absorb incursions before they reach populated Halix systems. Navigation inside the inner system is deliberately constrained, and large sections remain under permanent live-fire authorization.",
+        "manual_ingest": true,
+        "body": "Zyros is the Compact’s principal counter-incursion system outside the Silent Way. The original colonial grid was abandoned after repeated Mim contact and later rebuilt as a controlled battlespace intended to absorb incursions before they reach populated Halix systems. Navigation inside the inner system is deliberately constrained, and large sections remain under permanent live-fire authorization.",
+        "record_type": "System",
+        "glossary_subtype": "System",
+        "collection_title": "Systems Glossary",
+        "updated_at": "2026-07-16T00:00:00.000Z",
+        "source_filename": "Systems Glossary",
+        "import_mode": "automated_system_glossary",
+        "tags_text": "Zyros System Halix Sector Halix Compact system sector glossary",
+        "faction": "HALIX",
+        "name": "Zyros System",
+        "dossier_type": "systems",
+        "id": "system__zyros_system",
+        "sector_name": "HALIX SECTOR",
+        "slug": "zyros_system"
+      },
+      "elementId": "4:manual-system-import:9001"
+    }
+  },
+  {
+    "n": {
+      "identity": 9002,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "raw_text": "Nerathis System\nSector Name: Halix Sector\nFaction: Halix Compact\nDescription: Nerathis is the Compact’s largest high-risk research system for Mim containment. Its white dwarf primary and irradiated debris zones allow hazardous programs to remain physically separated across a full system rather than concentrated at one station. Any confirmed breach is treated as a sector-level emergency.",
+        "document_kind": "manual",
+        "kind": "SystemGlossaryEntry",
+        "description": "Nerathis is the Compact’s largest high-risk research system for Mim containment. Its white dwarf primary and irradiated debris zones allow hazardous programs to remain physically separated across a full system rather than concentrated at one station. Any confirmed breach is treated as a sector-level emergency.",
+        "manual_ingest": true,
+        "body": "Nerathis is the Compact’s largest high-risk research system for Mim containment. Its white dwarf primary and irradiated debris zones allow hazardous programs to remain physically separated across a full system rather than concentrated at one station. Any confirmed breach is treated as a sector-level emergency.",
+        "record_type": "System",
+        "glossary_subtype": "System",
+        "collection_title": "Systems Glossary",
+        "updated_at": "2026-07-16T00:00:00.000Z",
+        "source_filename": "Systems Glossary",
+        "import_mode": "automated_system_glossary",
+        "tags_text": "Nerathis System Halix Sector Halix Compact system sector glossary",
+        "faction": "HALIX",
+        "name": "Nerathis System",
+        "dossier_type": "systems",
+        "id": "system__nerathis_system",
+        "sector_name": "HALIX SECTOR",
+        "slug": "nerathis_system"
+      },
+      "elementId": "4:manual-system-import:9002"
+    }
+  },
+  {
+    "n": {
+      "identity": 9003,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "raw_text": "Tarkoss System\nSector Name: Karnate Sector\nFaction: Karnate\nDescription: Tarkoss is a Karnate industrial recovery system centered on dismantling damaged military material. Its yards process captured hulls and failed equipment into reusable components for nearby campaigns. Most traffic is military or state-chartered, and unauthorized vessels are rarely allowed beyond the outer holding orbits.",
+        "document_kind": "manual",
+        "kind": "SystemGlossaryEntry",
+        "description": "Tarkoss is a Karnate industrial recovery system centered on dismantling damaged military material. Its yards process captured hulls and failed equipment into reusable components for nearby campaigns. Most traffic is military or state-chartered, and unauthorized vessels are rarely allowed beyond the outer holding orbits.",
+        "manual_ingest": true,
+        "body": "Tarkoss is a Karnate industrial recovery system centered on dismantling damaged military material. Its yards process captured hulls and failed equipment into reusable components for nearby campaigns. Most traffic is military or state-chartered, and unauthorized vessels are rarely allowed beyond the outer holding orbits.",
+        "record_type": "System",
+        "glossary_subtype": "System",
+        "collection_title": "Systems Glossary",
+        "updated_at": "2026-07-16T00:00:00.000Z",
+        "source_filename": "Systems Glossary",
+        "import_mode": "automated_system_glossary",
+        "tags_text": "Tarkoss System Karnate Sector Karnate system sector glossary",
+        "faction": "KARNATE",
+        "name": "Tarkoss System",
+        "dossier_type": "systems",
+        "id": "system__tarkoss_system",
+        "sector_name": "KARNATE SECTOR",
+        "slug": "tarkoss_system"
+      },
+      "elementId": "4:manual-system-import:9003"
+    }
+  },
+  {
+    "n": {
+      "identity": 9004,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "raw_text": "Uldran System\nSector Name: Cindral Sector\nFaction: Cindral March\nDescription: Uldran is a Cindral border system with wide orbital spacing and strong long-range surveillance coverage. Its defenses are arranged to slow incoming forces before they can reach the inhabited zones around Uldran-III and the outer patrol moons. Approach procedures are rigid, and vessels that miss challenge windows are redirected or detained at the edge of the system.",
+        "document_kind": "manual",
+        "kind": "SystemGlossaryEntry",
+        "description": "Uldran is a Cindral border system with wide orbital spacing and strong long-range surveillance coverage. Its defenses are arranged to slow incoming forces before they can reach the inhabited zones around Uldran-III and the outer patrol moons. Approach procedures are rigid, and vessels that miss challenge windows are redirected or detained at the edge of the system.",
+        "manual_ingest": true,
+        "body": "Uldran is a Cindral border system with wide orbital spacing and strong long-range surveillance coverage. Its defenses are arranged to slow incoming forces before they can reach the inhabited zones around Uldran-III and the outer patrol moons. Approach procedures are rigid, and vessels that miss challenge windows are redirected or detained at the edge of the system.",
+        "record_type": "System",
+        "glossary_subtype": "System",
+        "collection_title": "Systems Glossary",
+        "updated_at": "2026-07-16T00:00:00.000Z",
+        "source_filename": "Systems Glossary",
+        "import_mode": "automated_system_glossary",
+        "tags_text": "Uldran System Cindral Sector Cindral March system sector glossary",
+        "faction": "CINDRAL",
+        "name": "Uldran System",
+        "dossier_type": "systems",
+        "id": "system__uldran_system",
+        "sector_name": "CINDRAL SECTOR",
+        "slug": "uldran_system"
+      },
+      "elementId": "4:manual-system-import:9004"
+    }
+  },
+  {
+    "n": {
+      "identity": 9005,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "raw_text": "Thass Vale System\nSector Name: Cindral Sector\nFaction: Cindral March\nDescription: Thass Vale is a Cindral reserve system built around an aging red giant and several cold outer bodies. The March uses it as a fallback system for forces withdrawn from the primary border line. Civilian infrastructure exists, but most traffic is organized around readiness drills and protected evacuation routes.",
+        "document_kind": "manual",
+        "kind": "SystemGlossaryEntry",
+        "description": "Thass Vale is a Cindral reserve system built around an aging red giant and several cold outer bodies. The March uses it as a fallback system for forces withdrawn from the primary border line. Civilian infrastructure exists, but most traffic is organized around readiness drills and protected evacuation routes.",
+        "manual_ingest": true,
+        "body": "Thass Vale is a Cindral reserve system built around an aging red giant and several cold outer bodies. The March uses it as a fallback system for forces withdrawn from the primary border line. Civilian infrastructure exists, but most traffic is organized around readiness drills and protected evacuation routes.",
+        "record_type": "System",
+        "glossary_subtype": "System",
+        "collection_title": "Systems Glossary",
+        "updated_at": "2026-07-16T00:00:00.000Z",
+        "source_filename": "Systems Glossary",
+        "import_mode": "automated_system_glossary",
+        "tags_text": "Thass Vale System Cindral Sector Cindral March system sector glossary",
+        "faction": "CINDRAL",
+        "name": "Thass Vale System",
+        "dossier_type": "systems",
+        "id": "system__thass_vale_system",
+        "sector_name": "CINDRAL SECTOR",
+        "slug": "thass_vale_system"
+      },
+      "elementId": "4:manual-system-import:9005"
+    }
+  },
+  {
+    "n": {
+      "identity": 9006,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "raw_text": "Alnira System\nSector Name: Veyran Sector\nFaction: Veyran Choir\nDescription: Alnira is a stable Veyran system used to assemble large convoys before they enter less secure sections of the Choir Path. Its predictable orbital conditions make it valuable for pilgrimage traffic and fleet coordination without turning it into a major industrial center. Ships that ignore assigned holding patterns are removed from convoy order.",
+        "document_kind": "manual",
+        "kind": "SystemGlossaryEntry",
+        "description": "Alnira is a stable Veyran system used to assemble large convoys before they enter less secure sections of the Choir Path. Its predictable orbital conditions make it valuable for pilgrimage traffic and fleet coordination without turning it into a major industrial center. Ships that ignore assigned holding patterns are removed from convoy order.",
+        "manual_ingest": true,
+        "body": "Alnira is a stable Veyran system used to assemble large convoys before they enter less secure sections of the Choir Path. Its predictable orbital conditions make it valuable for pilgrimage traffic and fleet coordination without turning it into a major industrial center. Ships that ignore assigned holding patterns are removed from convoy order.",
+        "record_type": "System",
+        "glossary_subtype": "System",
+        "collection_title": "Systems Glossary",
+        "updated_at": "2026-07-16T00:00:00.000Z",
+        "source_filename": "Systems Glossary",
+        "import_mode": "automated_system_glossary",
+        "tags_text": "Alnira System Veyran Sector Veyran Choir system sector glossary",
+        "faction": "VEYRAN",
+        "name": "Alnira System",
+        "dossier_type": "systems",
+        "id": "system__alnira_system",
+        "sector_name": "VEYRAN SECTOR",
+        "slug": "alnira_system"
+      },
+      "elementId": "4:manual-system-import:9006"
+    }
+  },
+  {
+    "n": {
+      "identity": 10000,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "shale-hollow",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 0,
+        "description": "A dim orange dwarf with steady output and limited flare activity.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A dim orange dwarf with steady output and limited flare activity.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Class K (Orange Dwarf)",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:shale-hollow:shale-hollow-primary",
+        "slug": "shale-hollow-primary",
+        "group_name": "Shale Hollow",
+        "kind": "Celestial Body",
+        "section_name": "Shale Hollow",
+        "system_name": "Shale Hollow",
+        "classification": "Class K (Orange Dwarf)",
+        "record_type": "Celestial Body",
+        "is_root_body": true,
+        "is_primary_star": true,
+        "source_order": 1,
+        "source_row": 2,
+        "faction": "ORAK",
+        "celestial_category": "Star",
+        "orbits": "N/A",
+        "source_sheet": "Shale Hollow System",
+        "name": "Shale Hollow Primary",
+        "parent_body_ids": [],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10000"
+    }
+  },
+  {
+    "n": {
+      "identity": 10001,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "shale-hollow",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A scorched inner planet with cracked basalt plains and no stable atmosphere.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A scorched inner planet with cracked basalt plains and no stable atmosphere.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Shale Hollow Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:shale-hollow:kiln",
+        "slug": "kiln",
+        "group_name": "Shale Hollow",
+        "kind": "Celestial Body",
+        "section_name": "Shale Hollow",
+        "system_name": "Shale Hollow",
+        "classification": "Rocky Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 2,
+        "source_row": 3,
+        "faction": "ORAK",
+        "celestial_category": "Planet",
+        "orbits": "Shale Hollow Primary",
+        "source_sheet": "Shale Hollow System",
+        "name": "Kiln",
+        "parent_body_ids": [
+          "celestial-body:shale-hollow:shale-hollow-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10001"
+    }
+  },
+  {
+    "n": {
+      "identity": 10002,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "shale-hollow",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A dense belt of carbon-rich asteroids with several large hollow bodies.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A dense belt of carbon-rich asteroids with several large hollow bodies.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Shale Hollow Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Asteroid Belt",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:shale-hollow:shale-hollow-belt",
+        "slug": "shale-hollow-belt",
+        "group_name": "Shale Hollow",
+        "kind": "Celestial Body",
+        "section_name": "Shale Hollow",
+        "system_name": "Shale Hollow",
+        "classification": "Asteroid Belt",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 3,
+        "source_row": 4,
+        "faction": "ORAK",
+        "celestial_category": "Belt",
+        "orbits": "Shale Hollow Primary",
+        "source_sheet": "Shale Hollow System",
+        "name": "Shale Hollow Belt",
+        "parent_body_ids": [
+          "celestial-body:shale-hollow:shale-hollow-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10002"
+    }
+  },
+  {
+    "n": {
+      "identity": 10003,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "shale-hollow",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A slow-rotating asteroid used as a stable local reference point.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A slow-rotating asteroid used as a stable local reference point.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Shale Hollow Belt"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "High Metal Content Asteroid",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:shale-hollow:low-slate",
+        "slug": "low-slate",
+        "group_name": "Shale Hollow",
+        "kind": "Celestial Body",
+        "section_name": "Shale Hollow",
+        "system_name": "Shale Hollow",
+        "classification": "High Metal Content Asteroid",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 4,
+        "source_row": 5,
+        "faction": "ORAK",
+        "celestial_category": "Planetesimal",
+        "orbits": "Shale Hollow Belt",
+        "source_sheet": "Shale Hollow System",
+        "name": "Low Slate",
+        "parent_body_ids": [
+          "celestial-body:shale-hollow:shale-hollow-belt"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10003"
+    }
+  },
+  {
+    "n": {
+      "identity": 10004,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "shale-hollow",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A large belt body with deep natural cavities and sealed artificial chambers.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A large belt body with deep natural cavities and sealed artificial chambers.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Shale Hollow Belt"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Ice Dwarf Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:shale-hollow:black-grotto",
+        "slug": "black-grotto",
+        "group_name": "Shale Hollow",
+        "kind": "Celestial Body",
+        "section_name": "Shale Hollow",
+        "system_name": "Shale Hollow",
+        "classification": "Rocky Ice Dwarf Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 5,
+        "source_row": 6,
+        "faction": "ORAK",
+        "celestial_category": "Planet",
+        "orbits": "Shale Hollow Belt",
+        "source_sheet": "Shale Hollow System",
+        "name": "Black Grotto",
+        "parent_body_ids": [
+          "celestial-body:shale-hollow:shale-hollow-belt"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10004"
+    }
+  },
+  {
+    "n": {
+      "identity": 10005,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "shale-hollow",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A narrow, blade-shaped asteroid with erratic spin.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A narrow, blade-shaped asteroid with erratic spin.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Shale Hollow Belt"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Asteroid",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:shale-hollow:vane-rock",
+        "slug": "vane-rock",
+        "group_name": "Shale Hollow",
+        "kind": "Celestial Body",
+        "section_name": "Shale Hollow",
+        "system_name": "Shale Hollow",
+        "classification": "Rocky Asteroid",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 6,
+        "source_row": 7,
+        "faction": "ORAK",
+        "celestial_category": "Planetesimal",
+        "orbits": "Shale Hollow Belt",
+        "source_sheet": "Shale Hollow System",
+        "name": "Vane Rock",
+        "parent_body_ids": [
+          "celestial-body:shale-hollow:shale-hollow-belt"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10005"
+    }
+  },
+  {
+    "n": {
+      "identity": 10006,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "shale-hollow",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A cold outer planet with buried ice deposits and extensive impact glass fields.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A cold outer planet with buried ice deposits and extensive impact glass fields.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Shale Hollow Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Ice Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:shale-hollow:marrowglass",
+        "slug": "marrowglass",
+        "group_name": "Shale Hollow",
+        "kind": "Celestial Body",
+        "section_name": "Shale Hollow",
+        "system_name": "Shale Hollow",
+        "classification": "Rocky Ice Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 7,
+        "source_row": 8,
+        "faction": "ORAK",
+        "celestial_category": "Planet",
+        "orbits": "Shale Hollow Primary",
+        "source_sheet": "Shale Hollow System",
+        "name": "Marrowglass",
+        "parent_body_ids": [
+          "celestial-body:shale-hollow:shale-hollow-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10006"
+    }
+  },
+  {
+    "n": {
+      "identity": 10007,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "shale-hollow",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A small moon used as a low-power navigation marker.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A small moon used as a low-power navigation marker.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Marrowglass"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:shale-hollow:tern",
+        "slug": "tern",
+        "group_name": "Shale Hollow",
+        "kind": "Celestial Body",
+        "section_name": "Shale Hollow",
+        "system_name": "Shale Hollow",
+        "classification": "Rocky Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 8,
+        "source_row": 9,
+        "faction": "ORAK",
+        "celestial_category": "Moon",
+        "orbits": "Marrowglass",
+        "source_sheet": "Shale Hollow System",
+        "name": "Tern",
+        "parent_body_ids": [
+          "celestial-body:shale-hollow:marrowglass"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10007"
+    }
+  },
+  {
+    "n": {
+      "identity": 10008,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "shale-hollow",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A sparse outer belt marking the practical edge of local navigation.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A sparse outer belt marking the practical edge of local navigation.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Shale Hollow Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Icy Asteroid Belt",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:shale-hollow:last-gravel",
+        "slug": "last-gravel",
+        "group_name": "Shale Hollow",
+        "kind": "Celestial Body",
+        "section_name": "Shale Hollow",
+        "system_name": "Shale Hollow",
+        "classification": "Icy Asteroid Belt",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 9,
+        "source_row": 10,
+        "faction": "ORAK",
+        "celestial_category": "Belt",
+        "orbits": "Shale Hollow Primary",
+        "source_sheet": "Shale Hollow System",
+        "name": "Last Gravel",
+        "parent_body_ids": [
+          "celestial-body:shale-hollow:shale-hollow-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10008"
+    }
+  },
+  {
+    "n": {
+      "identity": 10009,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "zyros",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 0,
+        "description": "A small red dwarf with low luminosity and predictable flare cycles.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A small red dwarf with low luminosity and predictable flare cycles.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Class M (Red Dwarf)",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:zyros:zyros-primary",
+        "slug": "zyros-primary",
+        "group_name": "Zyros",
+        "kind": "Celestial Body",
+        "section_name": "Zyros",
+        "system_name": "Zyros",
+        "classification": "Class M (Red Dwarf)",
+        "record_type": "Celestial Body",
+        "is_root_body": true,
+        "is_primary_star": true,
+        "source_order": 1,
+        "source_row": 2,
+        "faction": "HALIX",
+        "celestial_category": "Star",
+        "orbits": "N/A",
+        "source_sheet": "Zyros System",
+        "name": "Zyros Primary",
+        "parent_body_ids": [],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10009"
+    }
+  },
+  {
+    "n": {
+      "identity": 10010,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "zyros",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A tide-locked inner planet with abandoned colonial foundations on the terminator line.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A tide-locked inner planet with abandoned colonial foundations on the terminator line.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Zyros Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:zyros:zyros-i",
+        "slug": "zyros-i",
+        "group_name": "Zyros",
+        "kind": "Celestial Body",
+        "section_name": "Zyros",
+        "system_name": "Zyros",
+        "classification": "Rocky Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 2,
+        "source_row": 3,
+        "faction": "HALIX",
+        "celestial_category": "Planet",
+        "orbits": "Zyros Primary",
+        "source_sheet": "Zyros System",
+        "name": "Zyros-I",
+        "parent_body_ids": [
+          "celestial-body:zyros:zyros-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10010"
+    }
+  },
+  {
+    "n": {
+      "identity": 10011,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "zyros",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A cold world with sealed habitation districts and limited atmosphere processing.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A cold world with sealed habitation districts and limited atmosphere processing.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Zyros Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Ice Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:zyros:zyros-ii",
+        "slug": "zyros-ii",
+        "group_name": "Zyros",
+        "kind": "Celestial Body",
+        "section_name": "Zyros",
+        "system_name": "Zyros",
+        "classification": "Rocky Ice Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 3,
+        "source_row": 4,
+        "faction": "HALIX",
+        "celestial_category": "Planet",
+        "orbits": "Zyros Primary",
+        "source_sheet": "Zyros System",
+        "name": "Zyros-II",
+        "parent_body_ids": [
+          "celestial-body:zyros:zyros-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10011"
+    }
+  },
+  {
+    "n": {
+      "identity": 10012,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "zyros",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A compact moon with hardened surface works and restricted approach corridors.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A compact moon with hardened surface works and restricted approach corridors.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Zyros-II"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:zyros:zyros-ii-a",
+        "slug": "zyros-ii-a",
+        "group_name": "Zyros",
+        "kind": "Celestial Body",
+        "section_name": "Zyros",
+        "system_name": "Zyros",
+        "classification": "Rocky Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 4,
+        "source_row": 5,
+        "faction": "HALIX",
+        "celestial_category": "Moon",
+        "orbits": "Zyros-II",
+        "source_sheet": "Zyros System",
+        "name": "Zyros-II-A",
+        "parent_body_ids": [
+          "celestial-body:zyros:zyros-ii"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10012"
+    }
+  },
+  {
+    "n": {
+      "identity": 10013,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "zyros",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A cold, clouded planet used as the central mass for the system’s decoy traffic pattern.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A cold, clouded planet used as the central mass for the system’s decoy traffic pattern.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Zyros Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Atmosphere Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:zyros:zyros-iii",
+        "slug": "zyros-iii",
+        "group_name": "Zyros",
+        "kind": "Celestial Body",
+        "section_name": "Zyros",
+        "system_name": "Zyros",
+        "classification": "Atmosphere Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 5,
+        "source_row": 6,
+        "faction": "HALIX",
+        "celestial_category": "Planet",
+        "orbits": "Zyros Primary",
+        "source_sheet": "Zyros System",
+        "name": "Zyros-III",
+        "parent_body_ids": [
+          "celestial-body:zyros:zyros-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10013"
+    }
+  },
+  {
+    "n": {
+      "identity": 10014,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "zyros",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A cratered moon with old settlement blocks left visible from orbit.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A cratered moon with old settlement blocks left visible from orbit.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Zyros-III"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Ice Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:zyros:zyros-iii-a",
+        "slug": "zyros-iii-a",
+        "group_name": "Zyros",
+        "kind": "Celestial Body",
+        "section_name": "Zyros",
+        "system_name": "Zyros",
+        "classification": "Rocky Ice Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 6,
+        "source_row": 7,
+        "faction": "HALIX",
+        "celestial_category": "Moon",
+        "orbits": "Zyros-III",
+        "source_sheet": "Zyros System",
+        "name": "Zyros-III-A",
+        "parent_body_ids": [
+          "celestial-body:zyros:zyros-iii"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10014"
+    }
+  },
+  {
+    "n": {
+      "identity": 10015,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "zyros",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A reflective moon whose surface geometry complicates long-range targeting.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A reflective moon whose surface geometry complicates long-range targeting.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Zyros-III"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Icy Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:zyros:zyros-iii-b",
+        "slug": "zyros-iii-b",
+        "group_name": "Zyros",
+        "kind": "Celestial Body",
+        "section_name": "Zyros",
+        "system_name": "Zyros",
+        "classification": "Icy Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 7,
+        "source_row": 8,
+        "faction": "HALIX",
+        "celestial_category": "Moon",
+        "orbits": "Zyros-III",
+        "source_sheet": "Zyros System",
+        "name": "Zyros-III-B",
+        "parent_body_ids": [
+          "celestial-body:zyros:zyros-iii"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10015"
+    }
+  },
+  {
+    "n": {
+      "identity": 10016,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "zyros",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A gas giant whose magnetosphere disrupts unshielded sensors and drive wake tracking.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A gas giant whose magnetosphere disrupts unshielded sensors and drive wake tracking.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Zyros Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Class III",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:zyros:zyros-iv",
+        "slug": "zyros-iv",
+        "group_name": "Zyros",
+        "kind": "Celestial Body",
+        "section_name": "Zyros",
+        "system_name": "Zyros",
+        "classification": "Class III",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 8,
+        "source_row": 9,
+        "faction": "HALIX",
+        "celestial_category": "Planet",
+        "orbits": "Zyros Primary",
+        "source_sheet": "Zyros System",
+        "name": "Zyros-IV",
+        "parent_body_ids": [
+          "celestial-body:zyros:zyros-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10016"
+    }
+  },
+  {
+    "n": {
+      "identity": 10017,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "zyros",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A patrol moon positioned near the safest outer approach lane.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A patrol moon positioned near the safest outer approach lane.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Zyros-IV"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Icy Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:zyros:zyros-iv-a",
+        "slug": "zyros-iv-a",
+        "group_name": "Zyros",
+        "kind": "Celestial Body",
+        "section_name": "Zyros",
+        "system_name": "Zyros",
+        "classification": "Icy Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 9,
+        "source_row": 10,
+        "faction": "HALIX",
+        "celestial_category": "Moon",
+        "orbits": "Zyros-IV",
+        "source_sheet": "Zyros System",
+        "name": "Zyros-IV-A",
+        "parent_body_ids": [
+          "celestial-body:zyros:zyros-iv"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10017"
+    }
+  },
+  {
+    "n": {
+      "identity": 10018,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "zyros",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A broken moon with heavy surface scarring from prior engagements.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A broken moon with heavy surface scarring from prior engagements.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Zyros-IV"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Ice Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:zyros:zyros-iv-b",
+        "slug": "zyros-iv-b",
+        "group_name": "Zyros",
+        "kind": "Celestial Body",
+        "section_name": "Zyros",
+        "system_name": "Zyros",
+        "classification": "Rocky Ice Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 10,
+        "source_row": 11,
+        "faction": "HALIX",
+        "celestial_category": "Moon",
+        "orbits": "Zyros-IV",
+        "source_sheet": "Zyros System",
+        "name": "Zyros-IV-B",
+        "parent_body_ids": [
+          "celestial-body:zyros:zyros-iv"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10018"
+    }
+  },
+  {
+    "n": {
+      "identity": 10019,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "zyros",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A managed debris field used to limit clean approach vectors into the inner system.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A managed debris field used to limit clean approach vectors into the inner system.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Zyros Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Debris Belt",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:zyros:zyros-screen",
+        "slug": "zyros-screen",
+        "group_name": "Zyros",
+        "kind": "Celestial Body",
+        "section_name": "Zyros",
+        "system_name": "Zyros",
+        "classification": "Debris Belt",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 11,
+        "source_row": 12,
+        "faction": "HALIX",
+        "celestial_category": "Belt",
+        "orbits": "Zyros Primary",
+        "source_sheet": "Zyros System",
+        "name": "Zyros Screen",
+        "parent_body_ids": [
+          "celestial-body:zyros:zyros-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10019"
+    }
+  },
+  {
+    "n": {
+      "identity": 10020,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "nerathis",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 0,
+        "description": "A compact stellar remnant with high radiation output and a bright inner dust plane.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A compact stellar remnant with high radiation output and a bright inner dust plane.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "White Dwarf",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:nerathis:nerathis-remnant",
+        "slug": "nerathis-remnant",
+        "group_name": "Nerathis",
+        "kind": "Celestial Body",
+        "section_name": "Nerathis",
+        "system_name": "Nerathis",
+        "classification": "White Dwarf",
+        "record_type": "Celestial Body",
+        "is_root_body": true,
+        "is_primary_star": true,
+        "source_order": 1,
+        "source_row": 2,
+        "faction": "HALIX",
+        "celestial_category": "Star",
+        "orbits": "N/A",
+        "source_sheet": "Nerathis System",
+        "name": "Nerathis Remnant",
+        "parent_body_ids": [],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10020"
+    }
+  },
+  {
+    "n": {
+      "identity": 10021,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "nerathis",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A dense inner body with exposed metallic strata and little remaining crust.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A dense inner body with exposed metallic strata and little remaining crust.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Nerathis Remnant"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Metal Rich Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:nerathis:nerathis-i",
+        "slug": "nerathis-i",
+        "group_name": "Nerathis",
+        "kind": "Celestial Body",
+        "section_name": "Nerathis",
+        "system_name": "Nerathis",
+        "classification": "Metal Rich Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 2,
+        "source_row": 3,
+        "faction": "HALIX",
+        "celestial_category": "Planet",
+        "orbits": "Nerathis Remnant",
+        "source_sheet": "Nerathis System",
+        "name": "Nerathis-I",
+        "parent_body_ids": [
+          "celestial-body:nerathis:nerathis-remnant"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10021"
+    }
+  },
+  {
+    "n": {
+      "identity": 10022,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "nerathis",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A hot debris ring containing stripped rock, metal fragments, and irradiated dust.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A hot debris ring containing stripped rock, metal fragments, and irradiated dust.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Nerathis Remnant"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Debris Belt",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:nerathis:pale-wound-belt",
+        "slug": "pale-wound-belt",
+        "group_name": "Nerathis",
+        "kind": "Celestial Body",
+        "section_name": "Nerathis",
+        "system_name": "Nerathis",
+        "classification": "Debris Belt",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 3,
+        "source_row": 4,
+        "faction": "HALIX",
+        "celestial_category": "Belt",
+        "orbits": "Nerathis Remnant",
+        "source_sheet": "Nerathis System",
+        "name": "Pale Wound Belt",
+        "parent_body_ids": [
+          "celestial-body:nerathis:nerathis-remnant"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10022"
+    }
+  },
+  {
+    "n": {
+      "identity": 10023,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "nerathis",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A large metallic body used as a fixed reference for inner-belt operations.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A large metallic body used as a fixed reference for inner-belt operations.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Pale Wound Belt"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "High Metal Content Asteroid",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:nerathis:narthex",
+        "slug": "narthex",
+        "group_name": "Nerathis",
+        "kind": "Celestial Body",
+        "section_name": "Nerathis",
+        "system_name": "Nerathis",
+        "classification": "High Metal Content Asteroid",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 4,
+        "source_row": 5,
+        "faction": "HALIX",
+        "celestial_category": "Planetesimal",
+        "orbits": "Pale Wound Belt",
+        "source_sheet": "Nerathis System",
+        "name": "Narthex",
+        "parent_body_ids": [
+          "celestial-body:nerathis:pale-wound-belt"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10023"
+    }
+  },
+  {
+    "n": {
+      "identity": 10024,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "nerathis",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A sterile world with low gravity and heavy radiation exposure.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A sterile world with low gravity and heavy radiation exposure.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Nerathis Remnant"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:nerathis:nerathis-ii",
+        "slug": "nerathis-ii",
+        "group_name": "Nerathis",
+        "kind": "Celestial Body",
+        "section_name": "Nerathis",
+        "system_name": "Nerathis",
+        "classification": "Rocky Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 5,
+        "source_row": 6,
+        "faction": "HALIX",
+        "celestial_category": "Planet",
+        "orbits": "Nerathis Remnant",
+        "source_sheet": "Nerathis System",
+        "name": "Nerathis-II",
+        "parent_body_ids": [
+          "celestial-body:nerathis:nerathis-remnant"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10024"
+    }
+  },
+  {
+    "n": {
+      "identity": 10025,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "nerathis",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A distant gas giant used to separate hazardous operations from the inner system.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A distant gas giant used to separate hazardous operations from the inner system.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Nerathis Remnant"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Class IV",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:nerathis:nerathis-iii",
+        "slug": "nerathis-iii",
+        "group_name": "Nerathis",
+        "kind": "Celestial Body",
+        "section_name": "Nerathis",
+        "system_name": "Nerathis",
+        "classification": "Class IV",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 6,
+        "source_row": 7,
+        "faction": "HALIX",
+        "celestial_category": "Planet",
+        "orbits": "Nerathis Remnant",
+        "source_sheet": "Nerathis System",
+        "name": "Nerathis-III",
+        "parent_body_ids": [
+          "celestial-body:nerathis:nerathis-remnant"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10025"
+    }
+  },
+  {
+    "n": {
+      "identity": 10026,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "nerathis",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A sealed ice moon with deep subsurface chambers and external cordon beacons.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A sealed ice moon with deep subsurface chambers and external cordon beacons.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Nerathis-III"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Icy Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:nerathis:nerathis-iii-a",
+        "slug": "nerathis-iii-a",
+        "group_name": "Nerathis",
+        "kind": "Celestial Body",
+        "section_name": "Nerathis",
+        "system_name": "Nerathis",
+        "classification": "Icy Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 7,
+        "source_row": 8,
+        "faction": "HALIX",
+        "celestial_category": "Moon",
+        "orbits": "Nerathis-III",
+        "source_sheet": "Nerathis System",
+        "name": "Nerathis-III-A",
+        "parent_body_ids": [
+          "celestial-body:nerathis:nerathis-iii"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10026"
+    }
+  },
+  {
+    "n": {
+      "identity": 10027,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "nerathis",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A fractured moon used for remote observation and emergency isolation.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A fractured moon used for remote observation and emergency isolation.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Nerathis-III"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Ice Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:nerathis:nerathis-iii-b",
+        "slug": "nerathis-iii-b",
+        "group_name": "Nerathis",
+        "kind": "Celestial Body",
+        "section_name": "Nerathis",
+        "system_name": "Nerathis",
+        "classification": "Rocky Ice Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 8,
+        "source_row": 9,
+        "faction": "HALIX",
+        "celestial_category": "Moon",
+        "orbits": "Nerathis-III",
+        "source_sheet": "Nerathis System",
+        "name": "Nerathis-III-B",
+        "parent_body_ids": [
+          "celestial-body:nerathis:nerathis-iii"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10027"
+    }
+  },
+  {
+    "n": {
+      "identity": 10028,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "nerathis",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A barren moon with hardened landing fields and controlled transfer windows.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A barren moon with hardened landing fields and controlled transfer windows.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Nerathis-III"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:nerathis:nerathis-iii-c",
+        "slug": "nerathis-iii-c",
+        "group_name": "Nerathis",
+        "kind": "Celestial Body",
+        "section_name": "Nerathis",
+        "system_name": "Nerathis",
+        "classification": "Rocky Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 9,
+        "source_row": 10,
+        "faction": "HALIX",
+        "celestial_category": "Moon",
+        "orbits": "Nerathis-III",
+        "source_sheet": "Nerathis System",
+        "name": "Nerathis-III-C",
+        "parent_body_ids": [
+          "celestial-body:nerathis:nerathis-iii"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10028"
+    }
+  },
+  {
+    "n": {
+      "identity": 10029,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "nerathis",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A remote ice planet beyond the permanent cordon.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A remote ice planet beyond the permanent cordon.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Nerathis Remnant"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Icy Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:nerathis:nerathis-iv",
+        "slug": "nerathis-iv",
+        "group_name": "Nerathis",
+        "kind": "Celestial Body",
+        "section_name": "Nerathis",
+        "system_name": "Nerathis",
+        "classification": "Icy Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 10,
+        "source_row": 11,
+        "faction": "HALIX",
+        "celestial_category": "Planet",
+        "orbits": "Nerathis Remnant",
+        "source_sheet": "Nerathis System",
+        "name": "Nerathis-IV",
+        "parent_body_ids": [
+          "celestial-body:nerathis:nerathis-remnant"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10029"
+    }
+  },
+  {
+    "n": {
+      "identity": 10030,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "tarkoss",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 0,
+        "description": "A stable orange dwarf surrounded by heavy industrial traffic.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A stable orange dwarf surrounded by heavy industrial traffic.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Class K (Orange Dwarf)",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:tarkoss:tarkoss-primary",
+        "slug": "tarkoss-primary",
+        "group_name": "Tarkoss",
+        "kind": "Celestial Body",
+        "section_name": "Tarkoss",
+        "system_name": "Tarkoss",
+        "classification": "Class K (Orange Dwarf)",
+        "record_type": "Celestial Body",
+        "is_root_body": true,
+        "is_primary_star": true,
+        "source_order": 1,
+        "source_row": 2,
+        "faction": "KARNATE",
+        "celestial_category": "Star",
+        "orbits": "N/A",
+        "source_sheet": "Tarkoss System",
+        "name": "Tarkoss Primary",
+        "parent_body_ids": [],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10030"
+    }
+  },
+  {
+    "n": {
+      "identity": 10031,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "tarkoss",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A scorched inner planet used for thermal stress testing and disposal impacts.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A scorched inner planet used for thermal stress testing and disposal impacts.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Tarkoss Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:tarkoss:red-kiln",
+        "slug": "red-kiln",
+        "group_name": "Tarkoss",
+        "kind": "Celestial Body",
+        "section_name": "Tarkoss",
+        "system_name": "Tarkoss",
+        "classification": "Rocky Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 2,
+        "source_row": 3,
+        "faction": "KARNATE",
+        "celestial_category": "Planet",
+        "orbits": "Tarkoss Primary",
+        "source_sheet": "Tarkoss System",
+        "name": "Red Kiln",
+        "parent_body_ids": [
+          "celestial-body:tarkoss:tarkoss-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10031"
+    }
+  },
+  {
+    "n": {
+      "identity": 10032,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "tarkoss",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A dense industrial world with broad equatorial yards and heavy orbital congestion.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A dense industrial world with broad equatorial yards and heavy orbital congestion.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Tarkoss Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "High Metal Content Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:tarkoss:tarkoss",
+        "slug": "tarkoss",
+        "group_name": "Tarkoss",
+        "kind": "Celestial Body",
+        "section_name": "Tarkoss",
+        "system_name": "Tarkoss",
+        "classification": "High Metal Content Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 3,
+        "source_row": 4,
+        "faction": "KARNATE",
+        "celestial_category": "Planet",
+        "orbits": "Tarkoss Primary",
+        "source_sheet": "Tarkoss System",
+        "name": "Tarkoss",
+        "parent_body_ids": [
+          "celestial-body:tarkoss:tarkoss-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10032"
+    }
+  },
+  {
+    "n": {
+      "identity": 10033,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "tarkoss",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A small moon used for labor transfer, guard stations, and cargo staging.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A small moon used for labor transfer, guard stations, and cargo staging.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Tarkoss"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:tarkoss:chainmark",
+        "slug": "chainmark",
+        "group_name": "Tarkoss",
+        "kind": "Celestial Body",
+        "section_name": "Tarkoss",
+        "system_name": "Tarkoss",
+        "classification": "Rocky Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 4,
+        "source_row": 5,
+        "faction": "KARNATE",
+        "celestial_category": "Moon",
+        "orbits": "Tarkoss",
+        "source_sheet": "Tarkoss System",
+        "name": "Chainmark",
+        "parent_body_ids": [
+          "celestial-body:tarkoss:tarkoss"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10033"
+    }
+  },
+  {
+    "n": {
+      "identity": 10034,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "tarkoss",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A dense moon mined for armor-grade metals.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A dense moon mined for armor-grade metals.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Tarkoss"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Metal Rich Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:tarkoss:bracket",
+        "slug": "bracket",
+        "group_name": "Tarkoss",
+        "kind": "Celestial Body",
+        "section_name": "Tarkoss",
+        "system_name": "Tarkoss",
+        "classification": "Metal Rich Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 5,
+        "source_row": 6,
+        "faction": "KARNATE",
+        "celestial_category": "Moon",
+        "orbits": "Tarkoss",
+        "source_sheet": "Tarkoss System",
+        "name": "Bracket",
+        "parent_body_ids": [
+          "celestial-body:tarkoss:tarkoss"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10034"
+    }
+  },
+  {
+    "n": {
+      "identity": 10035,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "tarkoss",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A pale gas giant used for fuel extraction and outer-system anchorage.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A pale gas giant used for fuel extraction and outer-system anchorage.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Tarkoss Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Class I",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:tarkoss:vurnak",
+        "slug": "vurnak",
+        "group_name": "Tarkoss",
+        "kind": "Celestial Body",
+        "section_name": "Tarkoss",
+        "system_name": "Tarkoss",
+        "classification": "Class I",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 6,
+        "source_row": 7,
+        "faction": "KARNATE",
+        "celestial_category": "Planet",
+        "orbits": "Tarkoss Primary",
+        "source_sheet": "Tarkoss System",
+        "name": "Vurnak",
+        "parent_body_ids": [
+          "celestial-body:tarkoss:tarkoss-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10035"
+    }
+  },
+  {
+    "n": {
+      "identity": 10036,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "tarkoss",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A cold moon with shipbreaking yards built along its largest impact basins.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A cold moon with shipbreaking yards built along its largest impact basins.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Vurnak"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Ice Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:tarkoss:ashhook",
+        "slug": "ashhook",
+        "group_name": "Tarkoss",
+        "kind": "Celestial Body",
+        "section_name": "Tarkoss",
+        "system_name": "Tarkoss",
+        "classification": "Rocky Ice Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 7,
+        "source_row": 8,
+        "faction": "KARNATE",
+        "celestial_category": "Moon",
+        "orbits": "Vurnak",
+        "source_sheet": "Tarkoss System",
+        "name": "Ashhook",
+        "parent_body_ids": [
+          "celestial-body:tarkoss:vurnak"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10036"
+    }
+  },
+  {
+    "n": {
+      "identity": 10037,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "tarkoss",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A heavy moon with exposed metallic ridges and restricted mining zones.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A heavy moon with exposed metallic ridges and restricted mining zones.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Vurnak"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "High Metal Content Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:tarkoss:grendel-plate",
+        "slug": "grendel-plate",
+        "group_name": "Tarkoss",
+        "kind": "Celestial Body",
+        "section_name": "Tarkoss",
+        "system_name": "Tarkoss",
+        "classification": "High Metal Content Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 8,
+        "source_row": 9,
+        "faction": "KARNATE",
+        "celestial_category": "Moon",
+        "orbits": "Vurnak",
+        "source_sheet": "Tarkoss System",
+        "name": "Grendel Plate",
+        "parent_body_ids": [
+          "celestial-body:tarkoss:vurnak"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10037"
+    }
+  },
+  {
+    "n": {
+      "identity": 10038,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "tarkoss",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A controlled wreck field containing dismantled hulls and marked salvage lanes.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A controlled wreck field containing dismantled hulls and marked salvage lanes.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Tarkoss Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Debris Belt",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:tarkoss:tarkoss-break",
+        "slug": "tarkoss-break",
+        "group_name": "Tarkoss",
+        "kind": "Celestial Body",
+        "section_name": "Tarkoss",
+        "system_name": "Tarkoss",
+        "classification": "Debris Belt",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 9,
+        "source_row": 10,
+        "faction": "KARNATE",
+        "celestial_category": "Belt",
+        "orbits": "Tarkoss Primary",
+        "source_sheet": "Tarkoss System",
+        "name": "Tarkoss Break",
+        "parent_body_ids": [
+          "celestial-body:tarkoss:tarkoss-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10038"
+    }
+  },
+  {
+    "n": {
+      "identity": 10039,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "tarkoss",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A remote ice planet used as a holding point for vessels awaiting processing.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A remote ice planet used as a holding point for vessels awaiting processing.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Tarkoss Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Icy Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:tarkoss:black-tally",
+        "slug": "black-tally",
+        "group_name": "Tarkoss",
+        "kind": "Celestial Body",
+        "section_name": "Tarkoss",
+        "system_name": "Tarkoss",
+        "classification": "Icy Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 10,
+        "source_row": 11,
+        "faction": "KARNATE",
+        "celestial_category": "Planet",
+        "orbits": "Tarkoss Primary",
+        "source_sheet": "Tarkoss System",
+        "name": "Black Tally",
+        "parent_body_ids": [
+          "celestial-body:tarkoss:tarkoss-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10039"
+    }
+  },
+  {
+    "n": {
+      "identity": 10040,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "alnira",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 0,
+        "description": "A stable yellow star used as a reliable reference point along the Choir Path.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A stable yellow star used as a reliable reference point along the Choir Path.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Class G (Yellow Sun-like)",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:alnira:alnira-primary",
+        "slug": "alnira-primary",
+        "group_name": "Alnira",
+        "kind": "Celestial Body",
+        "section_name": "Alnira",
+        "system_name": "Alnira",
+        "classification": "Class G (Yellow Sun-like)",
+        "record_type": "Celestial Body",
+        "is_root_body": true,
+        "is_primary_star": true,
+        "source_order": 1,
+        "source_row": 2,
+        "faction": "VEYRAN",
+        "celestial_category": "Star",
+        "orbits": "N/A",
+        "source_sheet": "Alnira System",
+        "name": "Alnira Primary",
+        "parent_body_ids": [],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10040"
+    }
+  },
+  {
+    "n": {
+      "identity": 10041,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "alnira",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A dry inner world with ancient observatory ruins and limited present habitation.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A dry inner world with ancient observatory ruins and limited present habitation.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Alnira Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:alnira:alnira-i",
+        "slug": "alnira-i",
+        "group_name": "Alnira",
+        "kind": "Celestial Body",
+        "section_name": "Alnira",
+        "system_name": "Alnira",
+        "classification": "Rocky Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 2,
+        "source_row": 3,
+        "faction": "VEYRAN",
+        "celestial_category": "Planet",
+        "orbits": "Alnira Primary",
+        "source_sheet": "Alnira System",
+        "name": "Alnira-I",
+        "parent_body_ids": [
+          "celestial-body:alnira:alnira-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10041"
+    }
+  },
+  {
+    "n": {
+      "identity": 10042,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "alnira",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A cool planet with thin breathable air and restricted surface enclaves.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A cool planet with thin breathable air and restricted surface enclaves.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Alnira Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Atmosphere Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:alnira:alnira-ii",
+        "slug": "alnira-ii",
+        "group_name": "Alnira",
+        "kind": "Celestial Body",
+        "section_name": "Alnira",
+        "system_name": "Alnira",
+        "classification": "Atmosphere Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 3,
+        "source_row": 4,
+        "faction": "VEYRAN",
+        "celestial_category": "Planet",
+        "orbits": "Alnira Primary",
+        "source_sheet": "Alnira System",
+        "name": "Alnira-II",
+        "parent_body_ids": [
+          "celestial-body:alnira:alnira-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10042"
+    }
+  },
+  {
+    "n": {
+      "identity": 10043,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "alnira",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A pale moon whose regular eclipses are used for convoy timing.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A pale moon whose regular eclipses are used for convoy timing.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Alnira-II"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:alnira:liturgy",
+        "slug": "liturgy",
+        "group_name": "Alnira",
+        "kind": "Celestial Body",
+        "section_name": "Alnira",
+        "system_name": "Alnira",
+        "classification": "Rocky Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 4,
+        "source_row": 5,
+        "faction": "VEYRAN",
+        "celestial_category": "Moon",
+        "orbits": "Alnira-II",
+        "source_sheet": "Alnira System",
+        "name": "Liturgy",
+        "parent_body_ids": [
+          "celestial-body:alnira:alnira-ii"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10043"
+    }
+  },
+  {
+    "n": {
+      "identity": 10044,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "alnira",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A deep ocean world with low-density orbital traffic and protected descent zones.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A deep ocean world with low-density orbital traffic and protected descent zones.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Alnira Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Water World",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:alnira:alnira-iii",
+        "slug": "alnira-iii",
+        "group_name": "Alnira",
+        "kind": "Celestial Body",
+        "section_name": "Alnira",
+        "system_name": "Alnira",
+        "classification": "Water World",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 5,
+        "source_row": 6,
+        "faction": "VEYRAN",
+        "celestial_category": "Planet",
+        "orbits": "Alnira Primary",
+        "source_sheet": "Alnira System",
+        "name": "Alnira-III",
+        "parent_body_ids": [
+          "celestial-body:alnira:alnira-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10044"
+    }
+  },
+  {
+    "n": {
+      "identity": 10045,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "alnira",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A small ice moon used for quiet anchorage outside the main pilgrimage routes.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A small ice moon used for quiet anchorage outside the main pilgrimage routes.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Alnira-III"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Icy Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:alnira:still-choir",
+        "slug": "still-choir",
+        "group_name": "Alnira",
+        "kind": "Celestial Body",
+        "section_name": "Alnira",
+        "system_name": "Alnira",
+        "classification": "Icy Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 6,
+        "source_row": 7,
+        "faction": "VEYRAN",
+        "celestial_category": "Moon",
+        "orbits": "Alnira-III",
+        "source_sheet": "Alnira System",
+        "name": "Still Choir",
+        "parent_body_ids": [
+          "celestial-body:alnira:alnira-iii"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10045"
+    }
+  },
+  {
+    "n": {
+      "identity": 10046,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "alnira",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A calm gas giant with broad white bands and a stable family of moons.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A calm gas giant with broad white bands and a stable family of moons.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Alnira Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Class III",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:alnira:cantors-rest",
+        "slug": "cantors-rest",
+        "group_name": "Alnira",
+        "kind": "Celestial Body",
+        "section_name": "Alnira",
+        "system_name": "Alnira",
+        "classification": "Class III",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 7,
+        "source_row": 8,
+        "faction": "VEYRAN",
+        "celestial_category": "Planet",
+        "orbits": "Alnira Primary",
+        "source_sheet": "Alnira System",
+        "name": "Cantor’s Rest",
+        "parent_body_ids": [
+          "celestial-body:alnira:alnira-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10046"
+    }
+  },
+  {
+    "n": {
+      "identity": 10047,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "alnira",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A bright moon used for beacon calibration and formation alignment.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A bright moon used for beacon calibration and formation alignment.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Cantor’s Rest"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Icy Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:alnira:first-tone",
+        "slug": "first-tone",
+        "group_name": "Alnira",
+        "kind": "Celestial Body",
+        "section_name": "Alnira",
+        "system_name": "Alnira",
+        "classification": "Icy Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 8,
+        "source_row": 9,
+        "faction": "VEYRAN",
+        "celestial_category": "Moon",
+        "orbits": "Cantor’s Rest",
+        "source_sheet": "Alnira System",
+        "name": "First Tone",
+        "parent_body_ids": [
+          "celestial-body:alnira:cantors-rest"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10047"
+    }
+  },
+  {
+    "n": {
+      "identity": 10048,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "alnira",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A tidally warmed moon with a subsurface ocean beneath blue ice.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A tidally warmed moon with a subsurface ocean beneath blue ice.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Cantor’s Rest"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Water Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:alnira:second-tone",
+        "slug": "second-tone",
+        "group_name": "Alnira",
+        "kind": "Celestial Body",
+        "section_name": "Alnira",
+        "system_name": "Alnira",
+        "classification": "Water Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 9,
+        "source_row": 10,
+        "faction": "VEYRAN",
+        "celestial_category": "Moon",
+        "orbits": "Cantor’s Rest",
+        "source_sheet": "Alnira System",
+        "name": "Second Tone",
+        "parent_body_ids": [
+          "celestial-body:alnira:cantors-rest"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10048"
+    }
+  },
+  {
+    "n": {
+      "identity": 10049,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "alnira",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A dark moon with old landing fields and low-power communications arrays.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A dark moon with old landing fields and low-power communications arrays.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Cantor’s Rest"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Ice Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:alnira:third-tone",
+        "slug": "third-tone",
+        "group_name": "Alnira",
+        "kind": "Celestial Body",
+        "section_name": "Alnira",
+        "system_name": "Alnira",
+        "classification": "Rocky Ice Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 10,
+        "source_row": 11,
+        "faction": "VEYRAN",
+        "celestial_category": "Moon",
+        "orbits": "Cantor’s Rest",
+        "source_sheet": "Alnira System",
+        "name": "Third Tone",
+        "parent_body_ids": [
+          "celestial-body:alnira:cantors-rest"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10049"
+    }
+  },
+  {
+    "n": {
+      "identity": 10050,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "alnira",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A thin outer belt used as a staging zone for large pilgrim convoys.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A thin outer belt used as a staging zone for large pilgrim convoys.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Alnira Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Icy Asteroid Belt",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:alnira:alnira-veil",
+        "slug": "alnira-veil",
+        "group_name": "Alnira",
+        "kind": "Celestial Body",
+        "section_name": "Alnira",
+        "system_name": "Alnira",
+        "classification": "Icy Asteroid Belt",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 11,
+        "source_row": 12,
+        "faction": "VEYRAN",
+        "celestial_category": "Belt",
+        "orbits": "Alnira Primary",
+        "source_sheet": "Alnira System",
+        "name": "Alnira Veil",
+        "parent_body_ids": [
+          "celestial-body:alnira:alnira-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10050"
+    }
+  },
+  {
+    "n": {
+      "identity": 10051,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "thass-vale",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 0,
+        "description": "An aging red giant with unstable outer emissions and a broad exclusion zone.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "An aging red giant with unstable outer emissions and a broad exclusion zone.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Red Giant (M)",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:thass-vale:thass-vale-primary",
+        "slug": "thass-vale-primary",
+        "group_name": "Thass Vale",
+        "kind": "Celestial Body",
+        "section_name": "Thass Vale",
+        "system_name": "Thass Vale",
+        "classification": "Red Giant (M)",
+        "record_type": "Celestial Body",
+        "is_root_body": true,
+        "is_primary_star": true,
+        "source_order": 1,
+        "source_row": 2,
+        "faction": "CINDRAL",
+        "celestial_category": "Star",
+        "orbits": "N/A",
+        "source_sheet": "Thass Vale System",
+        "name": "Thass Vale Primary",
+        "parent_body_ids": [],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10051"
+    }
+  },
+  {
+    "n": {
+      "identity": 10052,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "thass-vale",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A baked inner remnant with no atmosphere and frequent surface quakes.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A baked inner remnant with no atmosphere and frequent surface quakes.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Thass Vale Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:thass-vale:thass-vale-i",
+        "slug": "thass-vale-i",
+        "group_name": "Thass Vale",
+        "kind": "Celestial Body",
+        "section_name": "Thass Vale",
+        "system_name": "Thass Vale",
+        "classification": "Rocky Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 2,
+        "source_row": 3,
+        "faction": "CINDRAL",
+        "celestial_category": "Planet",
+        "orbits": "Thass Vale Primary",
+        "source_sheet": "Thass Vale System",
+        "name": "Thass Vale-I",
+        "parent_body_ids": [
+          "celestial-body:thass-vale:thass-vale-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10052"
+    }
+  },
+  {
+    "n": {
+      "identity": 10053,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "thass-vale",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A dense world with hardened storage vaults below its northern crust.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A dense world with hardened storage vaults below its northern crust.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Thass Vale Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "High Metal Content Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:thass-vale:thass-vale-ii",
+        "slug": "thass-vale-ii",
+        "group_name": "Thass Vale",
+        "kind": "Celestial Body",
+        "section_name": "Thass Vale",
+        "system_name": "Thass Vale",
+        "classification": "High Metal Content Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 3,
+        "source_row": 4,
+        "faction": "CINDRAL",
+        "celestial_category": "Planet",
+        "orbits": "Thass Vale Primary",
+        "source_sheet": "Thass Vale System",
+        "name": "Thass Vale-II",
+        "parent_body_ids": [
+          "celestial-body:thass-vale:thass-vale-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10053"
+    }
+  },
+  {
+    "n": {
+      "identity": 10054,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "thass-vale",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A bare moon with dispersed muster platforms and emergency berths.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A bare moon with dispersed muster platforms and emergency berths.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Thass Vale-II"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:thass-vale:thass-vale-ii-a",
+        "slug": "thass-vale-ii-a",
+        "group_name": "Thass Vale",
+        "kind": "Celestial Body",
+        "section_name": "Thass Vale",
+        "system_name": "Thass Vale",
+        "classification": "Rocky Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 4,
+        "source_row": 5,
+        "faction": "CINDRAL",
+        "celestial_category": "Moon",
+        "orbits": "Thass Vale-II",
+        "source_sheet": "Thass Vale System",
+        "name": "Thass Vale-II-A",
+        "parent_body_ids": [
+          "celestial-body:thass-vale:thass-vale-ii"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10054"
+    }
+  },
+  {
+    "n": {
+      "identity": 10055,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "thass-vale",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A cold transitional planet with buried domes and old evacuation tunnels.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A cold transitional planet with buried domes and old evacuation tunnels.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Thass Vale Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Ice Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:thass-vale:thass-vale-iii",
+        "slug": "thass-vale-iii",
+        "group_name": "Thass Vale",
+        "kind": "Celestial Body",
+        "section_name": "Thass Vale",
+        "system_name": "Thass Vale",
+        "classification": "Rocky Ice Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 5,
+        "source_row": 6,
+        "faction": "CINDRAL",
+        "celestial_category": "Planet",
+        "orbits": "Thass Vale Primary",
+        "source_sheet": "Thass Vale System",
+        "name": "Thass Vale-III",
+        "parent_body_ids": [
+          "celestial-body:thass-vale:thass-vale-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10055"
+    }
+  },
+  {
+    "n": {
+      "identity": 10056,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "thass-vale",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A distant gas giant whose moons hold most of the system’s permanent population.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A distant gas giant whose moons hold most of the system’s permanent population.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Thass Vale Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Class IV",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:thass-vale:thass-vale-iv",
+        "slug": "thass-vale-iv",
+        "group_name": "Thass Vale",
+        "kind": "Celestial Body",
+        "section_name": "Thass Vale",
+        "system_name": "Thass Vale",
+        "classification": "Class IV",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 6,
+        "source_row": 7,
+        "faction": "CINDRAL",
+        "celestial_category": "Planet",
+        "orbits": "Thass Vale Primary",
+        "source_sheet": "Thass Vale System",
+        "name": "Thass Vale-IV",
+        "parent_body_ids": [
+          "celestial-body:thass-vale:thass-vale-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10056"
+    }
+  },
+  {
+    "n": {
+      "identity": 10057,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "thass-vale",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A fortified ice moon with subsurface barracks and sealed supply reserves.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A fortified ice moon with subsurface barracks and sealed supply reserves.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Thass Vale-IV"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Icy Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:thass-vale:thass-vale-iv-a",
+        "slug": "thass-vale-iv-a",
+        "group_name": "Thass Vale",
+        "kind": "Celestial Body",
+        "section_name": "Thass Vale",
+        "system_name": "Thass Vale",
+        "classification": "Icy Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 7,
+        "source_row": 8,
+        "faction": "CINDRAL",
+        "celestial_category": "Moon",
+        "orbits": "Thass Vale-IV",
+        "source_sheet": "Thass Vale System",
+        "name": "Thass Vale-IV-A",
+        "parent_body_ids": [
+          "celestial-body:thass-vale:thass-vale-iv"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10057"
+    }
+  },
+  {
+    "n": {
+      "identity": 10058,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "thass-vale",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A mixed-composition moon used for repair yards and convoy fallback.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A mixed-composition moon used for repair yards and convoy fallback.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Thass Vale-IV"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Ice Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:thass-vale:thass-vale-iv-b",
+        "slug": "thass-vale-iv-b",
+        "group_name": "Thass Vale",
+        "kind": "Celestial Body",
+        "section_name": "Thass Vale",
+        "system_name": "Thass Vale",
+        "classification": "Rocky Ice Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 8,
+        "source_row": 9,
+        "faction": "CINDRAL",
+        "celestial_category": "Moon",
+        "orbits": "Thass Vale-IV",
+        "source_sheet": "Thass Vale System",
+        "name": "Thass Vale-IV-B",
+        "parent_body_ids": [
+          "celestial-body:thass-vale:thass-vale-iv"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10058"
+    }
+  },
+  {
+    "n": {
+      "identity": 10059,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "thass-vale",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A small patrol moon with hardened observation posts.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A small patrol moon with hardened observation posts.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Thass Vale-IV"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:thass-vale:thass-vale-iv-c",
+        "slug": "thass-vale-iv-c",
+        "group_name": "Thass Vale",
+        "kind": "Celestial Body",
+        "section_name": "Thass Vale",
+        "system_name": "Thass Vale",
+        "classification": "Rocky Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 9,
+        "source_row": 10,
+        "faction": "CINDRAL",
+        "celestial_category": "Moon",
+        "orbits": "Thass Vale-IV",
+        "source_sheet": "Thass Vale System",
+        "name": "Thass Vale-IV-C",
+        "parent_body_ids": [
+          "celestial-body:thass-vale:thass-vale-iv"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10059"
+    }
+  },
+  {
+    "n": {
+      "identity": 10060,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "thass-vale",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A cold outer belt marked by reserve fuel caches and emergency beacons.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A cold outer belt marked by reserve fuel caches and emergency beacons.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Thass Vale Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Icy Asteroid Belt",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:thass-vale:thass-vale-belt",
+        "slug": "thass-vale-belt",
+        "group_name": "Thass Vale",
+        "kind": "Celestial Body",
+        "section_name": "Thass Vale",
+        "system_name": "Thass Vale",
+        "classification": "Icy Asteroid Belt",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 10,
+        "source_row": 11,
+        "faction": "CINDRAL",
+        "celestial_category": "Belt",
+        "orbits": "Thass Vale Primary",
+        "source_sheet": "Thass Vale System",
+        "name": "Thass Vale Belt",
+        "parent_body_ids": [
+          "celestial-body:thass-vale:thass-vale-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10060"
+    }
+  },
+  {
+    "n": {
+      "identity": 10061,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "uldran",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 0,
+        "description": "A bright white star that provides strong illumination across the inner system.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A bright white star that provides strong illumination across the inner system.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Class F (White)",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:uldran:uldran-primary",
+        "slug": "uldran-primary",
+        "group_name": "Uldran",
+        "kind": "Celestial Body",
+        "section_name": "Uldran",
+        "system_name": "Uldran",
+        "classification": "Class F (White)",
+        "record_type": "Celestial Body",
+        "is_root_body": true,
+        "is_primary_star": true,
+        "source_order": 1,
+        "source_row": 2,
+        "faction": "CINDRAL",
+        "celestial_category": "Star",
+        "orbits": "N/A",
+        "source_sheet": "Uldran System",
+        "name": "Uldran Primary",
+        "parent_body_ids": [],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10061"
+    }
+  },
+  {
+    "n": {
+      "identity": 10062,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "uldran",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A hot inner planet with automated tracking towers and hardened sensor fields.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A hot inner planet with automated tracking towers and hardened sensor fields.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Uldran Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:uldran:uldran-i",
+        "slug": "uldran-i",
+        "group_name": "Uldran",
+        "kind": "Celestial Body",
+        "section_name": "Uldran",
+        "system_name": "Uldran",
+        "classification": "Rocky Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 2,
+        "source_row": 3,
+        "faction": "CINDRAL",
+        "celestial_category": "Planet",
+        "orbits": "Uldran Primary",
+        "source_sheet": "Uldran System",
+        "name": "Uldran-I",
+        "parent_body_ids": [
+          "celestial-body:uldran:uldran-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10062"
+    }
+  },
+  {
+    "n": {
+      "identity": 10063,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "uldran",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A dry world with deep canyons and buried command shelters.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A dry world with deep canyons and buried command shelters.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Uldran Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:uldran:uldran-ii",
+        "slug": "uldran-ii",
+        "group_name": "Uldran",
+        "kind": "Celestial Body",
+        "section_name": "Uldran",
+        "system_name": "Uldran",
+        "classification": "Rocky Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 3,
+        "source_row": 4,
+        "faction": "CINDRAL",
+        "celestial_category": "Planet",
+        "orbits": "Uldran Primary",
+        "source_sheet": "Uldran System",
+        "name": "Uldran-II",
+        "parent_body_ids": [
+          "celestial-body:uldran:uldran-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10063"
+    }
+  },
+  {
+    "n": {
+      "identity": 10064,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "uldran",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A small moon with challenge beacons and rangefinding stations.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A small moon with challenge beacons and rangefinding stations.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Uldran-II"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:uldran:uldran-ii-a",
+        "slug": "uldran-ii-a",
+        "group_name": "Uldran",
+        "kind": "Celestial Body",
+        "section_name": "Uldran",
+        "system_name": "Uldran",
+        "classification": "Rocky Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 4,
+        "source_row": 5,
+        "faction": "CINDRAL",
+        "celestial_category": "Moon",
+        "orbits": "Uldran-II",
+        "source_sheet": "Uldran System",
+        "name": "Uldran-II-A",
+        "parent_body_ids": [
+          "celestial-body:uldran:uldran-ii"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10064"
+    }
+  },
+  {
+    "n": {
+      "identity": 10065,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "uldran",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A cold steppe world with thin air and dispersed military settlements.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A cold steppe world with thin air and dispersed military settlements.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Uldran Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Atmosphere Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:uldran:uldran-iii",
+        "slug": "uldran-iii",
+        "group_name": "Uldran",
+        "kind": "Celestial Body",
+        "section_name": "Uldran",
+        "system_name": "Uldran",
+        "classification": "Atmosphere Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 5,
+        "source_row": 6,
+        "faction": "CINDRAL",
+        "celestial_category": "Planet",
+        "orbits": "Uldran Primary",
+        "source_sheet": "Uldran System",
+        "name": "Uldran-III",
+        "parent_body_ids": [
+          "celestial-body:uldran:uldran-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10065"
+    }
+  },
+  {
+    "n": {
+      "identity": 10066,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "uldran",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A moon used for approach control and patrol staging.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A moon used for approach control and patrol staging.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Uldran-III"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Ice Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:uldran:uldran-iii-a",
+        "slug": "uldran-iii-a",
+        "group_name": "Uldran",
+        "kind": "Celestial Body",
+        "section_name": "Uldran",
+        "system_name": "Uldran",
+        "classification": "Rocky Ice Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 6,
+        "source_row": 7,
+        "faction": "CINDRAL",
+        "celestial_category": "Moon",
+        "orbits": "Uldran-III",
+        "source_sheet": "Uldran System",
+        "name": "Uldran-III-A",
+        "parent_body_ids": [
+          "celestial-body:uldran:uldran-iii"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10066"
+    }
+  },
+  {
+    "n": {
+      "identity": 10067,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "uldran",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A gas giant whose magnetosphere interferes with unapproved approach paths.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A gas giant whose magnetosphere interferes with unapproved approach paths.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Uldran Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Class III",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:uldran:uldran-iv",
+        "slug": "uldran-iv",
+        "group_name": "Uldran",
+        "kind": "Celestial Body",
+        "section_name": "Uldran",
+        "system_name": "Uldran",
+        "classification": "Class III",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 7,
+        "source_row": 8,
+        "faction": "CINDRAL",
+        "celestial_category": "Planet",
+        "orbits": "Uldran Primary",
+        "source_sheet": "Uldran System",
+        "name": "Uldran-IV",
+        "parent_body_ids": [
+          "celestial-body:uldran:uldran-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10067"
+    }
+  },
+  {
+    "n": {
+      "identity": 10068,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "uldran",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A patrol resupply moon with reinforced hangars under the crust.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A patrol resupply moon with reinforced hangars under the crust.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Uldran-IV"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Icy Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:uldran:uldran-iv-a",
+        "slug": "uldran-iv-a",
+        "group_name": "Uldran",
+        "kind": "Celestial Body",
+        "section_name": "Uldran",
+        "system_name": "Uldran",
+        "classification": "Icy Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 8,
+        "source_row": 9,
+        "faction": "CINDRAL",
+        "celestial_category": "Moon",
+        "orbits": "Uldran-IV",
+        "source_sheet": "Uldran System",
+        "name": "Uldran-IV-A",
+        "parent_body_ids": [
+          "celestial-body:uldran:uldran-iv"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10068"
+    }
+  },
+  {
+    "n": {
+      "identity": 10069,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "uldran",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 2,
+        "description": "A scarred moon that anchors the outer warning grid.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A scarred moon that anchors the outer warning grid.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Uldran-IV"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Rocky Ice Moon",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:uldran:uldran-iv-b",
+        "slug": "uldran-iv-b",
+        "group_name": "Uldran",
+        "kind": "Celestial Body",
+        "section_name": "Uldran",
+        "system_name": "Uldran",
+        "classification": "Rocky Ice Moon",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 9,
+        "source_row": 10,
+        "faction": "CINDRAL",
+        "celestial_category": "Moon",
+        "orbits": "Uldran-IV",
+        "source_sheet": "Uldran System",
+        "name": "Uldran-IV-B",
+        "parent_body_ids": [
+          "celestial-body:uldran:uldran-iv"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10069"
+    }
+  },
+  {
+    "n": {
+      "identity": 10070,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "uldran",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A remote ice world beyond the normal patrol route.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A remote ice world beyond the normal patrol route.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Uldran Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Icy Planet",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:uldran:uldran-v",
+        "slug": "uldran-v",
+        "group_name": "Uldran",
+        "kind": "Celestial Body",
+        "section_name": "Uldran",
+        "system_name": "Uldran",
+        "classification": "Icy Planet",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 10,
+        "source_row": 11,
+        "faction": "CINDRAL",
+        "celestial_category": "Planet",
+        "orbits": "Uldran Primary",
+        "source_sheet": "Uldran System",
+        "name": "Uldran-V",
+        "parent_body_ids": [
+          "celestial-body:uldran:uldran-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10070"
+    }
+  },
+  {
+    "n": {
+      "identity": 10071,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "system_slug": "uldran",
+        "document_kind": "Celestial Body",
+        "orbit_depth": 1,
+        "description": "A sparse outer belt used for passive detection and delayed interception.",
+        "created_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body": "A sparse outer belt used for passive detection and delayed interception.",
+        "source_file": "Missing_System_Bodies_Manual",
+        "orbiting_body_names": [
+          "Uldran Primary"
+        ],
+        "updated_at": {
+          "year": 2026,
+          "month": 7,
+          "day": 16,
+          "hour": 0,
+          "minute": 0,
+          "second": 0,
+          "nanosecond": 0,
+          "timeZoneOffsetSeconds": 0,
+          "timeZoneId": null
+        },
+        "body_type": "Icy Asteroid Belt",
+        "dossier_type": "Celestial Body",
+        "id": "celestial-body:uldran:uldran-outer-screen",
+        "slug": "uldran-outer-screen",
+        "group_name": "Uldran",
+        "kind": "Celestial Body",
+        "section_name": "Uldran",
+        "system_name": "Uldran",
+        "classification": "Icy Asteroid Belt",
+        "record_type": "Celestial Body",
+        "is_root_body": false,
+        "is_primary_star": false,
+        "source_order": 11,
+        "source_row": 12,
+        "faction": "CINDRAL",
+        "celestial_category": "Belt",
+        "orbits": "Uldran Primary",
+        "source_sheet": "Uldran System",
+        "name": "Uldran Outer Screen",
+        "parent_body_ids": [
+          "celestial-body:uldran:uldran-primary"
+        ],
+        "ingest_tag": "system_body_workbooks_v1"
+      },
+      "elementId": "4:missing-system-bodies:10071"
+    }
   }
 
 ]
