@@ -1360,7 +1360,7 @@ export default function GalaxyMap({ onOpenEntry, detailPanel = null, onInterface
 
                       {showFactionLabels ? (
                         <text
-                          y="88"
+                          y="42"
                           textAnchor="middle"
                           className="galaxy-sector-civ"
                         >
