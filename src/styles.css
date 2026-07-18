@@ -632,29 +632,38 @@ h2 {
 .record-type-banner {
     position: relative;
     z-index: 4;
-    padding: 12px 14px 14px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px;
     margin-bottom: 10px;
 }
 
 .record-type-banner-label {
+    order: 2;
+    margin-left: auto;
     color: var(--muted);
-    font-size: 0.72rem;
-    letter-spacing: 0.11em;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    white-space: nowrap;
 }
 
 .record-type-button-row {
+    order: 1;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     gap: 8px;
 }
 
 .record-type-button {
-    border: 1px dashed var(--line);
-    background: rgba(3, 17, 9, 0.62);
-    color: var(--text);
     padding: 7px 10px;
+    border: 1px dashed var(--line);
+    color: var(--text);
+    background: rgba(2, 13, 6, 0.9);
+    font: inherit;
     font-size: 0.78rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -662,10 +671,20 @@ h2 {
 
 .record-type-button:hover,
 .record-type-button-active {
-    border-color: var(--line-bright);
     color: var(--line-bright);
-    background: rgba(17, 56, 26, 0.72);
-    box-shadow:
-        inset 0 0 0 1px rgba(114, 255, 156, 0.12),
-        0 0 14px rgba(114, 255, 156, 0.14);
+    border-color: var(--line-bright);
+    background: rgba(2, 13, 6, 0.9);
+    box-shadow: inset 0 0 0 1px rgba(114, 255, 156, 0.1);
+}
+
+@media (max-width: 900px) {
+    .record-type-banner-label {
+        order: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .record-type-button-row {
+        width: 100%;
+    }
 }
