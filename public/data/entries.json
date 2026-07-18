@@ -3994,11 +3994,11 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Guild-Breaker Agent\nVisual: Specialists with jammers and compact resonance drills.\nBehavior: Sabotage logistics, disable rival Guild hardware, raid sanctioned convoys.\nIntercepted Ledger: “Three shipments voided, licenses erased. Losses unrecoverable.”",
+        "raw_text": "Breaker Agent\nVisual: Specialists with jammers and compact resonance drills.\nBehavior: Sabotage logistics, disable rival Guild hardware, raid sanctioned convoys.\nIntercepted Ledger: “Three shipments voided, licenses erased. Losses unrecoverable.”",
         "document_kind": "datafile",
         "kind": "FactionUnit",
         "classification_reference_section": "Contracted Auxiliaries (CR 1–4, pilot-scale)",
-        "body": "Guild-Breaker Agent\nSpecialists with jammers and compact resonance drills.\nSabotage logistics, disable rival Guild hardware, raid sanctioned convoys.\nIntercepted Ledger\n“Three shipments voided, licenses erased. Losses unrecoverable.”\nGuild-Breaker Agent\nVisual: Specialists with jammers and compact resonance drills.\nBehavior: Sabotage logistics, disable rival Guild hardware, raid sanctioned convoys.\nIntercepted Ledger: “Three shipments voided, licenses erased. Losses unrecoverable.”",
+        "body": "Breaker Agent\nSpecialists with jammers and compact resonance drills.\nSabotage logistics, disable rival Guild hardware, raid sanctioned convoys.\nIntercepted Ledger\n“Three shipments voided, licenses erased. Losses unrecoverable.”\nGuild-Breaker Agent\nVisual: Specialists with jammers and compact resonance drills.\nBehavior: Sabotage logistics, disable rival Guild hardware, raid sanctioned convoys.\nIntercepted Ledger: “Three shipments voided, licenses erased. Losses unrecoverable.”",
         "classification": "INFANTRY",
         "reports_json": "[{\"label\": \"Intercepted Ledger\", \"text\": \"“Three shipments voided, licenses erased. Losses unrecoverable.”\"}]",
         "record_type": "Unit",
@@ -4010,9 +4010,9 @@
         "classification_reference_file": "Primus Units.docx",
         "report_text": "“Three shipments voided, licenses erased. Losses unrecoverable.”",
         "source_filename": "[DATAFILE_ LUTHAN].docx",
-        "tags_text": "Luthan, Guild, Luthan, Guild-Breaker Agent, Agent, Guild-Breaker",
+        "tags_text": "Luthan, Guild, Luthan, Breaker Agent, Agent, Breaker",
         "faction": "LUTHAN",
-        "name": "Guild-Breaker Agent",
+        "name": "Breaker Agent",
         "visual": "Specialists with jammers and compact resonance drills.",
         "id": "settingdex__entry__luthan__guild_breaker_agent",
         "source_id": "settingdex__source__datafile_luthan",
@@ -10993,7 +10993,7 @@
         "raw_text": "Luthan Prime System\nSector Name: Luthan Sector\nFaction: Luthan League\nDescription: Luthan Prime is the League capital and a major Guild headquarters, where trade, law, and movement intersect. Mercenary contracts, faction embassies, Guild jobs, and commercial disputes all converge here.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
-        "description": "The Luthan Prime system combines the League capital with Guild Central, the Exchange Ring, Mandate Court, embassy orbitals, industrial Merovar, oceanic Edrine, and guarded reserves around Covenant. Trade, law, diplomacy, and mercenary work converge across the entire system, making even routine transit part of a larger commercial proceeding.",
+        "description": "The Luthan Prime system combines the League capital with the Exchange Ring, Mandate Court, embassy orbitals, industrial Merovar, oceanic Edrine, and guarded reserves around Covenant. Trade, law, diplomacy, and mercenary work converge across the entire system, making even routine transit part of a larger commercial proceeding.",
         "manual_ingest": true,
         "body": "Luthan Prime is the League capital and a major Guild headquarters, where trade, law, and movement intersect. Mercenary contracts, faction embassies, Guild jobs, and commercial disputes all converge here.",
         "record_type": "System",
@@ -35571,71 +35571,6 @@
         "ingest_tag": "system_body_workbooks_v1"
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:1811"
-    }
-  },
-  {
-    "n": {
-      "identity": 1812,
-      "labels": [
-        "Entry"
-      ],
-      "properties": {
-        "system_slug": "luthan-prime",
-        "document_kind": "Celestial Body",
-        "orbit_depth": 2,
-        "description": "Major Guild headquarters combining lane administration, licensing halls, customs command, and interstellar traffic control.",
-        "created_at": {
-          "year": 2026,
-          "month": 7,
-          "day": 9,
-          "hour": 23,
-          "minute": 56,
-          "second": 1,
-          "nanosecond": 956000000,
-          "timeZoneOffsetSeconds": 0,
-          "timeZoneId": null
-        },
-        "body": "Major Guild headquarters combining lane administration, licensing halls, customs command, and interstellar traffic control.",
-        "source_file": "Luthan_League_System_Bodies.xlsx",
-        "orbiting_body_names": [
-          "Luthan Prime"
-        ],
-        "updated_at": {
-          "year": 2026,
-          "month": 7,
-          "day": 9,
-          "hour": 23,
-          "minute": 56,
-          "second": 1,
-          "nanosecond": 956000000,
-          "timeZoneOffsetSeconds": 0,
-          "timeZoneId": null
-        },
-        "body_type": "Transit Hub",
-        "dossier_type": "Celestial Body",
-        "id": "celestial-body:luthan-prime:guild-central",
-        "slug": "guild-central",
-        "group_name": "Luthan Prime",
-        "kind": "Celestial Body",
-        "section_name": "Luthan Prime",
-        "system_name": "Luthan Prime",
-        "classification": "Transit Hub",
-        "record_type": "Celestial Body",
-        "is_root_body": false,
-        "is_primary_star": false,
-        "source_order": 7,
-        "source_row": 8,
-        "faction": "LUTHAN",
-        "celestial_category": "Installation",
-        "orbits": "Luthan Prime",
-        "source_sheet": "Luthan Prime",
-        "name": "Guild Central",
-        "parent_body_ids": [
-          "celestial-body:luthan-prime:luthan-prime"
-        ],
-        "ingest_tag": "system_body_workbooks_v1"
-      },
-      "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:1812"
     }
   },
   {
