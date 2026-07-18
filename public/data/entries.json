@@ -82566,6 +82566,270 @@
         "slug": "tabernacle_ark"
       }
     }
+  },
+   {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__freighter",
+        "name": "Freighter",
+        "slug": "freighter",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A freighter is a civilian or commercial vessel built to move cargo between systems. It is usually slow, lightly armed, and dependent on escorts when traveling through unsafe lanes.",
+        "raw_text": "Freighter - A freighter is a civilian or commercial vessel built to move cargo between systems. It is usually slow, lightly armed, and dependent on escorts when traveling through unsafe lanes.",
+        "body": "A freighter is a civilian or commercial vessel built to move cargo between systems. It is usually slow, lightly armed, and dependent on escorts when traveling through unsafe lanes.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Civilian Vessel, Cargo, Freighter",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__liner",
+        "name": "Liner",
+        "slug": "liner",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A liner is a passenger vessel built to move civilians, pilgrims, colonists, officials, or refugees in large numbers. Its value is measured by capacity, endurance, route reliability, and survivability rather than combat power.",
+        "raw_text": "Liner - A liner is a passenger vessel built to move civilians, pilgrims, colonists, officials, or refugees in large numbers. Its value is measured by capacity, endurance, route reliability, and survivability rather than combat power.",
+        "body": "A liner is a passenger vessel built to move civilians, pilgrims, colonists, officials, or refugees in large numbers. Its value is measured by capacity, endurance, route reliability, and survivability rather than combat power.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Civilian Vessel, Passenger Vessel, Liner",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__barge",
+        "name": "Barge",
+        "slug": "barge",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A barge is a heavy utility vessel built for bulk hauling, salvage, mining, construction, or industrial support. It is not designed as a warship, but its machinery and cargo capacity make it important to frontier operations and fleet logistics.",
+        "raw_text": "Barge - A barge is a heavy utility vessel built for bulk hauling, salvage, mining, construction, or industrial support. It is not designed as a warship, but its machinery and cargo capacity make it important to frontier operations and fleet logistics.",
+        "body": "A barge is a heavy utility vessel built for bulk hauling, salvage, mining, construction, or industrial support. It is not designed as a warship, but its machinery and cargo capacity make it important to frontier operations and fleet logistics.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Utility Vessel, Logistics, Barge",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__interceptor",
+        "name": "Interceptor",
+        "slug": "interceptor",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "An interceptor is a small, fast vessel used for pursuit, scouting, courier work, and rapid response. It can threaten light craft, but it is not built for sustained fleet combat.",
+        "raw_text": "Interceptor - An interceptor is a small, fast vessel used for pursuit, scouting, courier work, and rapid response. It can threaten light craft, but it is not built for sustained fleet combat.",
+        "body": "An interceptor is a small, fast vessel used for pursuit, scouting, courier work, and rapid response. It can threaten light craft, but it is not built for sustained fleet combat.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Light Craft, Pursuit, Interceptor",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__corvette",
+        "name": "Corvette",
+        "slug": "corvette",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A corvette is the smallest true warship class, built for patrol, interception, raiding, and close escort work. It is fast and inexpensive enough to operate independently, but too lightly built to survive against heavier fleet units.",
+        "raw_text": "Corvette - A corvette is the smallest true warship class, built for patrol, interception, raiding, and close escort work. It is fast and inexpensive enough to operate independently, but too lightly built to survive against heavier fleet units.",
+        "body": "A corvette is the smallest true warship class, built for patrol, interception, raiding, and close escort work. It is fast and inexpensive enough to operate independently, but too lightly built to survive against heavier fleet units.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Warship, Patrol, Corvette",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__frigate",
+        "name": "Frigate",
+        "slug": "frigate",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A frigate is a fleet escort with the endurance, sensors, and weapons needed to protect larger ships or patrol dangerous lanes. It usually screens against fighters, missiles, raiders, and boarding threats rather than dueling larger warships directly.",
+        "raw_text": "Frigate - A frigate is a fleet escort with the endurance, sensors, and weapons needed to protect larger ships or patrol dangerous lanes. It usually screens against fighters, missiles, raiders, and boarding threats rather than dueling larger warships directly.",
+        "body": "A frigate is a fleet escort with the endurance, sensors, and weapons needed to protect larger ships or patrol dangerous lanes. It usually screens against fighters, missiles, raiders, and boarding threats rather than dueling larger warships directly.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Warship, Escort, Frigate",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__cruiser",
+        "name": "Cruiser",
+        "slug": "cruiser",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A cruiser is a major warship that can operate independently or serve as the backbone of a patrol group or battle group. It carries enough weapons, armor, and command systems to dominate smaller ships while remaining cheaper and more flexible than true capital ships.",
+        "raw_text": "Cruiser - A cruiser is a major warship that can operate independently or serve as the backbone of a patrol group or battle group. It carries enough weapons, armor, and command systems to dominate smaller ships while remaining cheaper and more flexible than true capital ships.",
+        "body": "A cruiser is a major warship that can operate independently or serve as the backbone of a patrol group or battle group. It carries enough weapons, armor, and command systems to dominate smaller ships while remaining cheaper and more flexible than true capital ships.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Major Warship, Battle Group, Cruiser",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__carrier",
+        "name": "Carrier",
+        "slug": "carrier",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A carrier is a warship built around hangars, launch bays, and support facilities for fighters, drones, mechs, or assault craft. Large carriers are capital ships because their deployed forces can decide battles far beyond the reach of the carrier’s own guns.",
+        "raw_text": "Carrier - A carrier is a warship built around hangars, launch bays, and support facilities for fighters, drones, mechs, or assault craft. Large carriers are capital ships because their deployed forces can decide battles far beyond the reach of the carrier’s own guns.",
+        "body": "A carrier is a warship built around hangars, launch bays, and support facilities for fighters, drones, mechs, or assault craft. Large carriers are capital ships because their deployed forces can decide battles far beyond the reach of the carrier’s own guns.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Warship, Capital Ship, Carrier",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__battlecruiser",
+        "name": "Battlecruiser",
+        "slug": "battlecruiser",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A battlecruiser is a capital ship built for speed, reach, and heavy striking power. It is designed to hunt cruisers, carriers, and weakened fleet assets, but it is less suited to prolonged exchanges with dreadnoughts.",
+        "raw_text": "Battlecruiser - A battlecruiser is a capital ship built for speed, reach, and heavy striking power. It is designed to hunt cruisers, carriers, and weakened fleet assets, but it is less suited to prolonged exchanges with dreadnoughts.",
+        "body": "A battlecruiser is a capital ship built for speed, reach, and heavy striking power. It is designed to hunt cruisers, carriers, and weakened fleet assets, but it is less suited to prolonged exchanges with dreadnoughts.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Capital Ship, Heavy Warship, Battlecruiser",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__dreadnought",
+        "name": "Dreadnought",
+        "slug": "dreadnought",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A dreadnought is the heaviest standard capital ship, built for decisive fleet engagements, sieges, and strategic intimidation. It is slow and expensive, but its armor and firepower can anchor an entire campaign.",
+        "raw_text": "Dreadnought - A dreadnought is the heaviest standard capital ship, built for decisive fleet engagements, sieges, and strategic intimidation. It is slow and expensive, but its armor and firepower can anchor an entire campaign.",
+        "body": "A dreadnought is the heaviest standard capital ship, built for decisive fleet engagements, sieges, and strategic intimidation. It is slow and expensive, but its armor and firepower can anchor an entire campaign.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Capital Ship, Siege Vessel, Dreadnought",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__capital_ship",
+        "name": "Capital Ship",
+        "slug": "capital_ship",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A capital ship is not a hull class by itself, but a strategic category for the largest and most important fleet assets. In normal usage, the term applies to fleet carriers, battlecruisers, dreadnoughts, and unusually large cruisers or support vessels.",
+        "raw_text": "Capital Ship - A capital ship is not a hull class by itself, but a strategic category for the largest and most important fleet assets. In normal usage, the term applies to fleet carriers, battlecruisers, dreadnoughts, and unusually large cruisers or support vessels.",
+        "body": "A capital ship is not a hull class by itself, but a strategic category for the largest and most important fleet assets. In normal usage, the term applies to fleet carriers, battlecruisers, dreadnoughts, and unusually large cruisers or support vessels.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Category, Strategic Category, Fleet Asset, Capital Ship",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
   }
 
 ]
