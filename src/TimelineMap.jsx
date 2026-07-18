@@ -6,15 +6,19 @@ const APPROX_EXODUS_YEAR = CURRENT_YEAR - 1000;
 const APPROX_FIRST_CONTACT_YEAR = CURRENT_YEAR - 100;
 
 const VIEW_WIDTH = 1600;
-const MIN_ZOOM = 0.65;
-const MAX_ZOOM = 3.4;
+const VIEW_HEIGHT = 760;
+const MIN_ZOOM = 0.42;
+const MAX_ZOOM = 3.8;
 const DEFAULT_ZOOM = 1;
+
+const YEAR_PIXELS = 12;
+const WORLD_LEFT = 150;
+const WORLD_RIGHT_PADDING = 190;
+const AXIS_Y = 108;
+const ROW_TOP = 176;
 const ROW_HEIGHT = 82;
-const ROW_TOP = 156;
-const ROW_BOTTOM_PADDING = 80;
-const LABEL_COLUMN_WIDTH = 0;
-const TIMELINE_LEFT = 88;
-const TIMELINE_RIGHT = VIEW_WIDTH - 76;
+const ROW_BOTTOM_PADDING = 120;
+const EVENT_COLLISION_PADDING = 34;
 
 const MANUAL_EVENTS = [
   {
@@ -332,6 +336,33 @@ function eventClassName(event, selectedEvent) {
     .join(" ");
 }
 
+function estimateLabelWidth(event) {
+  const nameLength = cleanText(event.name).length;
+  const yearLength = yearLabel(event).length;
+
+  return clamp(Math.max(nameLength * 7.2, yearLength * 6.8) + 42, 120, 430);
+}
+
+function rangesOverlap(left, right) {
+  return left.start < right.end && right.start < left.end;
+}
+
+function chooseTimelineRow(rows, occupiedRange) {
+  for (let rowIndex = 0; rowIndex < rows.length; rowIndex += 1) {
+    const hasCollision = rows[rowIndex].some((range) =>
+      rangesOverlap(range, occupiedRange)
+    );
+
+    if (!hasCollision) {
+      rows[rowIndex].push(occupiedRange);
+      return rowIndex;
+    }
+  }
+
+  rows.push([occupiedRange]);
+  return rows.length - 1;
+}
+
 function TimelineEventDetails({ event, onOpen }) {
   if (!event) {
     return (
@@ -339,9 +370,8 @@ function TimelineEventDetails({ event, onOpen }) {
         <div className="timeline-inspector-kicker">TIMELINE LINK STANDBY</div>
         <div className="timeline-inspector-title">NO EVENT SELECTED</div>
         <p className="timeline-muted">
-          Select a row to open its timeline record. Conflict rows link directly
-          to their Conflict entries. Historical rows only open a linked entry
-          when the entry name is an exact match.
+          Select a node or range to open its timeline record. Events share rows
+          only when their markers, ranges, and labels do not overlap.
         </p>
       </aside>
     );
@@ -391,6 +421,7 @@ export default function TimelineMap({
 }) {
   const svgRef = useRef(null);
   const dragRef = useRef(null);
+  const initializedViewRef = useRef(false);
   const zoomRef = useRef(DEFAULT_ZOOM);
   const panRef = useRef({ x: 0, y: 0 });
   const [state, setState] = useState({
@@ -453,16 +484,14 @@ export default function TimelineMap({
   }, []);
 
   const entries = useMemo(
-    () => state.rows
-      .map((row, index) => normalizeExportRow(row, index))
-      .filter(Boolean),
+    () =>
+      state.rows
+        .map((row, index) => normalizeExportRow(row, index))
+        .filter(Boolean),
     [state.rows]
   );
 
-  const events = useMemo(
-    () => buildTimelineEvents(entries),
-    [entries]
-  );
+  const events = useMemo(() => buildTimelineEvents(entries), [entries]);
 
   const timelineBounds = useMemo(() => {
     const years = events.flatMap((event) => [event.start, event.end]);
@@ -475,49 +504,113 @@ export default function TimelineMap({
     };
   }, [events]);
 
-  const timelineHeight = Math.max(
-    760,
-    ROW_TOP + events.length * ROW_HEIGHT + ROW_BOTTOM_PADDING
-  );
+  const timelineWorld = useMemo(() => {
+    const width =
+      WORLD_LEFT +
+      (timelineBounds.maxYear - timelineBounds.minYear) * YEAR_PIXELS +
+      WORLD_RIGHT_PADDING;
+
+    return {
+      width: Math.max(width, VIEW_WIDTH),
+      height: VIEW_HEIGHT,
+    };
+  }, [timelineBounds]);
+
+  function xForYear(year) {
+    return WORLD_LEFT + (year - timelineBounds.minYear) * YEAR_PIXELS;
+  }
 
   const positionedEvents = useMemo(() => {
-    const axisWidth = TIMELINE_RIGHT - TIMELINE_LEFT;
-    const yearRange = Math.max(1, timelineBounds.maxYear - timelineBounds.minYear);
+    const rows = [];
 
-    function xForYear(year) {
-      return TIMELINE_LEFT + ((year - timelineBounds.minYear) / yearRange) * axisWidth;
-    }
-
-    return events.map((event, index) => {
-      const y = ROW_TOP + index * ROW_HEIGHT;
+    return events.map((event) => {
       const startX = xForYear(event.start);
       const endX = xForYear(event.end);
       const centerX = (startX + endX) / 2;
+      const labelWidth = estimateLabelWidth(event);
+      const eventStart = Math.min(startX, endX);
+      const eventEnd = Math.max(startX, endX);
+      const occupiedRange = {
+        start:
+          Math.min(eventStart, centerX - labelWidth / 2) -
+          EVENT_COLLISION_PADDING,
+        end:
+          Math.max(eventEnd, centerX + labelWidth / 2) +
+          EVENT_COLLISION_PADDING,
+      };
+      const rowIndex = chooseTimelineRow(rows, occupiedRange);
+      const y = ROW_TOP + rowIndex * ROW_HEIGHT;
 
       return {
         ...event,
-        rowIndex: index,
+        rowIndex,
         startX,
         endX,
         centerX,
         y,
-        labelY: y + 31,
-        yearY: y + 17,
+        labelY: y + 32,
+        yearY: y + 18,
+        kindY: y + 46,
+        labelWidth,
         width: Math.max(16, endX - startX),
       };
     });
   }, [events, timelineBounds]);
 
-  const decadeTicks = useMemo(() => {
-    const ticks = [];
-    const first = Math.ceil(timelineBounds.minYear / 100) * 100;
+  const rowCount = useMemo(() => {
+    if (!positionedEvents.length) return 1;
 
-    for (let year = first; year <= timelineBounds.maxYear; year += 100) {
+    return Math.max(...positionedEvents.map((event) => event.rowIndex)) + 1;
+  }, [positionedEvents]);
+
+  const worldHeight = Math.max(
+    VIEW_HEIGHT,
+    ROW_TOP + rowCount * ROW_HEIGHT + ROW_BOTTOM_PADDING
+  );
+
+  const majorTicks = useMemo(() => {
+    const ticks = [];
+    const first = Math.ceil(timelineBounds.minYear / 50) * 50;
+
+    for (let year = first; year <= timelineBounds.maxYear; year += 50) {
       ticks.push(year);
     }
 
     return ticks;
   }, [timelineBounds]);
+
+  const minorTicks = useMemo(() => {
+    const ticks = [];
+    const first = Math.ceil(timelineBounds.minYear / 10) * 10;
+
+    for (let year = first; year <= timelineBounds.maxYear; year += 10) {
+      if (year % 50 !== 0) {
+        ticks.push(year);
+      }
+    }
+
+    return ticks;
+  }, [timelineBounds]);
+
+  function getFocusPan(focusYear = 3820) {
+    const focusX = xForYear(focusYear);
+
+    return {
+      x: 120 - focusX * DEFAULT_ZOOM,
+      y: 0,
+    };
+  }
+
+  useEffect(() => {
+    if (!positionedEvents.length || initializedViewRef.current) return;
+
+    initializedViewRef.current = true;
+    const nextPan = getFocusPan(3820);
+    zoomRef.current = DEFAULT_ZOOM;
+    panRef.current = nextPan;
+    setZoom(DEFAULT_ZOOM);
+    setPan(nextPan);
+  }, [positionedEvents.length, timelineBounds]);
 
   async function openEvent(event) {
     triggerInterfaceSfx();
@@ -545,19 +638,30 @@ export default function TimelineMap({
     }
   }
 
+  function setViewport(nextZoom, nextPan) {
+    zoomRef.current = nextZoom;
+    panRef.current = nextPan;
+    setZoom(nextZoom);
+    setPan(nextPan);
+  }
+
   function resetView() {
-    zoomRef.current = DEFAULT_ZOOM;
-    panRef.current = { x: 0, y: 0 };
-    setZoom(DEFAULT_ZOOM);
-    setPan({ x: 0, y: 0 });
+    setViewport(DEFAULT_ZOOM, getFocusPan(3820));
+  }
+
+  function focusYear(year) {
+    const focusX = xForYear(year);
+    setViewport(1, {
+      x: VIEW_WIDTH / 2 - focusX,
+      y: 0,
+    });
   }
 
   function applyZoom(nextZoom, anchor = null) {
     const clampedZoom = clamp(nextZoom, MIN_ZOOM, MAX_ZOOM);
 
     if (!anchor) {
-      zoomRef.current = clampedZoom;
-      setZoom(clampedZoom);
+      setViewport(clampedZoom, panRef.current);
       return;
     }
 
@@ -570,10 +674,7 @@ export default function TimelineMap({
       y: anchor.y - worldY * clampedZoom,
     };
 
-    zoomRef.current = clampedZoom;
-    panRef.current = nextPan;
-    setPan(nextPan);
-    setZoom(clampedZoom);
+    setViewport(clampedZoom, nextPan);
   }
 
   useEffect(() => {
@@ -583,10 +684,6 @@ export default function TimelineMap({
     if (!svg) return undefined;
 
     const handleNativeWheel = (event) => {
-      if (!event.ctrlKey && !event.metaKey) {
-        return;
-      }
-
       event.preventDefault();
       event.stopPropagation();
 
@@ -597,7 +694,7 @@ export default function TimelineMap({
           VIEW_WIDTH,
         y:
           ((event.clientY - rect.top) / Math.max(1, rect.height)) *
-          timelineHeight,
+          VIEW_HEIGHT,
       };
 
       const factor = event.deltaY > 0 ? 0.9 : 1.1;
@@ -611,7 +708,7 @@ export default function TimelineMap({
     return () => {
       svg.removeEventListener("wheel", handleNativeWheel);
     };
-  }, [state.loading, state.error, timelineHeight]);
+  }, [state.loading, state.error]);
 
   function handlePointerDown(event) {
     const svg = svgRef.current;
@@ -623,7 +720,7 @@ export default function TimelineMap({
       pointerId: event.pointerId,
       clientX: event.clientX,
       clientY: event.clientY,
-      startPan: pan,
+      startPan: panRef.current,
     };
   }
 
@@ -635,12 +732,15 @@ export default function TimelineMap({
 
     const rect = svg.getBoundingClientRect();
     const scaleX = VIEW_WIDTH / Math.max(1, rect.width);
-    const scaleY = timelineHeight / Math.max(1, rect.height);
+    const scaleY = VIEW_HEIGHT / Math.max(1, rect.height);
 
-    setPan({
+    const nextPan = {
       x: drag.startPan.x + (event.clientX - drag.clientX) * scaleX,
       y: drag.startPan.y + (event.clientY - drag.clientY) * scaleY,
-    });
+    };
+
+    panRef.current = nextPan;
+    setPan(nextPan);
   }
 
   function handlePointerUp(event) {
@@ -665,11 +765,7 @@ export default function TimelineMap({
     );
   }
 
-  const yearRange = Math.max(1, timelineBounds.maxYear - timelineBounds.minYear);
-  const currentYearX =
-    TIMELINE_LEFT +
-    ((CURRENT_YEAR - timelineBounds.minYear) / yearRange) *
-      (TIMELINE_RIGHT - TIMELINE_LEFT);
+  const currentYearX = xForYear(CURRENT_YEAR);
 
   return (
     <section className="timeline-page">
@@ -685,6 +781,7 @@ export default function TimelineMap({
           <span>{events.length} EVENTS</span>
           <span>{events.filter((event) => event.kind === "Conflict").length} CONFLICTS</span>
           <span>{timelineBounds.minYear}–{timelineBounds.maxYear}</span>
+          <span>{YEAR_PIXELS} PX / YEAR</span>
         </div>
       </div>
 
@@ -719,8 +816,28 @@ export default function TimelineMap({
         >
           [RESET]
         </button>
+        <button
+          type="button"
+          className="terminal-button"
+          onClick={() => {
+            triggerInterfaceSfx();
+            focusYear(APPROX_EXODUS_YEAR);
+          }}
+        >
+          [EXODUS]
+        </button>
+        <button
+          type="button"
+          className="terminal-button"
+          onClick={() => {
+            triggerInterfaceSfx();
+            focusYear(CURRENT_YEAR);
+          }}
+        >
+          [CURRENT]
+        </button>
         <span className="timeline-zoom-readout">
-          ZOOM {Math.round(zoom * 100)}% // CTRL+WHEEL TO ZOOM
+          ZOOM {Math.round(zoom * 100)}% // DRAG TO PAN // WHEEL TO ZOOM
         </span>
       </div>
 
@@ -729,10 +846,7 @@ export default function TimelineMap({
           <svg
             ref={svgRef}
             className="timeline-svg"
-            viewBox={`0 0 ${VIEW_WIDTH} ${timelineHeight}`}
-            style={{
-              height: `${timelineHeight}px`,
-            }}
+            viewBox={`0 0 ${VIEW_WIDTH} ${VIEW_HEIGHT}`}
             role="img"
             aria-label="Interactive history and conflict timeline"
             onPointerMove={handlePointerMove}
@@ -785,39 +899,53 @@ export default function TimelineMap({
             </defs>
 
             <rect
-              width={VIEW_WIDTH}
-              height={timelineHeight}
+              width={Math.max(timelineWorld.width, VIEW_WIDTH * 4)}
+              height={Math.max(worldHeight, VIEW_HEIGHT * 2)}
+              x={-VIEW_WIDTH * 2}
+              y={-VIEW_HEIGHT}
               fill="url(#timelineGridLarge)"
               onPointerDown={handlePointerDown}
             />
 
             <g transform={`translate(${pan.x} ${pan.y}) scale(${zoom})`}>
               <line
-                x1={TIMELINE_LEFT}
-                y1="116"
-                x2={TIMELINE_RIGHT}
-                y2="116"
+                x1={WORLD_LEFT}
+                y1={AXIS_Y}
+                x2={timelineWorld.width - WORLD_RIGHT_PADDING}
+                y2={AXIS_Y}
                 className="timeline-axis"
                 vectorEffect="non-scaling-stroke"
               />
 
-              {decadeTicks.map((year) => {
-                const x =
-                  TIMELINE_LEFT +
-                  ((year - timelineBounds.minYear) /
-                    Math.max(1, timelineBounds.maxYear - timelineBounds.minYear)) *
-                    (TIMELINE_RIGHT - TIMELINE_LEFT);
+              {minorTicks.map((year) => {
+                const x = xForYear(year);
+
+                return (
+                  <g key={year} className="timeline-minor-tick">
+                    <line
+                      x1={x}
+                      y1={AXIS_Y - 12}
+                      x2={x}
+                      y2={worldHeight - 44}
+                      vectorEffect="non-scaling-stroke"
+                    />
+                  </g>
+                );
+              })}
+
+              {majorTicks.map((year) => {
+                const x = xForYear(year);
 
                 return (
                   <g key={year} className="timeline-tick">
                     <line
                       x1={x}
-                      y1="96"
+                      y1={AXIS_Y - 22}
                       x2={x}
-                      y2={timelineHeight - 50}
+                      y2={worldHeight - 44}
                       vectorEffect="non-scaling-stroke"
                     />
-                    <text x={x} y="86" textAnchor="middle">
+                    <text x={x} y={AXIS_Y - 34} textAnchor="middle">
                       {year}
                     </text>
                   </g>
@@ -826,9 +954,9 @@ export default function TimelineMap({
 
               <line
                 x1={currentYearX}
-                y1="86"
+                y1={AXIS_Y - 34}
                 x2={currentYearX}
-                y2={timelineHeight - 50}
+                y2={worldHeight - 44}
                 className="timeline-current-line"
                 vectorEffect="non-scaling-stroke"
               />
@@ -854,48 +982,26 @@ export default function TimelineMap({
                     }}
                   >
                     <rect
-                      x="24"
-                      y={event.y - ROW_HEIGHT / 2 + 4}
-                      width={VIEW_WIDTH - 48}
-                      height={ROW_HEIGHT - 8}
+                      x={Math.min(event.startX, event.centerX - event.labelWidth / 2) - 18}
+                      y={event.y - 17}
+                      width={
+                        Math.max(
+                          Math.abs(event.endX - event.startX),
+                          event.labelWidth
+                        ) + 36
+                      }
+                      height="70"
                       className="timeline-event-hitbox"
                     />
 
                     <line
-                      x1={TIMELINE_LEFT}
-                      y1={event.y}
-                      x2={TIMELINE_RIGHT}
+                      x1={event.centerX}
+                      y1={AXIS_Y}
+                      x2={event.centerX}
                       y2={event.y}
-                      className="timeline-event-row-line"
+                      className="timeline-event-leader"
                       vectorEffect="non-scaling-stroke"
                     />
-
-                    <text
-                      x={event.centerX}
-                      y={event.yearY}
-                      textAnchor="middle"
-                      className="timeline-event-year"
-                    >
-                      {yearLabel(event)}
-                    </text>
-
-                    <text
-                      x={event.centerX}
-                      y={event.labelY}
-                      textAnchor="middle"
-                      className="timeline-event-label"
-                    >
-                      {event.name}
-                    </text>
-
-                    <text
-                      x={event.centerX}
-                      y={event.labelY + 13}
-                      textAnchor="middle"
-                      className="timeline-event-kind"
-                    >
-                      {String(event.kind || "Timeline").toUpperCase()}
-                    </text>
 
                     {range ? (
                       <>
@@ -931,6 +1037,33 @@ export default function TimelineMap({
                         filter={selected ? "url(#timelineGlow)" : undefined}
                       />
                     )}
+
+                    <text
+                      x={event.centerX}
+                      y={event.yearY}
+                      textAnchor="middle"
+                      className="timeline-event-year"
+                    >
+                      {yearLabel(event)}
+                    </text>
+
+                    <text
+                      x={event.centerX}
+                      y={event.labelY}
+                      textAnchor="middle"
+                      className="timeline-event-label"
+                    >
+                      {event.name}
+                    </text>
+
+                    <text
+                      x={event.centerX}
+                      y={event.kindY}
+                      textAnchor="middle"
+                      className="timeline-event-kind"
+                    >
+                      {String(event.kind || "Timeline").toUpperCase()}
+                    </text>
 
                     <title>{event.name} // {yearLabel(event)}</title>
                   </g>
