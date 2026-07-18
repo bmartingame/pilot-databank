@@ -106,7 +106,7 @@ const MANUAL_EVENTS = [
     category: "military",
     linkName: "DMN-Units",
     summary:
-      "Warp Beast attacks along Guild lanes forced frontier deployments of DMN-Units.",
+      "Warp Beast attacks along Guild lanes forced frontier deployments of DMN-Units and their resonance shielding.",
   },
   {
     id: "timeline-dream-eaters",
@@ -119,6 +119,18 @@ const MANUAL_EVENTS = [
     linkName: "Dream-Eaters",
     summary:
       "Lesser Mim emanations were uncovered after colonies fell into collective nightmare and comatose collapse.",
+  },
+  {
+    id: "timeline-cults",
+    name: "Threat Cults Spread",
+    kind: "Glossary",
+    start: 3980,
+    end: 4045,
+    precision: "approximate",
+    category: "political",
+    linkName: "Veilbreakers",
+    summary:
+      "Veilbreakers, Consuming Shadows, and Temporal Eclipse cells spread through weakened colonies and classified disaster zones.",
   },
   {
     id: "timeline-first-contact",
@@ -134,7 +146,7 @@ const MANUAL_EVENTS = [
   },
   {
     id: "timeline-new-dark-age",
-    name: "The Dark Age",
+    name: "The New Dark Age",
     kind: "Glossary",
     start: APPROX_FIRST_CONTACT_YEAR,
     end: CURRENT_YEAR,
@@ -307,6 +319,13 @@ function isRangeEvent(event) {
   return event.end > event.start;
 }
 
+function shouldShowInlineLabel(event, selected, showConflictLabels) {
+  if (selected) return true;
+  if (event.kind === "Conflict") return showConflictLabels;
+
+  return true;
+}
+
 function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
 }
@@ -390,6 +409,7 @@ export default function TimelineMap({
   const [zoom, setZoom] = useState(DEFAULT_ZOOM);
   const [pan, setPan] = useState({ x: 0, y: 0 });
   const [selectedEvent, setSelectedEvent] = useState(null);
+  const [showConflictLabels, setShowConflictLabels] = useState(false);
   const [openError, setOpenError] = useState("");
 
   function triggerInterfaceSfx() {
@@ -469,8 +489,8 @@ export default function TimelineMap({
     const right = VIEW_WIDTH - 95;
     const axisWidth = right - left;
     const yearRange = Math.max(1, timelineBounds.maxYear - timelineBounds.minYear);
-    const laneTop = 164;
-    const laneHeight = 58;
+    const laneTop = 166;
+    const laneHeight = 54;
 
     function xForYear(year) {
       return left + ((year - timelineBounds.minYear) / yearRange) * axisWidth;
@@ -498,9 +518,9 @@ export default function TimelineMap({
 
   const decadeTicks = useMemo(() => {
     const ticks = [];
-    const first = Math.ceil(timelineBounds.minYear / 50) * 50;
+    const first = Math.ceil(timelineBounds.minYear / 100) * 100;
 
-    for (let year = first; year <= timelineBounds.maxYear; year += 50) {
+    for (let year = first; year <= timelineBounds.maxYear; year += 100) {
       ticks.push(year);
     }
 
@@ -697,6 +717,19 @@ export default function TimelineMap({
         >
           [RESET]
         </button>
+        <button
+          type="button"
+          className={`terminal-button ${
+            showConflictLabels ? "timeline-control-active" : ""
+          }`}
+          onClick={() => {
+            triggerInterfaceSfx();
+            setShowConflictLabels((current) => !current);
+          }}
+          aria-pressed={showConflictLabels}
+        >
+          [CONFLICT LABELS]
+        </button>
         <span className="timeline-zoom-readout">
           ZOOM {Math.round(zoom * 100)}%
         </span>
@@ -822,6 +855,12 @@ export default function TimelineMap({
                 const selected = selectedEvent?.id === event.id;
                 const className = eventClassName(event, selectedEvent);
                 const range = isRangeEvent(event);
+                const isConflict = event.kind === "Conflict";
+                const showInlineLabel = shouldShowInlineLabel(
+                  event,
+                  selected,
+                  showConflictLabels
+                );
 
                 return (
                   <g
@@ -851,14 +890,14 @@ export default function TimelineMap({
                         <circle
                           cx={event.startX}
                           cy={event.y}
-                          r="7"
+                          r={isConflict && !selected ? "4.5" : "7"}
                           className="timeline-event-range-cap"
                           filter={selected ? "url(#timelineGlow)" : undefined}
                         />
                         <circle
                           cx={event.endX}
                           cy={event.y}
-                          r="7"
+                          r={isConflict && !selected ? "4.5" : "7"}
                           className="timeline-event-range-cap"
                           filter={selected ? "url(#timelineGlow)" : undefined}
                         />
@@ -867,37 +906,41 @@ export default function TimelineMap({
                       <circle
                         cx={event.centerX}
                         cy={event.y}
-                        r={selected ? "11" : "8"}
+                        r={selected ? "11" : isConflict ? "5.5" : "8"}
                         className="timeline-event-node"
                         filter={selected ? "url(#timelineGlow)" : undefined}
                       />
                     )}
 
-                    <line
-                      x1={event.centerX}
-                      y1="116"
-                      x2={event.centerX}
-                      y2={event.y}
-                      className="timeline-event-leader"
-                      vectorEffect="non-scaling-stroke"
-                    />
+                    {showInlineLabel ? (
+                      <>
+                        <line
+                          x1={event.centerX}
+                          y1="116"
+                          x2={event.centerX}
+                          y2={event.y}
+                          className="timeline-event-leader"
+                          vectorEffect="non-scaling-stroke"
+                        />
 
-                    <text
-                      x={event.centerX}
-                      y={event.labelY}
-                      textAnchor="middle"
-                      className="timeline-event-year"
-                    >
-                      {yearLabel(event)}
-                    </text>
-                    <text
-                      x={event.centerX}
-                      y={event.y + 24}
-                      textAnchor="middle"
-                      className="timeline-event-label"
-                    >
-                      {event.name}
-                    </text>
+                        <text
+                          x={event.centerX}
+                          y={event.labelY}
+                          textAnchor="middle"
+                          className="timeline-event-year"
+                        >
+                          {yearLabel(event)}
+                        </text>
+                        <text
+                          x={event.centerX}
+                          y={event.y + 24}
+                          textAnchor="middle"
+                          className="timeline-event-label"
+                        >
+                          {event.name}
+                        </text>
+                      </>
+                    ) : null}
 
                     <title>{event.name} // {yearLabel(event)}</title>
                   </g>

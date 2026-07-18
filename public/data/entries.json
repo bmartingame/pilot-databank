@@ -56996,7 +56996,6 @@
   },
     {
     "n": {
-      "identity": 2141,
       "labels": [
         "Entry"
       ],
@@ -57018,8 +57017,7 @@
         "dossier_type": "generic",
         "id": "manual__glossary__the_exodus",
         "slug": "first_contact"
-      },
-      "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:2141"
+      }
     }
   },
   {

@@ -59,7 +59,7 @@
 }
 
 .timeline-viewport {
-    min-height: 620px;
+    min-height: 640px;
     overflow: hidden;
     position: relative;
     overscroll-behavior: none;
@@ -68,7 +68,7 @@
 .timeline-svg {
     display: block;
     width: 100%;
-    min-height: 620px;
+    min-height: 640px;
     touch-action: none;
     overscroll-behavior: none;
     background: rgba(0, 8, 3, 0.9);
@@ -275,4 +275,35 @@
         align-items: flex-start;
         flex-direction: column;
     }
+}
+
+
+.timeline-control-active {
+    border-color: var(--line-bright);
+    color: var(--line-bright);
+    background: rgba(17, 56, 26, 0.72);
+}
+
+.timeline-event-conflict .timeline-event-leader {
+    opacity: 0.45;
+}
+
+.timeline-event-conflict:not(.timeline-event-selected) .timeline-event-range {
+    stroke-width: 3.4;
+    opacity: 0.78;
+}
+
+.timeline-event-conflict:not(.timeline-event-selected) .timeline-event-range-cap,
+.timeline-event-conflict:not(.timeline-event-selected) .timeline-event-node {
+    opacity: 0.9;
+}
+
+.timeline-event-conflict:not(.timeline-event-selected) .timeline-event-label,
+.timeline-event-conflict:not(.timeline-event-selected) .timeline-event-year {
+    opacity: 0.76;
+}
+
+.timeline-event-selected .timeline-event-label {
+    fill: var(--line-bright);
+    font-size: 11px;
 }
