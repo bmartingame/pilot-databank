@@ -1019,7 +1019,7 @@ function CRTStartupSplash({ audioBlocked, isRunning, onRetry }) {
           </div>
 
           <div className="crt-startup-status">
-            SYNCING AUDIO // PLEASE STAND BY
+            DIALING INTO MRN // PLEASE STAND BY
           </div>
         </div>
       </div>
