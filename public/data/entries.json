@@ -81892,7 +81892,7 @@
         "visual": "Clean white-and-black patrol craft with exposed scanner fins, docking hooks, and a compact holding bay.",
         "id": "settingdex__entry__starships__magistrate_cutter",
         "source_id": "settingdex__source__datafile_starships",
-        "behavior": "Guild-style inspection vessel. Enforces manifests, licensing rules, quarantine orders, and travel restrictions near major ports.",
+        "behavior": "Typically used as an inspection vessel. Enforces manifests, licensing rules, quarantine orders, and travel restrictions near major ports.",
         "slug": "magistrate_cutter"
       }
     }
