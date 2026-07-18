@@ -81272,6 +81272,1358 @@
       },
       "elementId": "4:missing-system-bodies:10071"
     }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__destroyer",
+        "name": "Destroyer",
+        "slug": "destroyer",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A destroyer is a dedicated warship built to kill other warships, especially corvettes, frigates, raiders, and missile platforms. It has more firepower than a frigate but less endurance, command capacity, and strategic independence than a cruiser.",
+        "raw_text": "Destroyer - A destroyer is a dedicated warship built to kill other warships, especially corvettes, frigates, raiders, and missile platforms. It has more firepower than a frigate but less endurance, command capacity, and strategic independence than a cruiser.",
+        "body": "A destroyer is a dedicated warship built to kill other warships, especially corvettes, frigates, raiders, and missile platforms. It has more firepower than a frigate but less endurance, command capacity, and strategic independence than a cruiser.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Warship, Escort, Destroyer",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__monitor",
+        "name": "Monitor",
+        "slug": "monitor",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A monitor is a slow, heavily armed system-defense vessel built to guard planets, stations, gates, and fixed lanes. It carries oversized weapons for its size but lacks the range and speed for expeditionary campaigns.",
+        "raw_text": "Monitor - A monitor is a slow, heavily armed system-defense vessel built to guard planets, stations, gates, and fixed lanes. It carries oversized weapons for its size but lacks the range and speed for expeditionary campaigns.",
+        "body": "A monitor is a slow, heavily armed system-defense vessel built to guard planets, stations, gates, and fixed lanes. It carries oversized weapons for its size but lacks the range and speed for expeditionary campaigns.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Warship, Defense, Monitor",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__tender",
+        "name": "Tender",
+        "slug": "tender",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A tender is a support vessel that maintains, repairs, refuels, and reloads other ships, mechs, fighters, or drones. Unlike a carrier, it is not defined by launching combat craft, but by keeping a fleet functional.",
+        "raw_text": "Tender - A tender is a support vessel that maintains, repairs, refuels, and reloads other ships, mechs, fighters, or drones. Unlike a carrier, it is not defined by launching combat craft, but by keeping a fleet functional.",
+        "body": "A tender is a support vessel that maintains, repairs, refuels, and reloads other ships, mechs, fighters, or drones. Unlike a carrier, it is not defined by launching combat craft, but by keeping a fleet functional.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Support Vessel, Logistics, Tender",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__transport",
+        "name": "Transport",
+        "slug": "transport",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A transport moves troops, vehicles, mechs, prisoners, refugees, or colonists under practical conditions. It is less comfortable than a liner and more personnel-focused than a freighter.",
+        "raw_text": "Transport - A transport moves troops, vehicles, mechs, prisoners, refugees, or colonists under practical conditions. It is less comfortable than a liner and more personnel-focused than a freighter.",
+        "body": "A transport moves troops, vehicles, mechs, prisoners, refugees, or colonists under practical conditions. It is less comfortable than a liner and more personnel-focused than a freighter.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Logistics, Personnel, Transport",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__dropship",
+        "name": "Dropship",
+        "slug": "dropship",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A dropship carries troops, mechs, or vehicles from orbit to a planetary surface under fire. It is smaller than a voidship and built around atmospheric entry, landing, and extraction.",
+        "raw_text": "Dropship - A dropship carries troops, mechs, or vehicles from orbit to a planetary surface under fire. It is smaller than a voidship and built around atmospheric entry, landing, and extraction.",
+        "body": "A dropship carries troops, mechs, or vehicles from orbit to a planetary surface under fire. It is smaller than a voidship and built around atmospheric entry, landing, and extraction.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Assault, Landing Craft, Dropship",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__gunship",
+        "name": "Gunship",
+        "slug": "gunship",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A gunship is a compact armed vessel used for patrol, escort, close support, and station defense. It is heavier than a shuttle or interceptor but not large enough to count as a true warship class like a corvette.",
+        "raw_text": "Gunship - A gunship is a compact armed vessel used for patrol, escort, close support, and station defense. It is heavier than a shuttle or interceptor but not large enough to count as a true warship class like a corvette.",
+        "body": "A gunship is a compact armed vessel used for patrol, escort, close support, and station defense. It is heavier than a shuttle or interceptor but not large enough to count as a true warship class like a corvette.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Patrol Craft, Support, Gunship",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__fighter",
+        "name": "Fighter",
+        "slug": "fighter",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A fighter is a small attack craft deployed from carriers, stations, or planetary bases. It threatens other small craft, screens fleets, and attacks vulnerable ship systems in groups.",
+        "raw_text": "Fighter - A fighter is a small attack craft deployed from carriers, stations, or planetary bases. It threatens other small craft, screens fleets, and attacks vulnerable ship systems in groups.",
+        "body": "A fighter is a small attack craft deployed from carriers, stations, or planetary bases. It threatens other small craft, screens fleets, and attacks vulnerable ship systems in groups.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Strike Craft, Carrier Craft, Fighter",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__bomber",
+        "name": "Bomber",
+        "slug": "bomber",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A bomber is a strike craft built to deliver torpedoes, bombs, or heavy ordnance against ships, stations, and surface targets. It is slower and less agile than a fighter but far more dangerous to large vessels.",
+        "raw_text": "Bomber - A bomber is a strike craft built to deliver torpedoes, bombs, or heavy ordnance against ships, stations, and surface targets. It is slower and less agile than a fighter but far more dangerous to large vessels.",
+        "body": "A bomber is a strike craft built to deliver torpedoes, bombs, or heavy ordnance against ships, stations, and surface targets. It is slower and less agile than a fighter but far more dangerous to large vessels.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Strike Craft, Ordnance, Bomber",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__shuttle",
+        "name": "Shuttle",
+        "slug": "shuttle",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A shuttle is a small utility craft for short-range movement between ships, stations, and planets. It is usually unarmed or lightly armed, but every major vessel depends on them.",
+        "raw_text": "Shuttle - A shuttle is a small utility craft for short-range movement between ships, stations, and planets. It is usually unarmed or lightly armed, but every major vessel depends on them.",
+        "body": "A shuttle is a small utility craft for short-range movement between ships, stations, and planets. It is usually unarmed or lightly armed, but every major vessel depends on them.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Utility Craft, Transfer Craft, Shuttle",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__cutter",
+        "name": "Cutter",
+        "slug": "cutter",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A cutter is a small patrol vessel used for inspections, pursuit, customs enforcement, and anti-smuggling operations. It sits below a corvette and is common around stations, ports, and controlled lane exits.",
+        "raw_text": "Cutter - A cutter is a small patrol vessel used for inspections, pursuit, customs enforcement, and anti-smuggling operations. It sits below a corvette and is common around stations, ports, and controlled lane exits.",
+        "body": "A cutter is a small patrol vessel used for inspections, pursuit, customs enforcement, and anti-smuggling operations. It sits below a corvette and is common around stations, ports, and controlled lane exits.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Patrol Craft, Customs, Cutter",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__command_ship",
+        "name": "Command Ship",
+        "slug": "command_ship",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A command ship is built around communications, battlefield control, staff operations, and fleet coordination. It may be lightly armed for its size, but losing one can collapse an entire operation.",
+        "raw_text": "Command Ship - A command ship is built around communications, battlefield control, staff operations, and fleet coordination. It may be lightly armed for its size, but losing one can collapse an entire operation.",
+        "body": "A command ship is built around communications, battlefield control, staff operations, and fleet coordination. It may be lightly armed for its size, but losing one can collapse an entire operation.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Fleet Command, Coordination, Command Ship",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__ark",
+        "name": "Ark",
+        "slug": "ark",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "An ark is a mass-evacuation or long-duration survival vessel built to carry populations through catastrophic displacement. It is not necessarily a warship, but its loss can decide the fate of a culture or colony.",
+        "raw_text": "Ark - An ark is a mass-evacuation or long-duration survival vessel built to carry populations through catastrophic displacement. It is not necessarily a warship, but its loss can decide the fate of a culture or colony.",
+        "body": "An ark is a mass-evacuation or long-duration survival vessel built to carry populations through catastrophic displacement. It is not necessarily a warship, but its loss can decide the fate of a culture or colony.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Evacuation, Survival Vessel, Ark",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "id": "manual__glossary__battleship",
+        "name": "Battleship",
+        "slug": "battleship",
+        "record_type": "Glossary",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": "A battleship is a heavy capital ship built for sustained line combat against other major warships. It carries heavy armor and broadside firepower, making it slower than a battlecruiser but more durable in prolonged fleet engagements.",
+        "raw_text": "Battleship - A battleship is a heavy capital ship built for sustained line combat against other major warships. It carries heavy armor and broadside firepower, making it slower than a battlecruiser but more durable in prolonged fleet engagements.",
+        "body": "A battleship is a heavy capital ship built for sustained line combat against other major warships. It carries heavy armor and broadside firepower, making it slower than a battlecruiser but more durable in prolonged fleet engagements.",
+        "manual_ingest": true,
+        "reports_json": "[]",
+        "collection_title": "[MANUAL INGEST]",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "Ship Class, Capital Ship, Line Combat, Battleship",
+        "dossier_type": "generic",
+        "updated_at": "2026-07-18T00:00:00.000Z"
+      }
+    }
+  },
+   {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Wardog Destroyer\nVisual: Narrow armored hull with oversized forward guns, flared engine baffles, and dense point-defense mounts along the spine.\nBehavior: Warship killer. Hunts corvettes, frigates, raiders, and missile platforms before they can threaten larger fleet assets.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Wardog Destroyer\nNarrow armored hull with oversized forward guns, flared engine baffles, and dense point-defense mounts along the spine.\nWarship killer. Hunts corvettes, frigates, raiders, and missile platforms before they can threaten larger fleet assets.\nWardog Destroyer\nVisual: Narrow armored hull with oversized forward guns, flared engine baffles, and dense point-defense mounts along the spine.\nBehavior: Warship killer. Hunts corvettes, frigates, raiders, and missile platforms before they can threaten larger fleet assets.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Wardog Destroyer, Destroyer, Wardog",
+        "faction": "PRIMUS",
+        "name": "Wardog-Class Destroyer",
+        "visual": "Narrow armored hull with oversized forward guns, flared engine baffles, and dense point-defense mounts along the spine.",
+        "id": "settingdex__entry__starships__wardog_destroyer",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Warship killer. Hunts corvettes, frigates, raiders, and missile platforms before they can threaten larger fleet assets.",
+        "slug": "wardog_destroyer"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Redoubt Monitor\nVisual: Short, heavy vessel with thick armor belts and a single oversized dorsal cannon. Its engines are small for its mass.\nBehavior: System-defense vessel. Guards planets, stations, gates, and fixed lanes but lacks the speed for long-range campaigns.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Redoubt Monitor\nShort, heavy vessel with thick armor belts and a single oversized dorsal cannon. Its engines are small for its mass.\nSystem-defense vessel. Guards planets, stations, gates, and fixed lanes but lacks the speed for long-range campaigns.\nRedoubt Monitor\nVisual: Short, heavy vessel with thick armor belts and a single oversized dorsal cannon. Its engines are small for its mass.\nBehavior: System-defense vessel. Guards planets, stations, gates, and fixed lanes but lacks the speed for long-range campaigns.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Redoubt Monitor, Monitor, Redoubt",
+        "faction": "PRIMUS",
+        "name": "Redoubt-Class Monitor",
+        "visual": "Short, heavy vessel with thick armor belts and a single oversized dorsal cannon. Its engines are small for its mass.",
+        "id": "settingdex__entry__starships__redoubt_monitor",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "System-defense vessel. Guards planets, stations, gates, and fixed lanes but lacks the speed for long-range campaigns.",
+        "slug": "redoubt_monitor"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Waystone Transport\nVisual: Long troopship with armored habitation blocks, vehicle clamps, and multiple reinforced docking ramps.\nBehavior: Military personnel carrier. Moves troops, prisoners, evacuees, vehicles, and support crews through contested space.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Waystone Transport\nLong troopship with armored habitation blocks, vehicle clamps, and multiple reinforced docking ramps.\nMilitary personnel carrier. Moves troops, prisoners, evacuees, vehicles, and support crews through contested space.\nWaystone Transport\nVisual: Long troopship with armored habitation blocks, vehicle clamps, and multiple reinforced docking ramps.\nBehavior: Military personnel carrier. Moves troops, prisoners, evacuees, vehicles, and support crews through contested space.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Waystone Transport, Transport, Waystone",
+        "faction": "PRIMUS",
+        "name": "Waystone-Class Transport",
+        "visual": "Long troopship with armored habitation blocks, vehicle clamps, and multiple reinforced docking ramps.",
+        "id": "settingdex__entry__starships__waystone_transport",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Military personnel carrier. Moves troops, prisoners, evacuees, vehicles, and support crews through contested space.",
+        "slug": "waystone_transport"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Hammerfall Dropship\nVisual: Compact assault craft with heat-blackened plating, folding landing legs, and ventral mech clamps.\nBehavior: Orbit-to-surface insertion craft. Delivers mechs and infantry into defended landing zones under fire.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Hammerfall Dropship\nCompact assault craft with heat-blackened plating, folding landing legs, and ventral mech clamps.\nOrbit-to-surface insertion craft. Delivers mechs and infantry into defended landing zones under fire.\nHammerfall Dropship\nVisual: Compact assault craft with heat-blackened plating, folding landing legs, and ventral mech clamps.\nBehavior: Orbit-to-surface insertion craft. Delivers mechs and infantry into defended landing zones under fire.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Hammerfall Dropship, Dropship, Hammerfall",
+        "faction": "PRIMUS",
+        "name": "Hammerfall-Class Dropship",
+        "visual": "Compact assault craft with heat-blackened plating, folding landing legs, and ventral mech clamps.",
+        "id": "settingdex__entry__starships__hammerfall_dropship",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Orbit-to-surface insertion craft. Delivers mechs and infantry into defended landing zones under fire.",
+        "slug": "hammerfall_dropship"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Shrike Gunship\nVisual: Compact armed vessel with forward cockpit glass, side-mounted weapon pods, and rotating belly turrets.\nBehavior: Close-support patrol craft. Protects stations, escorts shuttles, and suppresses infantry or light vehicles during landings.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Shrike Gunship\nCompact armed vessel with forward cockpit glass, side-mounted weapon pods, and rotating belly turrets.\nClose-support patrol craft. Protects stations, escorts shuttles, and suppresses infantry or light vehicles during landings.\nShrike Gunship\nVisual: Compact armed vessel with forward cockpit glass, side-mounted weapon pods, and rotating belly turrets.\nBehavior: Close-support patrol craft. Protects stations, escorts shuttles, and suppresses infantry or light vehicles during landings.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Shrike Gunship, Gunship, Shrike",
+        "faction": "PRIMUS",
+        "name": "Shrike-Class Gunship",
+        "visual": "Compact armed vessel with forward cockpit glass, side-mounted weapon pods, and rotating belly turrets.",
+        "id": "settingdex__entry__starships__shrike_gunship",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Close-support patrol craft. Protects stations, escorts shuttles, and suppresses infantry or light vehicles during landings.",
+        "slug": "shrike_gunship"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Ferry Shuttle\nVisual: Plain utility craft with boxy passenger compartments, broad docking collars, and stubby maneuvering wings.\nBehavior: Short-range transfer craft. Moves crew, cargo, passengers, and officials between ships, stations, and planetary ports.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Ferry Shuttle\nPlain utility craft with boxy passenger compartments, broad docking collars, and stubby maneuvering wings.\nShort-range transfer craft. Moves crew, cargo, passengers, and officials between ships, stations, and planetary ports.\nFerry Shuttle\nVisual: Plain utility craft with boxy passenger compartments, broad docking collars, and stubby maneuvering wings.\nBehavior: Short-range transfer craft. Moves crew, cargo, passengers, and officials between ships, stations, and planetary ports.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Ferry Shuttle, Shuttle, Ferry",
+        "faction": "PRIMUS",
+        "name": "Ferry-Class Shuttle",
+        "visual": "Plain utility craft with boxy passenger compartments, broad docking collars, and stubby maneuvering wings.",
+        "id": "settingdex__entry__starships__ferry_shuttle",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Short-range transfer craft. Moves crew, cargo, passengers, and officials between ships, stations, and planetary ports.",
+        "slug": "ferry_shuttle"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Writ Cutter\nVisual: Small patrol hull with a bright registry beacon, inspection clamps, and a forward boarding collar.\nBehavior: Customs and enforcement craft. Pursues smugglers, boards suspicious traffic, and patrols controlled lane exits.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Writ Cutter\nSmall patrol hull with a bright registry beacon, inspection clamps, and a forward boarding collar.\nCustoms and enforcement craft. Pursues smugglers, boards suspicious traffic, and patrols controlled lane exits.\nWrit Cutter\nVisual: Small patrol hull with a bright registry beacon, inspection clamps, and a forward boarding collar.\nBehavior: Customs and enforcement craft. Pursues smugglers, boards suspicious traffic, and patrols controlled lane exits.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Writ Cutter, Cutter, Writ",
+        "faction": "PRIMUS",
+        "name": "Writ-Class Cutter",
+        "visual": "Small patrol hull with a bright registry beacon, inspection clamps, and a forward boarding collar.",
+        "id": "settingdex__entry__starships__writ_cutter",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Customs and enforcement craft. Pursues smugglers, boards suspicious traffic, and patrols controlled lane exits.",
+        "slug": "writ_cutter"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Throneglass Command Ship\nVisual: Tall central command tower set into a protected hull, surrounded by signal masts, relay dishes, and armored operations decks.\nBehavior: Fleet command vessel. Coordinates formations, restores communications under interference, and keeps campaigns organized across multiple fronts.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Throneglass Command Ship\nTall central command tower set into a protected hull, surrounded by signal masts, relay dishes, and armored operations decks.\nFleet command vessel. Coordinates formations, restores communications under interference, and keeps campaigns organized across multiple fronts.\nThroneglass Command Ship\nVisual: Tall central command tower set into a protected hull, surrounded by signal masts, relay dishes, and armored operations decks.\nBehavior: Fleet command vessel. Coordinates formations, restores communications under interference, and keeps campaigns organized across multiple fronts.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Throneglass Command Ship, Command Ship, Throneglass",
+        "faction": "PRIMUS",
+        "name": "Throneglass-Class Command Ship",
+        "visual": "Tall central command tower set into a protected hull, surrounded by signal masts, relay dishes, and armored operations decks.",
+        "id": "settingdex__entry__starships__throneglass_command_ship",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Fleet command vessel. Coordinates formations, restores communications under interference, and keeps campaigns organized across multiple fronts.",
+        "slug": "throneglass_command_ship"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Valiant Battleship\nVisual: Broad armored capital ship with layered gun decks, heavy broadside batteries, and a reinforced prow.\nBehavior: Line-combat capital ship. Trades fire with cruisers, carriers, and other battleships during sustained fleet engagements.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Valiant Battleship\nBroad armored capital ship with layered gun decks, heavy broadside batteries, and a reinforced prow.\nLine-combat capital ship. Trades fire with cruisers, carriers, and other battleships during sustained fleet engagements.\nValiant Battleship\nVisual: Broad armored capital ship with layered gun decks, heavy broadside batteries, and a reinforced prow.\nBehavior: Line-combat capital ship. Trades fire with cruisers, carriers, and other battleships during sustained fleet engagements.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Valiant Battleship, Battleship, Valiant",
+        "faction": "PRIMUS",
+        "name": "Valiant-Class Battleship",
+        "visual": "Broad armored capital ship with layered gun decks, heavy broadside batteries, and a reinforced prow.",
+        "id": "settingdex__entry__starships__valiant_battleship",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Line-combat capital ship. Trades fire with cruisers, carriers, and other battleships during sustained fleet engagements.",
+        "slug": "valiant_battleship"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Reliquary Monitor\nVisual: Old fortress-hull built around a planetary bombardment array, with shrine-like armor plating and minimal maneuvering systems.\nBehavior: Fixed defense and deterrence platform. Holds key worlds or relic sites where withdrawal is not considered acceptable.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Reliquary Monitor\nOld fortress-hull built around a planetary bombardment array, with shrine-like armor plating and minimal maneuvering systems.\nFixed defense and deterrence platform. Holds key worlds or relic sites where withdrawal is not considered acceptable.\nReliquary Monitor\nVisual: Old fortress-hull built around a planetary bombardment array, with shrine-like armor plating and minimal maneuvering systems.\nBehavior: Fixed defense and deterrence platform. Holds key worlds or relic sites where withdrawal is not considered acceptable.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Reliquary Monitor, Monitor, Reliquary",
+        "faction": "PRIMUS",
+        "name": "Reliquary-Class Monitor",
+        "visual": "Old fortress-hull built around a planetary bombardment array, with shrine-like armor plating and minimal maneuvering systems.",
+        "id": "settingdex__entry__starships__reliquary_monitor",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Fixed defense and deterrence platform. Holds key worlds or relic sites where withdrawal is not considered acceptable.",
+        "slug": "reliquary_monitor"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Blackthorn Destroyer\nVisual: Angular hunter-killer hull with torpedo racks recessed behind armored shutters and a low sensor profile.\nBehavior: Fast attack destroyer. Screens battle groups, intercepts raiders, and finishes crippled ships before they escape.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Blackthorn Destroyer\nAngular hunter-killer hull with torpedo racks recessed behind armored shutters and a low sensor profile.\nFast attack destroyer. Screens battle groups, intercepts raiders, and finishes crippled ships before they escape.\nBlackthorn Destroyer\nVisual: Angular hunter-killer hull with torpedo racks recessed behind armored shutters and a low sensor profile.\nBehavior: Fast attack destroyer. Screens battle groups, intercepts raiders, and finishes crippled ships before they escape.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Blackthorn Destroyer, Destroyer, Blackthorn",
+        "faction": "PRIMUS",
+        "name": "Blackthorn-Class Destroyer",
+        "visual": "Angular hunter-killer hull with torpedo racks recessed behind armored shutters and a low sensor profile.",
+        "id": "settingdex__entry__starships__blackthorn_destroyer",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Fast attack destroyer. Screens battle groups, intercepts raiders, and finishes crippled ships before they escape.",
+        "slug": "blackthorn_destroyer"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Magistrate Cutter\nVisual: Clean white-and-black patrol craft with exposed scanner fins, docking hooks, and a compact holding bay.\nBehavior: Guild-style inspection vessel. Enforces manifests, licensing rules, quarantine orders, and travel restrictions near major ports.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Magistrate Cutter\nClean white-and-black patrol craft with exposed scanner fins, docking hooks, and a compact holding bay.\nGuild-style inspection vessel. Enforces manifests, licensing rules, quarantine orders, and travel restrictions near major ports.\nMagistrate Cutter\nVisual: Clean white-and-black patrol craft with exposed scanner fins, docking hooks, and a compact holding bay.\nBehavior: Guild-style inspection vessel. Enforces manifests, licensing rules, quarantine orders, and travel restrictions near major ports.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Magistrate Cutter, Cutter, Magistrate",
+        "faction": "PRIMUS",
+        "name": "Magistrate-Class Cutter",
+        "visual": "Clean white-and-black patrol craft with exposed scanner fins, docking hooks, and a compact holding bay.",
+        "id": "settingdex__entry__starships__magistrate_cutter",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Guild-style inspection vessel. Enforces manifests, licensing rules, quarantine orders, and travel restrictions near major ports.",
+        "slug": "magistrate_cutter"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Meridian Liner\nVisual: Long passenger hull with stacked habitation decks, observation bands, and reinforced lifeboat spines.\nBehavior: Mass-route civilian transport. Carries workers, pilgrims, and displaced populations on scheduled interstellar lanes.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Meridian Liner\nLong passenger hull with stacked habitation decks, observation bands, and reinforced lifeboat spines.\nMass-route civilian transport. Carries workers, pilgrims, and displaced populations on scheduled interstellar lanes.\nMeridian Liner\nVisual: Long passenger hull with stacked habitation decks, observation bands, and reinforced lifeboat spines.\nBehavior: Mass-route civilian transport. Carries workers, pilgrims, and displaced populations on scheduled interstellar lanes.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Meridian Liner, Liner, Meridian",
+        "faction": "PRIMUS",
+        "name": "Meridian-Class Liner",
+        "visual": "Long passenger hull with stacked habitation decks, observation bands, and reinforced lifeboat spines.",
+        "id": "settingdex__entry__starships__meridian_liner",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Mass-route civilian transport. Carries workers, pilgrims, and displaced populations on scheduled interstellar lanes.",
+        "slug": "meridian_liner"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Pike Interceptor\nVisual: Needle-nosed pursuit craft with rear-heavy engines and minimal crew space.\nBehavior: Fast interception vessel. Catches smugglers, scouts, couriers, and damaged raiders before they reach a lane exit.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Pike Interceptor\nNeedle-nosed pursuit craft with rear-heavy engines and minimal crew space.\nFast interception vessel. Catches smugglers, scouts, couriers, and damaged raiders before they reach a lane exit.\nPike Interceptor\nVisual: Needle-nosed pursuit craft with rear-heavy engines and minimal crew space.\nBehavior: Fast interception vessel. Catches smugglers, scouts, couriers, and damaged raiders before they reach a lane exit.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Pike Interceptor, Interceptor, Pike",
+        "faction": "PRIMUS",
+        "name": "Pike-Class Interceptor",
+        "visual": "Needle-nosed pursuit craft with rear-heavy engines and minimal crew space.",
+        "id": "settingdex__entry__starships__pike_interceptor",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Fast interception vessel. Catches smugglers, scouts, couriers, and damaged raiders before they reach a lane exit.",
+        "slug": "pike_interceptor"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Razorback Battlecruiser\nVisual: Long armored hull with angled weapon blisters and oversized engine blocks.\nBehavior: Fast capital striker. Breaks cruiser formations and disengages before slower battleships can force a sustained exchange.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Razorback Battlecruiser\nLong armored hull with angled weapon blisters and oversized engine blocks.\nFast capital striker. Breaks cruiser formations and disengages before slower battleships can force a sustained exchange.\nRazorback Battlecruiser\nVisual: Long armored hull with angled weapon blisters and oversized engine blocks.\nBehavior: Fast capital striker. Breaks cruiser formations and disengages before slower battleships can force a sustained exchange.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Razorback Battlecruiser, Battlecruiser, Razorback",
+        "faction": "PRIMUS",
+        "name": "Razorback-Class Battlecruiser",
+        "visual": "Long armored hull with angled weapon blisters and oversized engine blocks.",
+        "id": "settingdex__entry__starships__razorback_battlecruiser",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Fast capital striker. Breaks cruiser formations and disengages before slower battleships can force a sustained exchange.",
+        "slug": "razorback_battlecruiser"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Rampart Battleship\nVisual: Broad, heavily plated capital ship with layered armor belts and recessed broadside batteries.\nBehavior: Line-combat battleship. Holds formation under heavy fire and trades sustained volleys with other major warships.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Rampart Battleship\nBroad, heavily plated capital ship with layered armor belts and recessed broadside batteries.\nLine-combat battleship. Holds formation under heavy fire and trades sustained volleys with other major warships.\nRampart Battleship\nVisual: Broad, heavily plated capital ship with layered armor belts and recessed broadside batteries.\nBehavior: Line-combat battleship. Holds formation under heavy fire and trades sustained volleys with other major warships.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Rampart Battleship, Battleship, Rampart",
+        "faction": "PRIMUS",
+        "name": "Rampart-Class Battleship",
+        "visual": "Broad, heavily plated capital ship with layered armor belts and recessed broadside batteries.",
+        "id": "settingdex__entry__starships__rampart_battleship",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Line-combat battleship. Holds formation under heavy fire and trades sustained volleys with other major warships.",
+        "slug": "rampart_battleship"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Cannonade Battleship\nVisual: Blocky gun platform with stacked turret decks and armored ammunition vaults.\nBehavior: Heavy fire-support battleship. Saturates enemy battle lines with repeated broadsides until screens collapse.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Cannonade Battleship\nBlocky gun platform with stacked turret decks and armored ammunition vaults.\nHeavy fire-support battleship. Saturates enemy battle lines with repeated broadsides until screens collapse.\nCannonade Battleship\nVisual: Blocky gun platform with stacked turret decks and armored ammunition vaults.\nBehavior: Heavy fire-support battleship. Saturates enemy battle lines with repeated broadsides until screens collapse.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Cannonade Battleship, Battleship, Cannonade",
+        "faction": "PRIMUS",
+        "name": "Cannonade-Class Battleship",
+        "visual": "Blocky gun platform with stacked turret decks and armored ammunition vaults.",
+        "id": "settingdex__entry__starships__cannonade_battleship",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Heavy fire-support battleship. Saturates enemy battle lines with repeated broadsides until screens collapse.",
+        "slug": "cannonade_battleship"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Iron Saint Dreadnought\nVisual: Monumental fortress-hull with chapel-like armor ribs, siege lances, and armored command towers.\nBehavior: Strategic siege dreadnought. Anchors campaigns against fortress worlds, capital stations, and hardened fleet positions.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Iron Saint Dreadnought\nMonumental fortress-hull with chapel-like armor ribs, siege lances, and armored command towers.\nStrategic siege dreadnought. Anchors campaigns against fortress worlds, capital stations, and hardened fleet positions.\nIron Saint Dreadnought\nVisual: Monumental fortress-hull with chapel-like armor ribs, siege lances, and armored command towers.\nBehavior: Strategic siege dreadnought. Anchors campaigns against fortress worlds, capital stations, and hardened fleet positions.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Iron Saint Dreadnought, Dreadnought, Saint, Iron",
+        "faction": "PRIMUS",
+        "name": "Iron Saint-Class Dreadnought",
+        "visual": "Monumental fortress-hull with chapel-like armor ribs, siege lances, and armored command towers.",
+        "id": "settingdex__entry__starships__iron_saint_dreadnought",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Strategic siege dreadnought. Anchors campaigns against fortress worlds, capital stations, and hardened fleet positions.",
+        "slug": "iron_saint_dreadnought"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Reprisal Destroyer\nVisual: Lean warship with forward torpedo tubes, compact armor, and dense point-defense clusters.\nBehavior: Attack destroyer. Hunts frigates, screens battle groups, and finishes crippled capital ships at close range.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Reprisal Destroyer\nLean warship with forward torpedo tubes, compact armor, and dense point-defense clusters.\nAttack destroyer. Hunts frigates, screens battle groups, and finishes crippled capital ships at close range.\nReprisal Destroyer\nVisual: Lean warship with forward torpedo tubes, compact armor, and dense point-defense clusters.\nBehavior: Attack destroyer. Hunts frigates, screens battle groups, and finishes crippled capital ships at close range.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Reprisal Destroyer, Destroyer, Reprisal",
+        "faction": "PRIMUS",
+        "name": "Reprisal-Class Destroyer",
+        "visual": "Lean warship with forward torpedo tubes, compact armor, and dense point-defense clusters.",
+        "id": "settingdex__entry__starships__reprisal_destroyer",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Attack destroyer. Hunts frigates, screens battle groups, and finishes crippled capital ships at close range.",
+        "slug": "reprisal_destroyer"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Anchor Monitor\nVisual: Short, armored defense ship with oversized station-keeping thrusters and a spinal lance mount.\nBehavior: Fixed-defense monitor. Guards orbital approaches, fortress moons, and stable lane exits where mobility is less important than firepower.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Anchor Monitor\nShort, armored defense ship with oversized station-keeping thrusters and a spinal lance mount.\nFixed-defense monitor. Guards orbital approaches, fortress moons, and stable lane exits where mobility is less important than firepower.\nAnchor Monitor\nVisual: Short, armored defense ship with oversized station-keeping thrusters and a spinal lance mount.\nBehavior: Fixed-defense monitor. Guards orbital approaches, fortress moons, and stable lane exits where mobility is less important than firepower.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Anchor Monitor, Monitor, Anchor",
+        "faction": "PRIMUS",
+        "name": "Anchor-Class Monitor",
+        "visual": "Short, armored defense ship with oversized station-keeping thrusters and a spinal lance mount.",
+        "id": "settingdex__entry__starships__anchor_monitor",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Fixed-defense monitor. Guards orbital approaches, fortress moons, and stable lane exits where mobility is less important than firepower.",
+        "slug": "anchor_monitor"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Brazier Tender\nVisual: Industrial support hull with exterior repair arms, furnace decks, and open-frame resupply racks.\nBehavior: Fleet service tender. Repairs damaged armor, reloads ordnance, and keeps patrol groups active away from dockyards.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Brazier Tender\nIndustrial support hull with exterior repair arms, furnace decks, and open-frame resupply racks.\nFleet service tender. Repairs damaged armor, reloads ordnance, and keeps patrol groups active away from dockyards.\nBrazier Tender\nVisual: Industrial support hull with exterior repair arms, furnace decks, and open-frame resupply racks.\nBehavior: Fleet service tender. Repairs damaged armor, reloads ordnance, and keeps patrol groups active away from dockyards.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Brazier Tender, Tender, Brazier",
+        "faction": "PRIMUS",
+        "name": "Brazier-Class Tender",
+        "visual": "Industrial support hull with exterior repair arms, furnace decks, and open-frame resupply racks.",
+        "id": "settingdex__entry__starships__brazier_tender",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Fleet service tender. Repairs damaged armor, reloads ordnance, and keeps patrol groups active away from dockyards.",
+        "slug": "brazier_tender"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Yardlight Tender\nVisual: Long maintenance vessel with floodlit gantries, modular drydock clamps, and drone service bays.\nBehavior: Mobile refit tender. Supports mechs, fighters, and small warships during extended deployments.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Yardlight Tender\nLong maintenance vessel with floodlit gantries, modular drydock clamps, and drone service bays.\nMobile refit tender. Supports mechs, fighters, and small warships during extended deployments.\nYardlight Tender\nVisual: Long maintenance vessel with floodlit gantries, modular drydock clamps, and drone service bays.\nBehavior: Mobile refit tender. Supports mechs, fighters, and small warships during extended deployments.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Yardlight Tender, Tender, Yardlight",
+        "faction": "PRIMUS",
+        "name": "Yardlight-Class Tender",
+        "visual": "Long maintenance vessel with floodlit gantries, modular drydock clamps, and drone service bays.",
+        "id": "settingdex__entry__starships__yardlight_tender",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Mobile refit tender. Supports mechs, fighters, and small warships during extended deployments.",
+        "slug": "yardlight_tender"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Hearth Tender\nVisual: Broad logistics hull with protected fuel tanks, spare crew quarters, and emergency fabrication bays.\nBehavior: Campaign support tender. Keeps damaged ships operational when withdrawal to a formal yard is impossible.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Hearth Tender\nBroad logistics hull with protected fuel tanks, spare crew quarters, and emergency fabrication bays.\nCampaign support tender. Keeps damaged ships operational when withdrawal to a formal yard is impossible.\nHearth Tender\nVisual: Broad logistics hull with protected fuel tanks, spare crew quarters, and emergency fabrication bays.\nBehavior: Campaign support tender. Keeps damaged ships operational when withdrawal to a formal yard is impossible.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Hearth Tender, Tender, Hearth",
+        "faction": "PRIMUS",
+        "name": "Hearth-Class Tender",
+        "visual": "Broad logistics hull with protected fuel tanks, spare crew quarters, and emergency fabrication bays.",
+        "id": "settingdex__entry__starships__hearth_tender",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Campaign support tender. Keeps damaged ships operational when withdrawal to a formal yard is impossible.",
+        "slug": "hearth_tender"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Column Transport\nVisual: Armored troopship with stacked barracks, vehicle holds, and broad side docking ramps.\nBehavior: Military transport. Moves infantry, vehicles, prisoners, and support crews through contested routes.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Column Transport\nArmored troopship with stacked barracks, vehicle holds, and broad side docking ramps.\nMilitary transport. Moves infantry, vehicles, prisoners, and support crews through contested routes.\nColumn Transport\nVisual: Armored troopship with stacked barracks, vehicle holds, and broad side docking ramps.\nBehavior: Military transport. Moves infantry, vehicles, prisoners, and support crews through contested routes.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Column Transport, Transport, Column",
+        "faction": "PRIMUS",
+        "name": "Column-Class Transport",
+        "visual": "Armored troopship with stacked barracks, vehicle holds, and broad side docking ramps.",
+        "id": "settingdex__entry__starships__column_transport",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Military transport. Moves infantry, vehicles, prisoners, and support crews through contested routes.",
+        "slug": "column_transport"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Holdfast Transport\nVisual: Reinforced convoy vessel with internal mech cradles and separated pressure compartments.\nBehavior: Heavy transport. Carries garrison forces and replacement equipment to systems expected to remain under siege.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Holdfast Transport\nReinforced convoy vessel with internal mech cradles and separated pressure compartments.\nHeavy transport. Carries garrison forces and replacement equipment to systems expected to remain under siege.\nHoldfast Transport\nVisual: Reinforced convoy vessel with internal mech cradles and separated pressure compartments.\nBehavior: Heavy transport. Carries garrison forces and replacement equipment to systems expected to remain under siege.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Holdfast Transport, Transport, Holdfast",
+        "faction": "PRIMUS",
+        "name": "Holdfast-Class Transport",
+        "visual": "Reinforced convoy vessel with internal mech cradles and separated pressure compartments.",
+        "id": "settingdex__entry__starships__holdfast_transport",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Heavy transport. Carries garrison forces and replacement equipment to systems expected to remain under siege.",
+        "slug": "holdfast_transport"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Anvilfall Dropship\nVisual: Heat-blackened assault craft with blunt armor, folding landing legs, and underbelly mech clamps.\nBehavior: Heavy dropship. Delivers mechs into active combat zones and remains low long enough to recover survivors.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Anvilfall Dropship\nHeat-blackened assault craft with blunt armor, folding landing legs, and underbelly mech clamps.\nHeavy dropship. Delivers mechs into active combat zones and remains low long enough to recover survivors.\nAnvilfall Dropship\nVisual: Heat-blackened assault craft with blunt armor, folding landing legs, and underbelly mech clamps.\nBehavior: Heavy dropship. Delivers mechs into active combat zones and remains low long enough to recover survivors.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Anvilfall Dropship, Dropship, Anvilfall",
+        "faction": "PRIMUS",
+        "name": "Anvilfall-Class Dropship",
+        "visual": "Heat-blackened assault craft with blunt armor, folding landing legs, and underbelly mech clamps.",
+        "id": "settingdex__entry__starships__anvilfall_dropship",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Heavy dropship. Delivers mechs into active combat zones and remains low long enough to recover survivors.",
+        "slug": "anvilfall_dropship"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Kestrel Dropship\nVisual: Compact atmospheric craft with swept wings, reinforced nose plating, and rear assault ramps.\nBehavior: Rapid insertion dropship. Moves infantry and light frames from orbit to ground before defenses fully track the descent.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Kestrel Dropship\nCompact atmospheric craft with swept wings, reinforced nose plating, and rear assault ramps.\nRapid insertion dropship. Moves infantry and light frames from orbit to ground before defenses fully track the descent.\nKestrel Dropship\nVisual: Compact atmospheric craft with swept wings, reinforced nose plating, and rear assault ramps.\nBehavior: Rapid insertion dropship. Moves infantry and light frames from orbit to ground before defenses fully track the descent.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Kestrel Dropship, Dropship, Kestrel",
+        "faction": "PRIMUS",
+        "name": "Kestrel-Class Dropship",
+        "visual": "Compact atmospheric craft with swept wings, reinforced nose plating, and rear assault ramps.",
+        "id": "settingdex__entry__starships__kestrel_dropship",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Rapid insertion dropship. Moves infantry and light frames from orbit to ground before defenses fully track the descent.",
+        "slug": "kestrel_dropship"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Foxfire Gunship\nVisual: Small armed craft with chin turrets, side missile pods, and bright engine wash.\nBehavior: Close-support gunship. Escorts dropships, suppresses landing zones, and protects exposed ground columns.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Foxfire Gunship\nSmall armed craft with chin turrets, side missile pods, and bright engine wash.\nClose-support gunship. Escorts dropships, suppresses landing zones, and protects exposed ground columns.\nFoxfire Gunship\nVisual: Small armed craft with chin turrets, side missile pods, and bright engine wash.\nBehavior: Close-support gunship. Escorts dropships, suppresses landing zones, and protects exposed ground columns.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Foxfire Gunship, Gunship, Foxfire",
+        "faction": "PRIMUS",
+        "name": "Foxfire-Class Gunship",
+        "visual": "Small armed craft with chin turrets, side missile pods, and bright engine wash.",
+        "id": "settingdex__entry__starships__foxfire_gunship",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Close-support gunship. Escorts dropships, suppresses landing zones, and protects exposed ground columns.",
+        "slug": "foxfire_gunship"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Rook Gunship\nVisual: Squat patrol craft with heavy belly armor, rotating cannon mounts, and armored cockpit glass.\nBehavior: Station-defense gunship. Holds close orbits, patrols docking zones, and responds quickly to boarding threats.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Rook Gunship\nSquat patrol craft with heavy belly armor, rotating cannon mounts, and armored cockpit glass.\nStation-defense gunship. Holds close orbits, patrols docking zones, and responds quickly to boarding threats.\nRook Gunship\nVisual: Squat patrol craft with heavy belly armor, rotating cannon mounts, and armored cockpit glass.\nBehavior: Station-defense gunship. Holds close orbits, patrols docking zones, and responds quickly to boarding threats.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Rook Gunship, Gunship, Rook",
+        "faction": "PRIMUS",
+        "name": "Rook-Class Gunship",
+        "visual": "Squat patrol craft with heavy belly armor, rotating cannon mounts, and armored cockpit glass.",
+        "id": "settingdex__entry__starships__rook_gunship",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Station-defense gunship. Holds close orbits, patrols docking zones, and responds quickly to boarding threats.",
+        "slug": "rook_gunship"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Sparrow Fighter\nVisual: Light single-seat craft with narrow wings and paired nose lasers.\nBehavior: Common fleet fighter. Screens carriers, intercepts bombers, and overwhelms isolated targets in groups.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Sparrow Fighter\nLight single-seat craft with narrow wings and paired nose lasers.\nCommon fleet fighter. Screens carriers, intercepts bombers, and overwhelms isolated targets in groups.\nSparrow Fighter\nVisual: Light single-seat craft with narrow wings and paired nose lasers.\nBehavior: Common fleet fighter. Screens carriers, intercepts bombers, and overwhelms isolated targets in groups.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Sparrow Fighter, Fighter, Sparrow",
+        "faction": "PRIMUS",
+        "name": "Sparrow-Class Fighter",
+        "visual": "Light single-seat craft with narrow wings and paired nose lasers.",
+        "id": "settingdex__entry__starships__sparrow_fighter",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Common fleet fighter. Screens carriers, intercepts bombers, and overwhelms isolated targets in groups.",
+        "slug": "sparrow_fighter"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Talon Fighter\nVisual: Angular superiority fighter with split tail fins and high-output maneuvering thrusters.\nBehavior: Space-superiority fighter. Hunts enemy strike craft and clears approach lanes for bombers and dropships.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Talon Fighter\nAngular superiority fighter with split tail fins and high-output maneuvering thrusters.\nSpace-superiority fighter. Hunts enemy strike craft and clears approach lanes for bombers and dropships.\nTalon Fighter\nVisual: Angular superiority fighter with split tail fins and high-output maneuvering thrusters.\nBehavior: Space-superiority fighter. Hunts enemy strike craft and clears approach lanes for bombers and dropships.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Talon Fighter, Fighter, Talon",
+        "faction": "PRIMUS",
+        "name": "Talon-Class Fighter",
+        "visual": "Angular superiority fighter with split tail fins and high-output maneuvering thrusters.",
+        "id": "settingdex__entry__starships__talon_fighter",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Space-superiority fighter. Hunts enemy strike craft and clears approach lanes for bombers and dropships.",
+        "slug": "talon_fighter"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Claymore Bomber\nVisual: Heavy strike craft with armored bomb bays and oversized torpedo hardpoints.\nBehavior: Anti-ship bomber. Delivers capital-grade ordnance against cruisers, carriers, and exposed station defenses.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Claymore Bomber\nHeavy strike craft with armored bomb bays and oversized torpedo hardpoints.\nAnti-ship bomber. Delivers capital-grade ordnance against cruisers, carriers, and exposed station defenses.\nClaymore Bomber\nVisual: Heavy strike craft with armored bomb bays and oversized torpedo hardpoints.\nBehavior: Anti-ship bomber. Delivers capital-grade ordnance against cruisers, carriers, and exposed station defenses.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Claymore Bomber, Bomber, Claymore",
+        "faction": "PRIMUS",
+        "name": "Claymore-Class Bomber",
+        "visual": "Heavy strike craft with armored bomb bays and oversized torpedo hardpoints.",
+        "id": "settingdex__entry__starships__claymore_bomber",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Anti-ship bomber. Delivers capital-grade ordnance against cruisers, carriers, and exposed station defenses.",
+        "slug": "claymore_bomber"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Cinder Bomber\nVisual: Broad atmospheric bomber with thermal shielding, ventral payload racks, and rear defense turrets.\nBehavior: Surface-attack bomber. Destroys fortifications, armor columns, and fixed infrastructure from low orbit or atmosphere.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Cinder Bomber\nBroad atmospheric bomber with thermal shielding, ventral payload racks, and rear defense turrets.\nSurface-attack bomber. Destroys fortifications, armor columns, and fixed infrastructure from low orbit or atmosphere.\nCinder Bomber\nVisual: Broad atmospheric bomber with thermal shielding, ventral payload racks, and rear defense turrets.\nBehavior: Surface-attack bomber. Destroys fortifications, armor columns, and fixed infrastructure from low orbit or atmosphere.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Cinder Bomber, Bomber, Cinder",
+        "faction": "PRIMUS",
+        "name": "Cinder-Class Bomber",
+        "visual": "Broad atmospheric bomber with thermal shielding, ventral payload racks, and rear defense turrets.",
+        "id": "settingdex__entry__starships__cinder_bomber",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Surface-attack bomber. Destroys fortifications, armor columns, and fixed infrastructure from low orbit or atmosphere.",
+        "slug": "cinder_bomber"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Gull Shuttle\nVisual: Plain transfer craft with rounded passenger cabin, docking collar, and short-range engines.\nBehavior: Civilian shuttle. Moves passengers and light cargo between ships, stations, and orbital ports.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Gull Shuttle\nPlain transfer craft with rounded passenger cabin, docking collar, and short-range engines.\nCivilian shuttle. Moves passengers and light cargo between ships, stations, and orbital ports.\nGull Shuttle\nVisual: Plain transfer craft with rounded passenger cabin, docking collar, and short-range engines.\nBehavior: Civilian shuttle. Moves passengers and light cargo between ships, stations, and orbital ports.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Gull Shuttle, Shuttle, Gull",
+        "faction": "PRIMUS",
+        "name": "Gull-Class Shuttle",
+        "visual": "Plain transfer craft with rounded passenger cabin, docking collar, and short-range engines.",
+        "id": "settingdex__entry__starships__gull_shuttle",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Civilian shuttle. Moves passengers and light cargo between ships, stations, and orbital ports.",
+        "slug": "gull_shuttle"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Parcel Shuttle\nVisual: Boxy utility shuttle with external cargo rails and reinforced loading doors.\nBehavior: Cargo shuttle. Handles routine transfers that are too small for freighters and too frequent for full transports.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Parcel Shuttle\nBoxy utility shuttle with external cargo rails and reinforced loading doors.\nCargo shuttle. Handles routine transfers that are too small for freighters and too frequent for full transports.\nParcel Shuttle\nVisual: Boxy utility shuttle with external cargo rails and reinforced loading doors.\nBehavior: Cargo shuttle. Handles routine transfers that are too small for freighters and too frequent for full transports.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Parcel Shuttle, Shuttle, Parcel",
+        "faction": "PRIMUS",
+        "name": "Parcel-Class Shuttle",
+        "visual": "Boxy utility shuttle with external cargo rails and reinforced loading doors.",
+        "id": "settingdex__entry__starships__parcel_shuttle",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Cargo shuttle. Handles routine transfers that are too small for freighters and too frequent for full transports.",
+        "slug": "parcel_shuttle"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Picket Cutter\nVisual: Small enforcement vessel with sensor fins, boarding clamps, and a high-visibility registry beacon.\nBehavior: Patrol cutter. Performs inspections, escorts detained ships, and chases smugglers inside controlled traffic zones.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Picket Cutter\nSmall enforcement vessel with sensor fins, boarding clamps, and a high-visibility registry beacon.\nPatrol cutter. Performs inspections, escorts detained ships, and chases smugglers inside controlled traffic zones.\nPicket Cutter\nVisual: Small enforcement vessel with sensor fins, boarding clamps, and a high-visibility registry beacon.\nBehavior: Patrol cutter. Performs inspections, escorts detained ships, and chases smugglers inside controlled traffic zones.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Picket Cutter, Cutter, Picket",
+        "faction": "PRIMUS",
+        "name": "Picket-Class Cutter",
+        "visual": "Small enforcement vessel with sensor fins, boarding clamps, and a high-visibility registry beacon.",
+        "id": "settingdex__entry__starships__picket_cutter",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Patrol cutter. Performs inspections, escorts detained ships, and chases smugglers inside controlled traffic zones.",
+        "slug": "picket_cutter"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Relay Command Ship\nVisual: Protected signal vessel covered in antenna masts, shielded comms dishes, and operations decks.\nBehavior: Communications command ship. Restores fleet coordination under jamming, Mim interference, or battlefield signal collapse.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Relay Command Ship\nProtected signal vessel covered in antenna masts, shielded comms dishes, and operations decks.\nCommunications command ship. Restores fleet coordination under jamming, Mim interference, or battlefield signal collapse.\nRelay Command Ship\nVisual: Protected signal vessel covered in antenna masts, shielded comms dishes, and operations decks.\nBehavior: Communications command ship. Restores fleet coordination under jamming, Mim interference, or battlefield signal collapse.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Relay Command Ship, Command Ship, Relay",
+        "faction": "PRIMUS",
+        "name": "Relay-Class Command Ship",
+        "visual": "Protected signal vessel covered in antenna masts, shielded comms dishes, and operations decks.",
+        "id": "settingdex__entry__starships__relay_command_ship",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Communications command ship. Restores fleet coordination under jamming, Mim interference, or battlefield signal collapse.",
+        "slug": "relay_command_ship"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Strategos Command Ship\nVisual: Armored command hull with layered CIC decks, flag officer quarters, and redundant tactical arrays.\nBehavior: Fleet command ship. Directs multi-system operations and keeps dispersed task groups aligned during long campaigns.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Strategos Command Ship\nArmored command hull with layered CIC decks, flag officer quarters, and redundant tactical arrays.\nFleet command ship. Directs multi-system operations and keeps dispersed task groups aligned during long campaigns.\nStrategos Command Ship\nVisual: Armored command hull with layered CIC decks, flag officer quarters, and redundant tactical arrays.\nBehavior: Fleet command ship. Directs multi-system operations and keeps dispersed task groups aligned during long campaigns.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Strategos Command Ship, Command Ship, Strategos",
+        "faction": "PRIMUS",
+        "name": "Strategos-Class Command Ship",
+        "visual": "Armored command hull with layered CIC decks, flag officer quarters, and redundant tactical arrays.",
+        "id": "settingdex__entry__starships__strategos_command_ship",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Fleet command ship. Directs multi-system operations and keeps dispersed task groups aligned during long campaigns.",
+        "slug": "strategos_command_ship"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Haven Ark\nVisual: Massive evacuation vessel with protected habitation cylinders, hydroponic decks, and external lifeboat clusters.\nBehavior: Refugee ark. Carries displaced populations through prolonged crisis when no stable colony is available.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Haven Ark\nMassive evacuation vessel with protected habitation cylinders, hydroponic decks, and external lifeboat clusters.\nRefugee ark. Carries displaced populations through prolonged crisis when no stable colony is available.\nHaven Ark\nVisual: Massive evacuation vessel with protected habitation cylinders, hydroponic decks, and external lifeboat clusters.\nBehavior: Refugee ark. Carries displaced populations through prolonged crisis when no stable colony is available.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Haven Ark, Ark, Haven",
+        "faction": "PRIMUS",
+        "name": "Haven-Class Ark",
+        "visual": "Massive evacuation vessel with protected habitation cylinders, hydroponic decks, and external lifeboat clusters.",
+        "id": "settingdex__entry__starships__haven_ark",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Refugee ark. Carries displaced populations through prolonged crisis when no stable colony is available.",
+        "slug": "haven_ark"
+      }
+    }
+  },
+  {
+    "n": {
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Tabernacle Ark\nVisual: Vast white-and-brass survival ship with internal commons, shrine decks, schools, and medical wards.\nBehavior: Cultural ark. Preserves communities, records, and institutions during system collapse or forced evacuation.",
+        "document_kind": "datafile",
+        "kind": "Starship",
+        "body": "Tabernacle Ark\nVast white-and-brass survival ship with internal commons, shrine decks, schools, and medical wards.\nCultural ark. Preserves communities, records, and institutions during system collapse or forced evacuation.\nTabernacle Ark\nVisual: Vast white-and-brass survival ship with internal commons, shrine decks, schools, and medical wards.\nBehavior: Cultural ark. Preserves communities, records, and institutions during system collapse or forced evacuation.",
+        "classification": "SPACESHIP",
+        "reports_json": "[]",
+        "record_type": "Unit",
+        "collection_id": "settingdex__collection__starships",
+        "collection_title": "STARSHIPS",
+        "updated_at": "2026-07-18T00:00:00.000Z",
+        "source_filename": "[DATAFILE_ STARSHIPS].docx",
+        "tags_text": "Tabernacle Ark, Ark, Tabernacle",
+        "faction": "PRIMUS",
+        "name": "Tabernacle-Class Ark",
+        "visual": "Vast white-and-brass survival ship with internal commons, shrine decks, schools, and medical wards.",
+        "id": "settingdex__entry__starships__tabernacle_ark",
+        "source_id": "settingdex__source__datafile_starships",
+        "behavior": "Cultural ark. Preserves communities, records, and institutions during system collapse or forced evacuation.",
+        "slug": "tabernacle_ark"
+      }
+    }
   }
 
 ]
