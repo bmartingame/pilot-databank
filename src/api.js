@@ -1,4 +1,6 @@
 const DATA_URL = `${import.meta.env.BASE_URL}data/entries.json`;
+const SEARCH_OPTIONS_URL = `${import.meta.env.BASE_URL}data/searchOptions.json`;
+const RECORD_TYPE_INDEX_URL = `${import.meta.env.BASE_URL}data/recordTypeIndex.json`;
 
 const RECORD_TYPE_ALIASES = {
   unit: "Unit",
@@ -75,6 +77,19 @@ const FILTER_KEY_ALIASES = {
 };
 
 let databasePromise = null;
+
+async function fetchStaticJson(url) {
+  const response = await fetch(url, {
+    cache: "no-cache",
+  });
+
+  if (!response.ok) {
+    throw new Error(`Unable to load ${url} (${response.status})`);
+  }
+
+  return response.json();
+}
+
 
 function cleanText(value) {
   return String(value ?? "").replace(/\s+/g, " ").trim();
@@ -564,6 +579,12 @@ export async function getEntry(entryId) {
 }
 
 export async function getSearchOptions() {
+  try {
+    return await fetchStaticJson(SEARCH_OPTIONS_URL);
+  } catch (error) {
+    console.warn("STATIC SEARCH OPTIONS FALLBACK", error);
+  }
+
   const database = await loadDatabase();
 
   return {
@@ -574,6 +595,33 @@ export async function getSearchOptions() {
       class: ["class", "classification", "cls"],
       threat: ["threat", "threat_class", "tc"],
     },
+  };
+}
+
+export async function getRecordTypeIndex() {
+  try {
+    const data = await fetchStaticJson(RECORD_TYPE_INDEX_URL);
+
+    if (Array.isArray(data)) {
+      return {
+        recordTypes: data,
+        counts: {},
+      };
+    }
+
+    return {
+      recordTypes: data?.recordTypes || [],
+      counts: data?.counts || {},
+    };
+  } catch (error) {
+    console.warn("STATIC RECORD TYPE INDEX FALLBACK", error);
+  }
+
+  const options = await getSearchOptions();
+
+  return {
+    recordTypes: options?.filters?.type || [],
+    counts: {},
   };
 }
 

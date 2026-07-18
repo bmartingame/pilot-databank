@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-07-18T19:00:47.342Z",
+  "source": "entries.json",
+  "recordTypes": [
+    "Celestial Body",
+    "Conflict",
+    "Faction",
+    "Glossary",
+    "System",
+    "Threat",
+    "Unit"
+  ],
+  "counts": {
+    "Celestial Body": 677,
+    "Conflict": 41,
+    "Faction": 19,
+    "Glossary": 52,
+    "System": 73,
+    "Threat": 25,
+    "Unit": 262
+  }
+}

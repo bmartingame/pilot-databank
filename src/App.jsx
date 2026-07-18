@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef, useState } from "react";
-import { getEntry, searchEntries, getRasterImageUrl, getSearchOptions } from "./api";
+import { getEntry, searchEntries, getRasterImageUrl, getSearchOptions, getRecordTypeIndex } from "./api";
 import { getRecordDisplayConfig, resolveRecordType } from "./recordDisplayConfig";
 import SearchAutocompleteInput from "./SearchAutocomplete";
 import GalaxyMap from "./GalaxyMap";
@@ -1054,6 +1054,10 @@ export default function App() {
     class: [],
     threat: ["I", "II", "III", "IV", "V"],
   });
+  const [recordTypeIndex, setRecordTypeIndex] = useState({
+    recordTypes: ["Unit", "Glossary", "System", "Celestial Body", "Threat", "Conflict", "Faction"],
+    counts: {},
+  });
   const [searchState, setSearchState] = useState({
     loading: false,
     error: null,
@@ -1186,6 +1190,27 @@ export default function App() {
       })
       .catch((error) => {
         console.warn("STATIC DATA OPTION LOAD FAILURE", error);
+      });
+
+    return () => {
+      alive = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    let alive = true;
+
+    getRecordTypeIndex()
+      .then((data) => {
+        if (!alive) return;
+
+        setRecordTypeIndex({
+          recordTypes: data?.recordTypes || [],
+          counts: data?.counts || {},
+        });
+      })
+      .catch((error) => {
+        console.warn("STATIC RECORD TYPE INDEX LOAD FAILURE", error);
       });
 
     return () => {
@@ -1487,7 +1512,7 @@ export default function App() {
           <div className="record-type-banner terminal-frame" aria-label="Record type filters">
             <div className="record-type-banner-label">RECORD TYPE INDEX</div>
             <div className="record-type-button-row">
-              {(searchOptions.type || []).map((recordType) => {
+              {(recordTypeIndex.recordTypes || []).map((recordType) => {
                 const query = getRecordTypeQuery(recordType);
                 const isActive =
                   hasSearched &&
@@ -1505,6 +1530,7 @@ export default function App() {
                       void handleRecordTypeSelect(recordType);
                     }}
                     aria-pressed={isActive}
+                    title={`${recordTypeIndex.counts?.[recordType] ?? ""} records`}
                   >
                     [{getRecordTypeButtonLabel(recordType)}]
                   </button>
