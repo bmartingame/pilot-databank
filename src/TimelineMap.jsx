@@ -77,7 +77,7 @@ const MANUAL_EVENTS = [
     end: APPROX_EXODUS_YEAR + 90,
     precision: "approximate",
     category: "political",
-    linkName: "The Guild",
+    linkName: "The Guild Directorate",
     summary:
       "The Guild emerged in the chaos after the Exodus, perfected Manifold drives, charted stable lanes, and consolidated interstellar movement.",
   },
