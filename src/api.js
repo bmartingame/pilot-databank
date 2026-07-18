@@ -505,11 +505,15 @@ function rowMatches(row, parsed) {
   return true;
 }
 
-export async function searchEntries(query, limit = 10000) {
+export async function searchEntries(query, limit = null) {
   const database = await loadDatabase();
   const parsed = parseCliQuery(query);
+  const shouldLimit = limit !== null && limit !== undefined;
+  const parsedLimit = shouldLimit
+    ? Math.max(1, Number(limit) || 100)
+    : null;
 
-  const results = database.searchRows
+  const matchedResults = database.searchRows
     .filter((row) => rowMatches(row, parsed))
     .map((row) => ({
       entry: row.entry,
@@ -522,8 +526,9 @@ export async function searchEntries(query, limit = 10000) {
         undefined,
         { sensitivity: "base" }
       );
-    })
-    .slice(0, Math.max(1, Math.min(Number(limit) || 10000, 10000)))
+    });
+
+  const results = (parsedLimit ? matchedResults.slice(0, parsedLimit) : matchedResults)
     .map(({ entry, score }) => ({
       ...entry,
       score,
@@ -573,5 +578,7 @@ export async function getSearchOptions() {
 }
 
 export function getRasterImageUrl(imageUrl) {
+  // A static GitHub Pages site cannot use the former FastAPI raster endpoint.
+  // HTTPS image URLs are displayed directly.
   return imageUrl || "";
 }

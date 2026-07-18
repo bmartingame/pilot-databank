@@ -1004,7 +1004,7 @@ function CRTStartupSplash({ audioBlocked, isRunning, onRetry }) {
         <div className="crt-startup-vignette" />
 
         <div className="crt-startup-readout">
-          <div className="crt-startup-kicker">PILOT DATABANK // WAKE SIGNAL</div>
+          <div className="crt-startup-kicker">PILOT DATABANK // CRT WAKE SIGNAL</div>
           <div className="crt-startup-title">DISPLAY INITIALIZING</div>
 
           <div className="crt-startup-progress" aria-hidden="true">
@@ -1026,6 +1026,21 @@ function CRTStartupSplash({ audioBlocked, isRunning, onRetry }) {
     </div>
   );
 }
+
+function getRecordTypeQuery(recordType) {
+  const escapedType = String(recordType || "")
+    .replace(/\\/g, "\\\\")
+    .replace(/"/g, "\\\"");
+
+  return `type:"${escapedType}"`;
+}
+
+function getRecordTypeButtonLabel(recordType) {
+  return String(recordType || "Unknown")
+    .toUpperCase()
+    .replace(/\s+/g, " ");
+}
+
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("databank");
@@ -1242,6 +1257,44 @@ export default function App() {
     }
   }
 
+  async function handleRecordTypeSelect(recordType) {
+    const query = getRecordTypeQuery(recordType);
+    const label = getRecordTypeButtonLabel(recordType);
+
+    playInterfaceSelectSfx();
+    stopDatabankSpeech();
+    setSelectedEntryId(null);
+    setInputValue(query);
+    setSubmittedQuery(`${label} RECORDS`);
+    setHasSearched(true);
+    setSearchState((previous) => ({
+      ...previous,
+      loading: true,
+      error: null,
+    }));
+
+    try {
+      const data = await searchEntries(query, null);
+      const resultCount = data.count || 0;
+
+      setSearchState({
+        loading: false,
+        error: null,
+        results: data.results || [],
+        count: resultCount,
+      });
+
+      speakDatabankLine(`${resultCount} ${recordType} record${resultCount === 1 ? "" : "s"} retrieved`);
+    } catch (error) {
+      setSearchState({
+        loading: false,
+        error: error.message,
+        results: [],
+        count: 0,
+      });
+    }
+  }
+
   function handleClear() {
     setInputValue("");
     setSubmittedQuery("");
@@ -1431,6 +1484,35 @@ export default function App() {
       {activeTab === "databank" ? (
         <main className="main-layout">
         <section className="search-column">
+          <div className="record-type-banner terminal-frame" aria-label="Record type filters">
+            <div className="record-type-banner-label">RECORD TYPE INDEX</div>
+            <div className="record-type-button-row">
+              {(searchOptions.type || []).map((recordType) => {
+                const query = getRecordTypeQuery(recordType);
+                const isActive =
+                  hasSearched &&
+                  inputValue === query &&
+                  !searchState.loading;
+
+                return (
+                  <button
+                    key={recordType}
+                    type="button"
+                    className={`terminal-button record-type-button ${
+                      isActive ? "record-type-button-active" : ""
+                    }`}
+                    onClick={() => {
+                      void handleRecordTypeSelect(recordType);
+                    }}
+                    aria-pressed={isActive}
+                  >
+                    [{getRecordTypeButtonLabel(recordType)}]
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
           <form className="search-box terminal-frame" onSubmit={handleSubmit}>
             <span className="search-prefix">&gt;</span>
             <SearchAutocompleteInput

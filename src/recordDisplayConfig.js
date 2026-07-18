@@ -37,6 +37,18 @@ export const RECORD_DISPLAY_CONFIG = {
         ],
     },
 
+    Plane: {
+        cardClassName: "plane-card",
+        meta: [
+            { label: "FACTION", value: "faction" },
+            { label: "THREAT", value: "threatClass" },
+        ],
+        sections: [
+            { title: "VISUAL REFERENCE", type: "image", value: "image_url", readout: false },
+            { title: "DESCRIPTION", type: "text", value: "description" },
+        ],
+    },
+
     Conflict: {
         cardClassName: "conflict-card",
         meta: [
