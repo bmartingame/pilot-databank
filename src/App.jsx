@@ -1049,7 +1049,6 @@ function normalizeTimelineEntryName(value) {
     .normalize("NFKD")
     .replace(/[’‘]/g, "'")
     .toLowerCase()
-    .replace(/^the\s+/, "")
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
 }
@@ -1437,40 +1436,26 @@ export default function App() {
       throw new Error("The selected timeline event has no linked entry.");
     }
 
-    const queries = getTimelineEntryQueryCandidates(requestedName, kind);
-    const results = [];
-
-    for (const query of queries) {
-      const data = await searchEntries(query, null);
-      results.push(...(data.results || []));
-    }
-
+    const requestedKind = String(kind || "Glossary").trim();
+    const escapedKind = requestedKind
+      .replace(/\\/g, "\\\\")
+      .replace(/"/g, "\\\"");
+    const query = requestedKind ? `type:"${escapedKind}"` : "";
+    const data = await searchEntries(query, null);
     const targetName = normalizeTimelineEntryName(requestedName);
+    const targetKind = requestedKind.toLowerCase();
 
-    const match =
-      results.find((entry) => {
-        const entryName = normalizeTimelineEntryName(entry?.name);
-        const entryType = resolveRecordType(entry).toLowerCase();
-        const requestedType = String(kind || "").toLowerCase();
+    const match = (data.results || []).find((entry) => {
+      const entryName = normalizeTimelineEntryName(entry?.name);
+      const entryKind = resolveRecordType(entry).toLowerCase();
 
-        if (requestedType && entryType !== requestedType) return false;
-
-        return entryName === targetName;
-      }) ||
-      results.find((entry) => {
-        const entryName = normalizeTimelineEntryName(entry?.name);
-        const entryType = resolveRecordType(entry).toLowerCase();
-        const requestedType = String(kind || "").toLowerCase();
-
-        if (requestedType && entryType !== requestedType) return false;
-
-        return entryName.includes(targetName) || targetName.includes(entryName);
-      }) ||
-      results.find((entry) => normalizeTimelineEntryName(entry?.name) === targetName) ||
-      results[0];
+      return entryName === targetName && (!targetKind || entryKind === targetKind);
+    });
 
     if (!match) {
-      throw new Error(`No timeline databank entry matches "${requestedName}".`);
+      throw new Error(
+        `No exact ${requestedKind || "timeline"} entry named "${requestedName}".`
+      );
     }
 
     stopDatabankSpeech();
