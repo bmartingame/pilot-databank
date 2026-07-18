@@ -5,8 +5,10 @@ import { getRecordDisplayConfig, resolveRecordType } from "./recordDisplayConfig
 import SearchAutocompleteInput from "./SearchAutocomplete";
 import GalaxyMap from "./GalaxyMap";
 import CosmologyMap from "./CosmologyMap";
+import TimelineMap from "./TimelineMap";
 import "./styles.css";
 import "./startupSplash.css";
+import "./timelineMap.css";
 
 const CRT_STARTUP_AUDIO_URL = `${import.meta.env.BASE_URL}audio/crt-computer-monitor-startup.wav`;
 const CRT_STARTUP_DURATION_MS = 7367;
@@ -1042,6 +1044,45 @@ function getRecordTypeButtonLabel(recordType) {
 }
 
 
+function normalizeTimelineEntryName(value) {
+  return String(value || "")
+    .normalize("NFKD")
+    .replace(/[’‘]/g, "'")
+    .toLowerCase()
+    .replace(/^the\s+/, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function getTimelineEntryQueryCandidates(name, kind) {
+  const cleanName = String(name || "").trim();
+
+  if (!cleanName) return [];
+
+  const baseCandidates = [
+    cleanName,
+    `"${cleanName}"`,
+    `name:"${cleanName}"`,
+  ];
+
+  const normalized = normalizeTimelineEntryName(cleanName);
+
+  if (normalized && !cleanName.toLowerCase().startsWith("the ")) {
+    baseCandidates.push(`The ${cleanName}`);
+    baseCandidates.push(`"The ${cleanName}"`);
+  }
+
+  const typeCandidates = [];
+
+  if (kind) {
+    for (const candidate of baseCandidates) {
+      typeCandidates.push(`${candidate} type:"${kind}"`);
+    }
+  }
+
+  return [...new Set([...typeCandidates, ...baseCandidates])];
+}
+
 export default function App() {
   const [activeTab, setActiveTab] = useState("databank");
   const [inputValue, setInputValue] = useState("");
@@ -1383,6 +1424,59 @@ export default function App() {
     setSelectedEntryId(match.id);
   }
 
+  async function handleTimelineEntryOpen({ id, name, kind }) {
+    const requestedName = String(name || "").trim();
+
+    if (id) {
+      stopDatabankSpeech();
+      setSelectedEntryId(id);
+      return;
+    }
+
+    if (!requestedName) {
+      throw new Error("The selected timeline event has no linked entry.");
+    }
+
+    const queries = getTimelineEntryQueryCandidates(requestedName, kind);
+    const results = [];
+
+    for (const query of queries) {
+      const data = await searchEntries(query, null);
+      results.push(...(data.results || []));
+    }
+
+    const targetName = normalizeTimelineEntryName(requestedName);
+
+    const match =
+      results.find((entry) => {
+        const entryName = normalizeTimelineEntryName(entry?.name);
+        const entryType = resolveRecordType(entry).toLowerCase();
+        const requestedType = String(kind || "").toLowerCase();
+
+        if (requestedType && entryType !== requestedType) return false;
+
+        return entryName === targetName;
+      }) ||
+      results.find((entry) => {
+        const entryName = normalizeTimelineEntryName(entry?.name);
+        const entryType = resolveRecordType(entry).toLowerCase();
+        const requestedType = String(kind || "").toLowerCase();
+
+        if (requestedType && entryType !== requestedType) return false;
+
+        return entryName.includes(targetName) || targetName.includes(entryName);
+      }) ||
+      results.find((entry) => normalizeTimelineEntryName(entry?.name) === targetName) ||
+      results[0];
+
+    if (!match) {
+      throw new Error(`No timeline databank entry matches "${requestedName}".`);
+    }
+
+    stopDatabankSpeech();
+    setSelectedEntryId(match.id);
+  }
+
   async function handleMapNodeOpen({ name, kind }) {
     const requestedName = String(name || "").trim();
 
@@ -1504,6 +1598,20 @@ export default function App() {
         >
           [COSMOLOGY]
         </button>
+
+        <button
+          type="button"
+          className={`app-tab ${activeTab === "timeline" ? "app-tab-active" : ""}`}
+          onClick={() => {
+            playInterfaceSelectSfx();
+            stopDatabankSpeech();
+            setSelectedEntryId(null);
+            setActiveTab("timeline");
+          }}
+          aria-pressed={activeTab === "timeline"}
+        >
+          [TIMELINE]
+        </button>
       </nav>
 
       {activeTab === "databank" ? (
@@ -1594,9 +1702,25 @@ export default function App() {
             ) : null
           }
         />
-      ) : (
+      ) : activeTab === "cosmology" ? (
         <CosmologyMap
           onOpenEntry={handleCosmosNodeOpen}
+          onInterfaceSfx={playInterfaceSelectSfx}
+          detailPanel={
+            selectedEntryId ? (
+              <DetailPanel
+                entryId={selectedEntryId}
+                onClose={() => {
+                  stopDatabankSpeech();
+                  setSelectedEntryId(null);
+                }}
+              />
+            ) : null
+          }
+        />
+      ) : (
+        <TimelineMap
+          onOpenEntry={handleTimelineEntryOpen}
           onInterfaceSfx={playInterfaceSelectSfx}
           detailPanel={
             selectedEntryId ? (

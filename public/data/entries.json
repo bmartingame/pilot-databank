@@ -56994,6 +56994,34 @@
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:2141"
     }
   },
+    {
+    "n": {
+      "identity": 2141,
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "raw_text": ".",
+        "document_kind": "manual",
+        "kind": "ManualGlossaryEntry",
+        "description": ".",
+        "manual_ingest": true,
+        "body": ".",
+        "reports_json": "[]",
+        "record_type": "Glossary",
+        "collection_title": "[MANUAL INGEST]",
+        "updated_at": "2026-07-10T03:22:57.731Z",
+        "source_filename": "[MANUAL INGEST]",
+        "import_mode": "manual_one_off",
+        "tags_text": "",
+        "name": "First Contact",
+        "dossier_type": "generic",
+        "id": "manual__glossary__the_exodus",
+        "slug": "first_contact"
+      },
+      "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:2141"
+    }
+  },
   {
     "n": {
       "identity": 2142,
