@@ -82791,6 +82791,110 @@
         "updated_at": "2026-07-18T00:00:00.000Z"
       }
     }
+  },
+  {
+    "n": {
+      "identity": 9101,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Late Primus Collapse\nThe Late Primus Collapse describes the final centuries before the Exodus, when Primus lost the ability to sustain itself as a unified world. War, famine, plague, ecological ruin, and industrial exhaustion reduced most nations to fortified city-states dependent on corporate infrastructure. By the time the stars began to go dark, Primus was already failing.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "The Late Primus Collapse describes the final centuries before the Exodus, when Primus lost the ability to sustain itself as a unified world. War, famine, plague, ecological ruin, and industrial exhaustion reduced most nations to fortified city-states dependent on corporate infrastructure. By the time the stars began to go dark, Primus was already failing.",
+        "manual_ingest": true,
+        "body": "The Late Primus Collapse describes the final centuries before the Exodus, when Primus lost the ability to sustain itself as a unified world. War, famine, plague, ecological ruin, and industrial exhaustion reduced most nations to fortified city-states dependent on corporate infrastructure. By the time the stars began to go dark, Primus was already failing.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Event",
+        "collection_title": "Timeline Glossary",
+        "updated_at": "2026-07-19T00:00:00.000Z",
+        "source_filename": "Timeline Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Late Primus Collapse event timeline Primus Exodus collapse",
+        "name": "Late Primus Collapse",
+        "dossier_type": "glossary",
+        "id": "glossary__late_primus_collapse",
+        "slug": "late_primus_collapse"
+      },
+      "elementId": "4:manual-glossary-import:9101"
+    }
+  },
+  {
+    "n": {
+      "identity": 9102,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Core Proliferation Crisis\nThe Core Proliferation Crisis began when early Resonance Cores spread faster than the institutions meant to control them. Unlicensed forges, military laboratories, private cults, and desperate colonies produced unstable Cores that caused contamination events, frame mutations, and localized reality failures. The crisis ended with the Guild consolidating Core production and making safe Core access dependent on Guild approval.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "The Core Proliferation Crisis began when early Resonance Cores spread faster than the institutions meant to control them. Unlicensed forges, military laboratories, private cults, and desperate colonies produced unstable Cores that caused contamination events, frame mutations, and localized reality failures. The crisis ended with the Guild consolidating Core production and making safe Core access dependent on Guild approval.",
+        "manual_ingest": true,
+        "body": "The Core Proliferation Crisis began when early Resonance Cores spread faster than the institutions meant to control them. Unlicensed forges, military laboratories, private cults, and desperate colonies produced unstable Cores that caused contamination events, frame mutations, and localized reality failures. The crisis ended with the Guild consolidating Core production and making safe Core access dependent on Guild approval.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Event",
+        "collection_title": "Timeline Glossary",
+        "updated_at": "2026-07-19T00:00:00.000Z",
+        "source_filename": "Timeline Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Core Proliferation Crisis event timeline Resonance Cores Guild",
+        "name": "Core Proliferation Crisis",
+        "dossier_type": "glossary",
+        "id": "glossary__core_proliferation_crisis",
+        "slug": "core_proliferation_crisis"
+      },
+      "elementId": "4:manual-glossary-import:9102"
+    }
+  },
+  {
+    "n": {
+      "identity": 9103,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "First Contact\nFirst Contact was the first confirmed public encounter between the civilizations of Primus and an alien species: the Mims. Earlier incidents may have been suppressed, misclassified, or contained by the Guild, but First Contact made denial impossible across civilized space. The event permanently changed interstellar policy, military planning, and public trust in what the Guild had chosen to keep hidden.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "First Contact was the first confirmed public encounter between the civilizations of Primus and an alien species: the Mims. Earlier incidents may have been suppressed, misclassified, or contained by the Guild, but First Contact made denial impossible across civilized space. The event permanently changed interstellar policy, military planning, and public trust in what the Guild had chosen to keep hidden.",
+        "manual_ingest": true,
+        "body": "First Contact was the first confirmed public encounter between the civilizations of Primus and an alien species: the Mims. Earlier incidents may have been suppressed, misclassified, or contained by the Guild, but First Contact made denial impossible across civilized space. The event permanently changed interstellar policy, military planning, and public trust in what the Guild had chosen to keep hidden.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Event",
+        "collection_title": "Timeline Glossary",
+        "updated_at": "2026-07-19T00:00:00.000Z",
+        "source_filename": "Timeline Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "First Contact event timeline Mim Mims aliens Primus Guild",
+        "name": "First Contact",
+        "dossier_type": "glossary",
+        "id": "glossary__first_contact",
+        "slug": "first_contact"
+      },
+      "elementId": "4:manual-glossary-import:9103"
+    }
+  },
+  {
+    "n": {
+      "identity": 9104,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "The New Dark Age\nThe New Dark Age is the ongoing era that followed First Contact and the failures that came after it. Interstellar communication remains restricted, public Net access is curtailed, and many colonies operate with limited knowledge of conditions beyond their local lanes. Civilization has not collapsed, but it now survives under censorship, armed travel, controlled information, and permanent threat conditions.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "The New Dark Age is the ongoing era that followed First Contact and the failures that came after it. Interstellar communication remains restricted, public Net access is curtailed, and many colonies operate with limited knowledge of conditions beyond their local lanes. Civilization has not collapsed, but it now survives under censorship, armed travel, controlled information, and permanent threat conditions.",
+        "manual_ingest": true,
+        "body": "The New Dark Age is the ongoing era that followed First Contact and the failures that came after it. Interstellar communication remains restricted, public Net access is curtailed, and many colonies operate with limited knowledge of conditions beyond their local lanes. Civilization has not collapsed, but it now survives under censorship, armed travel, controlled information, and permanent threat conditions.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Event",
+        "collection_title": "Timeline Glossary",
+        "updated_at": "2026-07-19T00:00:00.000Z",
+        "source_filename": "Timeline Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "The New Dark Age event timeline ongoing First Contact Net censorship Guild",
+        "name": "The New Dark Age",
+        "dossier_type": "glossary",
+        "id": "glossary__the_new_dark_age",
+        "slug": "the_new_dark_age"
+      },
+      "elementId": "4:manual-glossary-import:9104"
+    }
   }
 
 ]
