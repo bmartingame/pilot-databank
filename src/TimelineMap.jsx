@@ -184,6 +184,20 @@ function getCanonicalRecordType(entry) {
 
 function parseDurationYears(duration) {
   const text = cleanText(duration);
+  const presentMatch = text.match(/(\d{3,4})\s*(?:[–—-]|\bto\b)\s*present\b/i);
+
+  if (presentMatch) {
+    const start = Number(presentMatch[1]);
+
+    if (Number.isFinite(start)) {
+      return {
+        start,
+        end: CURRENT_YEAR,
+        openEnded: true,
+      };
+    }
+  }
+
   const match = text.match(/(\d{3,4})\s*[–—-]\s*(\d{2,4})/);
 
   if (match) {
@@ -198,6 +212,7 @@ function parseDurationYears(duration) {
       return {
         start: Math.min(start, end),
         end: Math.max(start, end),
+        openEnded: false,
       };
     }
   }
@@ -211,6 +226,7 @@ function parseDurationYears(duration) {
       return {
         start: year,
         end: year,
+        openEnded: false,
       };
     }
   }
@@ -233,6 +249,7 @@ function buildConflictEvents(entries) {
         kind: "Conflict",
         start: years.start,
         end: years.end,
+        openEnded: Boolean(years.openEnded),
         duration: entry.duration,
         precision: "exact",
         category: "conflict",
@@ -256,6 +273,7 @@ function buildTimelineEvents(entries) {
       ...event,
       start: Number(event.start),
       end: Number(event.end),
+      openEnded: Boolean(event.openEnded),
     }))
     .sort((left, right) => {
       if (left.start !== right.start) return left.start - right.start;
@@ -265,6 +283,7 @@ function buildTimelineEvents(entries) {
 }
 
 function yearLabel(event) {
+  if (event.openEnded) return `${event.start}–Present`;
   if (event.start === event.end) return `${event.start}`;
 
   return `${event.start}–${event.end}`;
@@ -282,6 +301,7 @@ function eventClassName(event, selectedEvent) {
   return [
     "timeline-event",
     `timeline-event-${event.category || "history"}`,
+    event.openEnded ? "timeline-event-open-ended" : "",
     selectedEvent?.id === event.id ? "timeline-event-selected" : "",
   ]
     .filter(Boolean)
@@ -972,13 +992,15 @@ export default function TimelineMap({
                           className="timeline-event-range-cap"
                           filter={selected ? "url(#timelineGlow)" : undefined}
                         />
-                        <circle
-                          cx={event.endX}
-                          cy={event.y}
-                          r={selected ? "8" : "6"}
-                          className="timeline-event-range-cap"
-                          filter={selected ? "url(#timelineGlow)" : undefined}
-                        />
+                        {!event.openEnded ? (
+                          <circle
+                            cx={event.endX}
+                            cy={event.y}
+                            r={selected ? "8" : "6"}
+                            className="timeline-event-range-cap"
+                            filter={selected ? "url(#timelineGlow)" : undefined}
+                          />
+                        ) : null}
                       </>
                     ) : (
                       <circle
