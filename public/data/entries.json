@@ -56931,32 +56931,6 @@
   },
   {
     "n": {
-      "labels": [
-        "Entry"
-      ],
-      "properties": {
-        "raw_text": "First Contact.",
-        "document_kind": "manual",
-        "kind": "ManualGlossaryEntry",
-        "description": "First Contact.",
-        "manual_ingest": true,
-        "body": "First Contact.",
-        "reports_json": "[]",
-        "record_type": "Glossary",
-        "collection_title": "[MANUAL INGEST]",
-        "updated_at": "2026-07-10T03:22:57.731Z",
-        "source_filename": "[MANUAL INGEST]",
-        "import_mode": "manual_one_off",
-        "tags_text": "",
-        "name": "First Contact",
-        "dossier_type": "generic",
-        "id": "manual__glossary__first_contact",
-        "slug": "first_contact"
-      }
-    }
-  },
-  {
-    "n": {
       "identity": 2142,
       "labels": [
         "Entry"
