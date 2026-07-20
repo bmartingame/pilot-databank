@@ -27,7 +27,7 @@ const MANUAL_EVENTS = [
     kind: "Glossary",
     start: 3000,
     end: APPROX_EXODUS_YEAR - 35,
-    precision: "approximate",
+    precision: "exact",
     category: "history",
     linkName: "Late Primus Collapse",
     summary:
@@ -39,7 +39,7 @@ const MANUAL_EVENTS = [
     kind: "Glossary",
     start: APPROX_EXODUS_YEAR,
     end: APPROX_EXODUS_YEAR+26,
-    precision: "approximate",
+    precision: "exact",
     category: "history",
     linkName: "The Exodus",
     summary:
@@ -51,7 +51,7 @@ const MANUAL_EVENTS = [
     kind: "Glossary",
     start: APPROX_EXODUS_YEAR + 126,
     end: APPROX_EXODUS_YEAR + 126,
-    precision: "approximate",
+    precision: "exact",
     category: "political",
     linkName: "The Guild Directorate",
     summary:
@@ -63,7 +63,7 @@ const MANUAL_EVENTS = [
     kind: "Glossary",
     start: 3650,
     end: 3725,
-    precision: "approximate",
+    precision: "exact",
     category: "technology",
     linkName: "Resonance",
     summary:
@@ -75,7 +75,7 @@ const MANUAL_EVENTS = [
     kind: "Glossary",
     start: 3725,
     end: 3820,
-    precision: "approximate",
+    precision: "exact",
     category: "conflict",
     linkName: "Core Proliferation Crisis",
     summary:
@@ -87,7 +87,7 @@ const MANUAL_EVENTS = [
     kind: "Glossary",
     start: 3820,
     end: 3900,
-    precision: "approximate",
+    precision: "exact",
     category: "military",
     linkName: "DMN-Units",
     summary:
@@ -99,7 +99,7 @@ const MANUAL_EVENTS = [
     kind: "Glossary",
     start: APPROX_FIRST_CONTACT_YEAR,
     end: APPROX_FIRST_CONTACT_YEAR,
-    precision: "approximate",
+    precision: "exact",
     category: "threat",
     linkName: "First Contact",
     summary:
@@ -111,7 +111,7 @@ const MANUAL_EVENTS = [
     kind: "Glossary",
     start: APPROX_FIRST_CONTACT_YEAR,
     end: CURRENT_YEAR,
-    precision: "approximate",
+    precision: "exact",
     category: "history",
     linkName: "The New Dark Age",
     summary:
