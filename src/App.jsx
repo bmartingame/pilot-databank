@@ -580,6 +580,22 @@ function RasterImage({ imageUrl, name }) {
           outputSize
         );
 
+        outputContext.save();
+
+        outputContext.globalCompositeOperation = "color";
+        outputContext.fillStyle = "rgb(92, 255, 142)";
+        outputContext.fillRect(0, 0, outputSize, outputSize);
+
+        outputContext.globalCompositeOperation = "multiply";
+        outputContext.fillStyle = "rgba(32, 255, 96, 0.28)";
+        outputContext.fillRect(0, 0, outputSize, outputSize);
+
+        outputContext.globalCompositeOperation = "source-over";
+        outputContext.fillStyle = "rgba(0, 12, 4, 0.16)";
+        outputContext.fillRect(0, 0, outputSize, outputSize);
+
+        outputContext.restore();
+
         setMode("canvas");
       } catch (error) {
         console.warn("IMAGE RASTER FAILURE", error);
