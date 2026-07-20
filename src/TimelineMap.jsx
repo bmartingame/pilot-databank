@@ -29,7 +29,7 @@ const MANUAL_EVENTS = [
     end: APPROX_EXODUS_YEAR - 35,
     precision: "approximate",
     category: "history",
-    linkName: "Primus",
+    linkName: "Late Primus Collapse",
     summary:
       "Primus entered a long period of war, famine, plague, industrial collapse, and city-state conflict before the Exodus.",
   },
