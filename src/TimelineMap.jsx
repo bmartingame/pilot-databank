@@ -746,7 +746,7 @@ export default function TimelineMap({
           <div className="terminal-small">
             CHRONOLOGY ARRAY // CURRENT YEAR {CURRENT_YEAR}
           </div>
-          <h2>HISTORICAL CONFLICT TIMELINE</h2>
+          <h2>HISTORICAL TIMELINE</h2>
         </div>
 
         <div className="timeline-stats">
