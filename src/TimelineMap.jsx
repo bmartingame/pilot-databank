@@ -86,7 +86,7 @@ const MANUAL_EVENTS = [
     name: "Core Proliferation Crisis",
     kind: "Glossary",
     start: 4000,
-    end: 4040,
+    end: 4050,
     precision: "exact",
     category: "conflict",
     linkName: "Core Proliferation Crisis",
