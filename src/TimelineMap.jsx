@@ -77,7 +77,7 @@ const MANUAL_EVENTS = [
     end: 3820,
     precision: "approximate",
     category: "conflict",
-    linkName: "Cores",
+    linkName: "Core Proliferation Crisis",
     summary:
       "Unregulated Core forging caused disasters and wars until the Guild seized or bought the means of stable Core production.",
   },
@@ -113,7 +113,7 @@ const MANUAL_EVENTS = [
     end: CURRENT_YEAR,
     precision: "approximate",
     category: "history",
-    linkName: "First Contact",
+    linkName: "The New Dark Age",
     summary:
       "In the century since First Contact, sectors have gone dark, the Net has been restricted, and Guild-licensed forces hold civilization together.",
   },
