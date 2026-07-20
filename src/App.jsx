@@ -518,8 +518,6 @@ function RasterImage({ imageUrl, name }) {
     setMode("loading");
 
     const sourceImage = new Image();
-
-    sourceImage.crossOrigin = "anonymous";
     sourceImage.decoding = "async";
 
     sourceImage.onload = () => {
@@ -530,16 +528,13 @@ function RasterImage({ imageUrl, name }) {
 
       try {
         const outputSize = 640;
-        const lowResolutionSize  = 64;
+        const lowResolutionSize = 72;
 
         const lowCanvas = document.createElement("canvas");
         lowCanvas.width = lowResolutionSize;
         lowCanvas.height = lowResolutionSize;
 
-        const lowContext = lowCanvas.getContext("2d", {
-          willReadFrequently: true,
-        });
-
+        const lowContext = lowCanvas.getContext("2d");
         const outputContext = canvas.getContext("2d");
 
         if (!lowContext || !outputContext) {
@@ -552,12 +547,8 @@ function RasterImage({ imageUrl, name }) {
         const sourceX = Math.floor((sourceWidth - cropSize) / 2);
         const sourceY = Math.floor((sourceHeight - cropSize) / 2);
 
-        lowContext.clearRect(
-          0,
-          0,
-          lowResolutionSize,
-          lowResolutionSize
-        );
+        lowContext.clearRect(0, 0, lowResolutionSize, lowResolutionSize);
+        lowContext.imageSmoothingEnabled = true;
 
         lowContext.drawImage(
           sourceImage,
@@ -570,58 +561,6 @@ function RasterImage({ imageUrl, name }) {
           lowResolutionSize,
           lowResolutionSize
         );
-
-        const imageData = lowContext.getImageData(
-          0,
-          0,
-          lowResolutionSize,
-          lowResolutionSize
-        );
-
-        const pixels = imageData.data;
-
-        for (let index = 0; index < pixels.length; index += 4) {
-          const red = pixels[index];
-          const green = pixels[index + 1];
-          const blue = pixels[index + 2];
-
-          const gray =
-            red * 0.299 +
-            green * 0.587 +
-            blue * 0.114;
-
-          const normalized = gray / 255;
-
-          const gammaAdjusted = Math.pow(normalized, 0.92) * 255;
-          
-          const contrasted = Math.max(
-            0,
-            Math.min(
-              255,
-              (gammaAdjusted - 128) * 1.12 + 118
-            )
-          );
-          
-          const grain = (Math.random() - 0.5) * 18;
-          
-          const pixelNumber = index / 4;
-          const pixelY = Math.floor(pixelNumber / lowResolutionSize);
-          const scanlineDarkening = pixelY % 2 === 0 ? -4 : 0;
-          
-          const noisyValue = Math.max(
-            0,
-            Math.min(
-              255,
-              contrasted + grain + scanlineDarkening
-            )
-          );
-          
-          pixels[index] = Math.min(255, noisyValue * 0.04);
-          pixels[index + 1] = Math.min(220, noisyValue * 0.92);
-          pixels[index + 2] = Math.min(255, noisyValue * 0.28);
-        }
-
-        lowContext.putImageData(imageData, 0, 0);
 
         canvas.width = outputSize;
         canvas.height = outputSize;
@@ -643,13 +582,13 @@ function RasterImage({ imageUrl, name }) {
 
         setMode("canvas");
       } catch (error) {
-        console.warn("IMAGE RASTER FALLBACK", error);
-        setMode("fallback");
+        console.warn("IMAGE RASTER FAILURE", error);
+        setMode("failed");
       }
     };
 
     sourceImage.onerror = () => {
-      if (!cancelled) setMode("fallback");
+      if (!cancelled) setMode("failed");
     };
 
     sourceImage.src = getRasterImageUrl(imageUrl, 640);
@@ -658,6 +597,7 @@ function RasterImage({ imageUrl, name }) {
       cancelled = true;
       sourceImage.onload = null;
       sourceImage.onerror = null;
+      sourceImage.src = "";
     };
   }, [imageUrl]);
 
@@ -677,15 +617,6 @@ function RasterImage({ imageUrl, name }) {
             : "Rasterized reference image"
         }
       />
-
-      {mode === "fallback" ? (
-        <img
-          className="raster-image raster-image-css-fallback"
-          src={getRasterImageUrl(imageUrl, 640)}
-          alt={name ? `${name} reference image` : "Reference image"}
-          onError={() => setMode("failed")}
-        />
-      ) : null}
 
       {mode === "loading" ? (
         <div className="image-loading">RASTERIZING SIGNAL...</div>
