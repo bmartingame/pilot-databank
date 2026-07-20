@@ -61,13 +61,25 @@ const MANUAL_EVENTS = [
     id: "timeline-crucible-discovery",
     name: "Crucible And Resonance Discovery",
     kind: "Glossary",
-    start: 3650,
+    start: 3725,
     end: 3725,
     precision: "exact",
     category: "technology",
     linkName: "Resonance",
     summary:
       "Relic fragments revealed a living current of power from the Crucible. This discovery led to Resonance and Core development.",
+  },
+  {
+    id: "timeline-warp-beast",
+    name: "First Warp Beast Appearance",
+    kind: "Glossary",
+    start: 3801,
+    end: 3801,
+    precision: "exact",
+    category: "conflict",
+    linkName: "Warp Beasts",
+    summary:
+      "The first Warp Beast appeared.",
   },
   {
     id: "timeline-core-wars",
@@ -80,18 +92,6 @@ const MANUAL_EVENTS = [
     linkName: "Core Proliferation Crisis",
     summary:
       "Unregulated Core forging caused disasters and wars until the Guild seized or bought the means of stable Core production.",
-  },
-  {
-    id: "timeline-dmn-frontier",
-    name: "DMN-Units Deployed To Frontier",
-    kind: "Glossary",
-    start: 3820,
-    end: 3900,
-    precision: "exact",
-    category: "military",
-    linkName: "DMN-Units",
-    summary:
-      "Warp Beast attacks along Guild lanes forced frontier deployments of DMN-Units.",
   },
   {
     id: "timeline-first-contact",
@@ -753,7 +753,6 @@ export default function TimelineMap({
           <span>{events.length} EVENTS</span>
           <span>{events.filter((event) => event.kind === "Conflict").length} CONFLICTS</span>
           <span>{timelineBounds.minYear}–{timelineBounds.maxYear}</span>
-          <span>{YEAR_PIXELS} PX / YEAR</span>
         </div>
       </div>
 
