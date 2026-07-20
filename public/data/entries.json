@@ -82869,6 +82869,48 @@
       },
       "elementId": "4:manual-glossary-import:9104"
     }
+  },
+  {
+    "record_type": "Glossary",
+    "name": "Duke",
+    "category": "Crown Noble Rank",
+    "faction": "CROWN",
+    "description": "Crown noble rank. Rules a whole sector."
+  },
+  {
+    "record_type": "Glossary",
+    "name": "Marquess",
+    "category": "Crown Noble Rank",
+    "faction": "CROWN",
+    "description": "Crown noble rank. Commands a major frontier, fortress system, or strategic border region."
+  },
+  {
+    "record_type": "Glossary",
+    "name": "Count",
+    "category": "Crown Noble Rank",
+    "faction": "CROWN",
+    "description": "Crown noble rank. Rules a system."
+  },
+  {
+    "record_type": "Glossary",
+    "name": "Viscount",
+    "category": "Crown Noble Rank",
+    "faction": "CROWN",
+    "description": "Crown noble rank. Administers a major world or portion of a larger system."
+  },
+  {
+    "record_type": "Glossary",
+    "name": "Baron",
+    "category": "Crown Noble Rank",
+    "faction": "CROWN",
+    "description": "Crown noble rank. Controls a continent on a major world, a moon, major fortress, or minor world."
+  },
+  {
+    "record_type": "Glossary",
+    "name": "Knight",
+    "category": "Crown Noble Rank",
+    "faction": "CROWN",
+    "description": "Crown noble rank. Controls a minor city, settlement, or fortress on a world or moon."
   }
 
 ]
