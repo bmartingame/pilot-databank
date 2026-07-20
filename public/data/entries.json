@@ -82871,46 +82871,481 @@
     }
   },
   {
-    "record_type": "Glossary",
-    "name": "Duke",
-    "category": "Crown Noble Rank",
-    "faction": "CROWN",
-    "description": "Crown noble rank. Rules a whole sector."
+    "n": {
+      "identity": 9200,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Duke\nCrown noble rank. Rules a whole sector.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "Crown noble rank. Rules a whole sector.",
+        "manual_ingest": true,
+        "body": "Crown noble rank. Rules a whole sector.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Crown Noble Rank",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Duke Crown noble rank sector nobility hierarchy",
+        "name": "Duke",
+        "category": "Crown Noble Rank",
+        "faction": "CROWN",
+        "dossier_type": "glossary",
+        "id": "glossary__duke",
+        "slug": "duke"
+      },
+      "elementId": "4:manual-glossary-import:9200"
+    }
   },
   {
-    "record_type": "Glossary",
-    "name": "Marquess",
-    "category": "Crown Noble Rank",
-    "faction": "CROWN",
-    "description": "Crown noble rank. Commands a major frontier, fortress system, or strategic border region."
+    "n": {
+      "identity": 9201,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Marquess\nCrown noble rank. Commands a major frontier, fortress system, or strategic border region.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "Crown noble rank. Commands a major frontier, fortress system, or strategic border region.",
+        "manual_ingest": true,
+        "body": "Crown noble rank. Commands a major frontier, fortress system, or strategic border region.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Crown Noble Rank",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Marquess Crown noble rank frontier fortress border nobility hierarchy",
+        "name": "Marquess",
+        "category": "Crown Noble Rank",
+        "faction": "CROWN",
+        "dossier_type": "glossary",
+        "id": "glossary__marquess",
+        "slug": "marquess"
+      },
+      "elementId": "4:manual-glossary-import:9201"
+    }
   },
   {
-    "record_type": "Glossary",
-    "name": "Count",
-    "category": "Crown Noble Rank",
-    "faction": "CROWN",
-    "description": "Crown noble rank. Rules a system."
+    "n": {
+      "identity": 9202,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Count\nCrown noble rank. Rules a system.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "Crown noble rank. Rules a system.",
+        "manual_ingest": true,
+        "body": "Crown noble rank. Rules a system.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Crown Noble Rank",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Count Crown noble rank system nobility hierarchy",
+        "name": "Count",
+        "category": "Crown Noble Rank",
+        "faction": "CROWN",
+        "dossier_type": "glossary",
+        "id": "glossary__count",
+        "slug": "count"
+      },
+      "elementId": "4:manual-glossary-import:9202"
+    }
   },
   {
-    "record_type": "Glossary",
-    "name": "Viscount",
-    "category": "Crown Noble Rank",
-    "faction": "CROWN",
-    "description": "Crown noble rank. Administers a major world or portion of a larger system."
+    "n": {
+      "identity": 9203,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Viscount\nCrown noble rank. Administers a major world or portion of a larger system.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "Crown noble rank. Administers a major world or portion of a larger system.",
+        "manual_ingest": true,
+        "body": "Crown noble rank. Administers a major world or portion of a larger system.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Crown Noble Rank",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Viscount Crown noble rank major world system nobility hierarchy",
+        "name": "Viscount",
+        "category": "Crown Noble Rank",
+        "faction": "CROWN",
+        "dossier_type": "glossary",
+        "id": "glossary__viscount",
+        "slug": "viscount"
+      },
+      "elementId": "4:manual-glossary-import:9203"
+    }
   },
   {
-    "record_type": "Glossary",
-    "name": "Baron",
-    "category": "Crown Noble Rank",
-    "faction": "CROWN",
-    "description": "Crown noble rank. Controls a continent on a major world, a moon, major fortress, or minor world."
+    "n": {
+      "identity": 9204,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Baron\nCrown noble rank. Controls a continent on a major world, a moon, major fortress, or minor world.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "Crown noble rank. Controls a continent on a major world, a moon, major fortress, or minor world.",
+        "manual_ingest": true,
+        "body": "Crown noble rank. Controls a continent on a major world, a moon, major fortress, or minor world.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Crown Noble Rank",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Baron Crown noble rank continent moon fortress minor world nobility hierarchy",
+        "name": "Baron",
+        "category": "Crown Noble Rank",
+        "faction": "CROWN",
+        "dossier_type": "glossary",
+        "id": "glossary__baron",
+        "slug": "baron"
+      },
+      "elementId": "4:manual-glossary-import:9204"
+    }
   },
   {
-    "record_type": "Glossary",
-    "name": "Knight",
-    "category": "Crown Noble Rank",
-    "faction": "CROWN",
-    "description": "Crown noble rank. Controls a minor city, settlement, or fortress on a world or moon."
+    "n": {
+      "identity": 9205,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Knight\nCrown noble rank. Controls a minor city, settlement, or fortress on a world or moon.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "Crown noble rank. Controls a minor city, settlement, or fortress on a world or moon.",
+        "manual_ingest": true,
+        "body": "Crown noble rank. Controls a minor city, settlement, or fortress on a world or moon.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Crown Noble Rank",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Knight Crown noble rank city settlement fortress world moon nobility hierarchy",
+        "name": "Knight",
+        "category": "Crown Noble Rank",
+        "faction": "CROWN",
+        "dossier_type": "glossary",
+        "id": "glossary__knight",
+        "slug": "knight"
+      },
+      "elementId": "4:manual-glossary-import:9205"
+    }
+  },
+  {
+    "n": {
+      "identity": 9206,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Anax\nSupreme commander of Cindral. An Anax is an Archon elected by the other Archons to lead the March during existential threats, major wars, frontier collapses, or multi-sector-wide emergencies.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "Supreme commander of Cindral. An Anax is an Archon elected by the other Archons to lead the March during existential threats, major wars, frontier collapses, or multi-sector-wide emergencies.",
+        "manual_ingest": true,
+        "body": "Supreme commander of Cindral. An Anax is an Archon elected by the other Archons to lead the March during existential threats, major wars, frontier collapses, or multi-sector-wide emergencies.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Cindral Genos Rank",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Anax Cindral Genos rank supreme commander Archon elected March defense",
+        "name": "Anax",
+        "category": "Cindral Genos Rank",
+        "faction": "CINDRAL",
+        "dossier_type": "glossary",
+        "id": "glossary__anax",
+        "slug": "anax"
+      },
+      "elementId": "4:manual-glossary-import:9206"
+    }
+  },
+  {
+    "n": {
+      "identity": 9207,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Archon\nCindral Genos rank. An Archon is a noble house charged with the defense of an entire sector.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "Cindral Genos rank. An Archon is a noble house charged with the defense of an entire sector.",
+        "manual_ingest": true,
+        "body": "Cindral Genos rank. An Archon is a noble house charged with the defense of an entire sector.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Cindral Genos Rank",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Archon Cindral Genos rank noble house sector defense survival planning",
+        "name": "Archon",
+        "category": "Cindral Genos Rank",
+        "faction": "CINDRAL",
+        "dossier_type": "glossary",
+        "id": "glossary__archon",
+        "slug": "archon"
+      },
+      "elementId": "4:manual-glossary-import:9207"
+    }
+  },
+  {
+    "n": {
+      "identity": 9208,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Polemarch\nCindral Genos rank. A Polemarch is a noble house charged with the defense of an entire star system.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "Cindral Genos rank. A Polemarch is a noble house charged with the defense of an entire star system.",
+        "manual_ingest": true,
+        "body": "Cindral Genos rank. A Polemarch is a noble house charged with the defense of an entire star system.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Cindral Genos Rank",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Polemarch Cindral Genos rank noble house system defense fortifications fleets militia evacuation",
+        "name": "Polemarch",
+        "category": "Cindral Genos Rank",
+        "faction": "CINDRAL",
+        "dossier_type": "glossary",
+        "id": "glossary__polemarch",
+        "slug": "polemarch"
+      },
+      "elementId": "4:manual-glossary-import:9208"
+    }
+  },
+  {
+    "n": {
+      "identity": 9209,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Strategos\nCindral Genos rank.Cindral Genos rank. A Strategos is a noble house charged with the defense of a major world, or strategically important section of a system. The plural form is Strategoi.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "Cindral Genos rank. A Strategos is a noble house charged with the defense of a major world, or strategically important section of a system. The plural form is Strategoi.",
+        "manual_ingest": true,
+        "body": "Cindral Genos rank. A Strategos is a noble house charged with the defense of a major world, or strategically important section of a system. The plural form is Strategoi.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Cindral Genos Rank",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Strategos Strategoi Cindral Genos rank noble house major world fortress planet habitat orbital defense",
+        "name": "Strategos",
+        "category": "Cindral Genos Rank",
+        "faction": "CINDRAL",
+        "dossier_type": "glossary",
+        "id": "glossary__strategos",
+        "slug": "strategos"
+      },
+      "elementId": "4:manual-glossary-import:9209"
+    }
+  },
+  {
+    "n": {
+      "identity": 9210,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Phylarch\nCindral Genos rank. A Phylarch is a noble house charged with the defense of a minor world, moon, isolated colony, mining body, agricultural satellite, fortified habitat, or remote settlement cluster.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "Cindral Genos rank. A Phylarch is a noble house charged with the defense of a world, moon, or colony that doesn't quite deserve the attention of a Strategos.",
+        "manual_ingest": true,
+        "body": "Cindral Genos rank. A Phylarch is a noble house charged with the defense of a world, moon, or colony that doesn't quite deserve the attention of a Strategos.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Cindral Genos Rank",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Phylarch Cindral Genos rank noble house minor world moon colony habitat defense",
+        "name": "Phylarch",
+        "category": "Cindral Genos Rank",
+        "faction": "CINDRAL",
+        "dossier_type": "glossary",
+        "id": "glossary__phylarch",
+        "slug": "phylarch"
+      },
+      "elementId": "4:manual-glossary-import:9210"
+    }
+  },
+  {
+    "n": {
+      "identity": 9211,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Spartos\nEarned Cindral founder-rank. A Spartos is an individual granted a Kleros for extraordinary service to Cindral and charged with the protection of a town, city, fortress-city, shelter network, or other defined civic population. The plural form is Spartoi.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "Earned Cindral founder-rank. A Spartos is an individual granted a Kleros for extraordinary service to Cindral and charged with the protection of a town, city, fortress-city, shelter network, or other defined civic population. The plural form is Spartoi.",
+        "manual_ingest": true,
+        "body": "Earned Cindral founder-rank. A Spartos is an individual granted a Kleros for extraordinary service to Cindral and charged with the protection of a town, city, fortress-city, shelter network, or other defined civic population. The plural form is Spartoi.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Cindral Genos Rank",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Spartos Spartoi Cindral Genos rank founder Kleros service town city shelter network",
+        "name": "Spartos",
+        "category": "Cindral Genos Rank",
+        "faction": "CINDRAL",
+        "dossier_type": "glossary",
+        "id": "glossary__spartos",
+        "slug": "spartos"
+      },
+      "elementId": "4:manual-glossary-import:9211"
+    }
+  },
+  {
+    "n": {
+      "identity": 9214,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Genos\nA recognized Cindral noble lineage carrying a sanctioned Kleros. A Genos is both a family and a public defense institution, entrusted with protecting a defined population, world, system, or sector.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "A recognized Cindral noble lineage carrying a sanctioned Kleros. A Genos is both a family and a public defense institution, entrusted with protecting a defined population, world, system, or sector.",
+        "manual_ingest": true,
+        "body": "A recognized Cindral noble lineage carrying a sanctioned Kleros. A Genos is both a family and a public defense institution, entrusted with protecting a defined population, world, system, or sector.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Cindral Nobility",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Genos Cindral nobility lineage Kleros family public defense institution",
+        "name": "Genos",
+        "category": "Cindral Nobility",
+        "faction": "CINDRAL",
+        "dossier_type": "glossary",
+        "id": "glossary__genos",
+        "slug": "genos"
+      },
+      "elementId": "4:manual-glossary-import:9214"
+    }
+  },
+  {
+    "n": {
+      "identity": 9215,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Kleros\nA protected bio-engineering formula implanted into a Cindral noble lineage. Each Kleros has a documented medical profile, inheritance protocol, failure risk, and intended defensive purpose.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "A protected bio-engineering formula implanted into a Cindral noble lineage. Each Kleros has a documented medical profile, inheritance protocol, failure risk, and intended defensive purpose.",
+        "manual_ingest": true,
+        "body": "A protected bio-engineering formula implanted into a Cindral noble lineage. Each Kleros has a documented medical profile, inheritance protocol, failure risk, and intended defensive purpose.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Cindral Nobility",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Kleros Cindral nobility bio-engineering formula lineage inheritance defensive purpose",
+        "name": "Kleros",
+        "category": "Cindral Nobility",
+        "faction": "CINDRAL",
+        "dossier_type": "glossary",
+        "id": "glossary__kleros",
+        "slug": "kleros"
+      },
+      "elementId": "4:manual-glossary-import:9215"
+    }
+  },
+  {
+    "n": {
+      "identity": 9216,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Leitourgia\nThe Cindral doctrine of public burden. Leitourgia holds that engineered advantage creates obligation, not entitlement, and that nobles possess their Kleros in order to protect those who do not.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "The Cindral doctrine of public burden. Leitourgia holds that engineered advantage creates obligation, not entitlement, and that nobles possess their Kleros in order to protect those who do not.",
+        "manual_ingest": true,
+        "body": "The Cindral doctrine of public burden. Leitourgia holds that engineered advantage creates obligation, not entitlement, and that nobles possess their Kleros in order to protect those who do not.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Cindral Doctrine",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Leitourgia Cindral doctrine public burden noblesse oblige Kleros obligation protection",
+        "name": "Leitourgia",
+        "category": "Cindral Doctrine",
+        "faction": "CINDRAL",
+        "dossier_type": "glossary",
+        "id": "glossary__leitourgia",
+        "slug": "leitourgia"
+      },
+      "elementId": "4:manual-glossary-import:9216"
+    }
+  },
+  {
+    "n": {
+      "identity": 9217,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Phylake\nA protected charge entrusted to a Cindral noble house or honored protector. A Phylake may be a sector, system, world, moon, city, fortress, convoy population, shelter network, or settlement cluster.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "A protected charge entrusted to a Cindral noble house or honored protector. A Phylake may be a sector, system, world, moon, city, fortress, convoy population, shelter network, or settlement cluster.",
+        "manual_ingest": true,
+        "body": "A protected charge entrusted to a Cindral noble house or honored protector. A Phylake may be a sector, system, world, moon, city, fortress, convoy population, shelter network, or settlement cluster.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Cindral Doctrine",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Phylake Cindral doctrine protected charge sector system world moon city fortress convoy settlement",
+        "name": "Phylake",
+        "category": "Cindral Doctrine",
+        "faction": "CINDRAL",
+        "dossier_type": "glossary",
+        "id": "glossary__phylake",
+        "slug": "phylake"
+      },
+      "elementId": "4:manual-glossary-import:9217"
+    }
+  },
+  {
+    "n": {
+      "identity": 9218,
+      "labels": ["Entry"],
+      "properties": {
+        "raw_text": "Akleros\nA condemned Cindral noble or house judged unworthy of its Kleros. The term is applied to those who abandon their charges, misuse their engineered advantages, or preserve their lineage at the expense of Cindral lives.",
+        "document_kind": "manual",
+        "kind": "CollectionGlossaryEntry",
+        "description": "A condemned Cindral noble or house judged unworthy of its Kleros. The term is applied to those who abandon their charges, misuse their engineered advantages, or preserve their lineage at the expense of Cindral lives.",
+        "manual_ingest": true,
+        "body": "A condemned Cindral noble or house judged unworthy of its Kleros. The term is applied to those who abandon their charges, misuse their engineered advantages, or preserve their lineage at the expense of Cindral lives.",
+        "record_type": "Glossary",
+        "glossary_subtype": "Cindral Doctrine",
+        "collection_title": "Noble Hierarchy Glossary",
+        "updated_at": "2026-07-20T00:00:00.000Z",
+        "source_filename": "Noble Hierarchy Glossary",
+        "import_mode": "manual_glossary_entry",
+        "tags_text": "Akleros Cindral doctrine condemned noble house unworthy Kleros abandon charges",
+        "name": "Akleros",
+        "category": "Cindral Doctrine",
+        "faction": "CINDRAL",
+        "dossier_type": "glossary",
+        "id": "glossary__akleros",
+        "slug": "akleros"
+      },
+      "elementId": "4:manual-glossary-import:9218"
+    }
   }
+]
 
 ]
