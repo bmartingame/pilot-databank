@@ -39686,7 +39686,7 @@
         "system_slug": "ceyra",
         "document_kind": "Celestial Body",
         "orbit_depth": 2,
-        "description": "Rotating worker habitat reinforced against lightning, debris, and sudden evacuation orders.",
+        "description": "Rotating worker habitat reinforced against lightning and debris, with a penchant for sudden evacuation orders.",
         "created_at": {
           "year": 2026,
           "month": 7,
@@ -39698,7 +39698,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body": "Rotating worker habitat reinforced against lightning, debris, and sudden evacuation orders.",
+        "body": "Rotating worker habitat reinforced against lightning and debris, with a penchant for sudden evacuation orders.",
         "source_file": "Luthan_League_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Orvannis"
