@@ -12490,12 +12490,12 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "Songspire System\nSector Name: Choral Sector\nFaction: Veyran Choir\nDescription: Songspire is a resonant Core-world where luminous seams rise through the crust and entire buildings are tuned around them. Pilots report stronger mech dreams here, which is not considered actionable without corroborating symptoms.",
+        "raw_text": "Songspire System\nSector Name: Choral Sector\nFaction: Veyran Choir\nDescription: Songspire is a resonant world where luminous seams rise through the crust and entire buildings are tuned around them. Pilots report stronger mech dreams here, which is not considered actionable without corroborating symptoms.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
         "description": "Songspire is a resonant system in which the Core-world, its moons Cantor and Refrain, the Living Vault, Spireward, the ocean world Seraph, industrial Votive, and the outer moons of Orison all exhibit different relationships to local resonance. Pilots and cantors compare dreams, instruments, and environmental changes across the system because effects dismissed on one body may repeat on another.",
         "manual_ingest": true,
-        "body": "Songspire is a resonant Core-world where luminous seams rise through the crust and entire buildings are tuned around them. Pilots report stronger mech dreams here, which is not considered actionable without corroborating symptoms.",
+        "body": "Songspire is a resonant world where luminous seams rise through the crust and entire buildings are tuned around them. Pilots report stronger mech dreams here, which is not considered actionable without corroborating symptoms.",
         "record_type": "System",
         "glossary_subtype": "System",
         "collection_title": "Systems Glossary",
@@ -53336,7 +53336,7 @@
         "system_slug": "songspire",
         "document_kind": "Celestial Body",
         "orbit_depth": 1,
-        "description": "Resonant Core-world with a strained ancient Primus-like biosphere, luminous Core seams rising through the crust, tuned buildings, and a constant low atmospheric hum.",
+        "description": "Resonant world with a strained ancient Primus-like biosphere, luminous resonance seams rising through the crust, tuned buildings, and a constant low atmospheric hum.",
         "created_at": {
           "year": 2026,
           "month": 7,
@@ -53348,7 +53348,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body": "Resonant Core-world with a strained ancient Primus-like biosphere, luminous Core seams rising through the crust, tuned buildings, and a constant low atmospheric hum.",
+        "body": "Resonant world with a strained ancient Primus-like biosphere, luminous resonance seams rising through the crust, tuned buildings, and a constant low atmospheric hum.",
         "source_file": "Veyran_Choir_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Songspire Primary"
@@ -53531,7 +53531,7 @@
         "system_slug": "songspire",
         "document_kind": "Celestial Body",
         "orbit_depth": 2,
-        "description": "Orbital repository containing Core fragments, sacred interface components, and records of pilots whose mechs developed unusual dreams.",
+        "description": "Orbital repository containing resonance fragments, sacred interface components, and records of pilots whose mechs developed unusual dreams.",
         "created_at": {
           "year": 2026,
           "month": 7,
@@ -53543,7 +53543,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body": "Orbital repository containing Core fragments, sacred interface components, and records of pilots whose mechs developed unusual dreams.",
+        "body": "Orbital repository containing resonance fragments, sacred interface components, and records of pilots whose mechs developed unusual dreams.",
         "source_file": "Veyran_Choir_System_Bodies.xlsx",
         "orbiting_body_names": [
           "Songspire"
@@ -58424,7 +58424,7 @@
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:2185"
     }
   },
-  {
+{
     "n": {
       "identity": 2186,
       "labels": [
@@ -58444,7 +58444,7 @@
           "timeZoneId": null
         },
         "name": "Seldran War",
-        "description": "Crown houses supported claimants seeking control over several Sevran border worlds, while the Concord treated the intervention as foreign aggression. The war included large fleet engagements and prolonged planetary occupations. Crown forces withdrew after failing to establish a stable client government.",
+        "description": "The Seldran War began when the collapse of the sector’s royal succession divided its houses between several competing claimants. Crown houses from beyond Seldran intervened in support of favored candidates, expanding the dispute into a sector-wide civil war marked by major fleet engagements and prolonged planetary occupations. The intervening forces eventually withdrew after failing to establish a stable government, leaving Seldran divided between rival claimants and nominally subject to House de Noctixuan.",
         "id": "settingdex__entry__conflicts__seldran_war",
         "slug": "seldran_war",
         "record_type": "Conflict"
@@ -59509,36 +59509,36 @@
   }
 },
 {
-  "n": {
-    "labels": [
-      "Entry"
-    ],
-    "properties": {
-      "raw_text": "House de Noctixuan\nRank: Ducal House\nDomain: Seldran Sector\nSeat: Duris System\nCurrent Head: Duchess Sabina de Noctixuan\nHeraldry: A black field with a pale crescent moon, with faint silver stars scattered across the background.\nStyle: House of the Veiled Moon\nHouse de Noctixuan rules the Seldran Sector in theory. However, much of Seldran remains divided between rival claimants and families that acknowledge the duke only when convenient.\n\nThe Noctixuans rose after the collapse of Seldran’s previous royal order. Rather than claim the ruined throne directly, they positioned themselves as arbiters responsible for preserving legitimate succession records. Over generations, control of those records became more valuable than the throne itself.\n\nDuring the Seldran War, Crown-backed claimants attempted to impose a friendly government on the Sevran border worlds. The failure damaged the credibility of several Seldran houses and strengthened the Noctixuan argument that unmanaged claimant politics could drag the entire Concordant into ruinous wars.\n\nThe house is feared for its intelligence networks and its habit of treating genealogy as a weapon. A marriage certificate, or authenticated lineage can destroy a rival more efficiently than a fleet.",
-      "document_kind": "manual",
-      "kind": "SubFactionGlossaryEntry",
-      "description": "House de Noctixuan rules the Seldran Sector in theory. However, much of Seldran remains divided between rival claimants and families that acknowledge the duke only when convenient.\n\nThe Noctixuans rose after the collapse of Seldran’s previous royal order. Rather than claim the ruined throne directly, they positioned themselves as arbiters responsible for preserving legitimate succession records. Over generations, control of those records became more valuable than the throne itself.\n\nDuring the Seldran War, Crown-backed claimants attempted to impose a friendly government on the Sevran border worlds. The failure damaged the credibility of several Seldran houses and strengthened the Noctixuan argument that unmanaged claimant politics could drag the entire Concordant into ruinous wars.\n\nThe house is feared for its intelligence networks and its habit of treating genealogy as a weapon. A marriage certificate, or authenticated lineage can destroy a rival more efficiently than a fleet.",
-      "manual_ingest": true,
-      "body": "House de Noctixuan rules the Seldran Sector in theory. However, much of Seldran remains divided between rival claimants and families that acknowledge the duke only when convenient.\n\nThe Noctixuans rose after the collapse of Seldran’s previous royal order. Rather than claim the ruined throne directly, they positioned themselves as arbiters responsible for preserving legitimate succession records. Over generations, control of those records became more valuable than the throne itself.\n\nDuring the Seldran War, Crown-backed claimants attempted to impose a friendly government on the Sevran border worlds. The failure damaged the credibility of several Seldran houses and strengthened the Noctixuan argument that unmanaged claimant politics could drag the entire Concordant into ruinous wars.\n\nThe house is feared for its intelligence networks and its habit of treating genealogy as a weapon. A marriage certificate, or authenticated lineage can destroy a rival more efficiently than a fleet.",
-      "record_type": "Sub-Faction",
-      "glossary_subtype": "Sub-Faction",
-      "collection_title": "Sub-Factions Glossary",
-      "source_filename": "Crown Noble Houses",
-      "import_mode": "manual_sub_faction_glossary",
-      "tags_text": "House de Noctixuan Ducal House Seldran Sector CROWN noble house sub-faction",
-      "faction": "CROWN",
-      "name": "House de Noctixuan",
-      "dossier_type": "sub-factions",
-      "id": "sub_faction__house_de_noctixuan",
-      "slug": "house_de_noctixuan",
-      "rank": "Ducal House",
-      "domain": "Seldran Sector",
-      "seat": "Duris System",
-      "current_head": "Duchess Sabina de Noctixuan",
-      "heraldry": "A black field with a pale crescent moon, with faint silver stars scattered across the background.",
-      "style": "House of the Veiled Moon"
+    "n": {
+      "labels": [
+        "Entry"
+      ],
+      "properties": {
+        "raw_text": "House de Noctixuan\nRank: Ducal House\nDomain: Seldran Sector\nSeat: Duris System\nCurrent Head: Duchess Sabina de Noctixuan\nHeraldry: A black field with a pale crescent moon, with faint silver stars scattered across the background.\nStyle: House of the Veiled Moon\nHouse de Noctixuan rules the Seldran Sector in theory. However, much of Seldran remains divided between rival claimants and families that acknowledge the duchess only when convenient.\n\nThe Noctixuans rose after the collapse of Seldran’s previous royal order. Rather than claim the ruined throne directly, they positioned themselves as arbiters responsible for preserving legitimate succession records. Over generations, control of those records became more valuable than the throne itself.\n\nThe Seldran War began when rival houses advanced competing claims over the vacant throne and drew support from powerful Crown families beyond the sector. The resulting intervention transformed the succession dispute into a sector-wide civil war, but no faction could establish a stable government before the outside forces withdrew. The failure weakened the competing claimants and strengthened the Noctixuan argument that only a neutral custodian of legitimacy could prevent Seldran from collapsing into another ruinous war.\n\nThe house is feared for its intelligence networks and its habit of treating genealogy as a weapon. A marriage certificate or authenticated lineage can destroy a rival more efficiently than a fleet.",
+        "document_kind": "manual",
+        "kind": "SubFactionGlossaryEntry",
+        "description": "House de Noctixuan rules the Seldran Sector in theory. However, much of Seldran remains divided between rival claimants and families that acknowledge the duchess only when convenient.\n\nThe Noctixuans rose after the collapse of Seldran’s previous royal order. Rather than claim the ruined throne directly, they positioned themselves as arbiters responsible for preserving legitimate succession records. Over generations, control of those records became more valuable than the throne itself.\n\nThe Seldran War began when rival houses advanced competing claims over the vacant throne and drew support from powerful Crown families beyond the sector. The resulting intervention transformed the succession dispute into a sector-wide civil war, but no faction could establish a stable government before the outside forces withdrew. The failure weakened the competing claimants and strengthened the Noctixuan argument that only a neutral custodian of legitimacy could prevent Seldran from collapsing into another ruinous war.\n\nThe house is feared for its intelligence networks and its habit of treating genealogy as a weapon. A marriage certificate or authenticated lineage can destroy a rival more efficiently than a fleet.",
+        "manual_ingest": true,
+        "body": "House de Noctixuan rules the Seldran Sector in theory. However, much of Seldran remains divided between rival claimants and families that acknowledge the duchess only when convenient.\n\nThe Noctixuans rose after the collapse of Seldran’s previous royal order. Rather than claim the ruined throne directly, they positioned themselves as arbiters responsible for preserving legitimate succession records. Over generations, control of those records became more valuable than the throne itself.\n\nThe Seldran War began when rival houses advanced competing claims over the vacant throne and drew support from powerful Crown families beyond the sector. The resulting intervention transformed the succession dispute into a sector-wide civil war, but no faction could establish a stable government before the outside forces withdrew. The failure weakened the competing claimants and strengthened the Noctixuan argument that only a neutral custodian of legitimacy could prevent Seldran from collapsing into another ruinous war.\n\nThe house is feared for its intelligence networks and its habit of treating genealogy as a weapon. A marriage certificate or authenticated lineage can destroy a rival more efficiently than a fleet.",
+        "record_type": "Sub-Faction",
+        "glossary_subtype": "Sub-Faction",
+        "collection_title": "Sub-Factions Glossary",
+        "source_filename": "Crown Noble Houses",
+        "import_mode": "manual_sub_faction_glossary",
+        "tags_text": "House de Noctixuan Ducal House Seldran Sector CROWN noble house sub-faction",
+        "faction": "CROWN",
+        "name": "House de Noctixuan",
+        "dossier_type": "sub-factions",
+        "id": "sub_faction__house_de_noctixuan",
+        "slug": "house_de_noctixuan",
+        "rank": "Ducal House",
+        "domain": "Seldran Sector",
+        "seat": "Duris System",
+        "current_head": "Duchess Sabina de Noctixuan",
+        "heraldry": "A black field with a pale crescent moon, with faint silver stars scattered across the background.",
+        "style": "House of the Veiled Moon"
+      }
     }
-  }
 },
 {
   "n": {
@@ -60156,12 +60156,12 @@
       "Entry"
     ],
     "properties": {
-      "raw_text": "Choral Sector\nFaction: Veyran Choir\nDescription: Choral is the Choir’s most spiritually powerful and internally dangerous sector, containing Choralith’s asteroid cathedral, Songspire’s resonant Core formations, Miren’s infected pilgrimage colonies, and the saint-mech crypts of Evensong. Sacred relics, resonance research, cult activity, and religious legitimacy overlap throughout the sector, making it a center of faith that must also be treated as a containment region.",
+      "raw_text": "Choral Sector\nFaction: Veyran Choir\nDescription: Choral is the Choir’s most spiritually powerful and internally dangerous sector, containing Choralith’s asteroid cathedral, Songspire’s resonant formations, Miren’s infected pilgrimage colonies, and the saint-mech crypts of Evensong. Sacred relics, resonance research, cult activity, and religious legitimacy overlap throughout the sector, making it a center of faith that must also be treated as a containment region.",
       "document_kind": "manual",
       "kind": "SectorGlossaryEntry",
       "description": "Choral is the Choir’s most spiritually powerful and internally dangerous sector. Sacred relics, resonance research, and cult activity overlap throughout the sector, making it a center of faith that must also be treated as a potential containment region.",
       "manual_ingest": true,
-      "body": "Choral is the Choir’s most spiritually powerful and internally dangerous sector, containing Choralith’s asteroid cathedral, Songspire’s resonant Core formations, Miren’s infected pilgrimage colonies, and the saint-mech crypts of Evensong. Sacred relics, resonance research, cult activity, and religious legitimacy overlap throughout the sector, making it a center of faith that must also be treated as a containment region.",
+      "body": "Choral is the Choir’s most spiritually powerful and internally dangerous sector, containing Choralith’s asteroid cathedral, Songspire’s resonant formations, Miren’s infected pilgrimage colonies, and the saint-mech crypts of Evensong. Sacred relics, resonance research, cult activity, and religious legitimacy overlap throughout the sector, making it a center of faith that must also be treated as a containment region.",
       "record_type": "Sector",
       "glossary_subtype": "Sector",
       "collection_title": "Sectors Glossary",
