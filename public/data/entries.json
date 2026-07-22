@@ -57176,12 +57176,12 @@
         "Entry"
       ],
       "properties": {
-        "raw_text": "The Tyren Ascendancy was a hereditary officer-state formed after a coalition of colonial armies overthrew several failing corporate administrations. Its ruling dynasties controlled the fleet and central ministries, while provincial governors managed extensive agricultural, industrial, and commercial territories.\nTyren culture placed high value on discipline, lineage, military education, and service to the state. Despite its authoritarian rule, the Ascendancy maintained functioning courts, universities, and a substantial civilian economy.\nSECTORS CONTROLLED BY CEREBRAX\nLANE ACCESS REVOKED",
+        "raw_text": "The Tyren was a hereditary officer-state formed after a coalition of colonial armies overthrew several failing corporate administrations. Its ruling dynasties controlled the fleet and central ministries, while provincial governors managed extensive agricultural, industrial, and commercial territories.\nTyren culture placed high value on discipline, lineage, military education, and service to the state. Despite its authoritarian rule, Tyren maintained functioning courts, universities, and a substantial civilian economy.\nSECTORS CONTROLLED BY CEREBRAX\nLANE ACCESS REVOKED",
         "document_kind": "manual",
         "kind": "ManualGlossaryEntry",
-        "description": "Tyren was a hereditary officer-state formed after a coalition of colonial armies overthrew several failing corporate administrations. Its ruling dynasties controlled the fleet and central ministries, while provincial governors managed extensive agricultural, industrial, and commercial territories.\nTyren culture placed high value on discipline, lineage, military education, and service to the state. Despite its authoritarian rule, the Ascendancy maintained functioning courts, universities, and a substantial civilian economy.\nSECTORS CONTROLLED BY CEREBRAX\nLANE ACCESS REVOKED",
+        "description": "Tyren was a hereditary officer-state formed after a coalition of colonial armies overthrew several failing corporate administrations. Its ruling dynasties controlled the fleet and central ministries, while provincial governors managed extensive agricultural, industrial, and commercial territories.\nTyren culture placed high value on discipline, lineage, military education, and service to the state. Despite its authoritarian rule, Tyren maintained functioning courts, universities, and a substantial civilian economy.\nSECTORS CONTROLLED BY CEREBRAX\nLANE ACCESS REVOKED",
         "manual_ingest": true,
-        "body": "The Tyren Ascendancy was a hereditary officer-state formed after a coalition of colonial armies overthrew several failing corporate administrations. Its ruling dynasties controlled the fleet and central ministries, while provincial governors managed extensive agricultural, industrial, and commercial territories.\nTyren culture placed high value on discipline, lineage, military education, and service to the state. Despite its authoritarian rule, the Ascendancy maintained functioning courts, universities, and a substantial civilian economy.\nSECTORS CONTROLLED BY CEREBRAX\nLANE ACCESS REVOKED",
+        "body": "The Tyren was a hereditary officer-state formed after a coalition of colonial armies overthrew several failing corporate administrations. Its ruling dynasties controlled the fleet and central ministries, while provincial governors managed extensive agricultural, industrial, and commercial territories.\nTyren culture placed high value on discipline, lineage, military education, and service to the state. Despite its authoritarian rule, Tyren maintained functioning courts, universities, and a substantial civilian economy.\nSECTORS CONTROLLED BY CEREBRAX\nLANE ACCESS REVOKED",
         "reports_json": "[]",
         "record_type": "Faction",
         "collection_title": "[MANUAL INGEST]",
@@ -57192,8 +57192,8 @@
         "faction": "EXTINCT",
         "name": "Tyren",
         "dossier_type": "generic",
-        "id": "manual__faction__tyren_ascendancy",
-        "slug": "tyren_ascendancy"
+        "id": "manual__faction__tyren",
+        "slug": "tyren"
       },
       "elementId": "4:0348b761-0888-468e-ada1-0744851106f9:2150"
     }
@@ -59088,7 +59088,7 @@
           "timeZoneId": null
         },
         "name": "The Tyren Assimilation",
-        "description": "The Tyren Ascendancy entered the war after Cerebrax fleets crossed from former Uldren territory. Tyren forces initially halted the invasion through massed naval actions and the deliberate destruction of compromised worlds. The conflict changed when assimilated Cerebrax began transmitting commands attributed to the Omni-Cognate. Crystal formations across multiple systems reorganized simultaneously, abandoning established tactics and operating with impossible strategic coordination. Tyren command structures were penetrated by the forced integration of captured officers into the enemy intelligence. The Ascendancy’s ruling families died leading the final defense of the capital. Their captured memories, military doctrines, and hereditary archives were incorporated into the advancing collective. Later Cerebrax formations have demonstrated Tyren ceremonial behavior without apparent understanding of its original meaning.",
+        "description": "The Tyren entered the war after Cerebrax fleets crossed from former Uldren territory. Tyren forces initially halted the invasion through massed naval actions and the deliberate destruction of compromised worlds. The conflict changed when assimilated Cerebrax began transmitting commands attributed to the Omni-Cognate. Crystal formations across multiple systems reorganized simultaneously, abandoning established tactics and operating with impossible strategic coordination. Tyren command structures were penetrated by the forced integration of captured officers into the enemy intelligence. Tyren’s ruling families died leading the final defense of the capital. Their captured memories, military doctrines, and hereditary archives were incorporated into the advancing collective. Later Cerebrax formations have demonstrated Tyren ceremonial behavior without apparent understanding of its original meaning.",
         "id": "settingdex__entry__conflicts__the_tyren_assimilation",
         "slug": "the_tyren_assimilation",
         "record_type": "Conflict"
