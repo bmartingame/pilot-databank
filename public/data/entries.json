@@ -11173,7 +11173,7 @@
         "raw_text": "Ceyra System\nSector Name: Ceyra Sector\nFaction: Luthan League\nDescription: Ceyra is an industrial sky of aerostat cities, refinery moons, and tethered gas-harvesting stations around blue-white star giants. It keeps ships moving, factories burning, and fuel markets unstable.",
         "document_kind": "manual",
         "kind": "SystemGlossaryEntry",
-        "description": "Ceyra is an industrial sky system of three gas giants, six major moons, armored aerostat cities, habitat spindles, and harvest nets operating under a blue-white star. Fuel precursors, exotic compounds, labor disputes, and storm damage move constantly between Orvannis, Veydras, Thaumyr, and their support worlds, making the system a linked extraction economy rather than a single colony.",
+        "description": "Ceyra is an industrial system of three gas giants, six major moons, armored aerostat cities, habitat spindles, and harvest nets operating under a blue-white star. Fuel precursors, exotic compounds, labor disputes, and storm damage move constantly between Orvannis, Veydras, Thaumyr, and their support worlds, making the system a linked extraction economy rather than a single colony.",
         "manual_ingest": true,
         "body": "Ceyra is an industrial sky of aerostat cities, refinery moons, and tethered gas-harvesting stations around blue-white star giants. It keeps ships moving, factories burning, and fuel markets unstable.",
         "record_type": "System",
