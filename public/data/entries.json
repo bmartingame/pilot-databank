@@ -84256,6 +84256,62 @@
     "record_type": "Glossary",
     "id": "settingdex__entry__glossary__wreckyard",
     "slug": "wreckyard"
+  },
+  {
+    "name": "Crown Heraldry",
+    "description": "Crown heraldry identifies both personal status and feudal allegiance. High-ranking knights bear individual arms marked by their liege’s heraldry, while lesser retainers use colors or modified arms derived from the house they serve.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__crown_heraldry",
+    "slug": "crown_heraldry"
+  },
+  {
+    "name": "Crown Vassalage",
+    "description": "Crown vassalage is a formal bond in which a lesser noble or knight pledges service to a more powerful house in exchange for protection and patronage. The relationship becomes part of the vassal’s public identity and is commonly reflected in their heraldry.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__crown_vassalage",
+    "slug": "crown_vassalage"
+  },
+  {
+    "name": "Crown Succession",
+    "description": "Crown titles may be inherited regardless of gender. Most houses favor either the eldest eligible heir or the family member considered most accomplished, depending on their individual succession customs.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__crown_succession",
+    "slug": "crown_succession"
+  },
+  {
+    "name": "Noble Wardship",
+    "description": "Noble wardship places an heir under the protection and education of another house. It is uncommon and usually occurs only when the heir’s own family can no longer safely provide for them or as part of an exceptional political settlement.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__noble_wardship",
+    "slug": "noble_wardship"
+  },
+  {
+    "name": "Knightly Honorific",
+    "description": "A knightly honorific is a ceremonial title granted when a knight is formally elevated, often describing a virtue, origin, or symbolic association.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__knightly_honorific",
+    "slug": "knightly_honorific"
+  },
+  {
+    "name": "Analog Media Culture",
+    "description": "Guild restrictions on the Net have greatly reduced the distribution of digital entertainment. Most modern media is produced in physical formats, with surviving works from old Primus frequently restored or reproduced as cultural artifacts.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__analog_media_culture",
+    "slug": "analog_media_culture"
+  },
+  {
+    "name": "Conventional Transit",
+    "description": "Conventional spacecraft can reach roughly two percent of light speed with sublight engines, although acceleration and deceleration prevent them from maintaining that velocity throughout most journeys. Planetary transportation is only moderately faster than that of old Primus and may be considerably slower in poorly developed systems.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__conventional_transit",
+    "slug": "conventional_transit"
+  },
+  {
+    "name": "Micro-Manifold Jump",
+    "description": "A Micro-Manifold Jump is a precision transition used to cross a star system in hours rather than days. It consumes enough fuel that conventional sublight travel remains preferable when time is not critical.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__micro_manifold_jump",
+    "slug": "micro_manifold_jump"
   }
 ]
 
