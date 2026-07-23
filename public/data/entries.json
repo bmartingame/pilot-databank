@@ -83459,6 +83459,174 @@
     "jurisdiction": "Hollow Verge System",
     "charge": "Derelict defense grids, salvage control, illegal habitation, and abandoned territorial claims.",
     "description": "Genos Threnemere retains responsibility for Hollow Verge despite the system's abandonment and the collapse of most formal government there. The house monitors surviving habitats, derelict stations, automated defenses, illegal settlements, and salvage operations while preserving the records needed to contain the system or reclaim it should the Cindral frontier ever advance again."
+  },
+  {
+    "name": "Guild Standard Calendar",
+    "description": "The Guild Standard Calendar is derived from the civil calendar once used across old Primus. It provides a shared method of dating events between systems whose local years and day lengths may differ.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__guild_standard_calendar",
+    "slug": "guild_standard_calendar"
+  },
+  {
+    "name": "Proto-Manifold Drive",
+    "description": "The Proto-Manifold Drive was the unstable faster-than-light technology used during the Exodus. Its enormous fuel requirements and poor navigational precision caused many colony vessels to become lost or stranded far from their intended destinations.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__proto_manifold_drive",
+    "slug": "proto_manifold_drive"
+  },
+  {
+    "name": "Silent Way",
+    "description": "The Silent Way is a damaged Manifold corridor running from Ashveil through Halix territory. Persistent Mim activity has made the route one of the most heavily monitored passages in settled space.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__silent_way",
+    "slug": "silent_way"
+  },
+  {
+    "name": "Mawward March",
+    "description": "The Mawward March is the frontier route extending from Luthan space into the Cindral sectors. Its lanes lead toward regions scarred by the Stellar Maw, leaving the Cindral March as the inner systems’ principal buffer.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__mawward_march",
+    "slug": "mawward_march"
+  },
+  {
+    "name": "Choir Path",
+    "description": "The Choir Path is a pilgrimage route connecting Primus with the territories of the Veyran Choir. Shrines and wandering fleets gather along its length, giving the route immense religious importance.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__choir_path",
+    "slug": "choir_path"
+  },
+  {
+    "name": "Memetic Hazard",
+    "description": "A memetic hazard is information that becomes dangerous when perceived or understood. Exposure may alter memory, compel behavior, or create a channel through which an outside intelligence can influence the mind.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__memetic_hazard",
+    "slug": "memetic_hazard"
+  },
+  {
+    "name": "Core Realization",
+    "description": "Core Realization occurs when a Core reaches full biological maturity and becomes independently stable. Most industrial and semi-mass-produced Cores are kept partially grown so they remain predictable and easier to control. A Realized Core develops far greater adaptability than its constrained counterparts and may eventually develop a self-aware JIN.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__core_realization",
+    "slug": "core_realization"
+  },
+  {
+    "name": "Core Forging",
+    "description": "Core Forging is the cultivation and conditioning of Resonance-sensitive tissue into a functional Core. The Guild controls nearly every sanctioned forge and enforces strict limits on how a Core may be altered. Unauthorized forging can produce unstable growth or unpredictable behavior, with Karnate Crucible Cores representing the most widespread deliberate deviation from Guild standards.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__core_forging",
+    "slug": "core_forging"
+  },
+  {
+    "name": "Crucible Core",
+    "description": "A Crucible Core is a Core altered through Karnate forging methods to produce extreme heat and increased power output. Its accelerated metabolism gradually transforms surrounding machinery into furnace-like biological structures. Crucible Cores are powerful but difficult to stabilize, and many suffer shortened lifespans or violent failures after prolonged use.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__crucible_core",
+    "slug": "crucible_core"
+  },
+  {
+    "name": "Temporal Energy",
+    "description": "Temporal energy is produced when the ordinary progression of time becomes distorted. It gathers around unstable timelines and can remain trapped within regions affected by powerful chronal events. Harvesting it risks worsening the original distortion and causing contradictory moments to manifest nearby.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__temporal_energy",
+    "slug": "temporal_energy"
+  },
+  {
+    "name": "Paradox Core",
+    "description": "A Paradox Core uses contained temporal contradictions to sustain machinery that could not otherwise function. Jackal war engines rely upon these devices to bind incompatible technologies into a single working system. Destroying one forces the surrounding machine to resolve into a stable history, causing any unsupported structure to vanish.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__paradox_core",
+    "slug": "paradox_core"
+  },
+  {
+    "name": "Crown Lineage Formula",
+    "description": "A Crown Lineage Formula is a hereditary bioengineering sequence maintained by a recognized noble house. The formula produces traits associated with that dynasty and reinforces the belief that its authority is carried through blood. Altering or reproducing a recognized formula without permission is treated as an attack upon the house itself.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__crown_lineage_formula",
+    "slug": "crown_lineage_formula"
+  },
+  {
+    "name": "Refugee Crisis",
+    "description": "The Refugee Crisis began with the destruction of the first interstellar civilization and has worsened with every later catastrophe. The Luthan League accepts most displaced people but binds many of them to exploitative labor arrangements, worsening overcrowding within its major cities. Refugees unwilling to enter League society are often transported to independent frontier colonies that offer freedom but little protection.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__refugee_crisis",
+    "slug": "refugee_crisis"
+  },
+  {
+    "name": "Infantry-Scale Exo-Organism",
+    "description": "Infantry-scale exo-organisms can be engaged by individual soldiers or conventional ground units. They rarely threaten a warframe directly unless they attack through infestation or overwhelming numbers.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__infantry_scale_exo_organism",
+    "slug": "infantry_scale_exo_organism"
+  },
+  {
+    "name": "Titan-Scale Exo-Organism",
+    "description": "Titan-scale exo-organisms possess enough mass or destructive power to engage warframes. Their appearance normally requires a mechanized response rather than ordinary infantry containment.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__titan_scale_exo_organism",
+    "slug": "titan_scale_exo_organism"
+  },
+  {
+    "name": "Ship-Scale Exo-Organism",
+    "description": "Ship-scale exo-organisms are void-capable entities comparable to military spacecraft. They can survive prolonged exposure to space and threaten vessels without relying upon conventional weapons.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__ship_scale_exo_organism",
+    "slug": "ship_scale_exo_organism"
+  },
+  {
+    "name": "Planetary-Scale Exo-Organism",
+    "description": "Planetary-scale exo-organisms are terrestrial units whose size and firepower exceed what a standard warframe can reasonably confront. Their appearance usually marks the end of conventional containment efforts and may result in permanent lane revocation.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__planetary_scale_exo_organism",
+    "slug": "planetary_scale_exo_organism"
+  },
+  {
+    "name": "Ore Spine",
+    "description": "An Ore Spine is an extraction complex built directly around a major mineral deposit. Its reinforced structure allows mining to continue under hostile environmental conditions or military attack.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__ore_spine",
+    "slug": "ore_spine"
+  },
+  {
+    "name": "Signal Lock",
+    "description": "A Signal Lock controls long-range communication within a system or along a section of lane. Authorities use it to coordinate traffic and isolate compromised networks during emergencies.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__signal_lock",
+    "slug": "signal_lock"
+  },
+  {
+    "name": "Buffer Spire",
+    "description": "A Buffer Spire is a fortified station placed between inhabited space and a known threat vector. Its purpose is to delay an incursion long enough for nearby populations to prepare or evacuate.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__buffer_spire",
+    "slug": "buffer_spire"
+  },
+  {
+    "name": "Silent Haven",
+    "description": "A Silent Haven is a concealed anchorage designed to suppress detectable emissions. Such installations shelter vessels that must avoid hostile sensors or official attention.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__silent_haven",
+    "slug": "silent_haven"
+  },
+  {
+    "name": "Rift Monitor",
+    "description": "A Rift Monitor observes a dimensional fracture for signs of expansion or activity. Its instruments provide early warning when the surrounding geometry begins to destabilize.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__rift_monitor",
+    "slug": "rift_monitor"
+  },
+  {
+    "name": "Warden Keep",
+    "description": "A Warden Keep is a fortified installation responsible for controlling a strategic region. It is designed to remain operational even after losing contact with outside support.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__warden_keep",
+    "slug": "warden_keep"
+  },
+  {
+    "name": "Crystech Vault",
+    "description": "A Crystech Vault is a sealed facility used to contain Resonance-active crystal or recovered Cerebrax material. Its internal chambers are isolated so that contamination cannot spread through the entire installation.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__crystech_vault",
+    "slug": "crystech_vault"
   }
 ]
 
