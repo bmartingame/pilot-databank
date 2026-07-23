@@ -8839,7 +8839,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:roughline:veldros",
         "slug": "veldros",
@@ -14397,7 +14397,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:braxis-hold:braxis-v",
         "slug": "braxis-v",
@@ -15762,7 +15762,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:ashveil-prime:ashveil-vi",
         "slug": "ashveil-vi",
@@ -17517,7 +17517,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:ardane:gannet",
         "slug": "gannet",
@@ -18427,7 +18427,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class IV",
+        "body_type": "Class IV Gas Giant" ,
         "dossier_type": "Celestial Body",
         "id": "celestial-body:velbrant:tourney",
         "slug": "tourney",
@@ -19207,7 +19207,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:hallowmere:tithe",
         "slug": "tithe",
@@ -19727,7 +19727,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class IV",
+        "body_type": "Class IV Gas Giant" ,
         "dossier_type": "Celestial Body",
         "id": "celestial-body:kaelith:avarn",
         "slug": "avarn",
@@ -20442,7 +20442,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class II",
+        "body_type": "Class II Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:braelyn-hold:banners-rest",
         "slug": "banners-rest",
@@ -21157,7 +21157,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:kether-vale:drover",
         "slug": "drover",
@@ -22914,7 +22914,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:marnholt:herald",
         "slug": "herald",
@@ -23629,7 +23629,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:bastrel-gate:quartermaster",
         "slug": "quartermaster",
@@ -24344,7 +24344,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:stonereach:cinderball",
         "slug": "cinderball",
@@ -25254,7 +25254,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:deyros:magistrate",
         "slug": "magistrate",
@@ -27204,7 +27204,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:crowthorne:orison",
         "slug": "orison",
@@ -28510,7 +28510,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:nerith-hold:abyss",
         "slug": "abyss",
@@ -30200,7 +30200,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:dross-forge:vel-marr",
         "slug": "vel-marr",
@@ -30785,7 +30785,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:shivra-belt:nhal",
         "slug": "nhal",
@@ -31825,7 +31825,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:rathmar-prime:rath-vorn",
         "slug": "rath-vorn",
@@ -33141,7 +33141,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class II",
+        "body_type": "Class II Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:gallows-reach:varkane",
         "slug": "varkane",
@@ -33791,7 +33791,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:iron-gate:thren-vey",
         "slug": "thren-vey",
@@ -34441,7 +34441,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:drossfall:veyr-oss",
         "slug": "veyr-oss",
@@ -34636,7 +34636,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:breakwater:kharon-vey",
         "slug": "kharon-vey",
@@ -35936,7 +35936,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:luthan-prime:covenant",
         "slug": "covenant",
@@ -36586,7 +36586,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class II",
+        "body_type": "Class II Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:feyros:othyr",
         "slug": "othyr",
@@ -37431,7 +37431,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:miridal:lysara",
         "slug": "lysara",
@@ -38666,7 +38666,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class II",
+        "body_type": "Class II Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:rynnel:radiance",
         "slug": "radiance",
@@ -39128,7 +39128,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class IV",
+        "body_type": "Class IV Gas Giant" ,
         "dossier_type": "Celestial Body",
         "id": "celestial-body:vask-gate:quarantine-reach",
         "slug": "quarantine-reach",
@@ -39454,7 +39454,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:ceyra:orvannis",
         "slug": "orvannis",
@@ -39844,7 +39844,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class II",
+        "body_type": "Class II Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:ceyra:veydras",
         "slug": "veydras",
@@ -40624,7 +40624,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class IV",
+        "body_type": "Class IV Gas Giant" ,
         "dossier_type": "Celestial Body",
         "id": "celestial-body:morn-halo:morn",
         "slug": "morn",
@@ -42379,7 +42379,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:meyric:harrow",
         "slug": "harrow",
@@ -44069,7 +44069,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:tovresh:thalor",
         "slug": "thalor",
@@ -44394,7 +44394,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:waymaker:ormec",
         "slug": "ormec",
@@ -45304,7 +45304,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:grey-twelve:orsin",
         "slug": "orsin",
@@ -46149,7 +46149,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:orak-station:the-boiler",
         "slug": "the-boiler",
@@ -47644,7 +47644,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class II",
+        "body_type": "Class II Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:slate-cradle:slingshot",
         "slug": "slingshot",
@@ -48684,7 +48684,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:haven-rock:the-keg",
         "slug": "the-keg",
@@ -49269,7 +49269,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:pike-relay:the-blind",
         "slug": "the-blind",
@@ -51544,7 +51544,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:veyra:threnody",
         "slug": "threnody",
@@ -52129,7 +52129,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:low-cantor:benediction",
         "slug": "benediction",
@@ -53819,7 +53819,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class II",
+        "body_type": "Class II Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:songspire:orison",
         "slug": "orison",
@@ -54469,7 +54469,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:miren:miren-s-wake",
         "slug": "miren-s-wake",
@@ -55639,7 +55639,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:eyral:magnificat",
         "slug": "magnificat",
@@ -55899,7 +55899,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:veyth:veyth",
         "slug": "veyth",
@@ -61774,7 +61774,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class IV",
+        "body_type": "Class IV Gas Giant" ,
         "dossier_type": "Celestial Body",
         "id": "celestial-body:pelion-reach:acastus",
         "slug": "acastus",
@@ -62611,7 +62611,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:tianlu-crown:radiant-throne",
         "slug": "radiant-throne",
@@ -62806,7 +62806,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:tianlu-crown:azure-crown",
         "slug": "azure-crown",
@@ -63130,7 +63130,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class II",
+        "body_type": "Class II Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:baixing:luminous",
         "slug": "luminous",
@@ -63519,7 +63519,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:meridian-cross:orison",
         "slug": "orison",
@@ -64035,7 +64035,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class IV",
+        "body_type": "Class IV Gas Giant" ,
         "dossier_type": "Celestial Body",
         "id": "celestial-body:last-measure:surveyor",
         "slug": "surveyor",
@@ -64486,7 +64486,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:shenzhou-anchor:luoyin",
         "slug": "luoyin",
@@ -64927,7 +64927,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class IV",
+        "body_type": "Class IV Gas Giant" ,
         "dossier_type": "Celestial Body",
         "id": "celestial-body:heiyu-cluster:night-pearl",
         "slug": "night-pearl",
@@ -66405,7 +66405,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:anthelion-triple:anthelion-ii",
         "slug": "anthelion-ii",
@@ -67263,7 +67263,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class IV",
+        "body_type": "Class IV Gas Giant" ,
         "dossier_type": "Celestial Body",
         "id": "celestial-body:varin:varin-crown",
         "slug": "varin-crown",
@@ -67714,7 +67714,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:pale-hearth:keg",
         "slug": "keg",
@@ -69132,7 +69132,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:nanshi-crown:juniper",
         "slug": "juniper",
@@ -69843,7 +69843,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class II",
+        "body_type": "Class II Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:lantern-shoal:cinder-giant",
         "slug": "cinder-giant",
@@ -69969,7 +69969,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class IV",
+        "body_type": "Class IV Gas Giant" ,
         "dossier_type": "Celestial Body",
         "id": "celestial-body:vesper-null:mute-king",
         "slug": "mute-king",
@@ -70164,7 +70164,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:vesper-null:pale-regent",
         "slug": "pale-regent",
@@ -70806,7 +70806,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class V",
+        "body_type": "Class V Gas Giant ",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:yanshen:red-static",
         "slug": "red-static",
@@ -71127,7 +71127,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class IV",
+        "body_type": "Class IV Gas Giant ",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:black-reed:reed-crown",
         "slug": "reed-crown",
@@ -71903,7 +71903,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant" ,
         "dossier_type": "Celestial Body",
         "id": "celestial-body:new-caradene:verdigris",
         "slug": "verdigris",
@@ -72159,7 +72159,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class II",
+        "body_type": "Class II Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:palisade-sea:sulfur-crown",
         "slug": "sulfur-crown",
@@ -72354,7 +72354,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:palisade-sea:cloudwall",
         "slug": "cloudwall",
@@ -72740,7 +72740,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:lumen-deep:blackglass",
         "slug": "blackglass",
@@ -73191,7 +73191,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:blindstar:dim-crown",
         "slug": "dim-crown",
@@ -73642,7 +73642,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class IV",
+        "body_type": "Class IV Gas Giant" ,
         "dossier_type": "Celestial Body",
         "id": "celestial-body:xiang:heshui",
         "slug": "heshui",
@@ -74353,7 +74353,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:longwater:blue-lantern",
         "slug": "blue-lantern",
@@ -74609,7 +74609,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:pavan-cross:pavan-crown",
         "slug": "pavan-crown",
@@ -74804,7 +74804,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:pavan-cross:wayfarer",
         "slug": "wayfarer",
@@ -75125,7 +75125,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class II",
+        "body_type": "Class II Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:aster-vale:vale-giant",
         "slug": "vale-giant",
@@ -75641,7 +75641,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:helian-oldlight:helian-ii",
         "slug": "helian-ii",
@@ -75836,7 +75836,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:helian-oldlight:helian-iii",
         "slug": "helian-iii",
@@ -77594,7 +77594,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:zyros:zyros-iv",
         "slug": "zyros-iv",
@@ -78175,7 +78175,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class IV",
+        "body_type": "Class IV Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:nerathis:nerathis-iii",
         "slug": "nerathis-iii",
@@ -78821,7 +78821,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class I",
+        "body_type": "Class I Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:tarkoss:vurnak",
         "slug": "vurnak",
@@ -79532,7 +79532,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:alnira:cantors-rest",
         "slug": "cantors-rest",
@@ -80178,7 +80178,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class IV",
+        "body_type": "Class IV Gas Giant" ,
         "dossier_type": "Celestial Body",
         "id": "celestial-body:thass-vale:thass-vale-iv",
         "slug": "thass-vale-iv",
@@ -80889,7 +80889,7 @@
           "timeZoneOffsetSeconds": 0,
           "timeZoneId": null
         },
-        "body_type": "Class III",
+        "body_type": "Class III Gas Giant",
         "dossier_type": "Celestial Body",
         "id": "celestial-body:uldran:uldran-iv",
         "slug": "uldran-iv",
@@ -83580,53 +83580,662 @@
     "slug": "planetary_scale_exo_organism"
   },
   {
-    "name": "Ore Spine",
-    "description": "An Ore Spine is an extraction complex built directly around a major mineral deposit. Its reinforced structure allows mining to continue under hostile environmental conditions or military attack.",
+    "name": "Black Hole",
+    "description": "A black hole is a collapsed mass whose gravity prevents light from escaping beyond its event horizon.",
     "record_type": "Glossary",
-    "id": "settingdex__entry__glossary__ore_spine",
-    "slug": "ore_spine"
+    "id": "settingdex__entry__glossary__black_hole",
+    "slug": "black_hole"
   },
   {
-    "name": "Signal Lock",
-    "description": "A Signal Lock controls long-range communication within a system or along a section of lane. Authorities use it to coordinate traffic and isolate compromised networks during emergencies.",
+    "name": "Class A (Bright white)",
+    "description": "A Class A star is a hot white main-sequence star with a comparatively short lifespan and intense visible luminosity.",
     "record_type": "Glossary",
-    "id": "settingdex__entry__glossary__signal_lock",
-    "slug": "signal_lock"
+    "id": "settingdex__entry__glossary__class_a_bright_white",
+    "slug": "class_a_bright_white"
+  },
+  {
+    "name": "Class B (Blue white)",
+    "description": "A Class B star is a massive blue-white star that burns rapidly and emits powerful ultraviolet radiation.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__class_b_blue_white",
+    "slug": "class_b_blue_white"
+  },
+  {
+    "name": "Class B (Blue-white)",
+    "description": "A Class B star is a massive blue-white star that burns rapidly and emits powerful ultraviolet radiation.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__class_b_blue_hyphen_white",
+    "slug": "class_b_blue_hyphen_white"
+  },
+  {
+    "name": "Class F (White)",
+    "description": "A Class F star is a bright white main-sequence star hotter and more massive than a yellow Class G star.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__class_f_white",
+    "slug": "class_f_white"
+  },
+  {
+    "name": "Class G (Yellow Sun like)",
+    "description": "A Class G star is a stable yellow main-sequence star capable of remaining active for billions of years.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__class_g_yellow_sun_like",
+    "slug": "class_g_yellow_sun_like"
+  },
+  {
+    "name": "Class G (Yellow Sun-like)",
+    "description": "A Class G star is a stable yellow main-sequence star capable of remaining active for billions of years.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__class_g_yellow_sun_hyphen_like",
+    "slug": "class_g_yellow_sun_hyphen_like"
+  },
+  {
+    "name": "Class K (Orange Dwarf)",
+    "description": "A Class K star is a long-lived orange dwarf whose steady output makes it favorable for persistent planetary environments.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__class_k_orange_dwarf",
+    "slug": "class_k_orange_dwarf"
+  },
+  {
+    "name": "Class L (Brown Dwarf)",
+    "description": "A Class L brown dwarf is a cool substellar body whose atmosphere contains dense clouds of mineral condensates.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__class_l_brown_dwarf",
+    "slug": "class_l_brown_dwarf"
+  },
+  {
+    "name": "Class M (Red Dwarf)",
+    "description": "A Class M star is a dim red dwarf that burns slowly and can remain active for immense periods of time.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__class_m_red_dwarf",
+    "slug": "class_m_red_dwarf"
+  },
+  {
+    "name": "Class T (Brown Dwarf)",
+    "description": "A Class T brown dwarf is a cold substellar body marked by methane-rich atmospheric absorption.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__class_t_brown_dwarf",
+    "slug": "class_t_brown_dwarf"
+  },
+  {
+    "name": "Magnetar",
+    "description": "A magnetar is a neutron star whose extraordinarily powerful magnetic field produces violent radiation bursts.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__magnetar",
+    "slug": "magnetar"
+  },
+  {
+    "name": "Neutron Star",
+    "description": "A neutron star is the ultradense remnant of a massive star compressed into a body only a few kilometers across.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__neutron_star",
+    "slug": "neutron_star"
+  },
+  {
+    "name": "Red Giant (M)",
+    "description": "A Class M red giant is an aging star that has expanded into an enormous cool envelope after exhausting much of its core fuel.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__red_giant_m",
+    "slug": "red_giant_m"
+  },
+  {
+    "name": "T Tauri Star",
+    "description": "A T Tauri star is a young and unstable star still contracting toward the main sequence while shedding powerful stellar winds.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__t_tauri_star",
+    "slug": "t_tauri_star"
+  },
+  {
+    "name": "White Dwarf",
+    "description": "A white dwarf is the dense stellar remnant left after a low- or medium-mass star expels its outer layers.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__white_dwarf",
+    "slug": "white_dwarf"
+  },
+  {
+    "name": "Ammonia World",
+    "description": "An Ammonia World is a cold planet whose surface environment or atmospheric chemistry is dominated by ammonia.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__ammonia_world",
+    "slug": "ammonia_world"
+  },
+  {
+    "name": "Atmosphere Planet",
+    "description": "An Atmosphere Planet is a terrestrial world distinguished by a substantial gaseous envelope capable of shaping its climate and surface.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__atmosphere_planet",
+    "slug": "atmosphere_planet"
+  },
+  {
+    "name": "Class I Gas Giant",
+    "description": "A Class I gas giant is a cold world whose upper atmosphere is covered by pale ammonia clouds.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__class_i",
+    "slug": "class_i"
+  },
+  {
+    "name": "Class II Gas Giant",
+    "description": "A Class II gas giant is a temperate world whose visible atmosphere is dominated by reflective water-vapor clouds.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__class_ii",
+    "slug": "class_ii"
+  },
+  {
+    "name": "Class III Gas Giant",
+    "description": "A Class III gas giant is a warm and largely cloudless world whose deeper atmosphere gives it a dark blue appearance.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__class_iii",
+    "slug": "class_iii"
+  },
+  {
+    "name": "Class IV Gas Giant",
+    "description": "A Class IV gas giant is a hot world whose atmosphere contains broad alkali-metal absorption that gives it a dark coloration.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__class_iv",
+    "slug": "class_iv"
+  },
+  {
+    "name": "Class V Gas Giant",
+    "description": "A Class V gas giant is an intensely heated world wrapped in luminous clouds of silicates and vaporized metals.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__class_v",
+    "slug": "class_v"
+  },
+  {
+    "name": "High Metal Content Planet",
+    "description": "A High Metal Content Planet is a rocky world containing an unusually large proportion of metallic material within its crust and mantle.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__high_metal_content_planet",
+    "slug": "high_metal_content_planet"
+  },
+  {
+    "name": "Icy Planet",
+    "description": "An Icy Planet is a cold terrestrial world whose surface is predominantly covered by frozen volatiles.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__icy_planet",
+    "slug": "icy_planet"
+  },
+  {
+    "name": "Metal Rich Planet",
+    "description": "A Metal Rich Planet is a dense world composed primarily of metallic material rather than conventional silicate rock.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__metal_rich_planet",
+    "slug": "metal_rich_planet"
+  },
+  {
+    "name": "Rocky Ice Dwarf Planet",
+    "description": "A Rocky Ice Dwarf Planet is a small rounded world composed of a mixture of stone and frozen volatiles.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__rocky_ice_dwarf_planet",
+    "slug": "rocky_ice_dwarf_planet"
+  },
+  {
+    "name": "Rocky Ice Planet",
+    "description": "A Rocky Ice Planet is a terrestrial world whose surface and interior contain substantial amounts of both stone and frozen material.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__rocky_ice_planet",
+    "slug": "rocky_ice_planet"
+  },
+  {
+    "name": "Rocky Planet",
+    "description": "A Rocky Planet is a terrestrial world with a solid surface composed primarily of silicate stone.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__rocky_planet",
+    "slug": "rocky_planet"
+  },
+  {
+    "name": "Water Giant",
+    "description": "A Water Giant is a large planet containing a deep global ocean above an immense high-pressure water mantle.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__water_giant",
+    "slug": "water_giant"
+  },
+  {
+    "name": "Water World",
+    "description": "A Water World is a terrestrial planet whose surface is almost entirely covered by liquid water.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__water_world",
+    "slug": "water_world"
+  },
+  {
+    "name": "Ammonia Moon",
+    "description": "An Ammonia Moon is a natural satellite whose frozen surface or subsurface environment contains abundant ammonia.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__ammonia_moon",
+    "slug": "ammonia_moon"
+  },
+  {
+    "name": "Atmosphere Moon",
+    "description": "An Atmosphere Moon is a natural satellite massive or active enough to retain a substantial gaseous envelope.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__atmosphere_moon",
+    "slug": "atmosphere_moon"
+  },
+  {
+    "name": "High Metal Content Moon",
+    "description": "A High Metal Content Moon is a natural satellite containing an unusually large proportion of metallic material.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__high_metal_content_moon",
+    "slug": "high_metal_content_moon"
+  },
+  {
+    "name": "Icy Moon",
+    "description": "An Icy Moon is a natural satellite whose surface is predominantly composed of frozen volatiles.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__icy_moon",
+    "slug": "icy_moon"
+  },
+  {
+    "name": "Metal Rich Moon",
+    "description": "A Metal Rich Moon is a dense natural satellite composed primarily of metallic material.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__metal_rich_moon",
+    "slug": "metal_rich_moon"
+  },
+  {
+    "name": "Rocky Ice Moon",
+    "description": "A Rocky Ice Moon is a natural satellite formed from a mixture of silicate rock and frozen volatiles.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__rocky_ice_moon",
+    "slug": "rocky_ice_moon"
+  },
+  {
+    "name": "Rocky Moon",
+    "description": "A Rocky Moon is a natural satellite with a solid surface composed primarily of stone.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__rocky_moon",
+    "slug": "rocky_moon"
+  },
+  {
+    "name": "Water Moon",
+    "description": "A Water Moon is a natural satellite containing a major liquid-water ocean either on its surface or beneath an icy crust.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__water_moon",
+    "slug": "water_moon"
+  },
+  {
+    "name": "Asteroid Belt",
+    "description": "An Asteroid Belt is a broad orbital region populated by numerous rocky or metallic minor bodies.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__asteroid_belt",
+    "slug": "asteroid_belt"
+  },
+  {
+    "name": "Debris Belt",
+    "description": "A Debris Belt is an orbital band of fragmented material produced by collisions or the destruction of larger bodies.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__debris_belt",
+    "slug": "debris_belt"
+  },
+  {
+    "name": "Dust-rich Debris Belt",
+    "description": "A Dust-rich Debris Belt is a fragmented orbital region containing enough fine particulate matter to obscure sensors and scatter light.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__dust_rich_debris_belt",
+    "slug": "dust_rich_debris_belt"
+  },
+  {
+    "name": "Electrically Charged Debris Belt",
+    "description": "An Electrically Charged Debris Belt is an orbital band whose particles carry persistent electrical charges capable of disrupting nearby systems.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__electrically_charged_debris_belt",
+    "slug": "electrically_charged_debris_belt"
+  },
+  {
+    "name": "Icy Asteroid Belt",
+    "description": "An Icy Asteroid Belt is an orbital region populated by minor bodies composed largely of frozen volatiles.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__icy_asteroid_belt",
+    "slug": "icy_asteroid_belt"
+  },
+  {
+    "name": "Irradiated Debris Belt",
+    "description": "An Irradiated Debris Belt is an orbital field whose constituent material has been saturated by dangerous levels of stellar or artificial radiation.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__irradiated_debris_belt",
+    "slug": "irradiated_debris_belt"
+  },
+  {
+    "name": "Protoplanetary Disk",
+    "description": "A Protoplanetary Disk is a rotating field of gas and dust surrounding a young star from which planets may eventually form.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__protoplanetary_disk",
+    "slug": "protoplanetary_disk"
+  },
+  {
+    "name": "Scattered Ice Field",
+    "description": "A Scattered Ice Field is a diffuse region of widely separated frozen bodies occupying distant and irregular orbits.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__scattered_ice_field",
+    "slug": "scattered_ice_field"
+  },
+  {
+    "name": "Asteroid Field",
+    "description": "An Asteroid Field is a localized concentration of rocky minor bodies lacking a stable belt-like orbit.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__asteroid_field",
+    "slug": "asteroid_field"
+  },
+  {
+    "name": "Debris Field",
+    "description": "A Debris Field is a dispersed cloud of wreckage or fragmented celestial material lacking a stable belt-like orbit.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__debris_field",
+    "slug": "debris_field"
+  },
+  {
+    "name": "High Metal Content Asteroid",
+    "description": "A High Metal Content Asteroid is a minor body containing a substantial mixture of metallic ore and silicate rock.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__high_metal_content_asteroid",
+    "slug": "high_metal_content_asteroid"
+  },
+  {
+    "name": "Icy Planet Composition",
+    "description": "An Icy Planet Composition body is a planetesimal formed primarily from frozen volatiles.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__icy_planet_composition",
+    "slug": "icy_planet_composition"
+  },
+  {
+    "name": "Rocky Asteroid",
+    "description": "A Rocky Asteroid is a minor body composed predominantly of silicate stone.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__rocky_asteroid",
+    "slug": "rocky_asteroid"
+  },
+  {
+    "name": "Rocky Ice Planet Composition",
+    "description": "A Rocky Ice Planet Composition body is a planetesimal containing comparable amounts of stone and frozen material.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__rocky_ice_planet_composition",
+    "slug": "rocky_ice_planet_composition"
+  },
+  {
+    "name": "Rocky Planet Composition",
+    "description": "A Rocky Planet Composition body is a planetesimal composed primarily of silicate material suitable for terrestrial planet formation.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__rocky_planet_composition",
+    "slug": "rocky_planet_composition"
+  },
+  {
+    "name": "Aeon Archive",
+    "description": "An Aeon Archive is a hardened repository intended to preserve knowledge across civilizational collapse or extreme spans of time.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__aeon_archive",
+    "slug": "aeon_archive"
+  },
+  {
+    "name": "Bastion Wall",
+    "description": "A Bastion Wall is a heavily armed defensive installation positioned to block access to a strategic approach.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__bastion_wall",
+    "slug": "bastion_wall"
+  },
+  {
+    "name": "Blackspire",
+    "description": "A Blackspire is a fortified command installation built for covert observation and secure military coordination.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__blackspire",
+    "slug": "blackspire"
+  },
+  {
+    "name": "Blood Dock",
+    "description": "A Blood Dock is a brutal repair and processing facility associated with forced labor or the handling of biological war machinery.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__blood_dock",
+    "slug": "blood_dock"
+  },
+  {
+    "name": "Border Redoubt",
+    "description": "A Border Redoubt is an isolated fortification tasked with maintaining control along a remote territorial frontier.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__border_redoubt",
+    "slug": "border_redoubt"
   },
   {
     "name": "Buffer Spire",
-    "description": "A Buffer Spire is a fortified station placed between inhabited space and a known threat vector. Its purpose is to delay an incursion long enough for nearby populations to prepare or evacuate.",
+    "description": "A Buffer Spire is a fortified station intended to delay an approaching threat long enough for nearby populations to respond.",
     "record_type": "Glossary",
     "id": "settingdex__entry__glossary__buffer_spire",
     "slug": "buffer_spire"
   },
   {
-    "name": "Silent Haven",
-    "description": "A Silent Haven is a concealed anchorage designed to suppress detectable emissions. Such installations shelter vessels that must avoid hostile sensors or official attention.",
+    "name": "Crystech Vault",
+    "description": "A Crystech Vault is a sealed installation designed to contain Resonance-active crystal or recovered Cerebrax material.",
     "record_type": "Glossary",
-    "id": "settingdex__entry__glossary__silent_haven",
-    "slug": "silent_haven"
+    "id": "settingdex__entry__glossary__crystech_vault",
+    "slug": "crystech_vault"
+  },
+  {
+    "name": "Cultural Archive",
+    "description": "A Cultural Archive is a protected repository preserving the history and identity of a specific population.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__cultural_archive",
+    "slug": "cultural_archive"
+  },
+  {
+    "name": "Drift Market",
+    "description": "A Drift Market is a mobile or loosely anchored commercial installation serving transient frontier traffic.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__drift_market",
+    "slug": "drift_market"
+  },
+  {
+    "name": "Escort Yard",
+    "description": "An Escort Yard is a military dock specialized in maintaining patrol craft and convoy-defense vessels.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__escort_yard",
+    "slug": "escort_yard"
+  },
+  {
+    "name": "Fabricator Yard",
+    "description": "A Fabricator Yard is an industrial installation capable of manufacturing complex machinery from processed feedstock.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__fabricator_yard",
+    "slug": "fabricator_yard"
+  },
+  {
+    "name": "Foundry Lattice",
+    "description": "A Foundry Lattice is an interconnected industrial complex built to process raw material across a distributed orbital structure.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__foundry_lattice",
+    "slug": "foundry_lattice"
+  },
+  {
+    "name": "Glass Docks",
+    "description": "Glass Docks are high-capacity commercial berths distinguished by extensive transparent habitats and exposed docking galleries.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__glass_docks",
+    "slug": "glass_docks"
+  },
+  {
+    "name": "Gun Bazaar",
+    "description": "A Gun Bazaar is a loosely regulated market devoted to the exchange of weapons and military technology.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__gun_bazaar",
+    "slug": "gun_bazaar"
+  },
+  {
+    "name": "Habitat Spindle",
+    "description": "A Habitat Spindle is a rotating orbital settlement that produces artificial gravity through its motion.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__habitat_spindle",
+    "slug": "habitat_spindle"
+  },
+  {
+    "name": "Harvest Net",
+    "description": "A Harvest Net is a distributed installation designed to collect valuable material from an atmosphere or diffuse orbital environment.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__harvest_net",
+    "slug": "harvest_net"
+  },
+  {
+    "name": "Helium Rich",
+    "description": "A Helium Rich installation is a processing facility positioned near a resource source with unusually abundant helium reserves.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__helium_rich",
+    "slug": "helium_rich"
+  },
+  {
+    "name": "Iron Halo",
+    "description": "An Iron Halo is a ring of armored installations surrounding a world or strategic orbital position.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__iron_halo",
+    "slug": "iron_halo"
+  },
+  {
+    "name": "Light Mirror Array",
+    "description": "A Light Mirror Array is a coordinated formation of orbital reflectors used to redirect stellar illumination.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__light_mirror_array",
+    "slug": "light_mirror_array"
+  },
+  {
+    "name": "March Bastion",
+    "description": "A March Bastion is a Cindral frontier fortress designed to support prolonged defense without outside reinforcement.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__march_bastion",
+    "slug": "march_bastion"
+  },
+  {
+    "name": "Mech Forge",
+    "description": "A Mech Forge is an industrial installation equipped to grow, assemble, and maintain mechanized warframes.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__mech_forge",
+    "slug": "mech_forge"
+  },
+  {
+    "name": "Nomad Cradle",
+    "description": "A Nomad Cradle is a mobile habitat and service installation built to support populations without a permanent planetary home.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__nomad_cradle",
+    "slug": "nomad_cradle"
+  },
+  {
+    "name": "Nomad Dock",
+    "description": "A Nomad Dock is a flexible anchorage designed to resupply migratory fleets and transient communities.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__nomad_dock",
+    "slug": "nomad_dock"
+  },
+  {
+    "name": "Ore Spine",
+    "description": "An Ore Spine is a reinforced extraction complex built directly around a major mineral deposit.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__ore_spine",
+    "slug": "ore_spine"
+  },
+  {
+    "name": "Penitent Dock",
+    "description": "A Penitent Dock is a Veyran-controlled anchorage used to receive pilgrims undergoing religious service or punishment.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__penitent_dock",
+    "slug": "penitent_dock"
+  },
+  {
+    "name": "Pilgrim Ring",
+    "description": "A Pilgrim Ring is an orbital habitat structured around the needs of religious travelers and ceremonial gatherings.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__pilgrim_ring",
+    "slug": "pilgrim_ring"
+  },
+  {
+    "name": "Quarantine Ring",
+    "description": "A Quarantine Ring is an isolated orbital installation used to contain contaminated vessels or populations.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__quarantine_ring",
+    "slug": "quarantine_ring"
+  },
+  {
+    "name": "Refinery Crucible",
+    "description": "A Refinery Crucible is a high-output industrial facility that converts difficult raw material through extreme heat and pressure.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__refinery_crucible",
+    "slug": "refinery_crucible"
+  },
+  {
+    "name": "Refuge Spire",
+    "description": "A Refuge Spire is a fortified habitat intended to shelter displaced populations during prolonged emergencies.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__refuge_spire",
+    "slug": "refuge_spire"
   },
   {
     "name": "Rift Monitor",
-    "description": "A Rift Monitor observes a dimensional fracture for signs of expansion or activity. Its instruments provide early warning when the surrounding geometry begins to destabilize.",
+    "description": "A Rift Monitor is a sensor installation positioned to detect changes in a dimensional fracture.",
     "record_type": "Glossary",
     "id": "settingdex__entry__glossary__rift_monitor",
     "slug": "rift_monitor"
   },
   {
+    "name": "Salvage Cradle",
+    "description": "A Salvage Cradle is a processing installation where recovered wreckage is dismantled and repurposed.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__salvage_cradle",
+    "slug": "salvage_cradle"
+  },
+  {
+    "name": "Scrap Docks",
+    "description": "Scrap Docks are rough industrial berths that repair vessels using salvaged and improvised components.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__scrap_docks",
+    "slug": "scrap_docks"
+  },
+  {
+    "name": "Sentinel Array",
+    "description": "A Sentinel Array is a distributed network of defensive sensors and weapons guarding a strategic region.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__sentinel_array",
+    "slug": "sentinel_array"
+  },
+  {
+    "name": "Signal Lock",
+    "description": "A Signal Lock is a hardened communications installation that controls long-range transmissions within its assigned region.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__signal_lock",
+    "slug": "signal_lock"
+  },
+  {
+    "name": "Silent Haven",
+    "description": "A Silent Haven is a concealed anchorage engineered to suppress emissions and avoid detection.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__silent_haven",
+    "slug": "silent_haven"
+  },
+  {
+    "name": "Smuggler Cradle",
+    "description": "A Smuggler Cradle is a hidden service installation supporting illicit cargo traffic and unregistered vessels.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__smuggler_cradle",
+    "slug": "smuggler_cradle"
+  },
+  {
+    "name": "Transit Hub",
+    "description": "A Transit Hub is a major transfer installation positioned where shipping routes or passenger networks converge.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__transit_hub",
+    "slug": "transit_hub"
+  },
+  {
+    "name": "Void Observatory",
+    "description": "A Void Observatory is a remote research installation dedicated to studying deep space and extranormal phenomena.",
+    "record_type": "Glossary",
+    "id": "settingdex__entry__glossary__void_observatory",
+    "slug": "void_observatory"
+  },
+  {
     "name": "Warden Keep",
-    "description": "A Warden Keep is a fortified installation responsible for controlling a strategic region. It is designed to remain operational even after losing contact with outside support.",
+    "description": "A Warden Keep is a fortified military installation responsible for maintaining control over a strategic region.",
     "record_type": "Glossary",
     "id": "settingdex__entry__glossary__warden_keep",
     "slug": "warden_keep"
   },
   {
-    "name": "Crystech Vault",
-    "description": "A Crystech Vault is a sealed facility used to contain Resonance-active crystal or recovered Cerebrax material. Its internal chambers are isolated so that contamination cannot spread through the entire installation.",
+    "name": "Wreckyard",
+    "description": "A Wreckyard is an orbital field or station where derelict vessels are stored for salvage and disassembly.",
     "record_type": "Glossary",
-    "id": "settingdex__entry__glossary__crystech_vault",
-    "slug": "crystech_vault"
+    "id": "settingdex__entry__glossary__wreckyard",
+    "slug": "wreckyard"
   }
 ]
 
