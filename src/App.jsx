@@ -1514,7 +1514,7 @@ export default function App() {
           }}
           aria-pressed={activeTab === "galaxy"}
         >
-          [SECTOR MAP]
+          [MANIFOLD MAP]
         </button>
 
         <button
