@@ -1401,7 +1401,8 @@
     "visual": "Spark of pale smoke and starlight, vaguely humanoid, shifting constantly.",
     "behavior": "Flickers stolen dreams across its surface. Causes sleep disruption and low-level sensor interference.",
     "report_label": "Ops Note",
-    "report_text": "Patrol lead recorded as noncompliant after zone sweep. “He said he hadn’t slept, then named three people I’d never met.”"
+    "report_text": "Patrol lead recorded as noncompliant after zone sweep. “He said he hadn’t slept, then named three people I’d never met.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/MimWisp.png?raw=true"
   },
   {
     "id": "settingdex__entry__mims__mim_skulker",
@@ -1412,7 +1413,8 @@
     "visual": "Hunched, bone-thin limbs tipped with glasslike hooks. Head tilts as though listening.",
     "behavior": "Ambushes from ceilings and walls. Claws leave frost trails and warped metal.",
     "report_label": "Recon Log",
-    "report_text": "Ceiling cams show micro-movements at t+00:12. Sheet-metal scoring consistent with claws; hull microfractures present along fridge line."
+    "report_text": "Ceiling cams show micro-movements at t+00:12. Sheet-metal scoring consistent with claws; hull microfractures present along fridge line.",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/MimSkulker.png?raw=true"
   },
   {
     "id": "settingdex__entry__mims__mim_howler",
@@ -1423,7 +1425,8 @@
     "visual": "Tall, skeletal form. Strands of dreamstuff trail behind. Mouth is impossibly wide.",
     "behavior": "Emits resonance screams. Individually disruptive. In groups, shatter glass, rupture vessels, drown comms.",
     "report_label": "Recovered Audio",
-    "report_text": "[scream - frequency spike 18.3kHz] - multiple window fractures recorded. Field medic entry: “Three ruptured eardrums; one concussion.”"
+    "report_text": "[scream - frequency spike 18.3kHz] - multiple window fractures recorded. Field medic entry: “Three ruptured eardrums; one concussion.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/MimHowler.png?raw=true"
   },
   {
     "id": "settingdex__entry__mims__mim_riftstalker",
@@ -1434,7 +1437,8 @@
     "visual": "Four-legged predator, crystalline limbs. Body flickers between shadow, flesh, and starlight.",
     "behavior": "Phases in and out mid-movement. Strikes from unexpected angles.",
     "report_label": "Pilot Feed",
-    "report_text": "Telemetry gap of 0.7s coincides with strike. Hull shows minute temporally-shifted fissures; step prints appear, then vanish."
+    "report_text": "Telemetry gap of 0.7s coincides with strike. Hull shows minute temporally-shifted fissures; step prints appear, then vanish.",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/MimRiftstalker.png?raw=true"
   },
   {
     "id": "settingdex__entry__mims__mim_devourer",
@@ -1445,7 +1449,8 @@
     "visual": "Hulking brute. Torso is vertical maw lined with tongues. Arms end in clusters of clawed hands.",
     "behavior": "Tears open plating. Roars scatter burning dreamstuff.",
     "report_label": "Damage Assessment",
-    "report_text": "Armoured section sliced clean. No explosive residue. Forensic note: “Material excised cleanly, not torn.”"
+    "report_text": "Armoured section sliced clean. No explosive residue. Forensic note: “Material excised cleanly, not torn.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/MimDevourer.png?raw=true"
   },
   {
     "id": "settingdex__entry__mims__mim_illusionist",
@@ -1456,7 +1461,8 @@
     "visual": "Spindly humanoid crowned with drifting lights. Skin is shifting mosaic of stolen faces and landscapes.",
     "behavior": "Distorts environment. Creates phantom allies, false terrain, spectral enemies.",
     "report_label": "Debrief Excerpt",
-    "report_text": "“We auto-targeted friendlies after the illusion. HUD showed them hostile - IR and lattice confirmed nothing physical.”"
+    "report_text": "“We auto-targeted friendlies after the illusion. HUD showed them hostile - IR and lattice confirmed nothing physical.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/MimIllusionist.png?raw=true"
   },
   {
     "id": "settingdex__entry__mims__mim_harbinger",
@@ -1467,7 +1473,8 @@
     "visual": "Winged astral form. Feathers = smoke threaded with stars. Central chest-eye glows constantly.",
     "behavior": "Emits dread pulses. Lights fail, shadows stretch, metallic taste in air.",
     "report_label": "Command Intel",
-    "report_text": "“Outpost morale dropped 73% within 30 minutes of sighting. Multiple personnel reported acute nausea and disorientation.”"
+    "report_text": "“Outpost morale dropped 73% within 30 minutes of sighting. Multiple personnel reported acute nausea and disorientation.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/MimHarbinger.png?raw=true"
   },
   {
     "id": "settingdex__entry__mims__mim_dreadmaw",
@@ -1478,7 +1485,8 @@
     "visual": "Serpentine bulk, writhing with maws and tendrils. Faces ripple across skin.",
     "behavior": "Crushes with coils, swallows prey whole. Survivors report muffled screams from inside.",
     "report_label": "Survivor Statement",
-    "report_text": "“They pulled Corporal Reyes out. He looked like he was still inside it - but there was nothing to pull back.”"
+    "report_text": "“They pulled Corporal Reyes out. He looked like he was still inside it - but there was nothing to pull back.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/MimDreadmaw.png?raw=true"
   },
   {
     "id": "settingdex__entry__mims__mim_colossus",
@@ -1489,7 +1497,8 @@
     "visual": "Giant stitched together from countless shadows. Body patchwork of limbs, faces, and weeping eyes. Steps warp gravity around it.",
     "behavior": "Acts as swarm commander. Draws lesser Mims to it like moths.",
     "report_label": "Satellite Pass",
-    "report_text": "Multiple Wisp swarms track Colossus descent pattern. Local sensor swarms show coordinated vectoring toward the unit."
+    "report_text": "Multiple Wisp swarms track Colossus descent pattern. Local sensor swarms show coordinated vectoring toward the unit.",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/MimColossus.png?raw=true"
   },
   {
     "id": "settingdex__entry__mims__mim_dream_tyrant",
@@ -1500,7 +1509,8 @@
     "visual": "Serpentine astral lord crowned with hornlike antlers dripping liquid light. Eyes burn like alien suns.",
     "behavior": "Warps terrain into dreamscapes. Forces pilots to fight hallucinations as well as the Tyrant itself.",
     "report_label": "Blackbox Clip",
-    "report_text": "“We advanced into forest - then desert - then a cemetery. Frames show no terrain change; crew logs report different memory sets.”"
+    "report_text": "“We advanced into forest - then desert - then a cemetery. Frames show no terrain change; crew logs report different memory sets.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/MimDreamTyrant.png?raw=true"
   },
   {
     "id": "settingdex__entry__mims__mim_mawspawn",
@@ -1511,7 +1521,8 @@
     "visual": "Fortress-sized horror, a crawling bulk of mouths and eyes. Buildings vanish whole into its mass.",
     "behavior": "Consumes everything. Constantly spawns new Wisps and Skulkers from its surface.",
     "report_label": "Urban Recon Record",
-    "report_text": "City grid offline after Mawspawn sweep. Witness testimony (extracted): “I could hear a thousand people calling my name from inside it.”"
+    "report_text": "City grid offline after Mawspawn sweep. Witness testimony (extracted): “I could hear a thousand people calling my name from inside it.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/MimMawspawn.png?raw=true"
   },
   {
     "id": "settingdex__entry__mims__dream_gale",
@@ -1522,7 +1533,8 @@
     "visual": "A stormfront of pale smoke spanning 250m, studded with half-formed faces.",
     "behavior": "Sweeps through fleets like weather. Crews fall asleep at their stations; systems run unattended.",
     "report_label": "Ops Note",
-    "report_text": "“Entire corvette drifted into collision course. Every crewman was dreaming with eyes wide open.”"
+    "report_text": "“Entire corvette drifted into collision course. Every crewman was dreaming with eyes wide open.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/DreamGale.png?raw=true"
   },
   {
     "id": "settingdex__entry__mims__phantom_leviathan",
@@ -1533,7 +1545,8 @@
     "visual": "A 400m serpent of flickering starlight and screaming mouths, coiling through void as though swimming.",
     "behavior": "Crushes ships in its coils, swallowing dreamstuff instead of hull plating.",
     "report_label": "Naval Record",
-    "report_text": "“Hull was intact. The crew inside were gone - like they’d been eaten from the inside out.”"
+    "report_text": "“Hull was intact. The crew inside were gone - like they’d been eaten from the inside out.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/PhantomLeviathan.png?raw=true"
   },
   {
     "id": "settingdex__entry__mims__harbinger_choir",
@@ -1544,7 +1557,8 @@
     "visual": "A drifting mass of skeletal wings, 500m across. Feathers glow with aurora-light, pulsing in time with an unending wail.",
     "behavior": "Its scream bursts glass, shatters comms, and makes crews believe their mechs are collapsing around them.",
     "report_label": "Blackbox Entry",
-    "report_text": "“Pilots ejected from perfectly intact frames. They swore the cockpits were crushing them.”"
+    "report_text": "“Pilots ejected from perfectly intact frames. They swore the cockpits were crushing them.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/HarbingerChoir.png?raw=true"
   },
   {
     "id": "settingdex__entry__mims__nightmare_citadel",
@@ -1555,7 +1569,8 @@
     "visual": "800m fortress-shape crawling with shifting towers and faces that melt into mouths.",
     "behavior": "Spawns waves of lesser Mims, projecting entire dream-terrain bubbles around nearby fleets.",
     "report_label": "Sector Log",
-    "report_text": "“Ships drifted into fog. When they emerged, half were gone. The rest swore they’d fought a war for years inside.”"
+    "report_text": "“Ships drifted into fog. When they emerged, half were gone. The rest swore they’d fought a war for years inside.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/NightmareCitadel.png?raw=true"
   },
   {
     "id": "settingdex__entry__nebulite_collective__nebulite_spark",
