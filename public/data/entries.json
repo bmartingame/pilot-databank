@@ -3696,7 +3696,7 @@
   },
   {
     "id": "system__braxis_hold_system",
-    "name": "Braxis Hold System",
+    "name": "Braxis System",
     "record_type": "System",
     "faction": "CINDRAL",
     "sector_name": "CINDRAL SECTOR",
@@ -22241,9 +22241,9 @@
     "name": "Genos Orestwyck",
     "record_type": "Sub-Faction",
     "faction": "CINDRAL",
-    "domain": "Braxis Hold System",
+    "domain": "Braxis System",
     "rank": "POLEMARCH",
-    "seat": "Braxis Hold System",
+    "seat": "Braxis System",
     "current_head": "Theon Orestwyck",
     "description": "Genos Orestwyck holds Braxis Hold, the March's primary bastion system, where every station, moon, settlement, and defensive line exists to delay Mawward threats. Its commanders measure success through time purchased for evacuation and reinforcement, accepting the loss of individual fortifications so long as the wider defensive plan continues to function."
   },
