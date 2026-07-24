@@ -2912,7 +2912,7 @@
     "id": "manual__glossary__jin",
     "name": "JIN",
     "record_type": "Glossary",
-    "description": "Short for Junctional Intelligence Nexus. Also called a spirit or jinn, it is the term for a sentient mind that emerges from a fully realized Resonance Core, typically found in DMN-Units. This is a spontaneous event and it is unknown what causes it. Not every Core is seemingly capable of enacting the singularity that produces a JIN. They are non-corporeal beings and are bound to electro-resonant systems. Not much is known about JINs and research into them is still ongoing."
+    "description": "JIN, short for Junctional Intelligence Nexus and also called a spirit or jinn, is a non-corporeal intelligence that emerges spontaneously from a fully realized Resonance Core. Its formation remains unexplained, and not every Core appears capable of producing one."
   },
   {
     "id": "manual__glossary__the_ashen_table",
@@ -2938,13 +2938,13 @@
     "name": "The Great Chorus",
     "record_type": "Glossary",
     "faction": "VEYRAN",
-    "description": "The Great Chorus is the living oracle-network of the Veyran Choir, a linked communion of seers, psionics, and Core-bound visionaries whose minds are braided together through psionic-resonance hymns. Their guidance is never treated as simple prophecy, but as sacred navigation. They give fragmented warnings, strategic visions, and inspiring harmonies that steer the Choir through war, pilgrimage, and the darkness between the stars."
+    "description": "The Great Chorus is the Veyran Choir's linked oracle-network, joining seers and Core-bound visionaries through psionic-resonance hymns. Its fragmented visions serve as sacred navigation for the Choir through war and pilgrimage."
   },
   {
     "id": "manual__glossary__manifold_relay_network",
     "name": "Manifold Relay Network",
     "record_type": "Glossary",
-    "description": "Also known as the Net or MRN. It is a network of deep space and terrestrial satellites that allow FTL communication by sending protected signals and broadcasts through the Manifold. An  MRF or Manifold Relay Frequency is a unique and protected frequency that allows peer to peer connection through the Net, essentially functioning as a phone number of old Primus. It once was an information and communications system that once spanned sectors, providing entertainment, news, and connection between all of humanity. After First Contact it was shattered and restricted by the Guild to prevent the spread of memetic threats. It now functionally exists as a repository for Guild-sanctioned knowledge and lookup table for MRF lines."
+    "description": "The Manifold Relay Network, also called the Net or MRN, is the satellite infrastructure that carries protected FTL communications through the Manifold. After First Contact, the Guild restricted it to sanctioned information and connections identified by unique Manifold Relay Frequencies."
   },
   {
     "id": "manual__glossary__darknet",
@@ -3037,7 +3037,7 @@
     "name": "DMN-Unit",
     "record_type": "Glossary",
     "faction": "UNAFFILIATED",
-    "description": "Short for Dynamic Mechanized Neuralink Unit. Also called a mech or demon, it is a living machine mentally linking a pilot directly to a Core. Their number is relatively few among the stars due to the both requirement of compatibility between a Core and the Pilot, the skill of the Pilot, and the high mortality rate of the profession."
+    "description": "A DMN-Unit, short for Dynamic Mechanized Neuralink Unit and commonly called a mech or demon, is a living machine that links a pilot directly to a fully realized Core. Their rarity reflects strict compatibility requirements, demanding training, and the profession's high mortality."
   },
   {
     "id": "manual__glossary__frame",
@@ -3057,7 +3057,7 @@
     "id": "manual__glossary__neuralink",
     "name": "Neuralink",
     "record_type": "Glossary",
-    "description": "The mental and Resonance-based connection between Pilot and Core. An improper match between Core and Pilot is often fatal for the Pilot. Stripped down versions of this linking interface exist within frames, leading to less risk but less reward.",
+    "description": "A Neuralink is the mental and Resonance-based connection between a pilot and Core. Frames use limited versions that reduce both the danger of incompatibility and the amount of Resonance the pilot can access.",
     "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/Neuralink.png?raw=true"
   },
   {
@@ -3065,20 +3065,20 @@
     "name": "Primus",
     "record_type": "Glossary",
     "faction": "PRIMUS",
-    "description": "The first and only homeworld of humanity, now cratered, poisoned, and largely ruined. It remains symbolically central as the origin point of the Guild, FTL expansion, Resonance discovery, and DMN-Units. Many efforts have been undertaken to restore Primus to its former glory, however none have succeeded."
+    "description": "Primus is humanity's first and only homeworld, now largely uninhabitable after centuries of ruin. It remains the symbolic origin of modern interstellar civilization despite repeated failed restoration efforts."
   },
   {
     "id": "manual__glossary__resonance",
     "name": "Resonance",
     "record_type": "Glossary",
-    "description": "A living energy that responds to will. It can animate machines, shape matter, and empower Cores, but must be tuned into or synchronized with to be wielded. Sometimes referred to as ‘magic’ outside academic communities.",
+    "description": "Resonance is a living energy that responds to will and can alter matter or animate machines when properly synchronized. Outside academic use, it is commonly called magic.",
     "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/resonance.jpg?raw=true"
   },
   {
     "id": "manual__glossary__resonance_core",
     "name": "Resonance Core",
     "record_type": "Glossary",
-    "description": "A forged biomechanical node that channels Resonance. They can be grown into mechs such as Frames and DMN-Units. Attempts have been made to implant cores into ships to limited success. Their method of production, once widespread among the colonies after the Exodus was restricted after Guild buyout due to unsafe and experimental cores that would doom entire worlds because of a misalignment during forging. Now the Cores that are produced are stable thanks to Guild safety measures, standardization, and quality assurance. Please note: imcompatibility with a fully realized Core while linking may cause permanent injury or death. Link at your own risk.",
+    "description": "A Resonance Core is a forged biomechanical node that channels Resonance and can mature into the living control system of a Frame or DMN-Unit. The Guild controls production because unstable forging can devastate entire worlds, while incompatibility with a realized Core can permanently injure or kill a pilot.",
     "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/Core.png?raw=true"
   },
   {
@@ -3091,7 +3091,7 @@
     "id": "manual__glossary__the_astral_plane",
     "name": "The Astral Plane",
     "record_type": "Plane",
-    "description": "The Astral Plane is a dimension where cognitive activity exists as measurable structure rather than as a byproduct of nervous systems. Thought, dream formation, fear response, memory association, and self-perception can persist there without a living brain to contain them. Physical matter introduced into the Astral becomes increasingly influenced by subjective expectation, which makes instrumentation unreliable unless shielded from conscious observers. The plane is not inherently populated, but stable cognitive residues can accumulate into autonomous phenomena under extreme conditions."
+    "description": "The Astral Plane is a dimension where cognition exists as measurable structure independent of a living brain. Subjective expectation alters matter and instrumentation within it, while persistent mental residues can develop into autonomous phenomena."
   },
   {
     "id": "manual__glossary__the_crown_line",
@@ -3104,122 +3104,122 @@
     "id": "manual__glossary__the_crucible",
     "name": "The Crucible",
     "record_type": "Glossary",
-    "description": "A dimension of unrealized energy states. Matter entering the Crucible becomes increasingly responsive to external influence and intent. Physical laws remain functional but grow less deterministic. The energy known as Resonance appears to originate from interactions with this environment. Unlike most planes, the Crucible exhibits measurable feedback when acted upon, suggesting some degree of self-organizing behavior, maybe even sentience."
+    "description": "The Crucible is a dimension of unrealized energy in which matter becomes increasingly responsive to intent and physical law less deterministic. Resonance appears to originate from its interaction with reality, and its measurable feedback suggests possible self-organizing behavior."
   },
   {
     "id": "manual__glossary__the_guild",
     "name": "The Guild Directorate",
     "record_type": "Glossary",
     "faction": "PRIMUS",
-    "description": "The Guild Directorate is the lawful custodian of interstellar passage, a supranational authority entrusted with the stewardship of FTL lanes, engine production, transit licensing, sanctions enforcement, and the orderly maintenance of civilization’s connective infrastructure. No vessel may legally enter Guild-ratified space without a registered drive, certified navigation charter, and standing compliance with Guild route authority. Though planetary governments, corporate states, and military powers may rule their own territories, all remain dependent upon the Guild for sanctioned passage between worlds. Unsafe engines, unlicensed jumps, hostile interdictions, and unlawful route tampering endanger every world tied to the greater human sphere. Those who violate Guild law may face seizure, fines, blacklisting, embargo, or full revocation of interstellar access."
+    "description": "The Guild Directorate is the supranational authority that controls lawful interstellar passage through its monopoly on lanes, engines, and transit licensing. Governments retain local sovereignty, but violations of Guild route authority can result in seizure, embargo, or loss of interstellar access."
   },
   {
     "id": "manual__glossary__the_manifold",
     "name": "The Manifold",
     "record_type": "Plane",
-    "description": "A higher-dimensional medium where space is said to be constantly folding in on itself like origami of old Primus. Spatial relationships within the Manifold do not correspond to those of the Material Plane. Two star systems separated by thousands of light years may occupy adjacent coordinates, while neighboring systems can be effectively unreachable. The Guild's hyperspace lanes are stable routes through a continuously shifting Manifold topology."
+    "description": "The Manifold is a higher-dimensional medium whose spatial relationships differ from those of the Material Plane. Guild lanes are stabilized routes through its shifting topology, allowing distant systems to become adjacent while nearby ones remain unreachable."
   },
   {
     "id": "manual__glossary__the_material_plane",
     "name": "The Material Plane",
     "record_type": "Plane",
-    "description": "The Material Plane is the baseline four-dimensional environment in which known civilizations operate. It contains stable matter, energy, spacetime, biological life, and ordinary causality in a mutually consistent state. Other planes can be measured from the Material only when their properties intrude, overlap, or are artificially accessed through technology, sorcery, or anomalous conditions. Most field sciences treat the Material Plane as the reference frame against which all planar deviations are compared."
+    "description": "The Material Plane is the baseline four-dimensional environment in which known civilization and ordinary causality exist. It serves as the reference frame against which all planar intrusions and deviations are measured."
   },
   {
     "id": "manual__glossary__the_plane_of_combustion",
     "name": "The Plane of Combustion",
     "record_type": "Plane",
-    "description": "The Plane of Combustion is an environment composed of reaction states rather than stable matter. Fire is only the most familiar Material expression of this plane; its actual contents include oxidation, fusion, explosive decomposition, heat transfer, and any process where stored potential rapidly becomes active energy. Introduced matter tends to enter uncontrolled reaction unless isolated behind thermal and chemical shielding. Probes record constant energy release without a consistent fuel source, suggesting that the plane contains the condition of ignition independent of material substrate."
+    "description": "The Plane of Combustion is a dimension where stored potential exists as active reaction rather than stable matter. Material introduced into it tends toward uncontrolled energy release, suggesting that ignition exists there independently of fuel."
   },
   {
     "id": "manual__glossary__the_plane_of_currents",
     "name": "The Plane of Currents",
     "record_type": "Plane",
-    "description": "The Plane of Currents is a dimension where movement exists without objects. Flow, transfer, velocity, and momentum occur in the absence of mass. Navigation within the plane is difficult because position is secondary to direction; entities are defined more by how they are moving than where they are located. The movement of fluids, atmospheric systems, plasma streams, and some forms of information transfer exhibit mathematical similarities to structures observed within this environment."
+    "description": "The Plane of Currents is a dimension where motion and transfer exist without mass or stable objects. Direction has greater meaning than position, making navigation dependent on flow rather than location."
   },
   {
     "id": "manual__glossary__the_plane_of_entropy",
     "name": "The Plane of Entropy",
     "record_type": "Plane",
-    "description": "The Plane of Entropy is a dimension where systems trend toward disorder without needing time to pass in the ordinary way. Structures introduced into the plane lose organization. Machines desynchronize, chemical gradients flatten, memories become less distinct, and spatial relationships become less useful for prediction. It converts ordered states into less ordered states, dispersing and changing it."
+    "description": "The Plane of Entropy is a dimension where ordered systems lose coherence without requiring the normal passage of time. Matter, machinery, and information introduced into it progressively become less organized and predictable."
   },
   {
     "id": "manual__glossary__the_plane_of_geometry",
     "name": "The Plane of Geometry",
     "record_type": "Plane",
-    "description": "A realm composed entirely of mathematical structure. Matter, energy, and time are absent. Instead, all contents exist as relationships between forms. Distances remain perfectly consistent, angles never drift, and geometric imperfections cannot persist. The plane is considered one of the most stable known dimensions and is frequently used as a theoretical reference model for physical law."
+    "description": "The Plane of Geometry is a realm of pure mathematical relationship without matter, energy, or time. Its perfect consistency makes it one of the most stable known dimensions and a theoretical reference for physical law."
   },
   {
     "id": "manual__glossary__the_plane_of_intuition",
     "name": "The Plane of Intuition",
     "record_type": "Plane",
-    "description": "A probabilistic environment where conclusions exist without premises. Entities entering the plane frequently acquire information they cannot explain. Navigation is extremely difficult because movement is influenced by expectation rather than direction. Computational systems perform poorly while biological minds often exhibit enhanced pattern recognition and predictive capability."
+    "description": "The Plane of Intuition is a probabilistic environment where conclusions can exist without traceable premises. Biological minds often gain unexplained insight within it, while formal computation and directional navigation become unreliable."
   },
   {
     "id": "manual__glossary__the_plane_of_memory",
     "name": "The Plane of Memory",
     "record_type": "Plane",
-    "description": "The Plane of Memory is a non-linear information dimension where experience can persist independently of the mind that formed it. It does not store perfect records. Memories inside the plane degrade, recombine, overwrite one another, and develop false associations when placed in proximity. Time ordering is inconsistent because events are indexed by significance and repetition more than chronology. Extended contact is dangerous because subjects may import foreign memories into their own identity without recognizing the intrusion."
+    "description": "The Plane of Memory is a nonlinear information dimension where experiences persist beyond the minds that formed them. Memories within it degrade and recombine, creating a risk that visitors will absorb foreign experiences into their own identities."
   },
   {
     "id": "manual__glossary__the_plane_of_presence",
     "name": "The Plane of Presence",
     "record_type": "Plane",
-    "description": "A dimension where existence is measured by observability rather than mass or energy. Objects do not occupy space but instead vary in \"prominence.\" Large stars and insignificant pebbles may appear identical if neither is being observed. Highly influential individuals, historical events, and major civilizations register as extraordinarily dense structures. The plane is sometimes used to explain why certain locations or individuals seem disproportionately important relative to their physical size."
+    "description": "The Plane of Presence is a dimension where existence is measured by observability and influence rather than physical mass. Entities register according to their prominence, allowing historically significant people or events to outweigh far larger objects."
   },
   {
     "id": "manual__glossary__the_plane_of_pressure",
     "name": "The Plane of Pressure",
     "record_type": "Plane",
-    "description": "The Plane of Pressure is a dimension where compression, load, tension, and resistance exist without requiring mass or gravity. Objects entering the plane experience force from directions that do not correspond to normal spatial axes. Readings often show stress fractures, hull deformation, and internal material fatigue without measurable impact events. The plane is useful in theoretical mechanics because it separates force from the bodies that normally produce or receive it."
+    "description": "The Plane of Pressure is a dimension where force and resistance exist without mass or gravity. Objects exposed to it can suffer stress and deformation from directions that do not correspond to ordinary space."
   },
   {
     "id": "manual__glossary__the_plane_of_radiation",
     "name": "The Plane of Radiation",
     "record_type": "Plane",
-    "description": "The Plane of Radiation is a dimension containing propagation without source. Electromagnetic phenomena exist independently of emitters, receivers, or physical media. Light, radio waves, x-rays, and other forms of radiation are present as free-standing structures that intersect, merge, and interfere continuously. The plane is extraordinarily hazardous to biological life due to the density of energetic interactions occurring within it."
+    "description": "The Plane of Radiation is a dimension where electromagnetic propagation exists without a physical source or medium. Its dense, self-sustaining emissions make it extremely hazardous to matter and biological life."
   },
   {
     "id": "manual__glossary__the_plane_of_sight",
     "name": "The Plane of Sight",
     "record_type": "Plane",
-    "description": "The Plane of Sight is a dimension of visual information without objects, emitters, or observers. Shape, color, edge, contrast, motion, depth, and occlusion can all occur independently of matter. Cameras record images even when their lenses are covered, though returned footage often lacks consistent perspective. The plane is not made of light in the normal sense. It is closer to the isolated condition of visibility, where things can be seen without existing as physical bodies."
+    "description": "The Plane of Sight is a dimension where visual information exists without physical objects, light sources, or observers. It produces images without stable perspective, representing visibility itself rather than illumination."
   },
   {
     "id": "manual__glossary__the_plane_of_smell",
     "name": "The Plane of Smell",
     "record_type": "Plane",
-    "description": "The Plane of Smell is a dimension of airborne chemical signature without air or particles. Scent exists there as information detached from the molecules that would normally produce it. Exposure causes subjects to perceive location, age, danger, familiarity, and biological identity through scent impressions that have no physical source. The plane creates severe memory interference because smell is strongly linked to recall, threat assessment, and instinctive recognition in most organic nervous systems."
+    "description": "The Plane of Smell is a dimension where scent exists as information without air or chemical particles. Exposure links sourceless scent impressions to memory and instinct, causing severe interference with recognition and recall."
   },
   {
     "id": "manual__glossary__the_plane_of_sound",
     "name": "The Plane of Sound",
     "record_type": "Plane",
-    "description": "The Plane of Sound is a dimension of vibration without a required medium. Frequencies propagate, overlap, cancel, and reinforce even in total vacuum conditions. Silence is unstable there because the plane preserves acoustic information as a persistent state. Long-duration exposure causes signal contamination, sensor failure, disorientation, and neurological injury as subjects are forced to process layered vibration with no clear source or direction."
+    "description": "The Plane of Sound is a dimension where vibration propagates without a physical medium. Acoustic information persists there as a stable condition, making prolonged exposure harmful to sensors and nervous systems."
   },
   {
     "id": "manual__glossary__the_plane_of_taste",
     "name": "The Plane of Taste",
     "record_type": "Plane",
-    "description": "The Plane of Taste is a dimension of chemical classification without chemistry. It does not contain food, poison, molecules, or digestion, but it contains the sensory distinction between safe, harmful, nourishing, bitter, metallic, acidic, and similar categories. Biological subjects exposed to the plane report taste data even when their mouths, tongues, and airways are fully isolated. The plane appears to process matter as evaluative information, which makes it useful for studying instinctive biological sorting and dangerous for neural systems that depend on chemical memory such as dopamine and cortisol receptors."
+    "description": "The Plane of Taste is a dimension where matter is evaluated through chemical meaning without requiring chemistry. Exposure produces sourceless judgments of nourishment or danger and can disrupt neural systems tied to instinctive classification."
   },
   {
     "id": "manual__glossary__the_plane_of_touch",
     "name": "The Plane of Touch",
     "record_type": "Plane",
-    "description": "The Plane of Touch is a dimension where contact exists without object permanence. Pressure, texture, friction, vibration, temperature, pain, and resistance can all be recorded, but the surfaces producing them cannot be consistently located. Distance has reduced meaning because the plane primarily describes interaction, not separation. Equipment entering the plane often returns with wear patterns indicating repeated handling, crushing, abrasion, or impact despite no corresponding external object being detected."
+    "description": "The Plane of Touch is a dimension where contact and resistance exist without stable surfaces. Equipment can return bearing physical wear from interactions with objects that cannot be located or confirmed."
   },
   {
     "id": "manual__glossary__the_temporal_plane",
     "name": "The Temporal Plane",
     "record_type": "Plane",
-    "description": "A dimension in which time is spatialized. Past, present, and future exist simultaneously as navigable structures rather than sequential events. Causality remains present but appears as topology rather than a process to be lived through. Chronodrakes are believed to traverse this plane directly, allowing them to interact with multiple points in a timeline as though moving through physical terrain."
+    "description": "The Temporal Plane is a dimension where time exists as navigable structure rather than sequential experience. Chronodrakes are believed to move through it directly, allowing them to interact with multiple points in a timeline."
   },
   {
     "id": "manual__glossary__the_void",
     "name": "The Void",
     "record_type": "Glossary",
-    "description": "Not a true plane. The gap between planes. The Void is the absence of dimensional structure itself. No consistent physical laws have been observed within it. Matter, energy, information, causality, and even dimensional relationships rapidly degrade when exposed to the Void."
+    "description": "The Void is not a plane but the absence of dimensional structure between planes. Everything exposed to it rapidly loses physical, informational, and causal coherence because no consistent laws apply within it."
   },
   {
     "id": "celestial-body:cindral:ember-sun",
@@ -4006,43 +4006,43 @@
     "id": "manual_glossary__misc__merchant_lord",
     "name": "Merchant-Lord",
     "record_type": "Glossary",
-    "description": "A ruling magnate of the Luthan League whose authority comes from ownership, debt, shipping tonnage, contracts, and the ability to fund violence. A Merchant-Lord is not simply a noble with money. They are a sovereign creditor, fleet patron, arms buyer, and political shareholder whose wars are fought through hired crews, leased frames, insurance clauses, and debt enforcement. In Luthan space, a Merchant-Lord’s command may look like a business decision, but refusal can bankrupt worlds."
+    "description": "A Merchant-Lord is a Luthan ruler whose authority comes from controlling credit, contracts, and the resources needed to employ force. Their commercial decisions carry sovereign weight, allowing debt enforcement to shape the fate of entire worlds."
   },
   {
     "id": "manual_glossary__misc__forge_lord",
     "name": "Forge-Lord",
     "record_type": "Glossary",
-    "description": "A Karnate industrial ruler who commands foundries, labor pools, war engines, and military production lines. Forge-Lords measure power in furnaces, output, conscripts, and the number of walkers they can keep armed. Their rule is practical and brutal: ore goes in, weapons come out, and people are another form of fuel. To serve a Forge-Lord is to be part of the machine, whether as engineer, soldier, slave, or tribute."
+    "description": "A Forge-Lord is a Karnate industrial ruler who commands a foundry's labor, military production, and war engines. Their authority is measured by sustained output, and everyone beneath them is treated as part of the production system."
   },
   {
     "id": "manual_glossary__misc__foundry_clan",
     "name": "Foundry-Clan",
     "record_type": "Glossary",
-    "description": "A Karnate political-industrial house built around a major forge, refinery, shipyard, or war-production complex. Foundry-Clans are family, corporation, military command, and prison system fused together. Each clan owes tribute to the broader Karnate war machine while competing against rival clans for contracts, resources, and prestige. Their identities are carried in furnace marks, slag banners, production codes, and the distinctive scars of their labor forces."
+    "description": "A Foundry-Clan is a Karnate political house built around a major war-production complex. It binds lineage and industrial command into a single institution that competes for resources while feeding the wider Karnate war machine."
   },
   {
     "id": "manual_glossary__misc__belt_king",
     "name": "Belt-King",
     "record_type": "Glossary",
-    "description": "A pirate sovereign of the Orak Belt Syndicates whose rule depends on reputation, loot, fear, and the ability to keep raider crews pointed outward instead of at each other. Belt-Kings rarely hold stable territory in the formal sense. They rule flotillas, stations, salvage cradles, black markets, and oath-bound captains. A Belt-King is obeyed while profitable, feared while victorious, and replaced the moment weakness becomes visible."
+    "description": "A Belt-King is an Orak pirate sovereign whose authority rests on continued profit, victory, and control over raider captains. Their rule remains personal and unstable, collapsing as soon as weakness outweighs fear or loyalty."
   },
   {
     "id": "manual_glossary__misc__crown_council",
     "name": "Crown Council",
     "record_type": "Glossary",
-    "description": "The ruling assembly of the Crown Concordant, composed of hereditary sovereigns, major noble houses, and knightly power blocs. The Council frames its authority as lawful inheritance, sacred duty, and aristocratic stewardship, but much of its real work is negotiation, rivalry, marriage politics, and disputes over legitimacy. Council decisions carry the weight of royal command, though every decree is filtered through house pride, old feuds, and battlefield honor."
+    "description": "The Crown Council is the ruling assembly of the Crown Concordant, where hereditary sovereigns and major noble houses negotiate policy and legitimacy. Its decrees carry royal authority but remain constrained by house rivalries and competing claims."
   },
   {
     "id": "manual_glossary__misc__noble_house",
     "name": "Noble House",
     "record_type": "Glossary",
-    "description": "A hereditary political lineage that controls land, ships, military obligations, retainers, and often its own mech traditions. In Crown and Cindral cultures, a noble house is not just a family name. It is a legal institution, military command, patronage network, and symbol people may live or die for. Houses preserve their authority through banners, oaths, arranged alliances, champion pilots, inherited frames, and public acts of honor or vengeance."
+    "description": "A noble house is a hereditary political institution that binds lineage to territorial authority, military obligation, and patronage. In Crown and Cindral society, its continuity is maintained through inherited rights, public legitimacy, and reciprocal oaths."
   },
   {
     "id": "manual__glossary__the_war",
     "name": "The War",
     "record_type": "Glossary",
-    "description": "Guild databank consensus identifies the War as the most widely accepted explanation for the empty stars: why every expansion beyond Primus finds only dead orbital works, shattered megastructures, and ruins belonging to civilizations whose names, bodies, and purposes remain unknowable. No coherent record of the War survives, only ruin-fragments dated to before the first life walked on Primus, contradictory whispers taken from captured Mim utterances, and the continuing existence of the entity catalogued as The Being. Whether the War was a conflict, a purge, a failed defense, or something with no human equivalent remains unresolved, and all Directorate personnel are advised to treat certainty on the matter as cult behavior, enemy influence, or academic fraud."
+    "description": "The War is the unresolved event believed to have destroyed the civilizations whose ruins predate life on Primus and now fill the otherwise empty stars. The surviving evidence is fragmentary and contradictory, leaving even the nature of the event unknown."
   },
   {
     "id": "celestial-body:cindral:cindral-i",
@@ -15261,104 +15261,104 @@
     "id": "manual__glossary__manifold_engine",
     "name": "Manifold Engine",
     "record_type": "Glossary",
-    "description": "A Guild-manufactured faster-than-light drive that forces a vessel into the Manifold, where it follows narrow, charted corridors of stable space. Each engine requires a classified fuel source and constant course correction against the Manifold’s shifting geometry; deviation from an approved lane can strand, destroy, or scatter a ship across unknown space. The Guild alone is responsible enough to produce, license, and maintain Manifold Engines."
+    "description": "A Manifold Engine is a Guild-built FTL drive that moves a vessel through charted corridors in the Manifold. Because the medium's geometry shifts continuously, deviation from an approved lane can strand, scatter, or destroy a ship."
   },
   {
     "id": "manual__faction__pelagos_union",
     "name": "Pelagos Union",
     "record_type": "Faction",
     "faction": "EXTINCT",
-    "description": "The Pelagos Union was a democratic federation of ocean worlds, floating cities, orbital shipyards, and agricultural habitats. Its economy was built around aquaculture, biological manufacturing, medicine, shipping, and the export of food to less habitable systems.\nPolitical authority was divided between planetary assemblies, trade unions, naval districts, and habitat councils. Pelagos possessed a powerful defensive fleet but had little interest in territorial expansion.\nPHAGE INFESTATION DETECTED \nQUARANTINE ENACTED\nLANE ACCESS REVOKED"
+    "description": "The Pelagos Union was a democratic maritime federation whose economy and identity centered on ocean settlement and food production. The Phage consumed its territory, and all surviving lanes remain under quarantine. [LANE ACCESS REVOKED]"
   },
   {
     "id": "manual__glossary__dasamine_rift",
     "name": "Damasine Rift",
     "record_type": "Glossary",
     "faction": "VOIDBORN",
-    "description": "A permanent Voidborn breach occupying the former heart of the Damasine Hegemony, created during the twenty seven year war that destroyed the empire and rendered its surviving territory inaccessible. The Hegemony’s final fleet attempted to collapse the original fracture through a massed dimensional resonance detonation, but the breach survived and may have expanded beyond reliable observation. No stable systems are believed to remain within the lost region, and reports indicate that matter, energy, and local geometry continue to degrade around its boundaries. All Guild lanes approaching the Rift have been severed, navigational records purged, and unauthorized transit classified as deliberate entry into a Class IV erasure zone."
+    "description": "The Damasine Rift is the permanent Voidborn breach left at the center of the former Damasine Hegemony after its final attempt to collapse the opening failed. Its boundaries continue to degrade local reality, and all approaching Guild lanes have been severed."
   },
   {
     "id": "manual__faction__dasamine_hegemony",
     "name": "Damasine Hegemony",
     "record_type": "Faction",
     "faction": "EXTINCT",
-    "description": "The Damasine Hegemony was an authoritarian naval empire controlling a long chain of industrial and agricultural systems. Provincial rulers were permitted considerable autonomy so long as they provided taxes, conscripts, and warships to the central throne.\nDamasine expansion was aggressive but conventional. Its fleets were experienced, heavily armored, and supported by fortress systems capable of sustaining years of siege.\nPERMANENT VOIDBORN RIFT CONFIRMED \nLANE ACCESS REVOKED"
+    "description": "The Damasine Hegemony was an authoritarian naval empire whose provincial rulers retained autonomy in exchange for taxes and military service. Its territory was erased by the Voidborn, leaving a permanent rift and severed lanes. [LANE ACCESS REVOKED]"
   },
   {
     "id": "manual__faction__ilyr_consortium",
     "name": "Ilyr Consortium",
     "record_type": "Faction",
     "faction": "EXTINCT",
-    "description": "The Ilyr Consortium was a commercial alliance of mining corporations, colony governments, transport families, and worker-owned extraction syndicates. It controlled resource-rich systems but lacked the centralized political identity of the major human powers.\nIlyr settlements ranged from wealthy metropolitan worlds to isolated mines and industrial habitats. The Consortium’s principal achievement was maintaining trade between communities that otherwise shared little culture or law.\nSECTORS CONSUMED BY STELLAR MAW\nLANE ACCESS REVOKED"
+    "description": "The Ilyr Consortium was a decentralized commercial alliance that connected resource-rich systems with little shared law or culture. The Stellar Maw consumed its territory, and all former routes are closed. [LANE ACCESS REVOKED]"
   },
   {
     "id": "settingdex__entry__glossary__psionics",
     "name": "Psionics",
     "record_type": "Glossary",
-    "description": "Rare cognitive phenomena first documented in populations with prolonged exposure to resonance. Unlike resonance, psionics arise from an energy field generated by an unknown mechanism within the brain. Current theories posit that if resonance is energy derived from the Crucible, perhaps psionics are derived from a linkage to another plane of reality as well. Natural psionics are exceptionally uncommon, though artificial induction through resonance exposure and/or neural modification has produced additional subjects, often at the cost of permanent neurological damage, psychosis, or death. No consensus exists on why resonance exposure sometimes awakens psionic abilities, and the relationship between the two remains one of the greatest unsolved mysteries in modern science."
+    "description": "Psionics are rare cognitive abilities associated with prolonged Resonance exposure but generated through an unknown mechanism distinct from Resonance itself. Natural cases are uncommon, while artificial induction often causes severe neurological damage, leaving the origin of the phenomenon unresolved."
   },
   {
     "id": "manual__glossary__asterion_assembly",
     "name": "Asterion Assembly",
     "record_type": "Faction",
     "faction": "EXTINCT",
-    "description": "The Asterion Assembly was a federal republic formed from six industrial systems and dozens of lesser orbital municipalities. Its elected Chambers were dominated by shipwright unions, civil engineers, colonial delegates, and fleet officers, while local governments retained broad authority over taxation, policing, and settlement law. Asterion vessels were known for reliability rather than elegance, and its navy was among the largest forces outside direct Guild control.\nThe Assembly maintained cordial relations with the Crown and Luthan League but resisted permanent dependence upon either. At its height, it governed nearly forty billion citizens and operated an independent network of hospitals, schools, shipyards, agricultural habitats, and defensive stations.\nSECTORS OVERRUN WITH MIMS\nLANE ACCESS REVOKED"
+    "description": "The Asterion Assembly was a federal industrial republic with strong local governments and one of the largest navies outside Guild control. Mim forces overran its systems, and the Guild revoked all lane access. [LANE ACCESS REVOKED]"
   },
   {
     "id": "manual__faction__tyren",
     "name": "Tyren",
     "record_type": "Faction",
     "faction": "EXTINCT",
-    "description": "Tyren was a hereditary officer-state formed after a coalition of colonial armies overthrew several failing corporate administrations. Its ruling dynasties controlled the fleet and central ministries, while provincial governors managed extensive agricultural, industrial, and commercial territories.\nTyren culture placed high value on discipline, lineage, military education, and service to the state. Despite its authoritarian rule, Tyren maintained functioning courts, universities, and a substantial civilian economy.\nSECTORS CONTROLLED BY CEREBRAX\nLANE ACCESS REVOKED"
+    "description": "Tyren was a hereditary officer-state that paired centralized military rule with functioning civilian institutions. The Cerebrax assimilated its territory and incorporated its military knowledge into the Hivemind. [LANE ACCESS REVOKED]"
   },
   {
     "id": "manual__faction__uldren_combine",
     "name": "Uldren Combine",
     "record_type": "Faction",
     "faction": "EXTINCT",
-    "description": "The Uldren Combine was an industrial federation governed by corporate boards, labor councils, military administrators, and planetary production ministries. It controlled rich mineral systems and maintained enormous foundry fleets capable of constructing stations, warships, and habitation cylinders without Guild assistance.\nAlthough unequal and politically severe, Uldren offered stable employment, reliable food distribution, and considerable local autonomy to productive worlds. Its influence rested on manufacturing capacity rather than ideology or cultural prestige.\nSECTORS ASSIMILATED BY CEREBRAX\nLANE ACCESS REVOKED"
+    "description": "The Uldren Combine was an industrial federation whose power rested on immense independent manufacturing capacity. The Cerebrax assimilated its population and turned its foundries against the remaining defense worlds. [LANE ACCESS REVOKED]"
   },
   {
     "id": "manual__faction__serevine_republic",
     "name": "Serevine Republic",
     "record_type": "Faction",
     "faction": "EXTINCT",
-    "description": "The Serevine Republic was a prosperous parliamentary state centered on manufacturing worlds, industrious cities, and heavily populated orbital habitats. Its civil service was respected for competence, while a large professional navy protected commercial routes linking its inner systems to independent frontier settlements.\nSerevine politics were competitive and often bitter, but its parties agreed on gradual expansion, public infrastructure, and maintaining relative independence from both the Guild and the major human powers. Its citizens generally regarded the Republic as stable, wealthy, and unlikely to suffer the failures seen in harsher frontier states.\nQUARANTINE IN EFFECT\nLANE ACCESS REVOKED"
+    "description": "The Serevine Republic was a prosperous parliamentary state known for competent administration and a large professional navy. The Quicksilver Enigma destroyed its institutional trust, and its former territory remains quarantined. [LANE ACCESS REVOKED]"
   },
   {
     "id": "manual__faction__tervan_covenant",
     "name": "Tervan Covenant",
     "record_type": "Faction",
     "faction": "EXTINCT",
-    "description": "The Tervan Covenant was a defensive compact of agricultural kingdoms, mining republics, and old colonial fortress-worlds. Its members shared a navy and foreign policy but retained separate legal systems, noble houses, elected councils, and religious institutions. Tervan society valued military service, land stewardship, and regional customs.\nTervan was neither technologically exceptional nor politically unified. Its strength came from deep reserves, fortified population centers, experienced officers, and a citizenry accustomed to long campaigns against pirates and neighboring states.\nEXTREME TEMPORAL INSTABILITY DETECTED IN FORMER SECTORS\nLANE ACCESS REVOKED"
+    "description": "The Tervan Covenant was a defensive alliance whose members retained separate governments while sharing a navy and foreign policy. Repeated Chrono-Jackal incursions left its former territory temporally unstable and inaccessible. [LANE ACCESS REVOKED]"
   },
   {
     "id": "manual__faction__vannic_commonwealth",
     "name": "Vannic Commonwealth",
     "record_type": "Faction",
     "faction": "EXTINCT",
-    "description": "The Vannic Commonwealth was a parliamentary federation of old colony worlds, agricultural systems, industrial cities, and independent orbital settlements. It was politically moderate, economically stable, and known for strong municipal governments rather than grand ideological projects.\nIts outer systems had suffered from declining stellar output, forcing expensive heating programs and periodic population transfers. Despite this, the Commonwealth remained prosperous and maintained close commercial relations with several surviving powers.\nSYSTEMS ANNIHILATED DUE TO BASILICA\nLANE ACCESS REVOKED"
+    "description": "The Vannic Commonwealth was a stable parliamentary federation already strained by declining stellar output in its outer systems. The Basilica of Unborn Stars destroyed its inhabited worlds by igniting them from within. [LANE ACCESS REVOKED]"
   },
   {
     "id": "manual__faction__taloran_directorate",
     "name": "Taloran Directorate",
     "record_type": "Faction",
     "faction": "EXTINCT",
-    "description": "The Taloran Directorate was a centralized state governed by civil ministries, military prefectures, and a powerful engineering corps. It controlled heavily developed systems with dense orbital infrastructure, planned cities, artificial habitats, and large-scale public works.\nTaloran society was orderly, technically competent, and politically rigid. Its legitimacy rested upon the promise that the state could maintain transportation, power, food distribution, and physical security under any conditions.\nGRAVITATIONAL PHYSICS UNSTABLE DUE TO SHEPHERD INTERFERENCE \nLANE ACCESS REVOKED"
+    "description": "The Taloran Directorate was a centralized technocratic state whose legitimacy rested on maintaining reliable infrastructure and public security. The Shepherd destabilized the gravitational structure of its systems, forcing the Guild to revoke access. [LANE ACCESS REVOKED]"
   },
   {
     "id": "manual__faction__aurelian_synod",
     "name": "Aurelian Synod",
     "record_type": "Faction",
     "faction": "EXTINCT",
-    "description": "The Aurelian Synod was a federation of secular governments and established religious institutions. It governed pilgrimage worlds, commercial stations, agricultural colonies, and old cultural centers whose traditions predated the modern Guild lane network.\nThe Synod was known for diplomacy, historical scholarship, public ritual, and its willingness to absorb refugees from neighboring conflicts. It maintained a capable navy but preferred mediation to warfare.\nNEBULITE ASSIMILATION CONFIRMED\nLANE ACCESS REVOKED"
+    "description": "The Aurelian Synod was a federation of secular governments and religious institutions known for diplomacy and refugee relief. Nebulite harvesting erased its collective memory, and the former territory remains closed. [LANE ACCESS REVOKED]"
   },
   {
     "id": "manual__faction__nacre_union",
     "name": "Nacre Union",
     "record_type": "Faction",
     "faction": "EXTINCT",
-    "description": "The Nacre Union was a loose confederation of manufacturing worlds known for ceramics, structural composites, optical systems, consumer technology, and precision machinery. Its cities were built around cooperative workshops and regional production houses rather than centralized corporations.\nNacre politics were local, argumentative, and slow. The Union rarely projected military power beyond its territory, but its defense fleets were numerous and its population deeply committed to protecting their home systems.\nPHAGE INFESTATION DETECTED\nQUARANTINE ENACTED\nLANE ACCESS REVOKED"
+    "description": "The Nacre Union was a decentralized manufacturing confederation built around cooperative production and strong local identity. Phage infestation and subsequent Voidborn incursions destroyed the Union, leaving its systems quarantined. [LANE ACCESS REVOKED]"
   },
   {
     "id": "settingdex__entry__starships__needle_interceptor",
@@ -15552,294 +15552,294 @@
     "name": "Hadran",
     "record_type": "Faction",
     "faction": "EXTINCT",
-    "description": "Hadran was a bureaucratic federation of densely populated systems governed through elected ministries, regional administrations, courts, and a large professional civil service. It maintained extensive welfare programs, standardized infrastructure, and a modest but modern defensive fleet.\nHadran law was complicated but stable. Its greatest political conflicts concerned taxation, regional autonomy, industrial policy, and the limits of emergency authority.\nMEMETIC QUARANTINE ENACTED\nLANE ACCESS REVOKED"
+    "description": "Hadran was a bureaucratic federation governed through elected ministries and a large professional civil service. Nullary erased the state from reality, and its former systems remain under memetic quarantine."
   },
   {
     "id": "settingdex__entry__conflicts__ferrith_war",
     "name": "Ferrith War",
     "record_type": "Conflict",
     "duration": "3908–3912",
-    "description": "The Luthan League attempted to impose standardized tariffs and inspection rights on Kestrel merchant routes near Ferrith. Fighting centered on convoy seizures, station blockades, and attacks on customs platforms rather than planetary invasion. The settlement granted the League access to Ferrith while preserving Kestrel control of several independent trade routes."
+    "description": "The Ferrith War began when the Luthan League tried to impose tariffs and inspection rights on Kestrel merchant routes near Ferrith. The settlement opened Ferrith to League access while preserving Kestrel control over several independent routes."
   },
   {
     "id": "settingdex__entry__conflicts__deyros_war",
     "name": "Deyros War",
     "record_type": "Conflict",
     "duration": "3921–3925",
-    "description": "Repeated Orak raids against Crown settlements escalated into a sustained campaign across Deyros and Harrier Field. Crown forces captured several pirate anchorages but could not destroy the mobile syndicate fleets. The conflict established the fortified patrol network that still defines the region."
+    "description": "The Deyros War grew from repeated Orak raids into a sustained campaign across Deyros and Harrier Field. Crown forces destroyed several anchorages but failed to eliminate the mobile syndicate fleets, leading to the fortified patrol network that still defines the region."
   },
   {
     "id": "settingdex__entry__conflicts__braxis_border_war",
     "name": "Braxis Border War",
     "record_type": "Conflict",
     "duration": "3930–3936",
-    "description": "Damasine expansion crossed into systems claimed by the Cindral March, leading to six years of fleet actions and fortress sieges. Cindral forces held Braxis Hold but lost several outer colonies. The resulting border remained heavily militarized until the destruction of the Hegemony."
+    "description": "The Braxis Border War began when Damasine expansion entered systems claimed by the Cindral March. Cindral retained Braxis Hold but lost several outer colonies, leaving the frontier militarized until the Hegemony's destruction."
   },
   {
     "id": "settingdex__entry__conflicts__pelagos_trade_war",
     "name": "Pelagos Trade War",
     "record_type": "Conflict",
     "duration": "3941–3944",
-    "description": "The conflict began over League attempts to control food exports and shipping insurance from Pelagos territory. Both sides targeted merchant fleets, ports, and bonded cargo rather than civilian populations. Pelagos retained commercial independence but granted League firms preferred access to several major markets."
+    "description": "The Pelagos Trade War was fought over League attempts to control Pelagos food exports and shipping insurance. Pelagos preserved its commercial independence but granted League firms preferred access to major markets."
   },
   {
     "id": "settingdex__entry__conflicts__shivra_war",
     "name": "Shivra War",
     "record_type": "Conflict",
     "duration": "3948–3955",
-    "description": "Karnate forces attempted to seize mineral systems supplying Uldren heavy industry. The war became a prolonged contest between Karnate assault fleets and Uldren’s ability to replace ships faster than they could be destroyed. Karnate secured the Shivra Belt but failed to break the wider Combine."
+    "description": "The Shivra War began when Karnate attempted to seize mineral systems supporting Uldren heavy industry. Karnate secured the Shivra Belt but failed to overcome the Combine's ability to replace its losses."
   },
   {
     "id": "settingdex__entry__conflicts__veyra_corridor_war",
     "name": "Veyra Corridor War",
     "record_type": "Conflict",
     "duration": "3957–3961",
-    "description": "Disputes over pilgrimage routes, shrine jurisdiction, and the taxation of religious traffic escalated into armed convoy escorts and station seizures. Neither faction attempted to conquer the other’s core worlds. The final agreement established separate Aurelian and Veyran pilgrimage administrations along the corridor."
+    "description": "The Veyra Corridor War grew from disputes over pilgrimage authority and taxation along a shared religious route. Its settlement divided administration of the corridor between Aurelian and Veyran authorities."
   },
   {
     "id": "settingdex__entry__conflicts__taloran_halix_border_war",
     "name": "Taloran-Halix Border War",
     "record_type": "Conflict",
     "duration": "3966–3970",
-    "description": "The Directorate objected to Halix sensor stations operating near Taloran traffic routes, while Halix accused Taloran vessels of probing Compact defenses. Fighting remained concentrated around listening posts, reconnaissance ships, and several disputed moons. The border was eventually divided into monitored exclusion zones."
+    "description": "The Taloran-Halix Border War began over Compact surveillance stations near Directorate traffic routes and mutual accusations of reconnaissance. The settlement divided the frontier into monitored exclusion zones."
   },
   {
     "id": "settingdex__entry__conflicts__asterion_war",
     "name": "Asterion Civil War",
     "record_type": "Conflict",
     "duration": "3975–3986",
-    "description": "One of the largest pre-contact wars began when Karnate-backed separatists seized industrial stations inside Asterion territory. Both states mobilized millions of troops and fought across more than a dozen systems. Asterion ultimately retained its core territory, while Karnate annexed several resource systems and emerged with a substantially larger fleet."
+    "description": "The Asterion Civil War began when Karnate-backed separatists seized industrial stations within Assembly territory. Asterion preserved its core systems, but Karnate annexed several resource worlds and emerged with a larger fleet."
   },
   {
     "id": "settingdex__entry__conflicts__red_vale_war",
     "name": "Red Vale War",
     "record_type": "Conflict",
     "duration": "3988–3994",
-    "description": "Karnate attempted to secure frontier systems controlling access to several ore routes. Cindral relied on fortress worlds, militia fleets, and destructive delaying actions. Karnate captured the outer systems but abandoned further advances after suffering severe losses against entrenched Cindral defenses."
+    "description": "The Red Vale War was a Karnate attempt to seize frontier systems controlling Cindral ore routes. Karnate captured the outer systems but abandoned the offensive after severe losses against entrenched March defenses."
   },
   {
     "id": "settingdex__entry__conflicts__ilyr_mining_war",
     "name": "Ilyr Mining War",
     "record_type": "Conflict",
     "duration": "3996–4000",
-    "description": "The Luthan League attempted to enforce ownership claims over newly surveyed mineral deposits inside Ilyr territory. Fighting was conducted primarily by corporate security fleets, hired pilots, and local mining militias. The conflict ended with shared extraction rights and decades of unresolved compensation claims."
+    "description": "The Ilyr Mining War began when the Luthan League asserted ownership over newly surveyed deposits inside Consortium territory. The settlement established shared extraction rights while leaving compensation claims unresolved."
   },
   {
     "id": "settingdex__entry__conflicts__seldran_war",
     "name": "Seldran War",
     "record_type": "Conflict",
     "duration": "4003–4009",
-    "description": "The Seldran War began when the collapse of the sector’s royal succession divided its houses between several competing claimants. Crown houses from beyond Seldran intervened in support of favored candidates, expanding the dispute into a sector-wide civil war marked by major fleet engagements and prolonged planetary occupations. The intervening forces eventually withdrew after failing to establish a stable government, leaving Seldran divided between rival claimants and nominally subject to House de Noctixuan."
+    "description": "The Seldran War was a sector-wide Crown civil war triggered by the collapse of Seldran's royal succession and the intervention of outside houses supporting rival claimants. The intervening powers withdrew without establishing a stable government, leaving House de Noctixuan as the nominal authority over a divided realm."
   },
   {
     "id": "settingdex__entry__conflicts__second_braxis_war",
     "name": "Second Braxis War",
     "record_type": "Conflict",
     "duration": "4012–4024",
-    "description": "The Hegemony launched a full invasion intended to break the Cindral March and secure its Mawward approaches. Braxis Hold endured repeated sieges while Cindral forces abandoned outer systems to preserve their fleet. The war ended without a decisive victory, leaving both states weakened before the later catastrophes that destroyed Damasine territory."
+    "description": "The Second Braxis War was a Damasine invasion intended to break the Cindral March and secure the Mawward approaches. Repeated sieges failed to produce a decisive victory, leaving both powers weakened before the destruction of the Hegemony."
   },
   {
     "id": "settingdex__entry__conflicts__vannic_tariff_war",
     "name": "Vannic Tariff War",
     "record_type": "Conflict",
     "duration": "4027–4031",
-    "description": "A commercial dispute over transit fees escalated into convoy seizures and limited naval fighting. Neither side attacked inhabited worlds, but trade disruption caused shortages across several neighboring sectors. The Vannic Commonwealth obtained reduced tariffs while accepting League oversight at selected ports."
+    "description": "The Vannic Tariff War began as a dispute over transit fees and escalated into convoy seizures and limited naval combat. Vannic secured reduced tariffs in exchange for League oversight at selected ports."
   },
   {
     "id": "settingdex__entry__conflicts__greyspan_war",
     "name": "Greyspan War",
     "record_type": "Conflict",
     "duration": "4035–4042",
-    "description": "A Crown-Cindral coalition attempted to destroy the growing pirate state centered on Greyspan Station. Coalition fleets captured several outer bases but could not penetrate the neutron-star defenses around the citadel. The war ended after losses became politically unsustainable, leaving Greyspan damaged but independent."
+    "description": "The Greyspan War was a Crown-Cindral attempt to destroy the pirate state centered on Greyspan Station. Coalition losses forced a withdrawal before the citadel fell, leaving Greyspan damaged but independent."
   },
   {
     "id": "settingdex__entry__conflicts__first_core_war",
     "name": "First Core War",
     "record_type": "Conflict",
     "duration": "4000–4048",
-    "description": "The discovery of Resonance Cores triggered a rush to seize relic sites, researchers, and early Core-production facilities. Fighting began almost immediately, with states deploying unstable prototype mechs and sabotaging rival laboratories. The war was already underway when First Contact with the Mims revealed the scale of the external threat. Major powers accepted a hurried ceasefire, though many Core sites remained under disputed control. It was the last conflict in which nearly every surviving major faction committed substantial forces against one another."
+    "description": "The First Core War was a struggle for control of early Resonance Core sites and production methods, fought with unstable prototypes and sabotage. First Contact forced the major powers into a ceasefire, though many Core facilities remained disputed."
   },
   {
     "id": "settingdex__entry__conflicts__asterion_refugee_crisis",
     "name": "Asterion Refugee Crisis",
     "record_type": "Conflict",
     "duration": "4050–4051",
-    "description": "Halix closed several Silent Way checkpoints to refugees fleeing early Mim attacks in Asterion territory. Asterion escorts attempted to force passage, leading to brief fleet engagements around quarantine stations. The crisis ended when the Assembly redirected its refugees elsewhere, worsening the isolation that preceded its destruction."
+    "description": "The Asterion Refugee Crisis began when Halix closed Silent Way checkpoints to civilians fleeing early Mim attacks and Assembly escorts tried to force passage. Asterion redirected the refugees rather than continue the fighting, deepening the isolation that preceded its destruction."
   },
   {
     "id": "settingdex__entry__conflicts__miren_intervention",
     "name": "Miren Intervention",
     "record_type": "Conflict",
     "duration": "4056–4057",
-    "description": "Halix forces attempted to impose external inspections on Veyran ships departing Miren after evidence of cult activity and biological contamination emerged. Choir escorts resisted what they regarded as a violation of religious sovereignty. Fighting lasted several months before both sides established joint screening stations outside the system."
+    "description": "The Miren Intervention began when Halix demanded inspections of Veyran ships after evidence of cult activity and contamination. The dispute ended with joint screening stations established outside the system."
   },
   {
     "id": "settingdex__entry__conflicts__vask_gate_conflict",
     "name": "Vask Gate Conflict",
     "record_type": "Conflict",
     "duration": "4062",
-    "description": "Orak raiders seized several bonded cargo ships waiting for inspection at Vask Gate. League security forces retaliated against suspected syndicate docks and smuggling habitats. The fighting ended within weeks but disrupted trade throughout the Ferrith Sector."
+    "description": "The Vask Gate Conflict began when Orak raiders seized bonded cargo vessels awaiting League inspection. Retaliatory strikes ended the fighting within weeks but disrupted trade throughout the Ferrith Sector."
   },
   {
     "id": "settingdex__entry__conflicts__silent_way_war",
     "name": "Silent Way War",
     "record_type": "Conflict",
     "duration": "4068–4072",
-    "description": "The largest interstate war of the early post-contact period began when Halix attempted to close sections of the Silent Way during a series of Mim scares. Veyran flotillas continued moving pilgrims and refugees through restricted systems, while Cindral supported Halix to protect its frontier. The war involved station sieges, convoy battles, and several planetary bombardments, though all three factions avoided attacks on their core systems. It ended after a genuine Mim incursion struck the contested corridor and forced the surviving fleets to cooperate."
+    "description": "The Silent Way War began when Halix closed parts of the corridor during Mim scares and Veyran flotillas continued moving pilgrims and refugees through the restricted systems. A genuine Mim incursion forced Halix, Veyran, and Cindral forces to end the war and cooperate."
   },
   {
     "id": "settingdex__entry__conflicts__lethene_border_conflict",
     "name": "Lethene Border Conflict",
     "record_type": "Conflict",
     "duration": "4075–4076",
-    "description": "Halix quarantine forces denied entry to refugee fleets carrying populations displaced from outer systems. Lethene escorts attempted to break the blockade, arguing that the Compact was condemning civilians without proof of contamination. The conflict ended after independent screening teams confirmed several Mim-compromised vessels among the refugee fleet."
+    "description": "The Lethene Border Conflict began when Halix denied passage to refugee fleets and Lethene escorts attempted to break the quarantine. Independent screening confirmed Mim-compromised vessels among the refugees, ending the confrontation."
   },
   {
     "id": "settingdex__entry__conflicts__drossfall_campaign",
     "name": "Drossfall Campaign",
     "record_type": "Conflict",
     "duration": "4081–4083",
-    "description": "Halix accused Karnate of conducting unsafe Resonance experiments near routes connected to the Silent Way. Karnate refused inspection and fired upon Compact reconnaissance ships. The resulting campaign consisted of raids, sabotage operations, and battles around Drossfall’s quarantine infrastructure rather than a formal invasion."
+    "description": "The Drossfall Campaign followed Halix accusations that Karnate was conducting unsafe Resonance experiments near the Silent Way. Karnate resistance turned the dispute into raids and sabotage around quarantine infrastructure without escalating into a full invasion."
   },
   {
     "id": "settingdex__entry__conflicts__mareth_convoy_crisis",
     "name": "Mareth Convoy Crisis",
     "record_type": "Conflict",
     "duration": "4087–4088",
-    "description": "Cindral authorities requisitioned Mareth relief convoys during a major Mawward evacuation. Mareth escorts resisted, arguing that the supplies were intended for several threatened neutral systems. The dispute produced scattered fighting before Cindral returned most of the seized ships."
+    "description": "The Mareth Convoy Crisis began when Cindral requisitioned neutral relief ships during a major Mawward evacuation. Scattered fighting ended after the March returned most of the seized vessels."
   },
   {
     "id": "settingdex__entry__conflicts__greyspan_intervention",
     "name": "Greyspan Intervention",
     "record_type": "Conflict",
     "duration": "4092–4095",
-    "description": "A second coalition operation targeted Greyspan after pirate attacks disrupted refugee and military traffic. Coalition forces destroyed numerous outer defenses and temporarily blockaded the citadel. The intervention ended when escalating threat activity forced Crown and Cindral fleets to redeploy elsewhere."
+    "description": "The Greyspan Intervention was a second coalition attempt to suppress pirate attacks from the Greyspan citadel. The blockade ended when rising external threats forced Crown and Cindral fleets to redeploy."
   },
   {
     "id": "settingdex__entry__conflicts__eyral_standoff",
     "name": "Eyral Standoff",
     "record_type": "Conflict",
     "duration": "4102",
-    "description": "A Crown expedition claimed salvage rights over an ancient frame discovered inside the Eyral system. Choir authorities declared it a sacred relic and surrounded the expedition’s vessels. Both fleets remained at combat readiness for eleven days before the Crown withdrew without testing the blockade."
+    "description": "The Eyral Standoff began when Crown explorers claimed an ancient Frame that Veyran authorities considered sacred. After eleven days at combat readiness, the Crown withdrew rather than challenge the Choir blockade."
   },
   {
     "id": "settingdex__entry__conflicts__second_crown_karnate_war",
     "name": "Second Crown-Karnate War",
     "record_type": "Conflict",
     "duration": "4110–4114",
-    "description": "Border raids and competition over abandoned systems escalated into the largest war fought between surviving human powers after First Contact. Karnate launched offensives against Crown fortress systems, while Crown fleets struck foundries and supply routes. The conflict ended without territorial resolution after both factions lost multiple fleets and several frontier systems were attacked by external threats during the fighting. Public opposition made further offensives difficult to sustain."
+    "description": "The Second Crown-Karnate War grew from frontier raids into the largest post-contact conflict between surviving human powers. Heavy losses and external attacks ended the war without territorial resolution."
   },
   {
     "id": "settingdex__entry__conflicts__haven_rock_conflict",
     "name": "Haven Rock Conflict",
     "record_type": "Conflict",
     "duration": "4121–4122",
-    "description": "League-backed companies attempted to enforce debt claims against miners operating around Haven Rock. Local crews seized company ships and expelled League agents, prompting a limited intervention by hired security forces. The Luthan League withdrew after the miners gained support from several Orak syndicates."
+    "description": "The Haven Rock Conflict began when League-backed companies tried to enforce debt claims against independent miners. Luthan security forces withdrew after Orak syndicates supported the local resistance."
   },
   {
     "id": "settingdex__entry__conflicts__pale_hinge_crisis",
     "name": "Pale Hinge Crisis",
     "record_type": "Conflict",
     "duration": "4130",
-    "description": "Halix detained an entire Veyran pilgrim flotilla after several passengers failed memory screenings. Choir escorts surrounded Pale Hinge and demanded their release. The confrontation ended without open war when the affected ships agreed to undergo extended quarantine."
+    "description": "The Pale Hinge Crisis began when Halix detained a Veyran pilgrim flotilla after failed memory screenings. The confrontation ended without combat when the affected ships accepted extended quarantine."
   },
   {
     "id": "settingdex__entry__conflicts__breakwater_war",
     "name": "Breakwater War",
     "record_type": "Conflict",
     "duration": "4137–4140",
-    "description": "Karnate patrols repeatedly entered restricted space near Breakwater, claiming to be pursuing raiders and escaped labor ships. Cindral forces treated the incursions as preparations for invasion. Three years of fleet actions ended with no major territorial change, though both factions expanded their border fortifications."
+    "description": "The Breakwater War followed repeated Karnate incursions into restricted space that Cindral interpreted as preparations for invasion. Three years of fleet action changed no borders but drove both factions to expand their fortifications."
   },
   {
     "id": "settingdex__entry__conflicts__black_runnel_raids",
     "name": "Black Runnel Raids",
     "record_type": "Conflict",
     "duration": "4142–Present",
-    "description": "Crown and Luthan League vessels have conducted repeated operations against smugglers using the Black Runnel corridor. Orak groups respond with convoy ambushes, false navigation signals, and attacks on isolated customs stations. None of the participants officially recognizes the situation as a war."
+    "description": "The Black Runnel Raids are an ongoing series of Crown and Luthan operations against smugglers using the corridor, answered by Orak attacks on trade and customs traffic. The participants continue the conflict without formally recognizing it as a war."
   },
   {
     "id": "settingdex__entry__conflicts__the_asterion_war",
     "name": "The Asterion War",
     "record_type": "Conflict",
     "duration": "4045-4056",
-    "description": "The first confirmed Mim formations entered Asterion territory through three systems simultaneously. Their attacks combined direct fleet action with hallucinations, false orders, dream contagion, and the appearance of entire military formations that did not exist. Assembly fleets repeatedly won engagements only to discover that they had destroyed allied vessels or defended worlds already lost elsewhere. Civilian governments continued functioning through written verification, rotating command staffs, chemically induced wakefulness, and independently isolated control rooms. These measures prolonged resistance but could not prevent the gradual collapse of trust between fleets, worlds, and commanders. Asterion fought until its remaining navy concentrated around the capital system for a final defense. Guild observers recorded six days of continuous combat before all Asterion transmissions became a single repeating distress call spoken in several billion overlapping voices."
+    "description": "The Asterion War was the first full-scale Mim invasion, using direct attacks and cognitive manipulation to destroy the Assembly's ability to trust its own forces. Asterion's final defense ended after six days of continuous combat, when every remaining transmission collapsed into a single repeating distress call."
   },
   {
     "id": "settingdex__entry__conflicts__the_tervan_war",
     "name": "The Tervan War",
     "record_type": "Conflict",
     "duration": "4129-4134",
-    "description": "Chrono-Jackal fleets first appeared during a conventional border mobilization and attacked the same three Covenant systems nine times. Each assault began from an earlier point in the campaign, allowing the Jackals to alter tactics, steal equipment, assassinate officers, and exploit defenses that had succeeded in previous iterations. Tervan commanders slowly recognized that their victories were being overwritten. Entire regiments retained memories of battles that official records claimed had never occurred. Fortresses were found stocked with ammunition manufactured decades in the future, while returning warships carried personnel whose original vessels had not yet launched. The Covenant eventually committed its entire navy to destroying the temporal siphons sustaining the Jackal presence. It succeeded in seven recorded timelines and failed in the one that remained. When the last Guild observation vessel withdrew, Tervan space contained overlapping debris fields from mutually contradictory versions of the same war. The leftover temporal energy attracted Chronodrakes, who began to feast on the remnants of the excess timelines."
+    "description": "The Tervan War was a Chrono-Jackal campaign repeatedly restarted from earlier points in the conflict, allowing each assault to exploit knowledge stolen from previous versions. Tervan destroyed the temporal siphons in several timelines but failed in the surviving one, leaving contradictory debris fields that later attracted Chronodrakes."
   },
   {
     "id": "settingdex__entry__conflicts__the_serevine_civil_war",
     "name": "The Serevine Civil War",
     "record_type": "Conflict",
     "duration": "4115-4123",
-    "description": "The Quicksilver Enigma entered Serevine territory through an unidentified commercial vessel. It infiltrated government ministries, military commands, factories, families, and political organizations by assuming forms indistinguishable from ordinary people and objects. Initial discoveries produced reasonable security measures. Those measures escalated into mass screenings, loyalty courts, military purges, sealed districts, and competing claims that entire branches of government had been replaced. Fleets fired on one another over contradictory authentication orders. Planetary governments armed rival investigative agencies, each convinced the others were compromised. The Enigma rarely fought openly. It encouraged the Republic to conduct the war itself. By the final year, hundreds of millions had died in bombardments, civil wars, and extermination campaigns against suspected infiltrators. The surviving Serevine government ordered the destruction of its own capital after concluding that evacuation ships could not be trusted."
+    "description": "The Serevine Civil War began after the Quicksilver Enigma infiltrated the Republic and turned reasonable security measures into competing purges and civil conflict. The surviving government destroyed its own capital after concluding that neither its institutions nor evacuation ships could be trusted."
   },
   {
     "id": "settingdex__entry__conflicts__the_uldren_assimilation",
     "name": "The Uldren Assimilation",
     "record_type": "Conflict",
     "duration": "4061-4079",
-    "description": "Cerebrax forces entered Uldren space as a conventional invading army of crystalline ships, assimilated soldiers, and self-replicating warforms. The Combine mobilized its industrial base and produced fleets faster than the Cerebrax could initially destroy them. The conflict became a prolonged war of attrition across mining worlds, factory moons, and orbital shipyards. Captured Uldren personnel returned as components of the Hivemind, retaining military training, passwords, and intimate knowledge of Combine infrastructure. Every defeat strengthened the enemy. Uldren continued producing weapons until the Cerebrax assimilated the foundry populations themselves. The last Combine fleets were constructed by factories already linked to the Hivemind and launched under Uldren identification codes before turning on the remaining defense worlds."
+    "description": "The Uldren Assimilation was a war of industrial attrition against Cerebrax forces that converted captured personnel and infrastructure into extensions of the Hivemind. Uldren's own foundries eventually produced the fleets that destroyed its remaining defense worlds."
   },
   {
     "id": "settingdex__entry__conflicts__the_tyren_assimilation",
     "name": "The Tyren Assimilation",
     "record_type": "Conflict",
     "duration": "4079-4088",
-    "description": "The Tyren entered the war after Cerebrax fleets crossed from former Uldren territory. Tyren forces initially halted the invasion through massed naval actions and the deliberate destruction of compromised worlds. The conflict changed when assimilated Cerebrax began transmitting commands attributed to the Omni-Cognate. Crystal formations across multiple systems reorganized simultaneously, abandoning established tactics and operating with impossible strategic coordination. Tyren command structures were penetrated by the forced integration of captured officers into the enemy intelligence. Tyren’s ruling families died leading the final defense of the capital. Their captured memories, military doctrines, and hereditary archives were incorporated into the advancing collective. Later Cerebrax formations have demonstrated Tyren ceremonial behavior without apparent understanding of its original meaning."
+    "description": "The Tyren Assimilation began when Cerebrax forces crossed from former Uldren territory and reorganized under commands attributed to the Omni-Cognate. Tyren's leadership died defending the capital, and its military knowledge was absorbed into later Cerebrax formations."
   },
   {
     "id": "settingdex__entry__conflicts__the_consumption_of_pelagos",
     "name": "The Consumption of Pelagos",
     "record_type": "Conflict",
     "duration": "4068-4080",
-    "description": "The Phage entered Pelagos territory aboard contaminated relief vessels. Within months, microscopic infestations appeared in food stores, water systems, medical facilities, and planetary oceans. The Union fought an all-out biological war. Entire islands were burned, seas poisoned, stations vented, and inhabited moons sterilized to deny biomass to the spreading Hives. Pelagos fleets destroyed thousands of their own civilian ships after screening procedures failed to reliably detect dormant spores. For twelve years, Union forces contained the infestation system by system. The war ended when multiple ocean worlds experienced synchronized blooms beneath their planetary crusts. The Phage consumed the seas first, then the continents, atmosphere processors, orbital habitats, and evacuation fleets. The final Pelagos order instructed surviving warships to fire upon any vessel attempting to leave Union space."
+    "description": "The Consumption of Pelagos began when Phage contamination spread through relief traffic and reached the Union's ocean worlds. Twelve years of containment ended with synchronized planetary blooms that consumed the remaining population and evacuation fleets."
   },
   {
     "id": "settingdex__entry__conflicts__the_erasure_of_nacre",
     "name": "The Erasure of Nacre",
     "record_type": "Conflict",
     "duration": "4076-4090",
-    "description": "The Phage invaded Nacre through several frontier colonies and were met by a defensive mobilization involving nearly every civilian industry. Kilns produced sterilization materials, merchant vessels became fire ships, and fabrication guilds turned entire cities into sealed defensive zones. Nacre forces drove the Phage from four systems and nearly eradicated the main infestation. During the final offensive, mass resonance weapons and the destruction of an infected moon opened dimensional fractures across the theater. Voidborn organisms emerged through those scars and attacked both sides. The remaining Nacre fleets fought a second war while still conducting planetary sterilization against the Phage. Reality failures spread faster than evacuation could proceed, and the surviving population was consumed between infestation zones and expanding void rifts."
+    "description": "The Erasure of Nacre began as a successful war against the Phage until massed Resonance weapons opened dimensional fractures across the theater. Voidborn incursions and renewed infestation overwhelmed the Union before evacuation could be completed."
   },
   {
     "id": "settingdex__entry__conflicts__the_aurelian_war",
     "name": "The Aurelian War",
     "record_type": "Conflict",
     "duration": "4083-4099",
-    "description": "Nebulite harvesting began at the edge of Aurelian territory, where isolated settlements lost personal memories while retaining language and practical skills. The Synod initially believed the phenomenon could be treated medically. As the Collective advanced, it stripped military plans, cultural knowledge, personal identities, and institutional memory from entire worlds. Aurelian forces could defeat physical manifestations but could not prevent the Nebulites from extracting the experience of each battle and using it against later fleets. The Synod preserved its history through disconnected archives, oral traditions, sealed machines, and personnel rotated before they accumulated strategically useful knowledge. These measures allowed sixteen years of organized resistance. The last Aurelian worlds remained populated after the war. Their inhabitants continued farming, maintaining machinery, and following routines, but no longer remembered the Synod, their families, or why the fleets above them were burning."
+    "description": "The Aurelian War was a sixteen-year resistance against Nebulite harvesting that stripped worlds of personal and institutional memory. The surviving population retained routine skills but no longer remembered the Synod, their families, or the war."
   },
   {
     "id": "settingdex__entry__conflicts__the_unmaking_of_vannic",
     "name": "The Unmaking of Vannic",
     "record_type": "Conflict",
     "duration": "4091-4104",
-    "description": "The Basilica of Unborn Stars first appeared in a declining outer system. Temperatures rose, crop yields recovered, frozen oceans began to melt, and religious movements formed around what appeared to be the restoration of a dying sun. The Commonwealth discovered too late that several moons and planets had been implanted with stellar embryos. When the first host ignited, it destroyed nearby settlements and destabilized every orbit in the system. Vannic forces attempted evacuation, planetary surgery, orbital bombardment, and the physical removal of implanted material. The Basilica responded by seeding additional worlds, stations, and gas giants. Commonwealth fleets fought amid radiation storms and gravitational collapse while civilian authorities tried to evacuate billions. Vannic territory is now recorded only as a field of young, malformed stars burning where inhabited worlds once orbited."
+    "description": "The Unmaking of Vannic began when the Basilica of Unborn Stars implanted stellar embryos in Commonwealth worlds under the appearance of restoring a dying system. Vannic territory is now a field of malformed stars burning where inhabited planets once existed."
   },
   {
     "id": "settingdex__entry__conflicts__the_erasure_of_damasine",
     "name": "The Erasure of Damasine",
     "record_type": "Conflict",
     "duration": "4050-4077",
-    "description": "The Voidborn entered Damasine territory through a fracture that opened inside an occupied frontier system. Initial organisms were destroyed, but each engagement widened the breach and allowed larger entities to emerge. The Hegemony fought a retreating war across dozens of systems. Planets were fortified, evacuated, abandoned, and eventually erased as Voidborn formations consumed matter, energy, and the geometry holding structures together. Damasine fleets won major victories against individual Rift Titans and Star-Eaters, but the Swarm did not require supply lines, reinforcement routes, or stable territory. Every dimensional weapon used against it risked creating another entrance. The Hegemony’s final campaign gathered its surviving navy around the original breach in an attempt to collapse it. The detonation was visible across neighboring sectors. The breach remained."
+    "description": "The Erasure of Damasine was a retreating war against a Voidborn breach that widened with every engagement and consumed the structure of occupied systems. The Hegemony's final attempt to collapse the original fracture destroyed its remaining fleet but left the breach intact."
   },
   {
     "id": "settingdex__entry__conflicts__the_evacuation_of_ilyr",
     "name": "The Evacuation of Ilyr",
     "record_type": "Conflict",
     "duration": "4108-4111",
-    "description": "The Stellar Maw entered Ilyr territory along a vector that threatened every major Consortium system. With no known means to destroy it, Ilyr authorities began the largest civilian evacuation attempted outside Guild control. Mining fleets became transports. Habitats were stripped for engines. Rival corporations surrendered private vessels and fuel reserves as gravitational disruption collapsed normal routes. Consortium warships fought not to kill the Maw, but to preserve departure corridors against tidal forces, orbital debris, and the breakdown of local stars. Entire fleets were lost towing population stations away from destabilized planets. Fewer than one percent of registered Ilyr citizens reached neighboring territory. Most evacuation fleets were later recalled by false distress signals originating from systems already consumed."
+    "description": "The Evacuation of Ilyr was a mass civilian withdrawal conducted as the Stellar Maw destabilized every major Consortium system. Fewer than one percent of registered citizens escaped, and many surviving fleets were later lured back by false distress signals."
   },
   {
     "id": "settingdex__entry__conflicts__the_hadran_incident",
     "name": "The Hadran Incident",
     "record_type": "Conflict",
     "duration": "4138-4138",
-    "description": "Nullary first appeared as colorless text inside a damaged logistics report. The statement indicated that a transport vessel had never existed. Within minutes, all physical evidence of the ship, its crew, and its cargo disappeared. Additional statements propagated through military orders, legal records, private correspondence, and automated systems. When read and understood, they imposed themselves upon reality. Defensive efforts failed because reports denying Nullary became new statements capable of enforcement. Hadran disconnected its communications networks, destroyed archives, and ordered citizens to avoid written language. Competing emergency directives produced mutually exclusive realities across inhabited systems. On the eighth day, a surviving Hadran transmission stated that Hadran had always been empty. No further evidence contradicted it."
+    "description": "The Hadran Incident began when a Nullary statement erased a transport from reality and spread through the federation's records. On the eighth day, a final transmission declared that Hadran had always been empty, leaving no surviving evidence to contradict it."
   },
   {
     "id": "manual__threat__the_bread_bell",
@@ -15870,7 +15870,7 @@
     "current_head": "Duchess Aurelia de Aurelong",
     "style": "House of the Golden Dragons",
     "heraldry": "A radiant golden dragon coiled around a star on a field of white.",
-    "description": "House de Aurelong rules the Crown Sector and traditionally presides over the Crown Council. Its holdings include several of the oldest surviving noble archives in the Concordant. The house presents itself as the custodian of Crown unity rather than the ruler of the other dukes, though few believe it would refuse greater authority if offered.\n\nThe Aurelongs built their influence through diplomacy rather than outright conquest. They are closely associated with the formal codes of chivalry that govern noble disputes, inheritance claims, and the recognition of legitimate lineages. The house supports cooperation with the Luthan League and Cindral March, while regarding Karnate as the greatest direct threat to the Concordant.\n\nAurelong forces are disciplined and highly visible. Their commanders prefer decisive public victories that reinforce confidence in the Crown, sometimes at the expense of less prestigious but more practical operations."
+    "description": "House de Aurelong rules the Crown Sector and traditionally presides over the Crown Council as the Concordant's principal advocate of unity and legitimate succession. Its influence rests on diplomacy and control of chivalric legitimacy rather than direct rule over the other dukes."
   },
   {
     "id": "sub_faction__house_di_solming",
@@ -15916,7 +15916,7 @@
     "current_head": "Duke Lucan di Valeming",
     "style": "House of the Rising Sun",
     "heraldry": "A silver shield on a deep green field, displaying a rising sun.",
-    "description": "House di Valeming rules the Althoren Sector and is considered the most conventionally feudal of the ducal families, with hundreds of minor baronies owing military service, grain quotas, civil duties, or maintenance labor.\n\nThe house traditionally supports the de Aurelongs but opposes attempts to centralize taxation or place ducal forces under permanent council command. Valeming officers fought beside Cindral forces during the Greyspan campaigns and retain strong professional respect for the March.\n\nTheir greatest concern is isolation. Althoren’s farms and scattered holdings depend on narrow transit routes, and the house fears that a serious lane disruption could leave its baronies to face piracy, famine, and invasion without reinforcement."
+    "description": "House di Valeming rules the Althoren Sector through a deeply feudal network of minor baronies bound by service obligations. It supports de Aurelong leadership while resisting central control, and its greatest vulnerability is the narrow lane network connecting its scattered agricultural holdings."
   },
   {
     "id": "sub_faction__house_de_noctixuan",
@@ -15929,7 +15929,7 @@
     "current_head": "Duchess Sabina de Noctixuan",
     "style": "House of the Veiled Moon",
     "heraldry": "A black field with a pale crescent moon, with faint silver stars scattered across the background.",
-    "description": "House de Noctixuan rules the Seldran Sector in theory. However, much of Seldran remains divided between rival claimants and families that acknowledge the duchess only when convenient.\n\nThe Noctixuans rose after the collapse of Seldran’s previous royal order. Rather than claim the ruined throne directly, they positioned themselves as arbiters responsible for preserving legitimate succession records. Over generations, control of those records became more valuable than the throne itself.\n\nThe Seldran War began when rival houses advanced competing claims over the vacant throne and drew support from powerful Crown families beyond the sector. The resulting intervention transformed the succession dispute into a sector-wide civil war, but no faction could establish a stable government before the outside forces withdrew. The failure weakened the competing claimants and strengthened the Noctixuan argument that only a neutral custodian of legitimacy could prevent Seldran from collapsing into another ruinous war.\n\nThe house is feared for its intelligence networks and its habit of treating genealogy as a weapon. A marriage certificate or authenticated lineage can destroy a rival more efficiently than a fleet."
+    "description": "House de Noctixuan is the nominal ruler of the divided Seldran Sector and the custodian of its succession records. By controlling the evidence of legitimate lineage, it turns genealogy into political authority while rival claimants remain unable to form a stable government."
   },
   {
     "id": "sub_faction__house_da_ferruwei",
@@ -15942,7 +15942,7 @@
     "current_head": "Duke Cassian da Ferruwei",
     "style": "House of the Iron Forge",
     "heraldry": "A crimson field displaying a flaming hammer, with golden sparks scattering outward like small stars.",
-    "description": "House da Ferruwei governs the Bastrel Sector as a permanent military enterprise. Other nobles sometimes dismiss the Ferruwei as recently elevated industrial lords, though few are willing to do so within range of their artillery.\n\nThe house rose through the Crown’s expansion campaigns, supplying weapons and soldiers to noble armies that often failed to pay their debts. Instead of demanding currency, the Ferruwei accepted land, mining rights, marriage contracts, military appointments, and decommissioned frames. By the time the older houses recognized the scale of this accumulation, the family already controlled the systems required to mobilize the Crown’s frontier armies.\n\nFerruwei forces bore heavy losses during the Second Crown-Karnate War. Their foundries replaced armor and frames faster than most Crown systems, but Karnate strikes against supply routes exposed the danger of concentrating so much military production within one ducal domain. Thus it has various trade and military agreements with other ducal families to allow Ferruwei forges to be built on their worlds.\n\nThe house favors rearmament, fortified borders, and aggressive retaliation. It has little patience for court ritual unless that ritual ends with troops receiving orders."
+    "description": "House da Ferruwei governs the Bastrel Sector as the Crown's principal frontier military-industrial power. Its authority grew by converting unpaid wartime debts into territorial and political control, making the Concordant increasingly dependent on Ferruwei production."
   },
   {
     "id": "sub_faction__house_de_limeshan",
@@ -15955,7 +15955,7 @@
     "current_head": "Duchess Livia de Limeshan",
     "style": "House of the Storm",
     "heraldry": "A divided field of ash gray and dark blue, crossed by a jagged white lightning bolt.",
-    "description": "House de Limeshan rules the poorest, most violent, and least secure of the Crown’s sectors. Deyros lies against Orak raiding territory, Karnate smuggling routes, Warp Beast migration zones, and the unstable approaches around the Black Runnel. The family’s authority weakens rapidly beyond the fortified settlements of the main system.\n\nThe Limeshans began as military prefects appointed to impose law on frontier colonies. Repeated raids, delayed reinforcements, and unreliable Guild access gradually turned them into the sector authority. The family’s nobility was recognized only after it had already governed the region for generations.\n\nThe Deyros War established the house’s modern identity. Orak fleets were driven from several anchorages but never eliminated, forcing the Limeshans to build around patrols, fortified convoys, intelligence networks, and rapid retaliation. The ongoing Black Runnel Raids have ensured that the war never truly ended.\n\nOther ducal families often consider House de Limeshan crude, overly suspicious, and too willing to employ mercenaries. The Limeshans respond that the interior houses enjoy manners because someone else is killing the people who ignore them."
+    "description": "House de Limeshan governs the exposed Deyros frontier, where weak central authority and constant raiding require permanent military readiness. Its rule rests on patrols and rapid retaliation, earning it a reputation for severity among the safer interior houses."
   },
   {
     "id": "sector__crown_sector",
@@ -20305,7 +20305,7 @@
     "faction": "ORAK",
     "sector_name": "ORAK SECTOR",
     "star_type": "Class K (Orange Dwarf)",
-    "description": "Shale Hollow is a low-traffic Orak system centered on a K-class star and a dense asteroid belt. It functions as a minor refuge and salvage stop for crews operating away from Orak Station’s main routes. Local administration is inconsistent, and navigation outside marked approach corridors should be treated as unreliable."
+    "description": "Shale Hollow is a minor Orak refuge and salvage system away from the Syndicates' main routes. Local authority and navigation remain unreliable outside the marked approaches."
   },
   {
     "id": "system__zyros_system",
@@ -20314,7 +20314,7 @@
     "faction": "HALIX",
     "sector_name": "HALIX SECTOR",
     "star_type": "Class M (Red Dwarf)",
-    "description": "Zyros is the Compact’s principal counter-incursion system outside the Silent Way. The original colonial grid was abandoned after repeated Mim contact and later rebuilt as a controlled battlespace intended to absorb incursions before they reach populated Halix systems. Navigation inside the inner system is deliberately constrained, and large sections remain under permanent live-fire authorization."
+    "description": "Zyros is the Halix Compact's principal counter-incursion system outside the Silent Way, rebuilt as a controlled battlespace after repeated Mim contact. Navigation is deliberately restricted, and much of the system remains under permanent live-fire authorization."
   },
   {
     "id": "system__nerathis_system",
@@ -20323,7 +20323,7 @@
     "faction": "HALIX",
     "sector_name": "HALIX SECTOR",
     "star_type": "White Dwarf",
-    "description": "Nerathis is the Compact’s largest high-risk research system for Mim containment. Its white dwarf primary and irradiated debris zones allow hazardous programs to remain physically separated across a full system rather than concentrated at one station. Any confirmed breach is treated as a sector-level emergency."
+    "description": "Nerathis is the Compact's largest high-risk Mim research and containment system, using its irradiated debris zones to isolate hazardous programs. Any confirmed breach is treated as a sector-level emergency."
   },
   {
     "id": "system__tarkoss_system",
@@ -20332,7 +20332,7 @@
     "faction": "KARNATE",
     "sector_name": "KARNATE SECTOR",
     "star_type": "Class K (Orange Dwarf)",
-    "description": "Tarkoss is a Karnate industrial recovery system centered on dismantling damaged military material. Its yards process captured hulls and failed equipment into reusable components for nearby campaigns. Most traffic is military or state-chartered, and unauthorized vessels are rarely allowed beyond the outer holding orbits."
+    "description": "Tarkoss is a Karnate recovery system that dismantles damaged military material for reuse in nearby campaigns. Access beyond the outer holding orbits is restricted to military and state-chartered traffic."
   },
   {
     "id": "system__uldran_system",
@@ -20341,7 +20341,7 @@
     "faction": "CINDRAL",
     "sector_name": "CINDRAL SECTOR",
     "star_type": "Class F (White)",
-    "description": "Uldran is a Cindral border system with wide orbital spacing and strong long-range surveillance coverage. Its defenses are arranged to slow incoming forces before they can reach the inhabited zones around Uldran-III and the outer patrol moons. Approach procedures are rigid, and vessels that miss challenge windows are redirected or detained at the edge of the system."
+    "description": "Uldran is a Cindral border system designed to delay approaching forces before they reach its inhabited zones. Its long-range surveillance network enforces rigid approach procedures at the system's edge."
   },
   {
     "id": "system__thass_vale_system",
@@ -20350,7 +20350,7 @@
     "faction": "CINDRAL",
     "sector_name": "CINDRAL SECTOR",
     "star_type": "Red Giant (M)",
-    "description": "Thass Vale is a Cindral reserve system built around an aging red giant and several cold outer bodies. The March uses it as a fallback system for forces withdrawn from the primary border line. Civilian infrastructure exists, but most traffic is organized around readiness drills and protected evacuation routes."
+    "description": "Thass Vale is a Cindral reserve system used to receive forces withdrawn from the primary frontier. Its civilian infrastructure is organized around military readiness and protected evacuation routes."
   },
   {
     "id": "system__alnira_system",
@@ -20359,7 +20359,7 @@
     "faction": "VEYRAN",
     "sector_name": "VEYRAN SECTOR",
     "star_type": "Class G (Yellow Sun-like)",
-    "description": "Alnira is a stable Veyran system used to assemble large convoys before they enter less secure sections of the Choir Path. Its predictable orbital conditions make it valuable for pilgrimage traffic and fleet coordination without turning it into a major industrial center. Ships that ignore assigned holding patterns are removed from convoy order."
+    "description": "Alnira is a stable Veyran assembly system where large convoys form before entering less secure portions of the Choir Path. Its predictable conditions support pilgrimage traffic and coordinated fleet movement."
   },
   {
     "id": "celestial-body:shale-hollow:shale-hollow-primary",
@@ -22063,25 +22063,25 @@
     "id": "glossary__late_primus_collapse",
     "name": "Late Primus Collapse",
     "record_type": "Glossary",
-    "description": "The Late Primus Collapse describes the final centuries before the Exodus, when Primus lost the ability to sustain itself as a unified world. War, famine, plague, ecological ruin, and industrial exhaustion reduced most nations to fortified city-states dependent on corporate infrastructure. By the time the stars began to go dark, Primus was already failing."
+    "description": "The Late Primus Collapse was the final pre-Exodus period in which war, ecological failure, and institutional decay reduced Primus to isolated city-states. Humanity began the Exodus only after the homeworld had already lost the capacity to recover."
   },
   {
     "id": "glossary__core_proliferation_crisis",
     "name": "Core Proliferation Crisis",
     "record_type": "Glossary",
-    "description": "The Core Proliferation Crisis began when early Resonance Cores spread faster than the institutions meant to control them. Unlicensed forges, military laboratories, private cults, and desperate colonies produced unstable Cores that caused contamination events, frame mutations, and localized reality failures. The crisis ended with the Guild consolidating Core production and making safe Core access dependent on Guild approval."
+    "description": "The Core Proliferation Crisis began when unstable Resonance Cores spread faster than any institution could regulate them. The Guild ended the crisis by consolidating production and making access to safe Cores dependent on its approval."
   },
   {
     "id": "glossary__first_contact",
     "name": "First Contact",
     "record_type": "Glossary",
-    "description": "First Contact was the first confirmed public encounter between the civilizations of Primus and a full on alien species: the Mims. Earlier incidents were suppressed, misclassified, or contained by the Guild for safety reasons, but First Contact made denial impossible across civilized space. The event permanently changed the Galaxy, the truth was beyond the Guild's control for better or worse."
+    "description": "First Contact was the first public encounter between human civilization and the Mims, ending the Guild's ability to suppress evidence of alien life. The event permanently altered interstellar society and began the conditions that became the New Dark Age."
   },
   {
     "id": "glossary__the_new_dark_age",
     "name": "The New Dark Age",
     "record_type": "Glossary",
-    "description": "The New Dark Age is the ongoing era that followed First Contact and the failures that came after it. Interstellar communication remains restricted, public Net access is curtailed, and many colonies operate with limited knowledge of conditions beyond their local lanes. Civilization has not collapsed, but it now survives under censorship, armed travel, controlled information, and permanent threat conditions."
+    "description": "The New Dark Age is the post-First Contact era in which civilization survives under restricted communication, controlled information, and permanent threat conditions. Human space remains connected, but most colonies know little beyond their local Guild lanes."
   },
   {
     "id": "glossary__duke",
@@ -22151,7 +22151,7 @@
     "name": "Strategos",
     "record_type": "Glossary",
     "faction": "CINDRAL",
-    "description": "Cindral Genos rank. A Strategos is a noble house charged with the defense of a major world, or strategically important section of a system. The plural form is Strategoi."
+    "description": "A Strategos is a Cindral noble rank granted to a house responsible for defending a major world or strategically important part of a system. The plural form is Strategoi."
   },
   {
     "id": "glossary__phylarch",
@@ -22165,7 +22165,7 @@
     "name": "Spartos",
     "record_type": "Glossary",
     "faction": "CINDRAL",
-    "description": "Earned Cindral founder-rank. A Spartos is an individual granted a Kleros for extraordinary service to Cindral and charged with the protection of a town, city, fortress-city, shelter network, or other defined civic population. The plural form is Spartoi."
+    "description": "A Spartos is an earned Cindral founder-rank granted to an individual who receives a Kleros for extraordinary service and assumes responsibility for a defined civic population. The plural form is Spartoi."
   },
   {
     "id": "glossary__genos",
@@ -22212,7 +22212,7 @@
     "seat": "Cindral System",
     "current_head": "Whitlock Calystron",
     "style": "ANAX",
-    "description": "Genos Calystron is responsible for the defense of Cindral Sector, coordinating the capital system, the fortress network of Braxis Hold, and the evacuation infrastructure of Red Choir. Its current head, Whitlock Calystron, was elected Anax after successive frontier emergencies demonstrated that divided command could not protect the March during a sector-wide crisis. The Anaxate is an emergency mandate rather than a hereditary crown, and the house is expected to place the survival of Cindral above the interests of its own lineage."
+    "description": "Genos Calystron coordinates the defense of Cindral Sector and its evacuation infrastructure. Its current head holds the emergency Anaxate, a mandate requiring the house to place the survival of the March above its own lineage."
   },
   {
     "id": "settingdex__entry__sub_faction__genos_melanthorne",
@@ -22331,44 +22331,44 @@
     "id": "settingdex__entry__glossary__core_realization",
     "name": "Core Realization",
     "record_type": "Glossary",
-    "description": "Core Realization occurs when a Core reaches full biological maturity and becomes independently stable. Most industrial and semi-mass-produced Cores are kept partially grown so they remain predictable and easier to control. A Realized Core develops far greater adaptability than its constrained counterparts and may eventually develop a self-aware JIN."
+    "description": "Core Realization is the point at which a Core reaches full biological maturity and becomes independently stable. A realized Core is far more adaptable than a constrained industrial Core and may eventually develop a self-aware JIN."
   },
   {
     "id": "settingdex__entry__glossary__core_forging",
     "name": "Core Forging",
     "record_type": "Glossary",
-    "description": "Core Forging is the cultivation and conditioning of Resonance-sensitive tissue into a functional Core. The Guild controls nearly every sanctioned forge and enforces strict limits on how a Core may be altered. Unauthorized forging can produce unstable growth or unpredictable behavior, with Karnate Crucible Cores representing the most widespread deliberate deviation from Guild standards."
+    "description": "Core Forging is the cultivation of Resonance-sensitive tissue into a functional Core. The Guild controls sanctioned forging because unauthorized alterations can produce unstable or unpredictable growth."
   },
   {
     "id": "settingdex__entry__glossary__crucible_core",
     "name": "Crucible Core",
     "record_type": "Glossary",
-    "description": "A Crucible Core is a Core altered through Karnate forging methods to produce extreme heat and increased power output. Its accelerated metabolism gradually transforms surrounding machinery into furnace-like biological structures. Crucible Cores are powerful but difficult to stabilize, and many suffer shortened lifespans or violent failures after prolonged use."
+    "description": "A Crucible Core is a Resonance Core altered through Karnate methods to produce extreme heat and power. Its accelerated metabolism transforms nearby machinery and makes long-term stability difficult."
   },
   {
     "id": "settingdex__entry__glossary__temporal_energy",
     "name": "Temporal Energy",
     "record_type": "Glossary",
-    "description": "Temporal energy is produced when the ordinary progression of time becomes distorted. It gathers around unstable timelines and can remain trapped within regions affected by powerful chronal events. Harvesting it risks worsening the original distortion and causing contradictory moments to manifest nearby."
+    "description": "Temporal energy forms where the normal progression of time becomes distorted and can remain trapped after major chronal events. Harvesting it risks deepening the distortion and causing contradictory moments to manifest together."
   },
   {
     "id": "settingdex__entry__glossary__paradox_core",
     "name": "Paradox Core",
     "record_type": "Glossary",
-    "description": "A Paradox Core uses contained temporal contradictions to sustain machinery that could not otherwise function. Jackal war engines rely upon these devices to bind incompatible technologies into a single working system. Destroying one forces the surrounding machine to resolve into a stable history, causing any unsupported structure to vanish."
+    "description": "A Paradox Core sustains machinery by containing temporal contradictions that allow incompatible components to function together. Destroying it forces the machine into a single stable history, causing unsupported structures to disappear."
   },
   {
     "id": "settingdex__entry__glossary__crown_lineage_formula",
     "name": "Crown Lineage Formula",
     "record_type": "Glossary",
-    "description": "A Crown Lineage Formula is a hereditary bioengineering sequence maintained by a recognized noble house. The formula produces traits associated with that dynasty and reinforces the belief that its authority is carried through blood. Altering or reproducing a recognized formula without permission is treated as an attack upon the house itself."
+    "description": "A Crown Lineage Formula is a hereditary bioengineering sequence controlled by a recognized noble house and used to preserve traits associated with its dynasty. Unauthorized alteration or reproduction is treated as an attack on the house's legitimacy."
   },
   {
     "id": "settingdex__entry__glossary__refugee_crisis",
     "name": "The Refugee Crisis",
     "record_type": "Conflict",
     "duration": "4050–Present",
-    "description": "The Refugee Crisis began with the destruction of the first interstellar civilization, Asterion, and its refugee crisis and has worsened with every later catastrophe. The Luthan League accepts most displaced people but binds many of them to exploitative labor arrangements, worsening overcrowding within its major cities. Refugees unwilling to enter League society are often transported to independent frontier colonies that offer freedom but little protection."
+    "description": "The Refugee Crisis began during the collapse of Asterion and has expanded with every later catastrophe. Most displaced people either enter exploitative Luthan labor systems or settle vulnerable frontier colonies outside the protection of major powers."
   },
   {
     "id": "settingdex__entry__glossary__infantry_scale_exo_organism",
@@ -23011,27 +23011,55 @@
     "name": "Bioengineering",
     "record_type": "Glossary",
     "faction": "UNAFFILIATED",
-    "description": "Bioengineering is the deliberate alteration of living tissue, heredity, and physical development through advanced genetic and biomechanical methods. Proper procedures are expensive, slow, and highly controlled, while cheaper work often produces instability, deformity, or generational defects. The proprietary genetic formulas maintained by the Crown Concordant and Cindral March form the biological foundation of their noble bloodlines and hereditary authority."
+    "description": "Bioengineering is the deliberate alteration of living tissue and heredity through advanced genetic and biomechanical methods. Reliable work is costly and tightly controlled; Crown and Cindral noble authority depends on proprietary formulas, while cheaper procedures often cause lasting instability."
   },
   {
     "id": "glossary__mutations",
     "name": "Mutations",
     "record_type": "Glossary",
     "faction": "UNAFFILIATED",
-    "description": "Prolonged exposure to Resonance, compounded by centuries of bioengineering, has caused minor inherited mutations to become increasingly common throughout human populations. These traits include unnatural hair or skin colors, patches of scales, inhuman eyes, unusual teeth, excessive hair or fur, and features resembling those of animals. A small number of humans are also born with innate psionic abilities, a rare mutation whose frequency appears to increase in populations exposed to sustained Resonance."
+    "description": "Mutations are increasingly common inherited traits caused by prolonged Resonance exposure and centuries of bioengineering. Most are minor physical variations, while innate psionic ability remains a rare and poorly understood expression."
   },
   {
     "id": "glossary__indentured_mercenaries",
     "name": "Indentured Mercenaries",
     "record_type": "Glossary",
     "faction": "LUTHAN",
-    "description": "Indentured Mercenaries are Luthan soldiers whose debts, equipment costs, transportation fees, or contractual penalties bind them to military service. Their contracts are formally voluntary, but accumulating interest and employer-controlled expenses can make repayment impossible. Companies trade, extend, and inherit these contracts, reducing many mercenaries to wage laborers who are legally free but unable to leave service."
+    "description": "Indentured Mercenaries are Luthan soldiers bound to service by debts and employer-controlled contract costs. Though legally voluntary, these arrangements are often structured so that repayment and departure become effectively impossible."
   },
   {
     "id": "glossary__resonance_forging",
     "name": "Resonance Forging",
     "record_type": "Glossary",
     "faction": "UNAFFILIATED",
-    "description": "Resonance Forging is the process of imbuing weapons, armor, tools, or other objects with limited Resonance capabilities. Because most humans cannot safely channel Resonance directly, a Core or DMN-Unit is used to regulate and direct the energy during forging. The resulting objects retain specific Resonance effects but lack the adaptability, awareness, and regenerative qualities of a true Core. The Karnate specializes in producing Resonance-forged equipment."
+    "description": "Resonance Forging is the process of binding a fixed Resonance effect into a manufactured object through the regulation of a Core or DMN-Unit. The result performs a limited function but cannot adapt or develop as a true Core can."
+  },
+   {
+    "id": "glossary__micro_exo_organism",
+    "name": "MICRO-EXO-ORGANISM",
+    "record_type": "Glossary",
+    "faction": "UNAFFILIATED",
+    "description": "A nonhuman organism below conventional infantry scale. The classification is based on its physical size and operational presence rather than its intelligence or biological complexity."
+  },
+  {
+    "id": "glossary__exo_ship",
+    "name": "EXO-SHIP",
+    "record_type": "Glossary",
+    "faction": "UNAFFILIATED",
+    "description": "A nonhuman entity capable of sustained travel and combat in space. The classification is determined by its function as a voidcraft rather than its construction or origin."
+  },
+  {
+    "id": "glossary__titan_exo_vehicle",
+    "name": "TITAN-EXO-VEHICLE",
+    "record_type": "Glossary",
+    "faction": "UNAFFILIATED",
+    "description": "A nonhuman vehicle or mobile construct operating at Titan scale. It functions as an independent major battlefield asset."
+  },
+  {
+    "id": "glossary__planetary_exo_vehicle",
+    "name": "PLANETARY-EXO-VEHICLE",
+    "record_type": "Glossary",
+    "faction": "UNAFFILIATED",
+    "description": "A nonhuman vehicle or mobile construct operating at planetary scale. Its activity can determine the survival or long-term stability of an entire world."
   }
 ]
