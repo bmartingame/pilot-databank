@@ -23005,5 +23005,33 @@
     "name": "Micro-Manifold Jump",
     "record_type": "Glossary",
     "description": "A Micro-Manifold Jump is a precision transition used to cross a star system in hours rather than days. It consumes enough fuel that conventional sublight travel remains preferable when time is not critical."
+  },
+  {
+    "id": "glossary__bioengineering",
+    "name": "Bioengineering",
+    "record_type": "Glossary",
+    "faction": "UNAFFILIATED",
+    "description": "Bioengineering is the deliberate alteration of living tissue, heredity, and physical development through advanced genetic and biomechanical methods. Proper procedures are expensive, slow, and highly controlled, while cheaper work often produces instability, deformity, or generational defects. The proprietary genetic formulas maintained by the Crown Concordant and Cindral March form the biological foundation of their noble bloodlines and hereditary authority."
+  },
+  {
+    "id": "glossary__mutations",
+    "name": "Mutations",
+    "record_type": "Glossary",
+    "faction": "UNAFFILIATED",
+    "description": "Prolonged exposure to Resonance, compounded by centuries of bioengineering, has caused minor inherited mutations to become increasingly common throughout human populations. These traits include unnatural hair or skin colors, patches of scales, inhuman eyes, unusual teeth, excessive hair or fur, and features resembling those of animals. A small number of humans are also born with innate psionic abilities, a rare mutation whose frequency appears to increase in populations exposed to sustained Resonance."
+  },
+  {
+    "id": "glossary__indentured_mercenaries",
+    "name": "Indentured Mercenaries",
+    "record_type": "Glossary",
+    "faction": "LUTHAN",
+    "description": "Indentured Mercenaries are Luthan soldiers whose debts, equipment costs, transportation fees, or contractual penalties bind them to military service. Their contracts are formally voluntary, but accumulating interest and employer-controlled expenses can make repayment impossible. Companies trade, extend, and inherit these contracts, reducing many mercenaries to wage laborers who are legally free but unable to leave service."
+  },
+  {
+    "id": "glossary__resonance_forging",
+    "name": "Resonance Forging",
+    "record_type": "Glossary",
+    "faction": "UNAFFILIATED",
+    "description": "Resonance Forging is the process of imbuing weapons, armor, tools, or other objects with limited Resonance capabilities. Because most humans cannot safely channel Resonance directly, a Core or DMN-Unit is used to regulate and direct the energy during forging. The resulting objects retain specific Resonance effects but lack the adaptability, awareness, and regenerative qualities of a true Core. The Karnate specializes in producing Resonance-forged equipment."
   }
 ]
