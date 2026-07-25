@@ -528,7 +528,8 @@ function RasterImage({ imageUrl, name }) {
 
       try {
         const outputSize = 640;
-        const lowResolutionSize = 128;
+
+        const lowResolutionSize = 320;
 
         const lowCanvas = document.createElement("canvas");
         lowCanvas.width = lowResolutionSize;
@@ -549,6 +550,10 @@ function RasterImage({ imageUrl, name }) {
 
         lowContext.clearRect(0, 0, lowResolutionSize, lowResolutionSize);
         lowContext.imageSmoothingEnabled = true;
+        lowContext.imageSmoothingQuality = "high";
+
+        // Darken the source before applying the terminal tint.
+        lowContext.filter = "brightness(0.68) contrast(1.08)";
 
         lowContext.drawImage(
           sourceImage,
@@ -562,10 +567,13 @@ function RasterImage({ imageUrl, name }) {
           lowResolutionSize
         );
 
+        lowContext.filter = "none";
+
         canvas.width = outputSize;
         canvas.height = outputSize;
 
         outputContext.clearRect(0, 0, outputSize, outputSize);
+
         outputContext.imageSmoothingEnabled = false;
 
         outputContext.drawImage(
@@ -582,16 +590,17 @@ function RasterImage({ imageUrl, name }) {
 
         outputContext.save();
 
+        // Apply the green hue while preserving most of the original luminosity.
         outputContext.globalCompositeOperation = "color";
-        outputContext.fillStyle = "rgb(92, 255, 142)";
+        outputContext.fillStyle = "rgb(58, 210, 103)";
         outputContext.fillRect(0, 0, outputSize, outputSize);
 
         outputContext.globalCompositeOperation = "multiply";
-        outputContext.fillStyle = "rgba(32, 255, 96, 0.28)";
+        outputContext.fillStyle = "rgba(20, 180, 65, 0.16)";
         outputContext.fillRect(0, 0, outputSize, outputSize);
 
         outputContext.globalCompositeOperation = "source-over";
-        outputContext.fillStyle = "rgba(0, 12, 4, 0.16)";
+        outputContext.fillStyle = "rgba(0, 10, 3, 0.25)";
         outputContext.fillRect(0, 0, outputSize, outputSize);
 
         outputContext.restore();
