@@ -348,7 +348,7 @@
     "record_type": "Unit",
     "faction": "CINDRAL",
     "classification": "FRAME",
-    "visual": "Tall command frame crowded with sensor masts, signal vanes, and hardened communications arrays.",
+    "visual": "Tall command frame with hardened communication array.",
     "behavior": "Coordinates artillery, reserves, and evacuation routes while maintaining command through jamming and infrastructure loss.",
     "report_label": "Command Log",
     "report_text": "“Every tower was down. The Relay kept the batteries firing on one clock.”"
