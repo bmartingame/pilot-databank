@@ -1238,12 +1238,12 @@
     "report_text": "“Engagement zones remain uninhabitable for weeks.”"
   },
   {
-    "id": "settingdex__entry__karnate__warlord_harrowhammer",
-    "name": "Warlord Harrowhammer",
+    "id": "settingdex__entry__karnate__warlord_forgehammer",
+    "name": "Warlord Forgehammer",
     "record_type": "Unit",
     "faction": "KARNATE",
     "classification": "FRAME",
-    "visual": "Colossal warlord frame wielding a refinery-tower hammer.",
+    "visual": "Colossal frame wielding a refinery hammer.",
     "behavior": "Commands whole legions; detonates fortifications with kinetic strikes.",
     "report_label": "Recovered Chant",
     "report_text": "“The hammer falls, and the forges answer.”"
