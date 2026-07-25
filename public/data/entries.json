@@ -308,17 +308,6 @@
     "report_text": "“Every Vanguard destroyed cost us three times its weight in munitions.”",
     "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/MarchVanguard.webp?raw=true"
   },
-   {
-    "id": "settingdex__entry__cindral__march_skirmisher",
-    "name": "March Skirmisher",
-    "record_type": "Unit",
-    "faction": "CINDRAL",
-    "classification": "FRAME",
-    "visual": "Light patrol frame with small artillery pods.",
-    "behavior": "Scout ahead, harass enemies, screen larger units.",
-    "report_label": "Recon Report",
-    "report_text": "“Skirmishers bought us hours we did not deserve.”"
-  },
   {
     "id": "settingdex__entry__cindral__march_bastion_frame",
     "name": "March Bastion Frame",
