@@ -308,71 +308,94 @@
     "report_text": "“Every Vanguard destroyed cost us three times its weight in munitions.”",
     "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/MarchVanguard.webp?raw=true"
   },
+   {
+    "id": "settingdex__entry__cindral__march_skirmisher",
+    "name": "March Skirmisher",
+    "record_type": "Unit",
+    "faction": "CINDRAL",
+    "classification": "FRAME",
+    "visual": "Light patrol frame with small artillery pods.",
+    "behavior": "Scout ahead, harass enemies, screen larger units.",
+    "report_label": "Recon Report",
+    "report_text": "“Skirmishers bought us hours we did not deserve.”"
+  },
+  {
+    "id": "settingdex__entry__cindral__march_vanguard",
+    "name": "March Vanguard",
+    "record_type": "Unit",
+    "faction": "CINDRAL",
+    "classification": "FRAME",
+    "visual": "Large frontline mech, shielded and durable.",
+    "behavior": "Anchor battlelines, endure prolonged firefights. Cindral March MBF (main battle frame).",
+    "report_label": "Ops Memo",
+    "report_text": "“Every Vanguard destroyed cost us three times its weight in munitions.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/MarchVanguard.webp?raw=true"
+  },
   {
     "id": "settingdex__entry__cindral__march_bastion_frame",
     "name": "March Bastion Frame",
     "record_type": "Unit",
     "faction": "CINDRAL",
     "classification": "FRAME",
-    "visual": "Medium mech plated in layered armor, projecting resonance barriers.",
-    "behavior": "Siege-breaker; outlasts and shelters allies.",
+    "visual": "Low, broad frame built from standardized armor blocks, with barrier emitters mounted along its shoulders and forearms.",
+    "behavior": "Deploys overlapping shields and portable cover to reinforce weakened sections of the line.",
     "report_label": "Siege Report",
-    "report_text": "“Where Bastions stood, the wall itself seemed to grow taller.”"
+    "report_text": "“The bombardment continued for six hours. The line behind the Bastions did not move.”"
   },
   {
     "id": "settingdex__entry__cindral__march_banner_frame",
-    "name": "March Banner-Frame",
+    "name": "March Relay Frame",
     "record_type": "Unit",
     "faction": "CINDRAL",
     "classification": "FRAME",
-    "visual": "Huge mech draped in noble standards.",
-    "behavior": "Inspires allies, demoralizes foes, centerpiece of formations.",
-    "report_label": "Border Chronicle",
-    "report_text": "“At its sight, levies remembered they were not alone.”"
+    "visual": "Tall command frame crowded with sensor masts, signal vanes, and hardened communications arrays.",
+    "behavior": "Coordinates artillery, reserves, and evacuation routes while maintaining command through jamming and infrastructure loss.",
+    "report_label": "Command Log",
+    "report_text": "“Every tower was down. The Relay kept the batteries firing on one clock.”"
   },
   {
     "id": "settingdex__entry__cindral__march_champion",
-    "name": "March Champion",
+    "name": "March Interdictor",
     "record_type": "Unit",
     "faction": "CINDRAL",
     "classification": "FRAME",
-    "visual": "Personalized noble warframe with halberd or maul.",
-    "behavior": "Seeks out enemy leaders; fights in open duels.",
+    "visual": "Lean attacker frame with reinforced joints, heavy maneuvering thrusters, and a compact anti-frame weapon suite.",
+    "behavior": "Held behind the line until a breach forms, then committed rapidly to isolate and destroy the penetrating force.",
     "report_label": "Battlefield Journal",
-    "report_text": "“The Champion fell, and with him the banners dipped.”"
+    "report_text": "“Breach opened at 0412. Closed at 0419.”"
   },
   {
     "id": "settingdex__entry__cindral__march_paladin",
-    "name": "March Paladin",
+    "name": "March Redoubt",
     "record_type": "Unit",
     "faction": "CINDRAL",
     "classification": "FRAME",
-    "visual": "Gargantuan mech with tower shield and siege lance.",
-    "behavior": "Embodies March discipline; battlefield anvil.",
+    "visual": "Gargantuan frame built around a slab-sided armored core, deployable stabilizers, and recessed gun positions.",
+    "behavior": "Occupies chokepoints and converts exposed ground into a fortified position.",
     "report_label": "Military Brief",
-    "report_text": "“Enemy momentum stopped dead at the Paladin’s line.”"
+    "report_text": "“By dawn, the Redoubt was no longer positioned in the pass. It was the pass.”"
   },
   {
     "id": "settingdex__entry__cindral__march_exemplar",
-    "name": "March Exemplar",
+    "name": "March Breacher",
     "record_type": "Unit",
     "faction": "CINDRAL",
     "classification": "FRAME",
-    "visual": "Vast mech bearing centuries of heraldry.",
-    "behavior": "Anchors campaigns; radiates aura of defiance.",
-    "report_label": "Royal Chronicle",
-    "report_text": "“When the Exemplar stood, even the broken rallied.”"
+    "visual": "Vast assault frame with reinforced limbs, demolition claws, and short-range bunker guns.",
+    "behavior": "Opens fortified routes for advancing forces by dismantling obstacles under sustained fire.",
+    "report_label": "Assault Record",
+    "report_text": "“The gate did not fall. The Breacher removed it.”"
   },
   {
     "id": "settingdex__entry__cindral__march_highlord_frame",
-    "name": "March Highlord Frame",
+    "name": "Polemarch Command Frame",
     "record_type": "Unit",
     "faction": "CINDRAL",
     "classification": "FRAME",
-    "visual": "Colossal noble command-frame, radiating authority.",
-    "behavior": "Commands armies by presence alone; survival often dictates campaigns.",
+    "visual": "Colossal command frame with layered armor, long-range sensor arrays, cannons, and detachable drones.",
+    "behavior": "Directs system-scale operations by coordinating reserves, artillery, and fortified positions through a battlefield network.",
     "report_label": "Strategic Note",
-    "report_text": "“The Highlord fell - the March endured three more days, then was silent.”"
+    "report_text": "“The Polemarch fired no weapon. Every battery in the sector did.”"
   },
   {
     "id": "settingdex__entry__civilian_vessels__hauler_class_freighter",
