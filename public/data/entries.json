@@ -1179,7 +1179,8 @@
     "visual": "Spindly skirmisher frame clad in slag armor, armed with twin blades.",
     "behavior": "Fast and volatile; used in revolts and frontier raids.",
     "report_label": "Ops Analysis",
-    "report_text": "“Ironbrand units show high failure rates, but their output exceeds their cost.”"
+    "report_text": "“Ironbrand units show high failure rates, but their output exceeds their cost.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/IronbrandWalker.png?raw=true"
   },
   {
     "id": "settingdex__entry__karnate__slagreaver_frame",
@@ -1202,7 +1203,8 @@
     "visual": "Quadrupedal engine with smokestacks belching slag.",
     "behavior": "Projects molten streams; reduces fortifications to slag-flow.",
     "report_label": "Siege Log",
-    "report_text": "“Outer wall compromised by thermal overload, not structural breach.”"
+    "report_text": "“Outer wall compromised by thermal overload, not structural breach.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/BlastfurnaceBehemoth.png?raw=true"
   },
   {
     "id": "settingdex__entry__karnate__hellchain_enforcer",
@@ -1213,7 +1215,8 @@
     "visual": "Warframe draped in resonance-forged chains.",
     "behavior": "Grapples and restrains enemy mechs; chains burn through plating.",
     "report_label": "Pilot Record",
-    "report_text": "“Restraint systems failed under contact. Extraction required.”"
+    "report_text": "“Restraint systems failed under contact. Extraction required.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/HellchainEnforcer.png?raw=true"
   },
   {
     "id": "settingdex__entry__karnate__furnace_colossus",
@@ -1224,7 +1227,8 @@
     "visual": "Towering frame with crucible core, limbs glowing with heat.",
     "behavior": "Heavy assault platform; fractures terrain with each step.",
     "report_label": "Drone Observation",
-    "report_text": "“Seismic instability corresponded directly with its movement.”"
+    "report_text": "“Seismic instability corresponded directly with its movement.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/FurnaceColossus.png?raw=true"
   },
   {
     "id": "settingdex__entry__karnate__ashforge_titan",
@@ -1235,7 +1239,8 @@
     "visual": "Massive biped clad in slag-iron, armed with slag-lances.",
     "behavior": "Pierces shields and trenches; battlefield denial through heat.",
     "report_label": "Strategic Note",
-    "report_text": "“Engagement zones remain uninhabitable for weeks.”"
+    "report_text": "“Engagement zones remain uninhabitable for weeks.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/AshforgeTitan.png?raw=true"
   },
   {
     "id": "settingdex__entry__karnate__warlord_forgehammer",
@@ -1246,7 +1251,8 @@
     "visual": "Colossal frame wielding a refinery hammer.",
     "behavior": "Commands whole legions; detonates fortifications with kinetic strikes.",
     "report_label": "Recovered Chant",
-    "report_text": "“The hammer falls, and the forges answer.”"
+    "report_text": "“The hammer falls, and the forges answer.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/WarlordForgehammer.png?raw=true"
   },
   {
     "id": "settingdex__entry__karnate__obsidian_dreadform",
@@ -1257,7 +1263,8 @@
     "visual": "Titan sheathed in hardened slag, radiating furnace heat.",
     "behavior": "Battlefield terror unit; demoralizes before striking.",
     "report_label": "Medical Report",
-    "report_text": "“Troops exposed to heat signatures collapsed before combat began.”"
+    "report_text": "“Troops exposed to heat signatures collapsed before combat began.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/ObsidianDreadform.png?raw=true"
   },
   {
     "id": "settingdex__entry__karnate__infernal_sovereign",
@@ -1268,7 +1275,8 @@
     "visual": "Continent-striding nightmare bristling with foundries and smoke-stacks.",
     "behavior": "World-scale war engine; reshapes landscapes into wastelands.",
     "report_label": "Guild Tribunal Record",
-    "report_text": "“Sovereign deployment is recognized as planetary violation. Intervention authorized.”"
+    "report_text": "“Sovereign deployment is recognized as planetary violation. Intervention authorized.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/InfernalSovereign.png?raw=true"
   },
   {
     "id": "settingdex__entry__luthan__league_contractor",
@@ -2286,7 +2294,8 @@
     "visual": "Light mech bristling with psionic amplifiers.",
     "behavior": "Projects harmonic chants across the field; fragile but influential.",
     "report_label": "Battlefield Report",
-    "report_text": "“Morale curves show a direct correlation with the Echo’s presence.”"
+    "report_text": "“Morale curves show a direct correlation with the Echo’s presence.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/EchoFrame.png?raw=true"
   },
   {
     "id": "settingdex__entry__veyran__cantor_frame",
@@ -2309,7 +2318,8 @@
     "visual": "Medium frame marked with synchrony runes.",
     "behavior": "Coordinates allies through overlapping fields; enhances timing.",
     "report_label": "Ops Analysis",
-    "report_text": "“Enemy strike intervals dropped to near-simultaneous. Estimated coordination beyond human baseline.”"
+    "report_text": "“Enemy strike intervals dropped to near-simultaneous. Estimated coordination beyond human baseline.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/LitanyFrame.png?raw=true"
   },
   {
     "id": "settingdex__entry__veyran__choral_titan",
@@ -2320,7 +2330,8 @@
     "visual": "Huge mech draped in hymn-banners, radiating psionic energy.",
     "behavior": "Rallying centerpiece; harmonics unsettle enemies while bolstering allies.",
     "report_label": "Witness Account",
-    "report_text": "“It strode like a cathedral given legs. Even the void seemed to tremble with its hymn.”"
+    "report_text": "“It strode like a cathedral given legs. Even the void seemed to tremble with its hymn.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/ChoralTitan.png?raw=true"
   },
   {
     "id": "settingdex__entry__veyran__veyran_exemplar",
@@ -2331,7 +2342,8 @@
     "visual": "Graceful frame guided by dozens of bound psychic cores.",
     "behavior": "Duels enemy leaders with resonance-infused precision.",
     "report_label": "Military Record",
-    "report_text": "“Engagement logs confirm prediction of enemy maneuvers 4.2 seconds before execution.”"
+    "report_text": "“Engagement logs confirm prediction of enemy maneuvers 4.2 seconds before execution.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/VeyranExemplar.png?raw=true"
   },
   {
     "id": "settingdex__entry__veyran__resonant_hierophant",
@@ -2342,7 +2354,8 @@
     "visual": "Colossal psionic frame, hymn-sigils burning across its armor.",
     "behavior": "Anchors fleets; projects psychic force that destabilizes enemy cohesion.",
     "report_label": "Intercepted Log",
-    "report_text": "“Entire bridge crew incapacitated before weapons made contact.”"
+    "report_text": "“Entire bridge crew incapacitated before weapons made contact.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/ResonantHierophant.png?raw=true"
   },
   {
     "id": "settingdex__entry__veyran__canticle_lord",
@@ -2353,7 +2366,8 @@
     "visual": "Walking cathedral of crystal and hymn-banners, housing dozens of psionics.",
     "behavior": "Overwrites morale and coordination across whole battlefields.",
     "report_label": "Council Report",
-    "report_text": "“Choir forces maintained cohesion even after 80% attrition. Enemy lines fractured within minutes.”"
+    "report_text": "“Choir forces maintained cohesion even after 80% attrition. Enemy lines fractured within minutes.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/CanticleLord.png?raw=true"
   },
   {
     "id": "settingdex__entry__veyran__veyran_ascendant_chorus",
@@ -2364,7 +2378,8 @@
     "visual": "Multiple resonance mechs merged into one psionic entity, radiating pure song.",
     "behavior": "Overwhelms fleets, fractures unshielded minds; represents the Choir’s ultimate unity.",
     "report_label": "Strategic Directive",
-    "report_text": "“No conventional countermeasures viable. Containment protocols advised.”"
+    "report_text": "“No conventional countermeasures viable. Containment protocols advised.”",
+    "image_url": "https://github.com/bmartingame/DatafileImages/blob/main/VeyranAscendantChorus.png?raw=true"
   },
   {
     "id": "settingdex__entry__voidborn__flickers",
