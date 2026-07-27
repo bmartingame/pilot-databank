@@ -15718,25 +15718,11 @@
     "description": "The Silent Way War began when Halix closed parts of the corridor during Mim scares and Veyran flotillas continued moving pilgrims and refugees through the restricted systems. A genuine Mim incursion forced Halix, Veyran, and Cindral forces to end the war and cooperate."
   },
   {
-    "id": "settingdex__entry__conflicts__lethene_border_conflict",
-    "name": "Lethene Border Conflict",
-    "record_type": "Conflict",
-    "duration": "4075–4076",
-    "description": "The Lethene Border Conflict began when Halix denied passage to refugee fleets and Lethene escorts attempted to break the quarantine. Independent screening confirmed Mim-compromised vessels among the refugees, ending the confrontation."
-  },
-  {
     "id": "settingdex__entry__conflicts__drossfall_campaign",
     "name": "Drossfall Campaign",
     "record_type": "Conflict",
     "duration": "4081–4083",
     "description": "The Drossfall Campaign followed Halix accusations that Karnate was conducting unsafe Resonance experiments near the Silent Way. Karnate resistance turned the dispute into raids and sabotage around quarantine infrastructure without escalating into a full invasion."
-  },
-  {
-    "id": "settingdex__entry__conflicts__mareth_convoy_crisis",
-    "name": "Mareth Convoy Crisis",
-    "record_type": "Conflict",
-    "duration": "4087–4088",
-    "description": "The Mareth Convoy Crisis began when Cindral requisitioned neutral relief ships during a major Mawward evacuation. Scattered fighting ended after the March returned most of the seized vessels."
   },
   {
     "id": "settingdex__entry__conflicts__greyspan_intervention",
@@ -23091,5 +23077,68 @@
     "record_type": "Glossary",
     "faction": "UNAFFILIATED",
     "description": "A nonhuman vehicle or mobile construct operating at planetary scale. Its activity can determine the survival or long-term stability of an entire world."
+  },
+  {
+    "id": "glossary__veyran_listener",
+    "name": "Listener",
+    "record_type": "Glossary",
+    "faction": "VEYRAN",
+    "description": "A probationary adherent receiving instruction in Veyran doctrine and controlled Resonance use."
+  },
+  {
+    "id": "glossary__veyran_cantor",
+    "name": "Cantor",
+    "record_type": "Glossary",
+    "faction": "VEYRAN",
+    "description": "An initiated member authorized to lead routine rites and communal chanting."
+  },
+  {
+    "id": "glossary__veyran_resonant_adept",
+    "name": "Resonant Adept",
+    "record_type": "Glossary",
+    "faction": "VEYRAN",
+    "description": "A trained practitioner permitted to channel psionic-resonance without supervision."
+  },
+  {
+    "id": "glossary__veyran_chantkeeper",
+    "name": "Chantkeeper",
+    "record_type": "Glossary",
+    "faction": "VEYRAN",
+    "description": "A senior Cantor responsible for preserving approved rites and local doctrine."
+  },
+  {
+    "id": "glossary__veyran_hymnwright",
+    "name": "Hymnwright",
+    "record_type": "Glossary",
+    "faction": "VEYRAN",
+    "description": "A technical cleric trained to maintain Veyran machinery and Resonance systems."
+  },
+  {
+    "id": "glossary__veyran_reliquarian",
+    "name": "Reliquarian",
+    "record_type": "Glossary",
+    "faction": "VEYRAN",
+    "description": "A custodian assigned to relic Cores and other restricted sacred objects."
+  },
+  {
+    "id": "glossary__veyran_anchorite",
+    "name": "Anchorite",
+    "record_type": "Glossary",
+    "faction": "VEYRAN",
+    "description": "A vowed cleric assigned to a permanent post or protected charge."
+  },
+  {
+    "id": "glossary__veyran_hierophant",
+    "name": "Hierophant",
+    "record_type": "Glossary",
+    "faction": "VEYRAN",
+    "description": "A recognized teacher whose doctrinal interpretations influence multiple choirs."
+  },
+  {
+    "id": "glossary__veyran_chorus_seer",
+    "name": "Chorus-Seer",
+    "record_type": "Glossary",
+    "faction": "VEYRAN",
+    "description": "A seer capable of receiving coherent visions through the Great Chorus."
   }
 ]
