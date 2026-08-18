@@ -23140,5 +23140,47 @@
     "record_type": "Glossary",
     "faction": "VEYRAN",
     "description": "A seer capable of receiving coherent visions through the Great Chorus."
+  },
+  {
+    "id": "settingdex__subfaction__orak__blackwake_family",
+    "name": "Blackwake Family",
+    "record_type": "Sub-Faction",
+    "faction": "ORAK",
+    "description": "An old Orak dynasty descended from the earliest pirate settlements in the Belt. Blackwake controls more territory than any other syndicate and takes a cut from most activity within its space."
+  },
+  {
+    "id": "settingdex__subfaction__orak__nine_knives",
+    "name": "Nine Knives",
+    "record_type": "Sub-Faction",
+    "faction": "ORAK",
+    "description": "A coalition of independent crews operating under a single syndicate. Its branches remain heavily involved in raiding and mercenary work, with a notable presence in narcotics production and distribution."
+  },
+  {
+    "id": "settingdex__subfaction__orak__brass_hand",
+    "name": "Brass Hand",
+    "record_type": "Sub-Faction",
+    "faction": "ORAK",
+    "description": "A commercially minded syndicate comfortable operating behind legitimate fronts. Crown and Luthan authorities suspect Brass Hand involvement in laundering, illegal salvage, fencing, and smuggling, but have failed to establish direct links."
+  },
+  {
+    "id": "settingdex__subfaction__orak__gravecoil",
+    "name": "Gravecoil",
+    "record_type": "Sub-Faction",
+    "faction": "ORAK",
+    "description": "A primarily shipborne syndicate with few permanent holdings. Gravecoil commands arguably the largest fleet among the syndicates, though much of it consists of aging or heavily modified vessels."
+  },
+  {
+    "id": "settingdex__subfaction__orak__dog_chain",
+    "name": "Dog Chain",
+    "record_type": "Sub-Faction",
+    "faction": "ORAK",
+    "description": "A younger syndicate formed from displaced populations and independent crews. Dog Chain is particularly active in contraband and narcotics trafficking, with a reputation for aggressive raiding and scavenging."
+  },
+  {
+    "id": "settingdex__subfaction__orak__iron_teeth",
+    "name": "Iron Teeth",
+    "record_type": "Sub-Faction",
+    "faction": "ORAK",
+    "description": "A militant syndicate descended from mercenary flotillas that settled around isolated mining communities. Iron Teeth crews regularly move between mercenary work and piracy while taking a cut of local mining profits."
   }
 ]
