@@ -23182,5 +23182,68 @@
     "record_type": "Sub-Faction",
     "faction": "ORAK",
     "description": "A militant syndicate descended from mercenary flotillas that settled around isolated mining communities. Iron Teeth crews regularly move between mercenary work and piracy while taking a cut of local mining profits."
+  },
+  {
+    "id": "settingdex__subfaction__luthan__farreach_shipping_combine",
+    "name": "Farreach Shipping Combine",
+    "record_type": "Sub-Faction",
+    "faction": "LUTHAN",
+    "description": "The League’s largest cargo carrier, with fleets and depots spanning nearly every major lane. Farreach controls enough freight capacity to influence prices simply by changing where its ships are assigned. “Farther, Faster, Farreach.”"
+  },
+  {
+    "id": "settingdex__subfaction__luthan__vasker_naval_works",
+    "name": "Vasker Naval Works",
+    "record_type": "Sub-Faction",
+    "faction": "LUTHAN",
+    "description": "A warship builder that produces everything from escorts to capital vessels for governments and private fleets. Vasker is one of the few companies that holds direct Guild contracts for interstellar ships. “Security, Delivered.”"
+  },
+  {
+    "id": "settingdex__subfaction__luthan__meridian_ordnance_group",
+    "name": "Meridian Ordnance Group",
+    "record_type": "Sub-Faction",
+    "faction": "LUTHAN",
+    "description": "A weapons group supplying infantry arms, frame systems, and naval weaponry across civilized space. In addition to its own specialty items, it is one of the largest producers of Guild-standardized equipment. “The Standard of Peace.”"
+  },
+  {
+    "id": "settingdex__subfaction__luthan__greenmantle_agricultural",
+    "name": "Greenmantle Agricultural",
+    "record_type": "Sub-Faction",
+    "faction": "LUTHAN",
+    "description": "The largest food and agricultural technology corporation, with holdings across hundreds of inhabited worlds. Greenmantle controls enough food production to make entire governments depend on its supply contracts. “Your World, Our Harvest.”"
+  },
+  {
+    "id": "settingdex__subfaction__luthan__aurex_biologics",
+    "name": "Aurex Biologics",
+    "record_type": "Sub-Faction",
+    "faction": "LUTHAN",
+    "description": "A pharmaceutical and genetic services company providing some of the most advanced medicine, medical technology, and gene-splicing procedures in the galaxy. Aurex also maintains private genetic archives valuable to governments and noble houses. “A Better You, A Better Tomorrow.”"
+  },
+  {
+    "id": "settingdex__subfaction__luthan__titan_foundry_group",
+    "name": "Titan Foundry Group",
+    "record_type": "Sub-Faction",
+    "faction": "LUTHAN",
+    "description": "The largest manufacturing conglomerate and a major producer of the machinery used to build other machinery. Titan supplies industrial equipment, vehicles, station components, and standardized infrastructure throughout the League, with some colonies built almost entirely from Titan-made equipment. “Titan-Built, Titan-Strong.”"
+  },
+  {
+    "id": "settingdex__subfaction__luthan__deepwell_extraction",
+    "name": "Deepwell Extraction",
+    "record_type": "Sub-Faction",
+    "faction": "LUTHAN",
+    "description": "The largest hard-mining corporation, operating extensive asteroid and planetary extraction networks. Deepwell produces enough raw material to materially affect the cost of shipbuilding and industry across multiple sectors. “Dig Deeper. Build Bigger.”"
+  },
+  {
+    "id": "settingdex__subfaction__luthan__ceyra_atmospheric_consortium",
+    "name": "Ceyra Atmospheric Consortium",
+    "record_type": "Sub-Faction",
+    "faction": "LUTHAN",
+    "description": "The largest gas-extraction corporation, built around harvesting planetary atmospheres and gas giants. Its tanker fleets supply industrial gases, feedstocks, and sublight fuel to much of the galaxy. “The Galaxy Runs on Ceyra.”"
+  },
+  {
+    "id": "settingdex__subfaction__luthan__waymaker_civil_group",
+    "name": "Waymaker Civil Group",
+    "record_type": "Sub-Faction",
+    "faction": "LUTHAN",
+    "description": "The largest civil contracting firm in the galaxy, hired for major infrastructure projects throughout inhabited space. Waymaker routinely enters undeveloped systems before permanent governments or major commercial institutions are established. “Building the Future, Today.”"
   }
 ]
