@@ -2810,7 +2810,7 @@
     "orbit_depth": 0,
     "source_order": 1,
     "is_primary_star": true,
-    "description": "Dim red dwarf around which the Karnate concentrates its press gang and penal labor infrastructure."
+    "description": "Dim red dwarf around which Karnate concentrates its press gang and penal labor infrastructure."
   },
   {
     "id": "celestial-body:roughline:kharon",
@@ -2827,7 +2827,7 @@
       "celestial-body:roughline:roughline-primary"
     ],
     "is_primary_star": false,
-    "description": "Bleak inner world used for prison farming, debt processing, and preliminary military conditioning."
+    "description": "Bleak inner world used for labor camp agriculture and preliminary military conditioning."
   },
   {
     "id": "settingdex__entry__glossary__cindral",
@@ -2874,7 +2874,7 @@
       "celestial-body:roughline:veldros"
     ],
     "is_primary_star": false,
-    "description": "Cold depot moon where debtors, criminals, refugees, and abducted spacers are sorted into work gangs, penal crews, and furnace infantry."
+    "description": "Cold depot moon where prisoners and debtors are sorted into penal crews and furnace infantry."
   },
   {
     "id": "settingdex__entry__glossary__crown",
@@ -3263,7 +3263,7 @@
     "orbit_depth": 0,
     "source_order": 1,
     "is_primary_star": true,
-    "description": "Dying red giant whose unstable output gives the Cindral system its bronze skies, erratic seasons, and constant evacuation planning."
+    "description": "Dying red giant whose unstable output gives the Cindral system its bronze skies and erratic seasons."
   },
   {
     "id": "system__ardane_system",
@@ -4089,7 +4089,7 @@
       "celestial-body:cindral:ember-sun"
     ],
     "is_primary_star": false,
-    "description": "Scorched inner world carrying heat-resistant power stations, flare monitors, and automated observatories."
+    "description": "Scorched inner world carrying heat-resistant power stations and automated observatories."
   },
   {
     "id": "celestial-body:cindral:cindral-ii",
@@ -4106,7 +4106,7 @@
       "celestial-body:cindral:ember-sun"
     ],
     "is_primary_star": false,
-    "description": "March capital commonly called Cindral, with a strained old Primus-like biosphere, bronze skies, heat-shielded cities, evacuation tunnels, and old fortress walls."
+    "description": "March capital commonly called Cindral, with a strained old Primus-like biosphere, bronze skies, heat-shielded cities, expansive tunnel networks, and weathered fortress walls."
   },
   {
     "id": "celestial-body:cindral:cindral-ii-a",
@@ -4123,7 +4123,7 @@
       "celestial-body:cindral:cindral-ii"
     ],
     "is_primary_star": false,
-    "description": "Fortified administrative moon containing emergency government vaults, reserve command posts, and protected archives."
+    "description": "Fortified administrative moon containing secure government vaults containing protected archives, with reserve command posts dotting the surface and subsurface."
   },
   {
     "id": "celestial-body:cindral:cindral-bastion",
@@ -4140,7 +4140,7 @@
       "celestial-body:cindral:cindral-ii"
     ],
     "is_primary_star": false,
-    "description": "Orbital defense and command station coordinating the capital fleet, evacuation exercises, and the March’s political leadership."
+    "description": "Orbital defense and command station coordinating the capital fleet, and frequently hosts the March’s political leadership."
   },
   {
     "id": "celestial-body:cindral:ember-refuge",
@@ -4157,7 +4157,7 @@
       "celestial-body:cindral:cindral-ii"
     ],
     "is_primary_star": false,
-    "description": "Permanent evacuation habitat maintained for officials, critical workers, and civilians displaced by solar emergencies."
+    "description": "Permanent habitat maintained for those displaced by solar events."
   },
   {
     "id": "celestial-body:cindral:cindral-iii",
@@ -4174,7 +4174,7 @@
       "celestial-body:cindral:ember-sun"
     ],
     "is_primary_star": false,
-    "description": "Cold industrial world supplying armor, bunker plate, and replacement infrastructure to the capital."
+    "description": "Cold industrial world often supplying starship grade armor plating and replacement infrastructure."
   },
   {
     "id": "celestial-body:cindral:cindral-iv",
@@ -4191,7 +4191,7 @@
       "celestial-body:cindral:ember-sun"
     ],
     "is_primary_star": false,
-    "description": "Unstable outer frontier world of scattered extraction camps, sensor posts, and deep emergency stores."
+    "description": "Unstable outer frontier world of scattered extraction camps and sensor posts."
   },
   {
     "id": "celestial-body:cindral:cindral-iv-a",
@@ -4208,7 +4208,7 @@
       "celestial-body:cindral:cindral-iv"
     ],
     "is_primary_star": false,
-    "description": "Remote ice moon used for fuel storage, signal relays, and long-duration survival drills."
+    "description": "Remote ice moon used for fuel storage and comm-signal relays."
   },
   {
     "id": "celestial-body:braxis-hold:braxis-primary",
@@ -4222,7 +4222,7 @@
     "orbit_depth": 0,
     "source_order": 1,
     "is_primary_star": true,
-    "description": "Steady orange dwarf supporting the March’s principal fortress system."
+    "description": "Orange dwarf supporting the March’s principal fortress system."
   },
   {
     "id": "celestial-body:braxis-hold:braxis-i",
@@ -4239,7 +4239,7 @@
       "celestial-body:braxis-hold:braxis-primary"
     ],
     "is_primary_star": false,
-    "description": "Barren inner world covered in early-warning sensors, missile tracking stations, and hardened power collectors."
+    "description": "Barren inner world covered in early-warning tracking stations and sesnor stations with hardened power collectors."
   },
   {
     "id": "celestial-body:braxis-hold:braxis-ii",
@@ -4256,7 +4256,7 @@
       "celestial-body:braxis-hold:braxis-primary"
     ],
     "is_primary_star": false,
-    "description": "Industrial mining world producing armor plate, ammunition casings, and bunker components for the system’s defenses."
+    "description": "Industrial mining world primarily producing armor plating , ammunition casings, and bunker components."
   },
   {
     "id": "celestial-body:braxis-hold:braxis-iii",
