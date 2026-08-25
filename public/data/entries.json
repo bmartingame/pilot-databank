@@ -22228,7 +22228,7 @@
     "seat": "Cindral System",
     "current_head": "Whitlock Calystron",
     "style": "ANAX",
-    "description": "Genos Calystron coordinates the defense of Cindral Sector and its evacuation infrastructure. Its current head holds the emergency Anaxate, a mandate requiring the house to place the survival of the March above its own lineage."
+    "description": "Genos Calystron is renowned for grand strategy and holistic campaigning. Its commanders are expected to think in terms of entire fronts rather than individual battles. Politically, Calystron favors a strong Archonate and argues that a Genos must accept limits on its own independence whenever the wider March requires coordinated action. It works most closely with Aegesworth, whose emphasis on professional command supports Calystron’s preference for centralized planning, and often with Nyctworth, whose intelligence networks make that planning possible. It disagrees most with Melanthorne and Threnemere, both of whom are wary of distant authorities overruling commanders with a better understanding of local conditions."
   },
   {
     "id": "settingdex__entry__sub_faction__genos_melanthorne",
@@ -22239,7 +22239,7 @@
     "rank": "ARCHON",
     "seat": "Ashveil Prime System",
     "current_head": "Lysandra Melanthorne",
-    "description": "Genos Melanthorne defends Ashveil Sector, the thinly held frontier connecting the Mawward March to the Silent Way. The house maintains observation networks, reserve settlements, relay chains, and abandoned colonial claims while training its commanders to distrust isolated reports and preserve distant populations that might otherwise disappear without warning."
+    "description": "Genos Melanthorne is known for fighting in deep space and hostile frontier worlds, shaped by generations spent campaigning across Ashveil’s scattered territory. Its officers are unusually comfortable operating far from support and making independent decisions. The house favors broad local discretion, holding that nobles closest to a Phylake are best positioned to judge what its protection actually requires. It has a natural affinity with Damarford, whose naval commanders operate under similar conditions, and with Threnemere, who advocate for similar levels of independence. Melanthorne most often clashes with Calystron, not because it rejects collective action or security, but because it believes excessive centralization can become a liability to those on a distant frontier."
   },
   {
     "id": "settingdex__entry__sub_faction__genos_aegesworth",
@@ -22250,7 +22250,7 @@
     "rank": "POLEMARCH",
     "seat": "Cindral System",
     "current_head": "Beatrice Aegesworth",
-    "description": "Genos Aegesworth commands the defense of the Cindral System, including its capital world, emergency government sites, fortress moons, industrial reserves, and shelter networks beneath the failing Ember Sun. The house controls the practical machinery of survival, ensuring that heat shields, evacuation routes, buried armories, fuel reserves, and replacement ministries remain functional during a system-wide collapse."
+    "description": "Genos Aegesworth is associated with officership, producing a disproportionate number of senior commanders for the wider March. Service under the house is considered one of the traditional paths into Cindral high command. Aegesworth takes a formalist view of Leitourgia, emphasizing education, discipline, and demonstrated competence as necessary conditions for exercising noble authority. It is closely aligned with Calystron and Nyctworth, whose emphasis on planning and verified information complements its belief that command should be entrusted to trained professionals, though they do often also agree with Orestwyck on certain matters regarding responsibility. It disagrees most strongly with Eirenhall’s willingness to elevate proven outsiders quickly, arguing that battlefield merit does not always provide the judgment needed for long-term command or stewardship."
   },
   {
     "id": "settingdex__entry__sub_faction__genos_orestwyck",
@@ -22261,7 +22261,7 @@
     "rank": "POLEMARCH",
     "seat": "Braxis System",
     "current_head": "Theon Orestwyck",
-    "description": "Genos Orestwyck holds Braxis, the March's primary bastion system, where every station, moon, settlement, and defensive line exists to delay Mawward threats. Its commanders measure success through time purchased for evacuation and reinforcement, accepting the loss of individual fortifications so long as the wider defensive plan continues to function."
+    "description": "Genos Orestwyck is renowned for siege warfare, a reputation built through centuries of fighting around the fortifications of Braxis. Its commanders are respected for both holding hardened positions and methodically breaking them. The house is strongly traditionalist and regards enduring hardship alongside one’s Phylake as one of the clearest demonstrations that a Genos remains worthy of its Kleros. Orestwyck finds common ground with Aegesworth on discipline and inherited institutional responsibility, though it is less interested in formal theory than proven endurance. It disagrees most with Damarford, whose willingness to abandon disadvantageous positions quickly can appear to Orestwyck as surrendering obligations too readily and being fickle, while Damarford views Orestwyck as too willing to spend lives defending ground of diminishing value and stubborn. The stubbornness of Orestwyck is an opinion that Eirenhall, Nyctworth, and Threnemere share."
   },
   {
     "id": "settingdex__entry__sub_faction__genos_eirenhall",
@@ -22272,7 +22272,7 @@
     "rank": "POLEMARCH",
     "seat": "Red Choir System",
     "current_head": "Evangeline Eirenhall",
-    "description": "Genos Eirenhall safeguards Red Choir and administers the March’s strategic reserves. It maintains reserve formations, replacement personnel, military stores, and transport capacity, receives units withdrawn from active fronts for refit and reinforcement, and dispatches fresh or reconstituted forces to Cindral armies as losses and changing conditions require."
+    "description": "Genos Eirenhall is known for shock warfare, with Red Choir hosting some of the March’s most demanding training regiments. Its best formations are frequently deployed to reinforce offensives or restore momentum to stalled campaigns. Eirenhall places unusual weight on service over pedigree and is comparatively receptive to elevating Spartoi and lesser houses that repeatedly prove themselves under Leitourgia. It has strong relations with Melanthorne and Threnemere, both of which value demonstrated competence in difficult conditions over immaculate lineage. Its greatest political friction is with Aegesworth and, to a lesser extent, Orestwyck, because Eirenhall believes noble authority must remain visibly renewable through service rather than becoming innundated by tradition or formal credentials."
   },
   {
     "id": "settingdex__entry__sub_faction__genos_damarford",
@@ -22283,7 +22283,7 @@
     "rank": "POLEMARCH",
     "seat": "Ashveil Prime System",
     "current_head": "Whitlock Damarford",
-    "description": "Genos Damarford defends Ashveil Prime, maintaining the frontier capital, command bastions, listening posts, reserve settlements, and relay chains that connect the Mawward March to the Silent Way. Its doctrine recognizes that Ashveil cannot defeat every threat it encounters, so its forces are organized to preserve communications, maintain fallback positions, and prevent isolated losses from becoming a sector-wide collapse."
+    "description": "Genos Damarford has a strong tradition of naval warfare, developed across the widely separated settlements of Ashveil. Its captains are particularly respected for independent fleet actions conducted far from major bases. The house is politically pragmatic and argues that the obligations of a Genos matter more than ceremony, custom, or the preservation of noble prestige. It works closely with Melanthorne, whose frontier forces share its preference for delegated authority, and generally respects Nyctworth because reliable intelligence allows commanders to act decisively without waiting for political consensus. Damarford disagrees most with Orestwyck, viewing the latter’s attachment to positions and inherited military traditions as dangerous when circumstances demand withdrawal, redeployment, or an entirely different approach."
   },
   {
     "id": "settingdex__entry__sub_faction__genos_nyctworth",
@@ -22294,7 +22294,7 @@
     "rank": "POLEMARCH",
     "seat": "Duskwatch System",
     "current_head": "Octavia Nyctworth",
-    "description": "Genos Nyctworth commands the surveillance network at Duskwatch, where separated stations compare observations to detect Maw activity, deep-space distortions, and unstable lane conditions. The house is known for exhaustive verification procedures and assumes that any single witness, sensor platform, or official record may have been deceived, compromised, or altered."
+    "description": "Genos Nyctworth is known for reconnaissance, reflecting generations of service around Duskwatch’s observation network. Its commanders place unusual emphasis on establishing the enemy’s true strength and position before committing major forces. Nyctworth is cautious in council and distrustful of decisions based on honor or reputation alone, insisting that nobles owe their Phylake informed judgment rather than dramatic gestures. It maintains particularly close relations with Calystron and Aegesworth, which both rely heavily on the house’s assessments when making larger strategic decisions, while also finding Damarford easy to work with because its captains are willing to revise plans when new information arrives. Nyctworth is most frequently frustrated by Orestwyck, whose willingness to hold a position long after the strategic value has changed can look to Nyctworth like allowing ones duty to become a stubborn ritual mixed with prideful arrogance."
   },
   {
     "id": "settingdex__entry__sub_faction__genos_threnemere",
@@ -22305,7 +22305,7 @@
     "rank": "POLEMARCH",
     "seat": "Hollow Verge System",
     "current_head": "Cassandra Threnemere",
-    "description": "Genos Threnemere retains responsibility for Hollow Verge despite the system's abandonment and the collapse of most formal government there. The house monitors surviving habitats, derelict stations, automated defenses, illegal settlements, and salvage operations while preserving the records needed to contain the system or reclaim it should the Cindral frontier ever advance again."
+    "description": "Genos Threnemere is experienced in guerrilla warfare, a necessity of maintaining Cindral influence throughout the fractured settlements of Hollow Verge. Its forces are accustomed to fighting without stable front lines or reliable control of the territory around them. Politically, Threnemere is fiercely protective of neglected or marginal Phylakes and argues that distance or hardship never releases a Genos from its obligations. It is closest to Eirenhall, whose willingness to reward service aligns with Threnemere, and to Melanthorne, which shares its suspicion of wide spanning policies written primarily for secure inner systems. Threnemere most often disagrees with Calystron, whose strategic calculations can treat weak or isolated settlements as secondary concerns, even when Threnemere considers their protection the clearest test of Leitourgia."
   },
   {
     "id": "settingdex__entry__glossary__guild_standard_calendar",
