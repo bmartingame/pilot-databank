@@ -439,6 +439,23 @@ function resolveDisplayValue(valueDefinition, entry, data = null) {
   }
 }
 
+function ClassificationBanner({ position = "top" }) {
+  return (
+    <div
+      className={`classification-banner classification-banner-${position} terminal-frame`}
+      role="note"
+    >
+      <span className="classification-banner-marker">///</span>
+
+      <span className="classification-banner-text">
+        DATA LICENSED UNDER GUILD NDA PROTECTION // DISSEMINATE AT YOUR OWN RISK
+      </span>
+
+      <span className="classification-banner-marker">///</span>
+    </div>
+  );
+}
+
 function Panel({ title, children, className = "" }) {
   return (
     <section className={`ascii-panel ${className}`.trim()}>
@@ -1494,6 +1511,8 @@ export default function App() {
         />
       ) : null}
 
+      <ClassificationBanner position="top" />
+
       <header className="hero terminal-frame">
         <h1>PILOT DATABANK</h1>
       </header>
@@ -1676,6 +1695,7 @@ export default function App() {
           }
         />
       )}
+      <ClassificationBanner position="bottom" />
     </div>
   );
 }

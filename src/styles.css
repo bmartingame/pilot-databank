@@ -688,3 +688,73 @@ h2 {
         width: 100%;
     }
 }
+.classification-banner {
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  padding: 0.42rem 1rem;
+
+  font-family: inherit;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  line-height: 1.25;
+  text-align: center;
+
+  color: var(--terminal-green, #65ff8c);
+  background:
+    linear-gradient(
+      90deg,
+      rgba(20, 255, 90, 0.025),
+      rgba(20, 255, 90, 0.08),
+      rgba(20, 255, 90, 0.025)
+    );
+
+  border-left: 0;
+  border-right: 0;
+
+  text-shadow:
+    0 0 4px currentColor,
+    0 0 10px rgba(80, 255, 120, 0.22);
+
+  overflow: hidden;
+}
+
+.classification-banner-top {
+  margin-bottom: 0.45rem;
+}
+
+.classification-banner-bottom {
+  margin-top: 0.75rem;
+}
+
+.classification-banner-text {
+  white-space: nowrap;
+}
+
+.classification-banner-marker {
+  opacity: 0.55;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 760px) {
+  .classification-banner {
+    gap: 0.45rem;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+  }
+
+  .classification-banner-text {
+    white-space: normal;
+  }
+
+  .classification-banner-marker {
+    display: none;
+  }
+}
