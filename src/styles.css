@@ -55,7 +55,7 @@ input::placeholder {
 .terminal-theme {
     width: min(1520px, calc(100vw - 32px));
     margin: 0 auto;
-    padding: 22px 0 40px;
+    padding: 0 0 40px;
 }
 
 .terminal-frame,
@@ -726,18 +726,22 @@ h2 {
 }
 
 .classification-banner-top {
-  position: relative;
-  left: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
   width: 100vw;
-  margin-left: -50vw;
-  margin-bottom: 0.45rem;
+  margin: 0;
+
+  z-index: 100;
 }
 
 .classification-banner-bottom {
   position: fixed;
+  bottom: 0;
   left: 0;
   right: 0;
-  bottom: 0;
 
   width: 100vw;
   margin: 0;
@@ -746,6 +750,7 @@ h2 {
 }
 
 .app-shell {
+  padding-top: 3.25rem;
   padding-bottom: 3.25rem;
 }
 
