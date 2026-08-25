@@ -730,7 +730,21 @@ h2 {
 }
 
 .classification-banner-bottom {
-  margin-top: 0.75rem;
+  position: fixed;
+
+  left: 50%;
+  bottom: 0.75rem;
+
+  /* Matches .terminal-theme exactly. */
+  width: min(1520px, calc(100vw - 32px));
+  transform: translateX(-50%);
+
+  margin: 0;
+  z-index: 100;
+}
+
+.app-shell {
+  padding-bottom: 3.25rem;
 }
 
 .classification-banner-text {
@@ -743,11 +757,13 @@ h2 {
 }
 
 @media (max-width: 760px) {
-  .classification-banner {
-    gap: 0.45rem;
-    padding: 0.4rem 0.6rem;
-    font-size: 0.6rem;
-    letter-spacing: 0.08em;
+  .classification-banner-bottom {
+    bottom: 0.4rem;
+    width: calc(100vw - 20px);
+  }
+
+  .app-shell {
+    padding-bottom: 3.75rem;
   }
 
   .classification-banner-text {
