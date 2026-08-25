@@ -726,20 +726,22 @@ h2 {
 }
 
 .classification-banner-top {
+  position: relative;
+  left: 50%;
+  width: 100vw;
+  margin-left: -50vw;
   margin-bottom: 0.45rem;
 }
 
 .classification-banner-bottom {
   position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
-  left: 50%;
-  bottom: 0.75rem;
-
-  /* Matches .terminal-theme exactly. */
-  width: min(1520px, calc(100vw - 32px));
-  transform: translateX(-50%);
-
+  width: 100vw;
   margin: 0;
+
   z-index: 100;
 }
 
@@ -757,11 +759,6 @@ h2 {
 }
 
 @media (max-width: 760px) {
-  .classification-banner-bottom {
-    bottom: 0.4rem;
-    width: calc(100vw - 20px);
-  }
-
   .app-shell {
     padding-bottom: 3.75rem;
   }
